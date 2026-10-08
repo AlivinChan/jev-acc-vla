@@ -1,0 +1,25 @@
+{
+  "case": {
+    "candidate": "vlash_style_k5",
+    "task": 9,
+    "state": 12,
+    "horizon": 50,
+    "initial_exact": true,
+    "actions_exact": false,
+    "physics_exact": false,
+    "all_prediction_blocks_exact": false,
+    "all_gate_inputs_and_answers_exact": true,
+    "first_action_difference_tick": 15,
+    "entire_trajectory_exact": false
+  },
+  "first_prediction_difference": {
+    "call": 3,
+    "current_tick": 15,
+    "old_tick": 15,
+    "current_seed": 21173022,
+    "old_seed": 21173022,
+    "max_abs": 0.10288482904434204,
+    "rmse": 0.0069982143580461405
+  },
+  "first_gate_difference": null
+}

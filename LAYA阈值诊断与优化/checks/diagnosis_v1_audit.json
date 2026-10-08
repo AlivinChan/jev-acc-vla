@@ -1,0 +1,35 @@
+{
+  "run": "diagnosis_v1",
+  "decisions": 1680,
+  "robot_replay_decisions": 1620,
+  "semantic_control_decisions": 60,
+  "checks": 14000,
+  "by_kind": {
+    "immutable input fixture": 1,
+    "complete unique diagnostic matrix": 1,
+    "source kind and warmup exclusion": 1680,
+    "state bytes": 1680,
+    "SDK softmax mapping within output rounding": 1680,
+    "unaltered SDK decision receipt": 1680,
+    "maximum-probability field semantics": 1680,
+    "choice is a probability maximizer within reporting precision": 1680,
+    "correct option-count temperature": 1680,
+    "no head or state truncation in tested inputs": 1680,
+    "original replay source bytes": 270,
+    "original historical probabilities reproduced": 270,
+    "replay and semantic controls remain separate": 6,
+    "reported threshold counts and decisions": 6,
+    "reported mean token count": 6
+  },
+  "errors": 0,
+  "failures": [],
+  "maximum_softmax_rounding_error": 4.9965760458736685e-05,
+  "inputs_sha256": {
+    "fixtures/diagnostic_replay.json": "31286065c3d0dc218094106c84119f7d7dc27d594a8cf08c3e1cf9a0b5d6edb0",
+    "raw/diagnosis_v1/data/manifest.json": "110632d8b69c25f917cf5087b47fc97af0e1d29488fb74f596b7e7f23a59e24e",
+    "raw/diagnosis_v1/data/decisions.jsonl": "f19224e7a76d66c3b9b5c634e14ee55643c38cdb71372ca2d03773afa05b3b75",
+    "analysis/diagnosis_summary.json": "6a6d60be030c1fd544909af88d716b782fb88ca852647f0a5882806a6935e73a"
+  },
+  "auditor_sha256": "1c655a2470993476814a23f31931482fa428a81c9c9e1c6d39082d583a4dd52a",
+  "scope": "Receipt consistency only; semantic controls and confident scores do not establish robot-gating accuracy"
+}

@@ -1,0 +1,95 @@
+{
+  "source_sha256": "f9157b3086f19b48e9735010a33e3ca3fb36fc775974755d293753de54c4f417",
+  "points": [
+    {
+      "horizon": 50,
+      "comparator": "smol70",
+      "n": 50,
+      "success_delta": -0.04,
+      "success_delta_ci": [
+        -0.2,
+        0.12
+      ],
+      "service_cost_ratio": 0.8295661846814476,
+      "service_cost_ratio_ci": [
+        0.6916919692741242,
+        0.9823102312891098
+      ]
+    },
+    {
+      "horizon": 100,
+      "comparator": "smol70",
+      "n": 50,
+      "success_delta": -0.04,
+      "success_delta_ci": [
+        -0.18,
+        0.08
+      ],
+      "service_cost_ratio": 0.934317745515665,
+      "service_cost_ratio_ci": [
+        0.797564420140234,
+        1.0666186828829385
+      ]
+    },
+    {
+      "horizon": 200,
+      "comparator": "smol70",
+      "n": 50,
+      "success_delta": -0.02,
+      "success_delta_ci": [
+        -0.08,
+        0.0
+      ],
+      "service_cost_ratio": 1.0035983714945922,
+      "service_cost_ratio_ci": [
+        0.9144146440706463,
+        1.0744000211995737
+      ]
+    },
+    {
+      "horizon": 50,
+      "comparator": "budget_period_h50",
+      "n": 50,
+      "success_delta": 0.04,
+      "success_delta_ci": [
+        -0.18,
+        0.26
+      ],
+      "service_cost_ratio": 0.974131463064569,
+      "service_cost_ratio_ci": [
+        0.7520123259426079,
+        1.2354875230731257
+      ]
+    },
+    {
+      "horizon": 100,
+      "comparator": "budget_period_h100",
+      "n": 50,
+      "success_delta": 0.08,
+      "success_delta_ci": [
+        -0.1,
+        0.28
+      ],
+      "service_cost_ratio": 1.0218636542022954,
+      "service_cost_ratio_ci": [
+        0.8687820618284201,
+        1.204053420978783
+      ]
+    },
+    {
+      "horizon": 200,
+      "comparator": "budget_period_h200",
+      "n": 50,
+      "success_delta": 0.0,
+      "success_delta_ci": [
+        -0.18,
+        0.18
+      ],
+      "service_cost_ratio": 1.0313812009479963,
+      "service_cost_ratio_ci": [
+        0.9060304040634435,
+        1.1691321588913877
+      ]
+    }
+  ]
+}

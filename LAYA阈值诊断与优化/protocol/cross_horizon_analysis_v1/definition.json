@@ -1,0 +1,24 @@
+{
+  "cohort_outcomes_read": false,
+  "primary_length_control": "fixed45",
+  "contrasts": [
+    [
+      100,
+      50
+    ],
+    [
+      200,
+      50
+    ],
+    [
+      200,
+      100
+    ]
+  ],
+  "source_sha256": {
+    "CROSS_HORIZON_ANALYSIS.md": "4557734553d44c40bb438a056553f98f59754f099a10d487452501b12e77196f",
+    "scripts/analyze_cross_horizon.py": "eb1177eb0c989917f5ddee73f5cfd0ad2739bf5e5cbe493f7e1454017367ea73",
+    "scripts/paired_resampling.py": "d1d784f1bcb9f796dac74659175a919ae53ef9f9d6591c3dcdce66575c50f4f8",
+    "scripts/analyze_closed_loop.py": "362874207b9f0bcf4bdb8a64380d6bf8a2bb5b1670fa1298a4882b6a8ba694ca"
+  }
+}

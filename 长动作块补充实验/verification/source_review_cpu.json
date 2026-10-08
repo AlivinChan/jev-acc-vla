@@ -1,0 +1,103 @@
+{
+  "source_sha256": "1ee93eb30d87f0fd56ea1dbf4dd9d52006cc83a80cb59ddcde64ce0e6a367f80",
+  "cpu_only": true,
+  "cases": [
+    {
+      "horizon": 50,
+      "method": "smol70",
+      "calls": 16,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 50,
+      "method": "laya",
+      "calls": 16,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 50,
+      "method": "naive_k5",
+      "calls": 47,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 50,
+      "method": "vlash_style_k5",
+      "calls": 46,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 100,
+      "method": "smol70",
+      "calls": 8,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 100,
+      "method": "laya",
+      "calls": 8,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 100,
+      "method": "naive_k5",
+      "calls": 47,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 100,
+      "method": "vlash_style_k5",
+      "calls": 46,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 200,
+      "method": "smol70",
+      "calls": 4,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 200,
+      "method": "laya",
+      "calls": 4,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 200,
+      "method": "naive_k5",
+      "calls": 47,
+      "steps": 230,
+      "passed": true
+    },
+    {
+      "horizon": 200,
+      "method": "vlash_style_k5",
+      "calls": 46,
+      "steps": 230,
+      "passed": true
+    }
+  ],
+  "passed": [
+    "H50/100/200 actual action shapes",
+    "all-uncertain LAYA equals Smol70 executed actions and call ticks",
+    "remaining <= 0.7 triggers at 15/30/60",
+    "K5 deliveries 5,10,...225",
+    "naive row1 / VLASH row0",
+    "naive stale state / VLASH current state",
+    "all-continue finite queue guard",
+    "termination/truncation and pending call counts",
+    "environment closes",
+    "call and NFE metadata"
+  ],
+  "limitations": "CPU mocks test scheduler only; real GPU model output/frozen weights require remote qualification."
+}

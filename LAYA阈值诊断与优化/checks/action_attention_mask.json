@@ -1,0 +1,42 @@
+{
+  "source_sha256": "4480fbc90da0f181dab02ac2863567a157c9b2c7d51024945a695a2c8dbbadf8",
+  "torch_version": "2.9.1+cu128",
+  "checks": [
+    {
+      "horizon": 50,
+      "allowed_action_dependencies": "current and earlier rows only",
+      "future_rows_visible": 0
+    },
+    {
+      "horizon": 100,
+      "allowed_action_dependencies": "current and earlier rows only",
+      "future_rows_visible": 0
+    },
+    {
+      "horizon": 200,
+      "allowed_action_dependencies": "current and earlier rows only",
+      "future_rows_visible": 0
+    },
+    {
+      "shorter": 50,
+      "longer": 100,
+      "common_action_mask_exact": true,
+      "appended_actions_visible_to_common_prefix": false
+    },
+    {
+      "shorter": 50,
+      "longer": 200,
+      "common_action_mask_exact": true,
+      "appended_actions_visible_to_common_prefix": false
+    },
+    {
+      "shorter": 100,
+      "longer": 200,
+      "common_action_mask_exact": true,
+      "appended_actions_visible_to_common_prefix": false
+    }
+  ],
+  "errors": 0,
+  "cuda_initialized": false,
+  "scope": "Actual installed make_att_2d_masks with the all-one suffix mask from embed_suffix. This proves mask directionality, not bitwise invariance of the whole floating-point network or long-tail action quality."
+}

@@ -1,0 +1,59 @@
+{
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states": [
+    30
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "logical_delay_steps": 5,
+  "schedule_seed": 202610091,
+  "cohort_id": "delay_validation_d5_v1",
+  "cohort_role": "Predeclared logical delay sensitivity; fixed primary policy, no selection on d4/d5 results",
+  "candidates": {
+    "smol70": {
+      "method": "smol70",
+      "role": "native Smol70 reference"
+    },
+    "naive_k5": {
+      "method": "naive_k5",
+      "role": "frequency-matched reference for VLASH mechanism"
+    },
+    "vlash_style_k5": {
+      "method": "vlash_style_k5",
+      "role": "same frozen model VLASH-style mechanism, without offset training"
+    },
+    "fixed45": {
+      "method": "fixed_interval",
+      "interval": 45,
+      "role": "selected fixed-period attribution control"
+    },
+    "window3_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3,
+      "role": "primary LAYA candidate"
+    }
+  },
+  "locked_source_sha256": {
+    "run_closed_loop.py": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "window_state.py": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+    "binary_service.py": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "supervise.py": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73"
+  }
+}

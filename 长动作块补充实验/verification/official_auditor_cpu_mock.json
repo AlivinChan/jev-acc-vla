@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "valid_30_episode_fixture": "pass",
+    "strict_steps_and_success_recomputed": "pass",
+    "dead_slot_cost_separated": "pass",
+    "duplicate_state_rejected": "pass",
+    "wrong_summary_success_rejected": "pass",
+    "changed_freeze_inventory_rejected": "pass",
+    "wrong_prediction_cadence_rejected": "pass"
+  },
+  "auditor_sha256": "6b160d2fbdd07077070e4d6cc874616b84f5f334a3f830b7054b7fc4756cec3c",
+  "method": "Synthetic NumPy CPU artifacts; no model/simulator imports, no remote processes or GPU",
+  "limitations": [
+    "Synthetic fixture validates the auditor; it does not attest the real official run before real artifacts arrive."
+  ]
+}

@@ -1,0 +1,2125 @@
+{
+  "selection_source": "Exposed state0-2 only; no validation outcomes inspected",
+  "candidates": {
+    "50": {
+      "target_service_seconds": 55.24020918086171,
+      "unit_vla_service_seconds": 0.19595937710255384,
+      "interval": 19,
+      "estimated_calls": 282,
+      "estimated_service_seconds": 55.260544342920184,
+      "absolute_target_error_seconds": 0.020335162058472633
+    },
+    "100": {
+      "target_service_seconds": 32.72625569999218,
+      "unit_vla_service_seconds": 0.1964007276110351,
+      "interval": 38,
+      "estimated_calls": 168,
+      "estimated_service_seconds": 32.9953222386539,
+      "absolute_target_error_seconds": 0.26906653866171837
+    },
+    "200": {
+      "target_service_seconds": 18.944574346300215,
+      "unit_vla_service_seconds": 0.19619651325047016,
+      "interval": 71,
+      "estimated_calls": 98,
+      "estimated_service_seconds": 19.227258298546076,
+      "absolute_target_error_seconds": 0.2826839522458613
+    }
+  },
+  "integer_interval_estimates": {
+    "50": [
+      {
+        "interval": 1,
+        "estimated_calls": 4993,
+        "estimated_service_seconds": 978.4251698730513,
+        "absolute_target_error_seconds": 923.1849606921896
+      },
+      {
+        "interval": 2,
+        "estimated_calls": 2501,
+        "estimated_service_seconds": 490.09440213348716,
+        "absolute_target_error_seconds": 434.85419295262545
+      },
+      {
+        "interval": 3,
+        "estimated_calls": 1675,
+        "estimated_service_seconds": 328.2319566467777,
+        "absolute_target_error_seconds": 272.991747465916
+      },
+      {
+        "interval": 4,
+        "estimated_calls": 1262,
+        "estimated_service_seconds": 247.30073390342295,
+        "absolute_target_error_seconds": 192.06052472256124
+      },
+      {
+        "interval": 5,
+        "estimated_calls": 1003,
+        "estimated_service_seconds": 196.5472552338615,
+        "absolute_target_error_seconds": 141.3070460529998
+      },
+      {
+        "interval": 6,
+        "estimated_calls": 850,
+        "estimated_service_seconds": 166.56547053717077,
+        "absolute_target_error_seconds": 111.32526135630906
+      },
+      {
+        "interval": 7,
+        "estimated_calls": 723,
+        "estimated_service_seconds": 141.67862964514643,
+        "absolute_target_error_seconds": 86.43842046428472
+      },
+      {
+        "interval": 8,
+        "estimated_calls": 634,
+        "estimated_service_seconds": 124.23824508301914,
+        "absolute_target_error_seconds": 68.99803590215743
+      },
+      {
+        "interval": 9,
+        "estimated_calls": 569,
+        "estimated_service_seconds": 111.50088557135314,
+        "absolute_target_error_seconds": 56.260676390491426
+      },
+      {
+        "interval": 10,
+        "estimated_calls": 504,
+        "estimated_service_seconds": 98.76352605968714,
+        "absolute_target_error_seconds": 43.523316878825426
+      },
+      {
+        "interval": 11,
+        "estimated_calls": 460,
+        "estimated_service_seconds": 90.14131346717477,
+        "absolute_target_error_seconds": 34.90110428631306
+      },
+      {
+        "interval": 12,
+        "estimated_calls": 434,
+        "estimated_service_seconds": 85.04636966250837,
+        "absolute_target_error_seconds": 29.806160481646657
+      },
+      {
+        "interval": 13,
+        "estimated_calls": 395,
+        "estimated_service_seconds": 77.40395395550877,
+        "absolute_target_error_seconds": 22.163744774647057
+      },
+      {
+        "interval": 14,
+        "estimated_calls": 373,
+        "estimated_service_seconds": 73.09284765925258,
+        "absolute_target_error_seconds": 17.852638478390872
+      },
+      {
+        "interval": 15,
+        "estimated_calls": 349,
+        "estimated_service_seconds": 68.38982260879129,
+        "absolute_target_error_seconds": 13.14961342792958
+      },
+      {
+        "interval": 16,
+        "estimated_calls": 328,
+        "estimated_service_seconds": 64.27467568963766,
+        "absolute_target_error_seconds": 9.03446650877595
+      },
+      {
+        "interval": 17,
+        "estimated_calls": 309,
+        "estimated_service_seconds": 60.55144752468914,
+        "absolute_target_error_seconds": 5.311238343827426
+      },
+      {
+        "interval": 18,
+        "estimated_calls": 290,
+        "estimated_service_seconds": 56.828219359740615,
+        "absolute_target_error_seconds": 1.5880101788789034
+      },
+      {
+        "interval": 19,
+        "estimated_calls": 282,
+        "estimated_service_seconds": 55.260544342920184,
+        "absolute_target_error_seconds": 0.020335162058472633
+      },
+      {
+        "interval": 20,
+        "estimated_calls": 265,
+        "estimated_service_seconds": 51.92923493217677,
+        "absolute_target_error_seconds": 3.3109742486849427
+      },
+      {
+        "interval": 21,
+        "estimated_calls": 247,
+        "estimated_service_seconds": 48.4019661443308,
+        "absolute_target_error_seconds": 6.838243036530912
+      },
+      {
+        "interval": 22,
+        "estimated_calls": 239,
+        "estimated_service_seconds": 46.83429112751037,
+        "absolute_target_error_seconds": 8.405918053351343
+      },
+      {
+        "interval": 23,
+        "estimated_calls": 225,
+        "estimated_service_seconds": 44.090859848074615,
+        "absolute_target_error_seconds": 11.149349332787097
+      },
+      {
+        "interval": 24,
+        "estimated_calls": 222,
+        "estimated_service_seconds": 43.50298171676695,
+        "absolute_target_error_seconds": 11.737227464094758
+      },
+      {
+        "interval": 25,
+        "estimated_calls": 221,
+        "estimated_service_seconds": 43.3070223396644,
+        "absolute_target_error_seconds": 11.933186841197312
+      },
+      {
+        "interval": 26,
+        "estimated_calls": 201,
+        "estimated_service_seconds": 39.38783479761332,
+        "absolute_target_error_seconds": 15.852374383248389
+      },
+      {
+        "interval": 27,
+        "estimated_calls": 198,
+        "estimated_service_seconds": 38.79995666630566,
+        "absolute_target_error_seconds": 16.44025251455605
+      },
+      {
+        "interval": 28,
+        "estimated_calls": 195,
+        "estimated_service_seconds": 38.212078534998,
+        "absolute_target_error_seconds": 17.028130645863712
+      },
+      {
+        "interval": 29,
+        "estimated_calls": 180,
+        "estimated_service_seconds": 35.27268787845969,
+        "absolute_target_error_seconds": 19.96752130240202
+      },
+      {
+        "interval": 30,
+        "estimated_calls": 180,
+        "estimated_service_seconds": 35.27268787845969,
+        "absolute_target_error_seconds": 19.96752130240202
+      },
+      {
+        "interval": 31,
+        "estimated_calls": 180,
+        "estimated_service_seconds": 35.27268787845969,
+        "absolute_target_error_seconds": 19.96752130240202
+      },
+      {
+        "interval": 32,
+        "estimated_calls": 177,
+        "estimated_service_seconds": 34.68480974715203,
+        "absolute_target_error_seconds": 20.55539943370968
+      },
+      {
+        "interval": 33,
+        "estimated_calls": 158,
+        "estimated_service_seconds": 30.961581582203507,
+        "absolute_target_error_seconds": 24.278627598658204
+      },
+      {
+        "interval": 34,
+        "estimated_calls": 158,
+        "estimated_service_seconds": 30.961581582203507,
+        "absolute_target_error_seconds": 24.278627598658204
+      },
+      {
+        "interval": 35,
+        "estimated_calls": 155,
+        "estimated_service_seconds": 30.373703450895846,
+        "absolute_target_error_seconds": 24.866505729965866
+      },
+      {
+        "interval": 36,
+        "estimated_calls": 154,
+        "estimated_service_seconds": 30.177744073793292,
+        "absolute_target_error_seconds": 25.06246510706842
+      },
+      {
+        "interval": 37,
+        "estimated_calls": 152,
+        "estimated_service_seconds": 29.785825319588184,
+        "absolute_target_error_seconds": 25.454383861273527
+      },
+      {
+        "interval": 38,
+        "estimated_calls": 152,
+        "estimated_service_seconds": 29.785825319588184,
+        "absolute_target_error_seconds": 25.454383861273527
+      },
+      {
+        "interval": 39,
+        "estimated_calls": 138,
+        "estimated_service_seconds": 27.04239404015243,
+        "absolute_target_error_seconds": 28.19781514070928
+      },
+      {
+        "interval": 40,
+        "estimated_calls": 137,
+        "estimated_service_seconds": 26.846434663049877,
+        "absolute_target_error_seconds": 28.393774517811835
+      },
+      {
+        "interval": 41,
+        "estimated_calls": 137,
+        "estimated_service_seconds": 26.846434663049877,
+        "absolute_target_error_seconds": 28.393774517811835
+      },
+      {
+        "interval": 42,
+        "estimated_calls": 136,
+        "estimated_service_seconds": 26.650475285947323,
+        "absolute_target_error_seconds": 28.58973389491439
+      },
+      {
+        "interval": 43,
+        "estimated_calls": 133,
+        "estimated_service_seconds": 26.06259715463966,
+        "absolute_target_error_seconds": 29.17761202622205
+      },
+      {
+        "interval": 44,
+        "estimated_calls": 131,
+        "estimated_service_seconds": 25.670678400434554,
+        "absolute_target_error_seconds": 29.569530780427158
+      },
+      {
+        "interval": 45,
+        "estimated_calls": 131,
+        "estimated_service_seconds": 25.670678400434554,
+        "absolute_target_error_seconds": 29.569530780427158
+      },
+      {
+        "interval": 46,
+        "estimated_calls": 117,
+        "estimated_service_seconds": 22.9272471209988,
+        "absolute_target_error_seconds": 32.31296205986291
+      },
+      {
+        "interval": 47,
+        "estimated_calls": 116,
+        "estimated_service_seconds": 22.731287743896246,
+        "absolute_target_error_seconds": 32.508921436965466
+      },
+      {
+        "interval": 48,
+        "estimated_calls": 115,
+        "estimated_service_seconds": 22.535328366793692,
+        "absolute_target_error_seconds": 32.70488081406802
+      },
+      {
+        "interval": 49,
+        "estimated_calls": 115,
+        "estimated_service_seconds": 22.535328366793692,
+        "absolute_target_error_seconds": 32.70488081406802
+      }
+    ],
+    "100": [
+      {
+        "interval": 1,
+        "estimated_calls": 5559,
+        "estimated_service_seconds": 1091.7916447897442,
+        "absolute_target_error_seconds": 1059.065389089752
+      },
+      {
+        "interval": 2,
+        "estimated_calls": 2783,
+        "estimated_service_seconds": 546.5832249415107,
+        "absolute_target_error_seconds": 513.8569692415185
+      },
+      {
+        "interval": 3,
+        "estimated_calls": 1862,
+        "estimated_service_seconds": 365.6981548117474,
+        "absolute_target_error_seconds": 332.9718991117552
+      },
+      {
+        "interval": 4,
+        "estimated_calls": 1403,
+        "estimated_service_seconds": 275.55022083828226,
+        "absolute_target_error_seconds": 242.82396513829008
+      },
+      {
+        "interval": 5,
+        "estimated_calls": 1118,
+        "estimated_service_seconds": 219.57601346913725,
+        "absolute_target_error_seconds": 186.84975776914507
+      },
+      {
+        "interval": 6,
+        "estimated_calls": 944,
+        "estimated_service_seconds": 185.40228686481714,
+        "absolute_target_error_seconds": 152.67603116482496
+      },
+      {
+        "interval": 7,
+        "estimated_calls": 803,
+        "estimated_service_seconds": 157.7097842716612,
+        "absolute_target_error_seconds": 124.98352857166901
+      },
+      {
+        "interval": 8,
+        "estimated_calls": 703,
+        "estimated_service_seconds": 138.06971151055768,
+        "absolute_target_error_seconds": 105.3434558105655
+      },
+      {
+        "interval": 9,
+        "estimated_calls": 630,
+        "estimated_service_seconds": 123.73245839495212,
+        "absolute_target_error_seconds": 91.00620269495994
+      },
+      {
+        "interval": 10,
+        "estimated_calls": 562,
+        "estimated_service_seconds": 110.37720891740173,
+        "absolute_target_error_seconds": 77.65095321740955
+      },
+      {
+        "interval": 11,
+        "estimated_calls": 513,
+        "estimated_service_seconds": 100.75357326446101,
+        "absolute_target_error_seconds": 68.02731756446883
+      },
+      {
+        "interval": 12,
+        "estimated_calls": 484,
+        "estimated_service_seconds": 95.05795216374099,
+        "absolute_target_error_seconds": 62.33169646374881
+      },
+      {
+        "interval": 13,
+        "estimated_calls": 439,
+        "estimated_service_seconds": 86.21991942124441,
+        "absolute_target_error_seconds": 53.49366372125223
+      },
+      {
+        "interval": 14,
+        "estimated_calls": 414,
+        "estimated_service_seconds": 81.30990123096853,
+        "absolute_target_error_seconds": 48.583645530976355
+      },
+      {
+        "interval": 15,
+        "estimated_calls": 388,
+        "estimated_service_seconds": 76.20348231308162,
+        "absolute_target_error_seconds": 43.47722661308944
+      },
+      {
+        "interval": 16,
+        "estimated_calls": 364,
+        "estimated_service_seconds": 71.48986485041678,
+        "absolute_target_error_seconds": 38.7636091504246
+      },
+      {
+        "interval": 17,
+        "estimated_calls": 340,
+        "estimated_service_seconds": 66.77624738775194,
+        "absolute_target_error_seconds": 34.04999168775976
+      },
+      {
+        "interval": 18,
+        "estimated_calls": 319,
+        "estimated_service_seconds": 62.6518321079202,
+        "absolute_target_error_seconds": 29.92557640792802
+      },
+      {
+        "interval": 19,
+        "estimated_calls": 314,
+        "estimated_service_seconds": 61.669828469865024,
+        "absolute_target_error_seconds": 28.943572769872844
+      },
+      {
+        "interval": 20,
+        "estimated_calls": 293,
+        "estimated_service_seconds": 57.54541319003329,
+        "absolute_target_error_seconds": 24.819157490041107
+      },
+      {
+        "interval": 21,
+        "estimated_calls": 272,
+        "estimated_service_seconds": 53.42099791020155,
+        "absolute_target_error_seconds": 20.69474221020937
+      },
+      {
+        "interval": 22,
+        "estimated_calls": 268,
+        "estimated_service_seconds": 52.63539499975741,
+        "absolute_target_error_seconds": 19.90913929976523
+      },
+      {
+        "interval": 23,
+        "estimated_calls": 247,
+        "estimated_service_seconds": 48.51097971992567,
+        "absolute_target_error_seconds": 15.784724019933492
+      },
+      {
+        "interval": 24,
+        "estimated_calls": 246,
+        "estimated_service_seconds": 48.31457899231464,
+        "absolute_target_error_seconds": 15.588323292322457
+      },
+      {
+        "interval": 25,
+        "estimated_calls": 244,
+        "estimated_service_seconds": 47.92177753709257,
+        "absolute_target_error_seconds": 15.195521837100387
+      },
+      {
+        "interval": 26,
+        "estimated_calls": 222,
+        "estimated_service_seconds": 43.600961529649794,
+        "absolute_target_error_seconds": 10.874705829657614
+      },
+      {
+        "interval": 27,
+        "estimated_calls": 219,
+        "estimated_service_seconds": 43.01175934681669,
+        "absolute_target_error_seconds": 10.285503646824509
+      },
+      {
+        "interval": 28,
+        "estimated_calls": 218,
+        "estimated_service_seconds": 42.815358619205654,
+        "absolute_target_error_seconds": 10.089102919213474
+      },
+      {
+        "interval": 29,
+        "estimated_calls": 198,
+        "estimated_service_seconds": 38.88734406698495,
+        "absolute_target_error_seconds": 6.161088366992772
+      },
+      {
+        "interval": 30,
+        "estimated_calls": 198,
+        "estimated_service_seconds": 38.88734406698495,
+        "absolute_target_error_seconds": 6.161088366992772
+      },
+      {
+        "interval": 31,
+        "estimated_calls": 197,
+        "estimated_service_seconds": 38.690943339373916,
+        "absolute_target_error_seconds": 5.9646876393817365
+      },
+      {
+        "interval": 32,
+        "estimated_calls": 195,
+        "estimated_service_seconds": 38.298141884151846,
+        "absolute_target_error_seconds": 5.571886184159666
+      },
+      {
+        "interval": 33,
+        "estimated_calls": 175,
+        "estimated_service_seconds": 34.370127331931144,
+        "absolute_target_error_seconds": 1.6438716319389641
+      },
+      {
+        "interval": 34,
+        "estimated_calls": 172,
+        "estimated_service_seconds": 33.78092514909804,
+        "absolute_target_error_seconds": 1.0546694491058588
+      },
+      {
+        "interval": 35,
+        "estimated_calls": 172,
+        "estimated_service_seconds": 33.78092514909804,
+        "absolute_target_error_seconds": 1.0546694491058588
+      },
+      {
+        "interval": 36,
+        "estimated_calls": 171,
+        "estimated_service_seconds": 33.584524421487004,
+        "absolute_target_error_seconds": 0.8582687214948237
+      },
+      {
+        "interval": 37,
+        "estimated_calls": 170,
+        "estimated_service_seconds": 33.38812369387597,
+        "absolute_target_error_seconds": 0.6618679938837886
+      },
+      {
+        "interval": 38,
+        "estimated_calls": 168,
+        "estimated_service_seconds": 32.9953222386539,
+        "absolute_target_error_seconds": 0.26906653866171837
+      },
+      {
+        "interval": 39,
+        "estimated_calls": 150,
+        "estimated_service_seconds": 29.460109141655266,
+        "absolute_target_error_seconds": 3.2661465583369136
+      },
+      {
+        "interval": 40,
+        "estimated_calls": 149,
+        "estimated_service_seconds": 29.26370841404423,
+        "absolute_target_error_seconds": 3.4625472859479487
+      },
+      {
+        "interval": 41,
+        "estimated_calls": 149,
+        "estimated_service_seconds": 29.26370841404423,
+        "absolute_target_error_seconds": 3.4625472859479487
+      },
+      {
+        "interval": 42,
+        "estimated_calls": 149,
+        "estimated_service_seconds": 29.26370841404423,
+        "absolute_target_error_seconds": 3.4625472859479487
+      },
+      {
+        "interval": 43,
+        "estimated_calls": 148,
+        "estimated_service_seconds": 29.067307686433196,
+        "absolute_target_error_seconds": 3.658948013558984
+      },
+      {
+        "interval": 44,
+        "estimated_calls": 147,
+        "estimated_service_seconds": 28.87090695882216,
+        "absolute_target_error_seconds": 3.855348741170019
+      },
+      {
+        "interval": 45,
+        "estimated_calls": 145,
+        "estimated_service_seconds": 28.47810550360009,
+        "absolute_target_error_seconds": 4.248150196392089
+      },
+      {
+        "interval": 46,
+        "estimated_calls": 127,
+        "estimated_service_seconds": 24.94289240660146,
+        "absolute_target_error_seconds": 7.783363293390721
+      },
+      {
+        "interval": 47,
+        "estimated_calls": 127,
+        "estimated_service_seconds": 24.94289240660146,
+        "absolute_target_error_seconds": 7.783363293390721
+      },
+      {
+        "interval": 48,
+        "estimated_calls": 126,
+        "estimated_service_seconds": 24.746491678990424,
+        "absolute_target_error_seconds": 7.979764021001756
+      },
+      {
+        "interval": 49,
+        "estimated_calls": 126,
+        "estimated_service_seconds": 24.746491678990424,
+        "absolute_target_error_seconds": 7.979764021001756
+      },
+      {
+        "interval": 50,
+        "estimated_calls": 125,
+        "estimated_service_seconds": 24.55009095137939,
+        "absolute_target_error_seconds": 8.176164748612791
+      },
+      {
+        "interval": 51,
+        "estimated_calls": 122,
+        "estimated_service_seconds": 23.960888768546283,
+        "absolute_target_error_seconds": 8.765366931445897
+      },
+      {
+        "interval": 52,
+        "estimated_calls": 122,
+        "estimated_service_seconds": 23.960888768546283,
+        "absolute_target_error_seconds": 8.765366931445897
+      },
+      {
+        "interval": 53,
+        "estimated_calls": 121,
+        "estimated_service_seconds": 23.764488040935248,
+        "absolute_target_error_seconds": 8.961767659056932
+      },
+      {
+        "interval": 54,
+        "estimated_calls": 121,
+        "estimated_service_seconds": 23.764488040935248,
+        "absolute_target_error_seconds": 8.961767659056932
+      },
+      {
+        "interval": 55,
+        "estimated_calls": 121,
+        "estimated_service_seconds": 23.764488040935248,
+        "absolute_target_error_seconds": 8.961767659056932
+      },
+      {
+        "interval": 56,
+        "estimated_calls": 120,
+        "estimated_service_seconds": 23.568087313324213,
+        "absolute_target_error_seconds": 9.158168386667967
+      },
+      {
+        "interval": 57,
+        "estimated_calls": 119,
+        "estimated_service_seconds": 23.371686585713178,
+        "absolute_target_error_seconds": 9.354569114279002
+      },
+      {
+        "interval": 58,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.836473488714546,
+        "absolute_target_error_seconds": 12.889782211277634
+      },
+      {
+        "interval": 59,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.836473488714546,
+        "absolute_target_error_seconds": 12.889782211277634
+      },
+      {
+        "interval": 60,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.836473488714546,
+        "absolute_target_error_seconds": 12.889782211277634
+      },
+      {
+        "interval": 61,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.836473488714546,
+        "absolute_target_error_seconds": 12.889782211277634
+      },
+      {
+        "interval": 62,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.836473488714546,
+        "absolute_target_error_seconds": 12.889782211277634
+      },
+      {
+        "interval": 63,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.836473488714546,
+        "absolute_target_error_seconds": 12.889782211277634
+      },
+      {
+        "interval": 64,
+        "estimated_calls": 100,
+        "estimated_service_seconds": 19.64007276110351,
+        "absolute_target_error_seconds": 13.086182938888669
+      },
+      {
+        "interval": 65,
+        "estimated_calls": 100,
+        "estimated_service_seconds": 19.64007276110351,
+        "absolute_target_error_seconds": 13.086182938888669
+      },
+      {
+        "interval": 66,
+        "estimated_calls": 100,
+        "estimated_service_seconds": 19.64007276110351,
+        "absolute_target_error_seconds": 13.086182938888669
+      },
+      {
+        "interval": 67,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 68,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 69,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 70,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 71,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 72,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 73,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 74,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.443672033492476,
+        "absolute_target_error_seconds": 13.282583666499704
+      },
+      {
+        "interval": 75,
+        "estimated_calls": 98,
+        "estimated_service_seconds": 19.24727130588144,
+        "absolute_target_error_seconds": 13.47898439411074
+      },
+      {
+        "interval": 76,
+        "estimated_calls": 97,
+        "estimated_service_seconds": 19.050870578270406,
+        "absolute_target_error_seconds": 13.675385121721774
+      },
+      {
+        "interval": 77,
+        "estimated_calls": 79,
+        "estimated_service_seconds": 15.515657481271774,
+        "absolute_target_error_seconds": 17.210598218720406
+      },
+      {
+        "interval": 78,
+        "estimated_calls": 79,
+        "estimated_service_seconds": 15.515657481271774,
+        "absolute_target_error_seconds": 17.210598218720406
+      },
+      {
+        "interval": 79,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 80,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 81,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 82,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 83,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 84,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 85,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 86,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.319256753660738,
+        "absolute_target_error_seconds": 17.40699894633144
+      },
+      {
+        "interval": 87,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 88,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 89,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 90,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 91,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 92,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 93,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 94,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 95,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.122856026049703,
+        "absolute_target_error_seconds": 17.603399673942477
+      },
+      {
+        "interval": 96,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.926455298438668,
+        "absolute_target_error_seconds": 17.79980040155351
+      },
+      {
+        "interval": 97,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.926455298438668,
+        "absolute_target_error_seconds": 17.79980040155351
+      },
+      {
+        "interval": 98,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.926455298438668,
+        "absolute_target_error_seconds": 17.79980040155351
+      },
+      {
+        "interval": 99,
+        "estimated_calls": 75,
+        "estimated_service_seconds": 14.730054570827633,
+        "absolute_target_error_seconds": 17.996201129164547
+      }
+    ],
+    "200": [
+      {
+        "interval": 1,
+        "estimated_calls": 5601,
+        "estimated_service_seconds": 1098.8966707158834,
+        "absolute_target_error_seconds": 1079.9520963695832
+      },
+      {
+        "interval": 2,
+        "estimated_calls": 2803,
+        "estimated_service_seconds": 549.9388266410679,
+        "absolute_target_error_seconds": 530.9942522947676
+      },
+      {
+        "interval": 3,
+        "estimated_calls": 1877,
+        "estimated_service_seconds": 368.2608553711325,
+        "absolute_target_error_seconds": 349.3162810248323
+      },
+      {
+        "interval": 4,
+        "estimated_calls": 1413,
+        "estimated_service_seconds": 277.22567322291434,
+        "absolute_target_error_seconds": 258.2810988766141
+      },
+      {
+        "interval": 5,
+        "estimated_calls": 1124,
+        "estimated_service_seconds": 220.52488089352846,
+        "absolute_target_error_seconds": 201.58030654722825
+      },
+      {
+        "interval": 6,
+        "estimated_calls": 951,
+        "estimated_service_seconds": 186.58288410119712,
+        "absolute_target_error_seconds": 167.6383097548969
+      },
+      {
+        "interval": 7,
+        "estimated_calls": 808,
+        "estimated_service_seconds": 158.5267827063799,
+        "absolute_target_error_seconds": 139.58220836007968
+      },
+      {
+        "interval": 8,
+        "estimated_calls": 709,
+        "estimated_service_seconds": 139.10332789458334,
+        "absolute_target_error_seconds": 120.15875354828313
+      },
+      {
+        "interval": 9,
+        "estimated_calls": 637,
+        "estimated_service_seconds": 124.97717894054949,
+        "absolute_target_error_seconds": 106.03260459424928
+      },
+      {
+        "interval": 10,
+        "estimated_calls": 565,
+        "estimated_service_seconds": 110.85102998651564,
+        "absolute_target_error_seconds": 91.90645564021543
+      },
+      {
+        "interval": 11,
+        "estimated_calls": 517,
+        "estimated_service_seconds": 101.43359735049307,
+        "absolute_target_error_seconds": 82.48902300419286
+      },
+      {
+        "interval": 12,
+        "estimated_calls": 487,
+        "estimated_service_seconds": 95.54770195297897,
+        "absolute_target_error_seconds": 76.60312760667875
+      },
+      {
+        "interval": 13,
+        "estimated_calls": 442,
+        "estimated_service_seconds": 86.71885885670781,
+        "absolute_target_error_seconds": 67.7742845104076
+      },
+      {
+        "interval": 14,
+        "estimated_calls": 417,
+        "estimated_service_seconds": 81.81394602544606,
+        "absolute_target_error_seconds": 62.86937167914584
+      },
+      {
+        "interval": 15,
+        "estimated_calls": 391,
+        "estimated_service_seconds": 76.71283668093383,
+        "absolute_target_error_seconds": 57.76826233463362
+      },
+      {
+        "interval": 16,
+        "estimated_calls": 367,
+        "estimated_service_seconds": 72.00412036292255,
+        "absolute_target_error_seconds": 53.059546016622335
+      },
+      {
+        "interval": 17,
+        "estimated_calls": 344,
+        "estimated_service_seconds": 67.49160055816174,
+        "absolute_target_error_seconds": 48.54702621186152
+      },
+      {
+        "interval": 18,
+        "estimated_calls": 321,
+        "estimated_service_seconds": 62.97908075340092,
+        "absolute_target_error_seconds": 44.03450640710071
+      },
+      {
+        "interval": 19,
+        "estimated_calls": 317,
+        "estimated_service_seconds": 62.19429470039904,
+        "absolute_target_error_seconds": 43.24972035409883
+      },
+      {
+        "interval": 20,
+        "estimated_calls": 294,
+        "estimated_service_seconds": 57.68177489563823,
+        "absolute_target_error_seconds": 38.73720054933801
+      },
+      {
+        "interval": 21,
+        "estimated_calls": 273,
+        "estimated_service_seconds": 53.561648117378354,
+        "absolute_target_error_seconds": 34.61707377107814
+      },
+      {
+        "interval": 22,
+        "estimated_calls": 271,
+        "estimated_service_seconds": 53.169255090877414,
+        "absolute_target_error_seconds": 34.2246807445772
+      },
+      {
+        "interval": 23,
+        "estimated_calls": 248,
+        "estimated_service_seconds": 48.6567352861166,
+        "absolute_target_error_seconds": 29.712160939816386
+      },
+      {
+        "interval": 24,
+        "estimated_calls": 246,
+        "estimated_service_seconds": 48.26434225961566,
+        "absolute_target_error_seconds": 29.319767913315445
+      },
+      {
+        "interval": 25,
+        "estimated_calls": 244,
+        "estimated_service_seconds": 47.87194923311472,
+        "absolute_target_error_seconds": 28.927374886814505
+      },
+      {
+        "interval": 26,
+        "estimated_calls": 223,
+        "estimated_service_seconds": 43.751822454854846,
+        "absolute_target_error_seconds": 24.80724810855463
+      },
+      {
+        "interval": 27,
+        "estimated_calls": 222,
+        "estimated_service_seconds": 43.555625941604376,
+        "absolute_target_error_seconds": 24.61105159530416
+      },
+      {
+        "interval": 28,
+        "estimated_calls": 221,
+        "estimated_service_seconds": 43.359429428353906,
+        "absolute_target_error_seconds": 24.41485508205369
+      },
+      {
+        "interval": 29,
+        "estimated_calls": 199,
+        "estimated_service_seconds": 39.04310613684356,
+        "absolute_target_error_seconds": 20.098531790543348
+      },
+      {
+        "interval": 30,
+        "estimated_calls": 198,
+        "estimated_service_seconds": 38.84690962359309,
+        "absolute_target_error_seconds": 19.902335277292877
+      },
+      {
+        "interval": 31,
+        "estimated_calls": 197,
+        "estimated_service_seconds": 38.65071311034262,
+        "absolute_target_error_seconds": 19.706138764042407
+      },
+      {
+        "interval": 32,
+        "estimated_calls": 197,
+        "estimated_service_seconds": 38.65071311034262,
+        "absolute_target_error_seconds": 19.706138764042407
+      },
+      {
+        "interval": 33,
+        "estimated_calls": 177,
+        "estimated_service_seconds": 34.72678284533322,
+        "absolute_target_error_seconds": 15.782208499033004
+      },
+      {
+        "interval": 34,
+        "estimated_calls": 176,
+        "estimated_service_seconds": 34.53058633208275,
+        "absolute_target_error_seconds": 15.586011985782534
+      },
+      {
+        "interval": 35,
+        "estimated_calls": 173,
+        "estimated_service_seconds": 33.94199679233134,
+        "absolute_target_error_seconds": 14.997422446031123
+      },
+      {
+        "interval": 36,
+        "estimated_calls": 172,
+        "estimated_service_seconds": 33.74580027908087,
+        "absolute_target_error_seconds": 14.801225932780653
+      },
+      {
+        "interval": 37,
+        "estimated_calls": 171,
+        "estimated_service_seconds": 33.5496037658304,
+        "absolute_target_error_seconds": 14.605029419530183
+      },
+      {
+        "interval": 38,
+        "estimated_calls": 170,
+        "estimated_service_seconds": 33.35340725257993,
+        "absolute_target_error_seconds": 14.408832906279713
+      },
+      {
+        "interval": 39,
+        "estimated_calls": 151,
+        "estimated_service_seconds": 29.625673500820994,
+        "absolute_target_error_seconds": 10.68109915452078
+      },
+      {
+        "interval": 40,
+        "estimated_calls": 149,
+        "estimated_service_seconds": 29.233280474320054,
+        "absolute_target_error_seconds": 10.28870612801984
+      },
+      {
+        "interval": 41,
+        "estimated_calls": 149,
+        "estimated_service_seconds": 29.233280474320054,
+        "absolute_target_error_seconds": 10.28870612801984
+      },
+      {
+        "interval": 42,
+        "estimated_calls": 149,
+        "estimated_service_seconds": 29.233280474320054,
+        "absolute_target_error_seconds": 10.28870612801984
+      },
+      {
+        "interval": 43,
+        "estimated_calls": 148,
+        "estimated_service_seconds": 29.037083961069584,
+        "absolute_target_error_seconds": 10.09250961476937
+      },
+      {
+        "interval": 44,
+        "estimated_calls": 147,
+        "estimated_service_seconds": 28.840887447819114,
+        "absolute_target_error_seconds": 9.8963131015189
+      },
+      {
+        "interval": 45,
+        "estimated_calls": 147,
+        "estimated_service_seconds": 28.840887447819114,
+        "absolute_target_error_seconds": 9.8963131015189
+      },
+      {
+        "interval": 46,
+        "estimated_calls": 127,
+        "estimated_service_seconds": 24.91695718280971,
+        "absolute_target_error_seconds": 5.972382836509496
+      },
+      {
+        "interval": 47,
+        "estimated_calls": 126,
+        "estimated_service_seconds": 24.72076066955924,
+        "absolute_target_error_seconds": 5.776186323259026
+      },
+      {
+        "interval": 48,
+        "estimated_calls": 126,
+        "estimated_service_seconds": 24.72076066955924,
+        "absolute_target_error_seconds": 5.776186323259026
+      },
+      {
+        "interval": 49,
+        "estimated_calls": 126,
+        "estimated_service_seconds": 24.72076066955924,
+        "absolute_target_error_seconds": 5.776186323259026
+      },
+      {
+        "interval": 50,
+        "estimated_calls": 125,
+        "estimated_service_seconds": 24.52456415630877,
+        "absolute_target_error_seconds": 5.579989810008556
+      },
+      {
+        "interval": 51,
+        "estimated_calls": 125,
+        "estimated_service_seconds": 24.52456415630877,
+        "absolute_target_error_seconds": 5.579989810008556
+      },
+      {
+        "interval": 52,
+        "estimated_calls": 124,
+        "estimated_service_seconds": 24.3283676430583,
+        "absolute_target_error_seconds": 5.3837932967580855
+      },
+      {
+        "interval": 53,
+        "estimated_calls": 124,
+        "estimated_service_seconds": 24.3283676430583,
+        "absolute_target_error_seconds": 5.3837932967580855
+      },
+      {
+        "interval": 54,
+        "estimated_calls": 124,
+        "estimated_service_seconds": 24.3283676430583,
+        "absolute_target_error_seconds": 5.3837932967580855
+      },
+      {
+        "interval": 55,
+        "estimated_calls": 124,
+        "estimated_service_seconds": 24.3283676430583,
+        "absolute_target_error_seconds": 5.3837932967580855
+      },
+      {
+        "interval": 56,
+        "estimated_calls": 123,
+        "estimated_service_seconds": 24.13217112980783,
+        "absolute_target_error_seconds": 5.187596783507615
+      },
+      {
+        "interval": 57,
+        "estimated_calls": 122,
+        "estimated_service_seconds": 23.93597461655736,
+        "absolute_target_error_seconds": 4.991400270257145
+      },
+      {
+        "interval": 58,
+        "estimated_calls": 102,
+        "estimated_service_seconds": 20.012044351547956,
+        "absolute_target_error_seconds": 1.067470005247742
+      },
+      {
+        "interval": 59,
+        "estimated_calls": 102,
+        "estimated_service_seconds": 20.012044351547956,
+        "absolute_target_error_seconds": 1.067470005247742
+      },
+      {
+        "interval": 60,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.815847838297486,
+        "absolute_target_error_seconds": 0.8712734919972718
+      },
+      {
+        "interval": 61,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.815847838297486,
+        "absolute_target_error_seconds": 0.8712734919972718
+      },
+      {
+        "interval": 62,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.815847838297486,
+        "absolute_target_error_seconds": 0.8712734919972718
+      },
+      {
+        "interval": 63,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.815847838297486,
+        "absolute_target_error_seconds": 0.8712734919972718
+      },
+      {
+        "interval": 64,
+        "estimated_calls": 101,
+        "estimated_service_seconds": 19.815847838297486,
+        "absolute_target_error_seconds": 0.8712734919972718
+      },
+      {
+        "interval": 65,
+        "estimated_calls": 100,
+        "estimated_service_seconds": 19.619651325047016,
+        "absolute_target_error_seconds": 0.6750769787468016
+      },
+      {
+        "interval": 66,
+        "estimated_calls": 100,
+        "estimated_service_seconds": 19.619651325047016,
+        "absolute_target_error_seconds": 0.6750769787468016
+      },
+      {
+        "interval": 67,
+        "estimated_calls": 100,
+        "estimated_service_seconds": 19.619651325047016,
+        "absolute_target_error_seconds": 0.6750769787468016
+      },
+      {
+        "interval": 68,
+        "estimated_calls": 100,
+        "estimated_service_seconds": 19.619651325047016,
+        "absolute_target_error_seconds": 0.6750769787468016
+      },
+      {
+        "interval": 69,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.423454811796546,
+        "absolute_target_error_seconds": 0.47888046549633145
+      },
+      {
+        "interval": 70,
+        "estimated_calls": 99,
+        "estimated_service_seconds": 19.423454811796546,
+        "absolute_target_error_seconds": 0.47888046549633145
+      },
+      {
+        "interval": 71,
+        "estimated_calls": 98,
+        "estimated_service_seconds": 19.227258298546076,
+        "absolute_target_error_seconds": 0.2826839522458613
+      },
+      {
+        "interval": 72,
+        "estimated_calls": 98,
+        "estimated_service_seconds": 19.227258298546076,
+        "absolute_target_error_seconds": 0.2826839522458613
+      },
+      {
+        "interval": 73,
+        "estimated_calls": 98,
+        "estimated_service_seconds": 19.227258298546076,
+        "absolute_target_error_seconds": 0.2826839522458613
+      },
+      {
+        "interval": 74,
+        "estimated_calls": 98,
+        "estimated_service_seconds": 19.227258298546076,
+        "absolute_target_error_seconds": 0.2826839522458613
+      },
+      {
+        "interval": 75,
+        "estimated_calls": 98,
+        "estimated_service_seconds": 19.227258298546076,
+        "absolute_target_error_seconds": 0.2826839522458613
+      },
+      {
+        "interval": 76,
+        "estimated_calls": 98,
+        "estimated_service_seconds": 19.227258298546076,
+        "absolute_target_error_seconds": 0.2826839522458613
+      },
+      {
+        "interval": 77,
+        "estimated_calls": 79,
+        "estimated_service_seconds": 15.499524546787143,
+        "absolute_target_error_seconds": 3.4450497995130718
+      },
+      {
+        "interval": 78,
+        "estimated_calls": 79,
+        "estimated_service_seconds": 15.499524546787143,
+        "absolute_target_error_seconds": 3.4450497995130718
+      },
+      {
+        "interval": 79,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.303328033536673,
+        "absolute_target_error_seconds": 3.641246312763542
+      },
+      {
+        "interval": 80,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.303328033536673,
+        "absolute_target_error_seconds": 3.641246312763542
+      },
+      {
+        "interval": 81,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.303328033536673,
+        "absolute_target_error_seconds": 3.641246312763542
+      },
+      {
+        "interval": 82,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.303328033536673,
+        "absolute_target_error_seconds": 3.641246312763542
+      },
+      {
+        "interval": 83,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.303328033536673,
+        "absolute_target_error_seconds": 3.641246312763542
+      },
+      {
+        "interval": 84,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.303328033536673,
+        "absolute_target_error_seconds": 3.641246312763542
+      },
+      {
+        "interval": 85,
+        "estimated_calls": 78,
+        "estimated_service_seconds": 15.303328033536673,
+        "absolute_target_error_seconds": 3.641246312763542
+      },
+      {
+        "interval": 86,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.107131520286202,
+        "absolute_target_error_seconds": 3.837442826014012
+      },
+      {
+        "interval": 87,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.107131520286202,
+        "absolute_target_error_seconds": 3.837442826014012
+      },
+      {
+        "interval": 88,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.107131520286202,
+        "absolute_target_error_seconds": 3.837442826014012
+      },
+      {
+        "interval": 89,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.107131520286202,
+        "absolute_target_error_seconds": 3.837442826014012
+      },
+      {
+        "interval": 90,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.107131520286202,
+        "absolute_target_error_seconds": 3.837442826014012
+      },
+      {
+        "interval": 91,
+        "estimated_calls": 77,
+        "estimated_service_seconds": 15.107131520286202,
+        "absolute_target_error_seconds": 3.837442826014012
+      },
+      {
+        "interval": 92,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 93,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 94,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 95,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 96,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 97,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 98,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 99,
+        "estimated_calls": 76,
+        "estimated_service_seconds": 14.910935007035732,
+        "absolute_target_error_seconds": 4.033639339264482
+      },
+      {
+        "interval": 100,
+        "estimated_calls": 75,
+        "estimated_service_seconds": 14.714738493785262,
+        "absolute_target_error_seconds": 4.229835852514952
+      },
+      {
+        "interval": 101,
+        "estimated_calls": 75,
+        "estimated_service_seconds": 14.714738493785262,
+        "absolute_target_error_seconds": 4.229835852514952
+      },
+      {
+        "interval": 102,
+        "estimated_calls": 75,
+        "estimated_service_seconds": 14.714738493785262,
+        "absolute_target_error_seconds": 4.229835852514952
+      },
+      {
+        "interval": 103,
+        "estimated_calls": 75,
+        "estimated_service_seconds": 14.714738493785262,
+        "absolute_target_error_seconds": 4.229835852514952
+      },
+      {
+        "interval": 104,
+        "estimated_calls": 74,
+        "estimated_service_seconds": 14.518541980534792,
+        "absolute_target_error_seconds": 4.426032365765423
+      },
+      {
+        "interval": 105,
+        "estimated_calls": 74,
+        "estimated_service_seconds": 14.518541980534792,
+        "absolute_target_error_seconds": 4.426032365765423
+      },
+      {
+        "interval": 106,
+        "estimated_calls": 74,
+        "estimated_service_seconds": 14.518541980534792,
+        "absolute_target_error_seconds": 4.426032365765423
+      },
+      {
+        "interval": 107,
+        "estimated_calls": 74,
+        "estimated_service_seconds": 14.518541980534792,
+        "absolute_target_error_seconds": 4.426032365765423
+      },
+      {
+        "interval": 108,
+        "estimated_calls": 74,
+        "estimated_service_seconds": 14.518541980534792,
+        "absolute_target_error_seconds": 4.426032365765423
+      },
+      {
+        "interval": 109,
+        "estimated_calls": 74,
+        "estimated_service_seconds": 14.518541980534792,
+        "absolute_target_error_seconds": 4.426032365765423
+      },
+      {
+        "interval": 110,
+        "estimated_calls": 74,
+        "estimated_service_seconds": 14.518541980534792,
+        "absolute_target_error_seconds": 4.426032365765423
+      },
+      {
+        "interval": 111,
+        "estimated_calls": 73,
+        "estimated_service_seconds": 14.322345467284322,
+        "absolute_target_error_seconds": 4.622228879015893
+      },
+      {
+        "interval": 112,
+        "estimated_calls": 73,
+        "estimated_service_seconds": 14.322345467284322,
+        "absolute_target_error_seconds": 4.622228879015893
+      },
+      {
+        "interval": 113,
+        "estimated_calls": 73,
+        "estimated_service_seconds": 14.322345467284322,
+        "absolute_target_error_seconds": 4.622228879015893
+      },
+      {
+        "interval": 114,
+        "estimated_calls": 72,
+        "estimated_service_seconds": 14.126148954033852,
+        "absolute_target_error_seconds": 4.818425392266363
+      },
+      {
+        "interval": 115,
+        "estimated_calls": 53,
+        "estimated_service_seconds": 10.398415202274919,
+        "absolute_target_error_seconds": 8.546159144025296
+      },
+      {
+        "interval": 116,
+        "estimated_calls": 53,
+        "estimated_service_seconds": 10.398415202274919,
+        "absolute_target_error_seconds": 8.546159144025296
+      },
+      {
+        "interval": 117,
+        "estimated_calls": 53,
+        "estimated_service_seconds": 10.398415202274919,
+        "absolute_target_error_seconds": 8.546159144025296
+      },
+      {
+        "interval": 118,
+        "estimated_calls": 53,
+        "estimated_service_seconds": 10.398415202274919,
+        "absolute_target_error_seconds": 8.546159144025296
+      },
+      {
+        "interval": 119,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 120,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 121,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 122,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 123,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 124,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 125,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 126,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 127,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 128,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 129,
+        "estimated_calls": 52,
+        "estimated_service_seconds": 10.202218689024448,
+        "absolute_target_error_seconds": 8.742355657275766
+      },
+      {
+        "interval": 130,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 131,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 132,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 133,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 134,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 135,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 136,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 137,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 138,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 139,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 140,
+        "estimated_calls": 51,
+        "estimated_service_seconds": 10.006022175773978,
+        "absolute_target_error_seconds": 8.938552170526236
+      },
+      {
+        "interval": 141,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 142,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 143,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 144,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 145,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 146,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 147,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 148,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 149,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 150,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 151,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 152,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 153,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 154,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 155,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 156,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 157,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 158,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 159,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 160,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 161,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 162,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 163,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 164,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 165,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 166,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 167,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 168,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 169,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 170,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 171,
+        "estimated_calls": 50,
+        "estimated_service_seconds": 9.809825662523508,
+        "absolute_target_error_seconds": 9.134748683776706
+      },
+      {
+        "interval": 172,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 173,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 174,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 175,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 176,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 177,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 178,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 179,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 180,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 181,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 182,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 183,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 184,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 185,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 186,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 187,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 188,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 189,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 190,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 191,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 192,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 193,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 194,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 195,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 196,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 197,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 198,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      },
+      {
+        "interval": 199,
+        "estimated_calls": 49,
+        "estimated_service_seconds": 9.613629149273038,
+        "absolute_target_error_seconds": 9.330945197027177
+      }
+    ]
+  },
+  "source_sha256": {
+    "analysis/serial_vla_latency_development.json": "4d896e4deae9720a89d68a1777074036ba75437afe832d55cb070c806e04c430",
+    "analysis/single_skip_development_pooled.json": "ecf526d5578d0371c66b512925e5d2452dcebc7ebe8d911bdb78172e3dd08397"
+  },
+  "rule": "Estimate fixed-period calls by ceil(developer LAYA episode length/I); multiply by observed same-H median VLA service time. Choose minimum absolute error to full LAYA service cost; exact ties choose smaller I. No gate and no fitted model.",
+  "limitation": "New fixed-period rollouts can change lengths and success; measured costs need not match the target. Do not retune on validation results."
+}

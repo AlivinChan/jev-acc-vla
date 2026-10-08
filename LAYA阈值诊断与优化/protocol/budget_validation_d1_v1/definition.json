@@ -1,0 +1,159 @@
+{
+  "cohort_id": "budget_validation_d1_v1",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states_in_execution_order": [
+    22,
+    20,
+    24,
+    21,
+    23
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "episodes_per_method_horizon": 50,
+  "total_episodes": 600,
+  "candidates": {
+    "smol70": {
+      "method": "smol70",
+      "role": "native Smol70 reference"
+    },
+    "fixed45": {
+      "method": "fixed_interval",
+      "interval": 45,
+      "role": "selected fixed-period attribution control"
+    },
+    "window3_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3,
+      "role": "primary LAYA candidate"
+    },
+    "budget_period_h50": {
+      "method": "fixed_interval",
+      "interval": 19,
+      "horizons": [
+        50
+      ],
+      "role": "developer-cost-selected fixed-period control"
+    },
+    "budget_period_h100": {
+      "method": "fixed_interval",
+      "interval": 38,
+      "horizons": [
+        100
+      ],
+      "role": "developer-cost-selected fixed-period control"
+    },
+    "budget_period_h200": {
+      "method": "fixed_interval",
+      "interval": 71,
+      "horizons": [
+        200
+      ],
+      "role": "developer-cost-selected fixed-period control"
+    }
+  },
+  "shards": [
+    {
+      "run": "budget_d1_s22_v1",
+      "config": "budget_d1_s22_v1.json",
+      "state": 22,
+      "episodes": 120,
+      "order": 0,
+      "config_sha256": "73a3cfd1de273ded2d3a116f868d1cc857d300f247c81dd92c2c9c87968d404b"
+    },
+    {
+      "run": "budget_d1_s20_v1",
+      "config": "budget_d1_s20_v1.json",
+      "state": 20,
+      "episodes": 120,
+      "order": 1,
+      "config_sha256": "34a841ac381bcb04625c9b7258879fcffa26ce1fc8718273e93d924207f2f43c"
+    },
+    {
+      "run": "budget_d1_s24_v1",
+      "config": "budget_d1_s24_v1.json",
+      "state": 24,
+      "episodes": 120,
+      "order": 2,
+      "config_sha256": "64e0fbccfeff806364c435e06a0d815d2bf748e891e73dc65d765e4fa1be9cc9"
+    },
+    {
+      "run": "budget_d1_s21_v1",
+      "config": "budget_d1_s21_v1.json",
+      "state": 21,
+      "episodes": 120,
+      "order": 3,
+      "config_sha256": "dfc20b299282f505f410a0e1240edcaf8038dd52156205b9d0c5fb6b4737f5c7"
+    },
+    {
+      "run": "budget_d1_s23_v1",
+      "config": "budget_d1_s23_v1.json",
+      "state": 23,
+      "episodes": 120,
+      "order": 4,
+      "config_sha256": "c3e2053ccad388679ca1b66f5f9399bb01ccc22c81286bd69f109e02bab3a10d"
+    }
+  ],
+  "primary_candidate": "window3_skip1",
+  "primary_comparators": [
+    "same-H budget_period",
+    "smol70",
+    "fixed45"
+  ],
+  "comparators_by_horizon": {
+    "50": [
+      "smol70",
+      "fixed45",
+      "budget_period_h50"
+    ],
+    "100": [
+      "smol70",
+      "fixed45",
+      "budget_period_h100"
+    ],
+    "200": [
+      "smol70",
+      "fixed45",
+      "budget_period_h200"
+    ]
+  },
+  "locked_execution_source_sha256": {
+    "run_closed_loop.py": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "window_state.py": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+    "binary_service.py": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "supervise.py": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73"
+  },
+  "selection_evidence_sha256": {
+    "BUDGET_PERIOD_PROTOCOL.md": "d65981f6fcfa64ed60ca07106c6888fa1ce7659077c691815a1ba08ab22a714e",
+    "protocol/budget_period_controls_v1/definition.json": "91cabd60b255f58d834a6189a915266c7fa742843991eb8b6d1f69fb782e7fb4",
+    "protocol/validation_d1_v1/definition.json": "be1114f31a3da9e0b084691939c28c611e993d531e6d7d9fc2e72437ea979914",
+    "checks/budget_period_definition.json": "8b40a6c99a07625ec42bda5bb577e07361d0366ed4951a573406be816b2087a9",
+    "STATISTICS_AMENDMENT_01.md": "9f4994c4e1adc91d53c65dccac94c91ba36581080c49c4c18343a460dfb0135a"
+  },
+  "vla_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+  "minimum_probability": 0,
+  "binary_argmax": true,
+  "readout_adaptation": false,
+  "logical_delay_steps": 1,
+  "statistics": "Primary descriptive hierarchical paired bootstrap; retain fixed-task and task-only sensitivities. No equivalence or uncorrected significance claim.",
+  "no_adaptation_during_cohort": true,
+  "no_early_stopping_for_favorable_results": true,
+  "interpretation": "Periods selected only from state0-2 developer durations and service costs. Actual new-rollout costs need not match. Do not retune periods or claim exact budget equality. Earlier project exposure to public starts is not excluded."
+}

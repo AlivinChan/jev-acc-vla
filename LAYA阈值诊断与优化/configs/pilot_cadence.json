@@ -1,0 +1,56 @@
+{
+  "purpose": "Developer cadence pilot: extend valid action execution with horizon-dependent opportunities; retain two-choice argmax",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states": [
+    0
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "schedule_seed": 20261009,
+  "exposure": "Same previously exposed developer state0 used in representation pilot",
+  "candidates": {
+    "short_r30": {
+      "method": "laya",
+      "variant": "binary_short",
+      "interval_ratio": 0.3
+    },
+    "compact_r30": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval_ratio": 0.3
+    },
+    "compact_minr30_i5": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval": 5,
+      "minimum_age_ratio": 0.3
+    },
+    "compact_r10_minr30": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval_ratio": 0.1,
+      "minimum_age_ratio": 0.3
+    }
+  },
+  "interventions": {
+    "short_r30_vs_compact_r30": "representation at identical scheduling opportunities",
+    "compact_minr30_i5_vs_compact5": "minimum action execution window, while keeping checks every five steps when eligible",
+    "compact_r30_vs_compact_minr30_i5": "sparser check opportunities after the same minimum 30% execution window",
+    "compact_r10_minr30": "intermediate opportunity spacing to test responsiveness versus gating cost"
+  },
+  "promotion_rule": "Retain Pareto-distinct candidates by successes and full measured VLA+gate cost, using call counts as hardware-independent support. Do not select by crossing0.7 or by partial results. Confirmation on developer states1,2 follows."
+}

@@ -1,0 +1,1008 @@
+{
+  "status": "PASS_COMPLETE_ARGMAX_ONLY",
+  "root": "/mnt/4t/jev_vla_libero/experiments/long_chunk_laya/argmax_attempt_v1/smol",
+  "baseline": "/mnt/4t/jev_vla_libero/experiments/long_chunk_laya/attempt_v1/smol",
+  "cpu_only_read_only": true,
+  "validated_episodes": 90,
+  "validated_action_rows": 14862,
+  "validated_chunks": 1578,
+  "matched_initial_states_and_first_chunks": 90,
+  "pair_details": [
+    {
+      "task_id": 0,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 0,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 0,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 0,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 0,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 0,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 1,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 1,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 1,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 1,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 2,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 2,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 2,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 2,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 2,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 2,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 2,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 3,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 3,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 3,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 4,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 4,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 4,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 4,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 4,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 4,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 5,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 6,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 6,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 6,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 6,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 7,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 7,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 8,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 9,
+      "state_id": 0,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 0,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": false
+    },
+    {
+      "task_id": 9,
+      "state_id": 0,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 9,
+      "state_id": 1,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 9,
+      "state_id": 1,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 1,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": false,
+      "success_smol70": false
+    },
+    {
+      "task_id": 9,
+      "state_id": 2,
+      "horizon": 100,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 2,
+      "horizon": 50,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 2,
+      "horizon": 200,
+      "initial_state_equal": true,
+      "first_chunk_actions_and_normalized_equal": true,
+      "success_argmax": true,
+      "success_smol70": true
+    }
+  ],
+  "frozen_hash": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+  "same_frozen_parameters_as_primary": true,
+  "parameters_by_dtype": {
+    "torch.bfloat16": 600902304,
+    "torch.float32": 4031872
+  },
+  "same_laya_source_and_prompt": true,
+  "total_vla_calls_including_qualification": 1584,
+  "total_gate_calls_including_warmup": 2899,
+  "groups": [
+    {
+      "horizon": 50,
+      "episodes": 30,
+      "successes": 18,
+      "steps": 4781,
+      "vla_calls": 541,
+      "prediction_seconds": 108.20581405144185,
+      "gate_calls": 932,
+      "gate_seconds": 38.74222602555528,
+      "episode_wall_seconds": 203.90084895212203,
+      "comparisons": [
+        {
+          "baseline": "smol70",
+          "paired": 30,
+          "argmax_only": 8,
+          "baseline_only": 3,
+          "service_cost_ratio": 2.077550978147379
+        },
+        {
+          "baseline": "laya",
+          "paired": 30,
+          "argmax_only": 8,
+          "baseline_only": 3,
+          "service_cost_ratio": 1.2499608086096288
+        },
+        {
+          "baseline": "naive_k5",
+          "paired": 30,
+          "argmax_only": 5,
+          "baseline_only": 3,
+          "service_cost_ratio": 0.75920963960478
+        },
+        {
+          "baseline": "vlash_style_k5",
+          "paired": 30,
+          "argmax_only": 4,
+          "baseline_only": 1,
+          "service_cost_ratio": 0.7458704818049582
+        }
+      ]
+    },
+    {
+      "horizon": 100,
+      "episodes": 30,
+      "successes": 13,
+      "steps": 5165,
+      "vla_calls": 520,
+      "prediction_seconds": 103.51948877517134,
+      "gate_calls": 1007,
+      "gate_seconds": 41.479534794576466,
+      "episode_wall_seconds": 205.75431088823825,
+      "comparisons": [
+        {
+          "baseline": "smol70",
+          "paired": 30,
+          "argmax_only": 5,
+          "baseline_only": 5,
+          "service_cost_ratio": 3.8768459173030023
+        },
+        {
+          "baseline": "laya",
+          "paired": 30,
+          "argmax_only": 5,
+          "baseline_only": 5,
+          "service_cost_ratio": 1.687229583065598
+        },
+        {
+          "baseline": "naive_k5",
+          "paired": 30,
+          "argmax_only": 6,
+          "baseline_only": 9,
+          "service_cost_ratio": 0.7372548255983147
+        },
+        {
+          "baseline": "vlash_style_k5",
+          "paired": 30,
+          "argmax_only": 4,
+          "baseline_only": 4,
+          "service_cost_ratio": 0.7005360013666477
+        }
+      ]
+    },
+    {
+      "horizon": 200,
+      "episodes": 30,
+      "successes": 15,
+      "steps": 4916,
+      "vla_calls": 517,
+      "prediction_seconds": 103.1969180717133,
+      "gate_calls": 959,
+      "gate_seconds": 40.11729595344514,
+      "episode_wall_seconds": 201.71908776648343,
+      "comparisons": [
+        {
+          "baseline": "smol70",
+          "paired": 30,
+          "argmax_only": 9,
+          "baseline_only": 5,
+          "service_cost_ratio": 7.220387250058294
+        },
+        {
+          "baseline": "laya",
+          "paired": 30,
+          "argmax_only": 9,
+          "baseline_only": 5,
+          "service_cost_ratio": 2.0928765642370486
+        },
+        {
+          "baseline": "naive_k5",
+          "paired": 30,
+          "argmax_only": 4,
+          "baseline_only": 5,
+          "service_cost_ratio": 0.7337265460579239
+        },
+        {
+          "baseline": "vlash_style_k5",
+          "paired": 30,
+          "argmax_only": 4,
+          "baseline_only": 2,
+          "service_cost_ratio": 0.6961635317736502
+        }
+      ]
+    }
+  ],
+  "gate_effective_choices": {
+    "replan": 1446,
+    "continue": 1452
+  },
+  "gate_raw_choices": {
+    "replan": 1446,
+    "continue": 1452
+  },
+  "trigger_counts": {
+    "initial": 90,
+    "laya_replan": 1446,
+    "mandatory_finite_queue": 42
+  },
+  "gate_max_probability_range": [
+    0.4342,
+    0.6404
+  ],
+  "source_checks": {
+    "scripts/run_argmax_ablation.py": true,
+    "scripts/laya_argmax_service.py": true,
+    "scripts/supervise_argmax.py": true,
+    "scripts/laya_service.py": true,
+    "scripts/supervise.py": true,
+    "scripts/official_reference.py": true,
+    "scripts/main_experiment.py": true,
+    "source_snapshot/collect_counterfactual_dev.py": true
+  },
+  "installed_source_checks": {
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/policies/smolvla/modeling_smolvla.py": true,
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/policies/smolvla/configuration_smolvla.py": true,
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/policies/smolvla/smolvlm_with_expert.py": true,
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/envs/libero.py": true
+  },
+  "checks": [
+    "90 unique planned cases and original relative ordering",
+    "same primary frozen SmolVLA state hash/dtypes and same Laya source/prompt",
+    "90 initial physics states and initial complete chunks exactly match primary Smol70",
+    "every native chunk finite and executed action row reconstructed; no index/queue overflow",
+    "raw argmax equals effective choice at tau0; semantic uncertain uses original fallback",
+    "all request triggers/gate opportunities/mandatory finite queue guard reconcile",
+    "no post-terminal action or hidden early truncation",
+    "every gate original IPC/state/probability/packing record matches",
+    "NFE/calls/unused rows/per-case and campaign costs reconcile",
+    "no failures; service stopped; source hashes match"
+  ],
+  "limitations": [
+    "Exploratory post-pilot ablation on the same exposed development states; not independent confirmation.",
+    "Cross-run wall costs can reflect shared-GPU interference; not real-time robot or GPU-active speedup.",
+    "Frozen identity verified from stored runtime before/after fingerprints, not an independent model reload.",
+    "Repeated qualification b was not archived; equal-repeat assertion cannot be independently recomputed here.",
+    "When auditing downloaded local artifacts, unavailable remote installed-source paths are null; their stored identities must still match the primary manifest."
+  ]
+}

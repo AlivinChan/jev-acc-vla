@@ -1,0 +1,34 @@
+{
+  "inputs": 1029,
+  "decisions": 2058,
+  "warmups": 8,
+  "counts": {
+    "binary_full": 280,
+    "binary_short": 280,
+    "binary_compact": 280,
+    "binary_window3": 189
+  },
+  "fixture_sha256": "9b384b025242d99d12d3e4066df156e1c121d1d008d645bec10f9c5bc42f445a",
+  "option_orders": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "source_sha256": {
+    "raw/diagnosis_v1/data/decisions.jsonl": "f19224e7a76d66c3b9b5c634e14ee55643c38cdb71372ca2d03773afa05b3b75",
+    "raw/scores_window_train_v1/data/scores.jsonl": "549ac4cf646d4b5196944da26f9a677e18208eecefa4517a64bfee9c9e60208c"
+  },
+  "script_sha256": {
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "diagnose_choice_order.py": "5939d84be38b36ff013ce3ad61a4ef2e9228d47ee4f61e74abc490f07091cdf1"
+  },
+  "protocol_sha256": "9cdf046c38554134481752871874f622be0ab045c6a6c2a04842a708f3d165ab",
+  "frozen_laya_sha256": "ae9a05c819a0ab99493067336fd9f5c186dce48265e75ef027978f2597dfac71",
+  "no_outcomes_in_model_input": true,
+  "no_current_cohort_policy_change": true
+}

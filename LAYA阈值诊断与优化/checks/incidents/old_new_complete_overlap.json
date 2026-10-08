@@ -1,0 +1,52 @@
+{
+  "n": 420,
+  "exact": 418,
+  "pairs": [
+    {
+      "current": "validation_d1_s12_v2",
+      "reference": "validation_d1_s12_v1",
+      "n": 210,
+      "exact": 209,
+      "different": [
+        {
+          "candidate": "vlash_style_k5",
+          "task": 9,
+          "state": 12,
+          "horizon": 50,
+          "initial_exact": true,
+          "actions_exact": false,
+          "physics_exact": false,
+          "all_prediction_blocks_exact": false,
+          "all_gate_inputs_and_answers_exact": true,
+          "first_action_difference_tick": 15,
+          "entire_trajectory_exact": false
+        }
+      ],
+      "comparison_sha256": "a2ca358393a3d224fb5077fe1aa99ed844e3e7173d40f2027fa4556863d4cfe5"
+    },
+    {
+      "current": "validation_d1_s10_v2",
+      "reference": "validation_d1_s10_v1",
+      "n": 210,
+      "exact": 209,
+      "different": [
+        {
+          "candidate": "fixed45",
+          "task": 0,
+          "state": 10,
+          "horizon": 200,
+          "initial_exact": true,
+          "actions_exact": false,
+          "physics_exact": false,
+          "all_prediction_blocks_exact": false,
+          "all_gate_inputs_and_answers_exact": true,
+          "first_action_difference_tick": 0,
+          "entire_trajectory_exact": false
+        }
+      ],
+      "comparison_sha256": "a7acec984bed69443837ec31fa2dfecb259624389c1130a6d63f1bed4b348c14"
+    }
+  ],
+  "selection_changed": false,
+  "old_efficacy_rows_used": false
+}

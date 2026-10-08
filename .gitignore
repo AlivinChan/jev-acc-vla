@@ -1,0 +1,25 @@
+# Local runtimes, raw trajectories, model weights and credentials
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/runtime/
+**/tmp/
+**/.pdf_dependencies/
+**/raw/*
+!**/raw/README.md
+*.tar
+*.tar.gz
+*.zip
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+.DS_Store
+Thumbs.db

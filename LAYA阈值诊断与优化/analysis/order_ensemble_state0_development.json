@@ -1,0 +1,6649 @@
+{
+  "states": [
+    0
+  ],
+  "fitting": false,
+  "primary_validation_unchanged": true,
+  "inputs": 189,
+  "resolved": 55,
+  "classification": {
+    "original": {
+      "n": 55,
+      "replan_labels": 9,
+      "continue_labels": 46,
+      "replan_predictions": 40,
+      "accuracy": 0.43636363636363634,
+      "balanced_accuracy": 0.6630434782608696,
+      "replan_recall": 1.0,
+      "continue_recall": 0.32608695652173914,
+      "auc": 0.716183574879227,
+      "brier": 0.2594970190252205,
+      "log_loss": 0.7123127144838884,
+      "ece_5_equal_bins": 0.3595874726318532,
+      "above_07": 0,
+      "coverage_07": 0.0,
+      "covered_accuracy_07": null
+    },
+    "reversed": {
+      "n": 55,
+      "replan_labels": 9,
+      "continue_labels": 46,
+      "replan_predictions": 51,
+      "accuracy": 0.23636363636363636,
+      "balanced_accuracy": 0.5434782608695652,
+      "replan_recall": 1.0,
+      "continue_recall": 0.08695652173913043,
+      "auc": 0.7222222222222222,
+      "brier": 0.27462549494971833,
+      "log_loss": 0.742482319664297,
+      "ece_5_equal_bins": 0.4010789680364432,
+      "above_07": 0,
+      "coverage_07": 0.0,
+      "covered_accuracy_07": null
+    },
+    "symmetric": {
+      "n": 55,
+      "replan_labels": 9,
+      "continue_labels": 46,
+      "replan_predictions": 46,
+      "accuracy": 0.32727272727272727,
+      "balanced_accuracy": 0.5978260869565217,
+      "replan_recall": 1.0,
+      "continue_recall": 0.1956521739130435,
+      "auc": 0.7681159420289855,
+      "brier": 0.26655435754196216,
+      "log_loss": 0.7263512067815477,
+      "ece_5_equal_bins": 0.3713495024247785,
+      "above_07": 0,
+      "coverage_07": 0.0,
+      "covered_accuracy_07": null
+    },
+    "always_replan": {
+      "n": 55,
+      "replan_labels": 9,
+      "continue_labels": 46,
+      "replan_predictions": 55,
+      "accuracy": 0.16363636363636364,
+      "balanced_accuracy": 0.5,
+      "replan_recall": 1.0,
+      "continue_recall": 0.0,
+      "auc": 0.5,
+      "brier": 0.8363636363636363,
+      "log_loss": 23.109599798965522,
+      "ece_5_equal_bins": 0.8363636363636364,
+      "above_07": 55,
+      "coverage_07": 1.0,
+      "covered_accuracy_07": 0.16363636363636364
+    },
+    "always_continue": {
+      "n": 55,
+      "replan_labels": 9,
+      "continue_labels": 46,
+      "replan_predictions": 0,
+      "accuracy": 0.8363636363636363,
+      "balanced_accuracy": 0.5,
+      "replan_recall": 0.0,
+      "continue_recall": 1.0,
+      "auc": 0.5,
+      "brier": 0.16363636363636364,
+      "log_loss": 4.521439818970961,
+      "ece_5_equal_bins": 0.16363636363636364,
+      "above_07": 55,
+      "coverage_07": 1.0,
+      "covered_accuracy_07": 0.8363636363636363
+    }
+  },
+  "opportunities": {
+    "original": {
+      "opportunities": 189,
+      "successful_branches": 52,
+      "branch_vla_calls": 935,
+      "continue_choices": 69
+    },
+    "reversed": {
+      "opportunities": 189,
+      "successful_branches": 46,
+      "branch_vla_calls": 1023,
+      "continue_choices": 16
+    },
+    "symmetric": {
+      "opportunities": 189,
+      "successful_branches": 49,
+      "branch_vla_calls": 991,
+      "continue_choices": 31
+    },
+    "always_replan": {
+      "opportunities": 189,
+      "successful_branches": 46,
+      "branch_vla_calls": 1040,
+      "continue_choices": 0
+    },
+    "always_continue": {
+      "opportunities": 189,
+      "successful_branches": 46,
+      "branch_vla_calls": 841,
+      "continue_choices": 189
+    }
+  },
+  "first_request_results": {
+    "original_h50": {
+      "episodes": 10,
+      "successes": 6,
+      "vla_calls": 107
+    },
+    "original_h100": {
+      "episodes": 10,
+      "successes": 6,
+      "vla_calls": 57
+    },
+    "original_h200": {
+      "episodes": 10,
+      "successes": 4,
+      "vla_calls": 31
+    },
+    "reversed_h50": {
+      "episodes": 10,
+      "successes": 4,
+      "vla_calls": 126
+    },
+    "reversed_h100": {
+      "episodes": 10,
+      "successes": 5,
+      "vla_calls": 60
+    },
+    "reversed_h200": {
+      "episodes": 10,
+      "successes": 4,
+      "vla_calls": 31
+    },
+    "symmetric_h50": {
+      "episodes": 10,
+      "successes": 5,
+      "vla_calls": 118
+    },
+    "symmetric_h100": {
+      "episodes": 10,
+      "successes": 5,
+      "vla_calls": 59
+    },
+    "symmetric_h200": {
+      "episodes": 10,
+      "successes": 4,
+      "vla_calls": 31
+    },
+    "always_replan_h50": {
+      "episodes": 10,
+      "successes": 4,
+      "vla_calls": 127
+    },
+    "always_replan_h100": {
+      "episodes": 10,
+      "successes": 5,
+      "vla_calls": 60
+    },
+    "always_replan_h200": {
+      "episodes": 10,
+      "successes": 4,
+      "vla_calls": 32
+    },
+    "always_continue_h50": {
+      "episodes": 10,
+      "successes": 5,
+      "vla_calls": 107
+    },
+    "always_continue_h100": {
+      "episodes": 10,
+      "successes": 4,
+      "vla_calls": 58
+    },
+    "always_continue_h200": {
+      "episodes": 10,
+      "successes": 2,
+      "vla_calls": 27
+    }
+  },
+  "eligibility_conditions": {
+    "success_not_lower_each_h": false,
+    "total_vla_calls_strictly_lower": false,
+    "replan_recall_not_lower": true,
+    "balanced_accuracy_not_lower": false
+  },
+  "eligible_for_next_development": false,
+  "symmetric_sdk_seconds_mean": 0.03422503191337147,
+  "records": [
+    {
+      "id": "t00_s00_h100_smol70_t030",
+      "task": 0,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.48214230442489137,
+        "reversed": 0.5665181641861171,
+        "symmetric": 0.5245051102413544,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.03832088317722082,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h100_smol70_t060",
+      "task": 0,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.48321357471060494,
+        "reversed": 0.549653717300705,
+        "symmetric": 0.5165065900714282,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.03308677487075329,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h100_smol70_t090",
+      "task": 0,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.4944293322518164,
+        "reversed": 0.5664552631055918,
+        "symmetric": 0.5306016446738098,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.03488796204328537,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h100_smol70_t120",
+      "task": 0,
+      "state": 0,
+      "horizon": 100,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5371348497124376,
+        "reversed": 0.5911921664062824,
+        "symmetric": 0.564354723295491,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.0336581077426672,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h100_smol70_t150",
+      "task": 0,
+      "state": 0,
+      "horizon": 100,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.5160348445029813,
+        "reversed": 0.5751145182984273,
+        "symmetric": 0.545735659671288,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03738967468962073,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h100_smol70_t180",
+      "task": 0,
+      "state": 0,
+      "horizon": 100,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5218214894575209,
+        "reversed": 0.5517925972959034,
+        "symmetric": 0.5368403162984319,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.036121493205428123,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h100_smol70_t210",
+      "task": 0,
+      "state": 0,
+      "horizon": 100,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.5122119254109438,
+        "reversed": 0.5784907175367835,
+        "symmetric": 0.5455530980849975,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03453800780698657,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h200_smol70_t060",
+      "task": 0,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.5446401073947692,
+        "reversed": 0.5621730686034008,
+        "symmetric": 0.5534232001311035,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.032285510096699,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t015",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": null,
+      "probability": {
+        "original": 0.491548407701319,
+        "reversed": 0.547497136557128,
+        "symmetric": 0.5195841695751108,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 15
+        }
+      },
+      "symmetric_sdk_seconds": 0.033471488393843174,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t030",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.4890520535156091,
+        "reversed": 0.5617947731365471,
+        "symmetric": 0.5255590113629309,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 14
+        }
+      },
+      "symmetric_sdk_seconds": 0.034106901846826077,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t045",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": "continue",
+      "probability": {
+        "original": 0.5142755479984743,
+        "reversed": 0.5292298576938937,
+        "symmetric": 0.5217575777521903,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 13
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 12
+        }
+      },
+      "symmetric_sdk_seconds": 0.034774089232087135,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t060",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.5294212968157974,
+        "reversed": 0.5272511600679334,
+        "symmetric": 0.5283363623217728,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 11
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 12
+        }
+      },
+      "symmetric_sdk_seconds": 0.032399109564721584,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t075",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": null,
+      "probability": {
+        "original": 0.49086026270757505,
+        "reversed": 0.5376442516235331,
+        "symmetric": 0.5142835456342695,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 11
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 10
+        }
+      },
+      "symmetric_sdk_seconds": 0.036161079071462154,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t090",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.48759609105233154,
+        "reversed": 0.5662036373893765,
+        "symmetric": 0.5270676074740326,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 9
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 10
+        }
+      },
+      "symmetric_sdk_seconds": 0.038673208095133305,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t105",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": null,
+      "probability": {
+        "original": 0.4955818163781643,
+        "reversed": 0.5405717554023629,
+        "symmetric": 0.5181134974051567,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 9
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 8
+        }
+      },
+      "symmetric_sdk_seconds": 0.031951408833265305,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t120",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.4765969287493707,
+        "reversed": 0.5569337525950685,
+        "symmetric": 0.5168743713347651,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 7
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 8
+        }
+      },
+      "symmetric_sdk_seconds": 0.03366626612842083,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t135",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 135,
+      "label": null,
+      "probability": {
+        "original": 0.5094637937378308,
+        "reversed": 0.5540877783881237,
+        "symmetric": 0.5318394455744151,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.0348222479224205,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t150",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.4866842201951453,
+        "reversed": 0.5585132481091976,
+        "symmetric": 0.5227161773689588,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.034313907846808434,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t165",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 165,
+      "label": null,
+      "probability": {
+        "original": 0.47535914762393067,
+        "reversed": 0.5377079213588262,
+        "symmetric": 0.5065590362608335,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.034975385293364525,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t180",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5532649389745783,
+        "reversed": 0.5612902674763274,
+        "symmetric": 0.5572813415424124,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.03574469638988376,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t195",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 195,
+      "label": null,
+      "probability": {
+        "original": 0.5020170384282172,
+        "reversed": 0.547497136557128,
+        "symmetric": 0.5248085288076046,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03772668307647109,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t210",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.5238343316340183,
+        "reversed": 0.547497136557128,
+        "symmetric": 0.5356858178434418,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.033354151993989944,
+      "order_invariant": true
+    },
+    {
+      "id": "t00_s00_h50_smol70_t225",
+      "task": 0,
+      "state": 0,
+      "horizon": 50,
+      "tick": 225,
+      "label": null,
+      "probability": {
+        "original": 0.5190726686194412,
+        "reversed": 0.5057987569354769,
+        "symmetric": 0.5124379056525054,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03430744772776961,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h100_smol70_t030",
+      "task": 1,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": "replan",
+      "probability": {
+        "original": 0.5578815901442937,
+        "reversed": 0.5973523335755081,
+        "symmetric": 0.5777410733227027,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.030830402858555317,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h100_smol70_t060",
+      "task": 1,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.5526951096444207,
+        "reversed": 0.5614164058123345,
+        "symmetric": 0.5570601550450202,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.034863827750086784,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h100_smol70_t090",
+      "task": 1,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": "continue",
+      "probability": {
+        "original": 0.5192964552701993,
+        "reversed": 0.5410329053570684,
+        "symmetric": 0.5301789911910922,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.033522811252623796,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h200_smol70_t060",
+      "task": 1,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.6413357396869831,
+        "reversed": 0.5922286396922349,
+        "symmetric": 0.6170808662185042,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03343423688784242,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h200_smol70_t120",
+      "task": 1,
+      "state": 0,
+      "horizon": 200,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5665810631233228,
+        "reversed": 0.577116095945178,
+        "symmetric": 0.5718567228599144,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.034787547774612904,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h200_smol70_t180",
+      "task": 1,
+      "state": 0,
+      "horizon": 200,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.58663070176086,
+        "reversed": 0.5641894132585445,
+        "symmetric": 0.5754489393477116,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03651873115450144,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t015",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": "continue",
+      "probability": {
+        "original": 0.48131098339374034,
+        "reversed": 0.5413985950478456,
+        "symmetric": 0.5113959558672518,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 15
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.035598370246589184,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t030",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.46764442063237344,
+        "reversed": 0.5246967451391029,
+        "symmetric": 0.496158076813766,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 13
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 14
+        }
+      },
+      "symmetric_sdk_seconds": 0.03103920118883252,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t045",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": null,
+      "probability": {
+        "original": 0.47185512479202435,
+        "reversed": 0.5099878680750741,
+        "symmetric": 0.49090827172968765,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 13
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 12
+        }
+      },
+      "symmetric_sdk_seconds": 0.035706008318811655,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t060",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.5306973337295272,
+        "reversed": 0.5255909442538318,
+        "symmetric": 0.5281448752079756,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 11
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 12
+        }
+      },
+      "symmetric_sdk_seconds": 0.033597531728446484,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t075",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": null,
+      "probability": {
+        "original": 0.5240579341775902,
+        "reversed": 0.49641419593032765,
+        "symmetric": 0.5102438964812295,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "continue",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 11
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 10
+        }
+      },
+      "symmetric_sdk_seconds": 0.03599518211558461,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t090",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.4878360710384227,
+        "reversed": 0.5472433022977451,
+        "symmetric": 0.5176018843846928,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 9
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 10
+        }
+      },
+      "symmetric_sdk_seconds": 0.03072321694344282,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t105",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": null,
+      "probability": {
+        "original": 0.508963703393893,
+        "reversed": 0.5081955300323188,
+        "symmetric": 0.5085796217773487,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 9
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 8
+        }
+      },
+      "symmetric_sdk_seconds": 0.03351192222908139,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t120",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5447830302537277,
+        "reversed": 0.5198399047257529,
+        "symmetric": 0.5323316673539634,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 7
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 8
+        }
+      },
+      "symmetric_sdk_seconds": 0.03269180515781045,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t135",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 135,
+      "label": null,
+      "probability": {
+        "original": 0.4959019597134566,
+        "reversed": 0.5380899138715807,
+        "symmetric": 0.5170262756752357,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.035464861895889044,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t150",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.48822005063411694,
+        "reversed": 0.5535814504601999,
+        "symmetric": 0.5209905823217064,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.031021473929286003,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t165",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 165,
+      "label": null,
+      "probability": {
+        "original": 0.5404286257330528,
+        "reversed": 0.5342361832205275,
+        "symmetric": 0.5373338441193068,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.03344152169302106,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t180",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5111399527012054,
+        "reversed": 0.4941092077548046,
+        "symmetric": 0.5026253417195752,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "continue",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.0359138292260468,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t195",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 195,
+      "label": null,
+      "probability": {
+        "original": 0.492380625584789,
+        "reversed": 0.5636855233797529,
+        "symmetric": 0.528176790303633,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.030971490778028965,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t210",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.5216936653345166,
+        "reversed": 0.5947004669147109,
+        "symmetric": 0.5585132481091976,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.0320183034054935,
+      "order_invariant": true
+    },
+    {
+      "id": "t01_s00_h50_smol70_t225",
+      "task": 1,
+      "state": 0,
+      "horizon": 50,
+      "tick": 225,
+      "label": null,
+      "probability": {
+        "original": 0.48134495365106633,
+        "reversed": 0.5175379301402049,
+        "symmetric": 0.4994407092621386,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03362948028370738,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h100_smol70_t030",
+      "task": 2,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.553775292311691,
+        "reversed": 0.6076573518550307,
+        "symmetric": 0.5809576731155536,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.033860416151583195,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h100_smol70_t060",
+      "task": 2,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.49846320531941885,
+        "reversed": 0.5797081166736529,
+        "symmetric": 0.5393469876395599,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.0360749801620841,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h100_smol70_t090",
+      "task": 2,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.554372538598044,
+        "reversed": 0.5874573103318242,
+        "symmetric": 0.570994232013313,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.035285319201648235,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h100_smol70_t120",
+      "task": 2,
+      "state": 0,
+      "horizon": 100,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5336306686702934,
+        "reversed": 0.6038649364181824,
+        "symmetric": 0.5690952406934668,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03287401795387268,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h100_smol70_t150",
+      "task": 2,
+      "state": 0,
+      "horizon": 100,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.5330529472651004,
+        "reversed": 0.5911766904893374,
+        "symmetric": 0.5623287004604193,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.030849518720060587,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h100_smol70_t180",
+      "task": 2,
+      "state": 0,
+      "horizon": 100,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5168983564386793,
+        "reversed": 0.5919193301375105,
+        "symmetric": 0.5547205303690802,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03453919617459178,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h100_smol70_t210",
+      "task": 2,
+      "state": 0,
+      "horizon": 100,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.5074273179695747,
+        "reversed": 0.5754900038437779,
+        "symmetric": 0.5416529616007384,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.034619313664734364,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h200_smol70_t060",
+      "task": 2,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.512547894201682,
+        "reversed": 0.5700685350878516,
+        "symmetric": 0.5414462904241254,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.033359908033162355,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h200_smol70_t120",
+      "task": 2,
+      "state": 0,
+      "horizon": 200,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5266126848299922,
+        "reversed": 0.5868985300702922,
+        "symmetric": 0.5569653538994291,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03520459355786443,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h200_smol70_t180",
+      "task": 2,
+      "state": 0,
+      "horizon": 200,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5492732774314315,
+        "reversed": 0.5455292848001521,
+        "symmetric": 0.5474019515977989,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.031279885210096836,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t015",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": null,
+      "probability": {
+        "original": 0.5406353664417326,
+        "reversed": 0.5553531050051503,
+        "symmetric": 0.5480047308368424,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 15
+        }
+      },
+      "symmetric_sdk_seconds": 0.03244646638631821,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t030",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.5407625845460601,
+        "reversed": 0.578521944887564,
+        "symmetric": 0.5597286550096787,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 13
+        }
+      },
+      "symmetric_sdk_seconds": 0.03233283665031195,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t045",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": null,
+      "probability": {
+        "original": 0.5199038368942158,
+        "reversed": 0.5674614221021553,
+        "symmetric": 0.5437824166206232,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 13
+        }
+      },
+      "symmetric_sdk_seconds": 0.0332108112052083,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t060",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.5135717278840908,
+        "reversed": 0.5541510615097047,
+        "symmetric": 0.5339175038146196,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 11
+        }
+      },
+      "symmetric_sdk_seconds": 0.031144352164119482,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t075",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": null,
+      "probability": {
+        "original": 0.5040980402865435,
+        "reversed": 0.5417801367444143,
+        "symmetric": 0.5229717759669034,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 11
+        }
+      },
+      "symmetric_sdk_seconds": 0.03232303587719798,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t090",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.5235468286211944,
+        "reversed": 0.5598391112715849,
+        "symmetric": 0.5417483434681976,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.030918222852051258,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t105",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": null,
+      "probability": {
+        "original": 0.5153631576401604,
+        "reversed": 0.5405081430409161,
+        "symmetric": 0.5279533798116018,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.031154765747487545,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t120",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5160028607086891,
+        "reversed": 0.5655744240243352,
+        "symmetric": 0.540889797337538,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.033406158443540335,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t135",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 135,
+      "label": null,
+      "probability": {
+        "original": 0.49974386676907956,
+        "reversed": 0.5646774302023054,
+        "symmetric": 0.532347608712914,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.035017524380236864,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t150",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.4892440629629166,
+        "reversed": 0.5354787635211729,
+        "symmetric": 0.5123879104586048,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.031086184084415436,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t165",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 165,
+      "label": null,
+      "probability": {
+        "original": 0.5149793114986605,
+        "reversed": 0.5560487298850854,
+        "symmetric": 0.5355743285785738,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03328304784372449,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t180",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5102438964812295,
+        "reversed": 0.5042260980386054,
+        "symmetric": 0.5072352593317364,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03121682908385992,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t195",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 195,
+      "label": null,
+      "probability": {
+        "original": 0.5148833471842464,
+        "reversed": 0.5622361108318186,
+        "symmetric": 0.5386469060053207,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03448712406679988,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t210",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.4709137272941598,
+        "reversed": 0.5382172347936225,
+        "symmetric": 0.5045862574392237,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.033447961788624525,
+      "order_invariant": true
+    },
+    {
+      "id": "t02_s00_h50_smol70_t225",
+      "task": 2,
+      "state": 0,
+      "horizon": 50,
+      "tick": 225,
+      "label": null,
+      "probability": {
+        "original": 0.48700416509919053,
+        "reversed": 0.5151392495646347,
+        "symmetric": 0.5010725563531684,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.032455405220389366,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h100_smol70_t030",
+      "task": 3,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.6307227109468553,
+        "reversed": 0.5924141903713198,
+        "symmetric": 0.6117410420470321,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.032211209181696177,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h100_smol70_t060",
+      "task": 3,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.571731296650133,
+        "reversed": 0.5653226793771975,
+        "symmetric": 0.5685298564428252,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03734954306855798,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h200_smol70_t060",
+      "task": 3,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": "replan",
+      "probability": {
+        "original": 0.5932797443353501,
+        "reversed": 0.5694720635712107,
+        "symmetric": 0.5814233116204476,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.036306386813521385,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h50_smol70_t015",
+      "task": 3,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": "continue",
+      "probability": {
+        "original": 0.5727344469267981,
+        "reversed": 0.5355424738493487,
+        "symmetric": 0.5542143428758505,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.034851436503231525,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h50_smol70_t030",
+      "task": 3,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.5240579341775902,
+        "reversed": 0.5061468883777352,
+        "symmetric": 0.5151072621984657,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.0333438073284924,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h50_smol70_t045",
+      "task": 3,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": "continue",
+      "probability": {
+        "original": 0.5449577037274712,
+        "reversed": 0.5314627643343423,
+        "symmetric": 0.5382172347936225,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.034296969417482615,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h50_smol70_t060",
+      "task": 3,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.5462277208220824,
+        "reversed": 0.5455292848001521,
+        "symmetric": 0.5458785253812788,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.032577498350292444,
+      "order_invariant": true
+    },
+    {
+      "id": "t03_s00_h50_smol70_t075",
+      "task": 3,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": "continue",
+      "probability": {
+        "original": 0.5738622759782643,
+        "reversed": 0.543560009745929,
+        "symmetric": 0.5587658584004137,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.0345760858617723,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h100_smol70_t030",
+      "task": 4,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.4715359842314435,
+        "reversed": 0.5601546679064289,
+        "symmetric": 0.5159708767832993,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.03456290205940604,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h100_smol70_t060",
+      "task": 4,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.5264849792702059,
+        "reversed": 0.5545702677568959,
+        "symmetric": 0.5405598281852351,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.035471281968057156,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h100_smol70_t090",
+      "task": 4,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.4465609743482356,
+        "reversed": 0.5612902674763274,
+        "symmetric": 0.5039779856553617,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.03628626512363553,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h100_smol70_t120",
+      "task": 4,
+      "state": 0,
+      "horizon": 100,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.4824620698597952,
+        "reversed": 0.5553531050051503,
+        "symmetric": 0.5190087281668465,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.033632207196205854,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h100_smol70_t150",
+      "task": 4,
+      "state": 0,
+      "horizon": 100,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.4765170630632402,
+        "reversed": 0.5259102616079477,
+        "symmetric": 0.5012166305521597,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.035986504051834345,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h100_smol70_t180",
+      "task": 4,
+      "state": 0,
+      "horizon": 100,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5314946540886067,
+        "reversed": 0.5601546679064289,
+        "symmetric": 0.5458626517861397,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03387235291302204,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h100_smol70_t210",
+      "task": 4,
+      "state": 0,
+      "horizon": 100,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.4834214513053242,
+        "reversed": 0.556870548604096,
+        "symmetric": 0.5202554521129237,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03461580816656351,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h200_smol70_t060",
+      "task": 4,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.5262295577713386,
+        "reversed": 0.5581026918413808,
+        "symmetric": 0.5422093125695384,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03486759727820754,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h200_smol70_t120",
+      "task": 4,
+      "state": 0,
+      "horizon": 200,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.4648398054473233,
+        "reversed": 0.5552266043615389,
+        "symmetric": 0.5101158829415249,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03736219322308898,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h200_smol70_t180",
+      "task": 4,
+      "state": 0,
+      "horizon": 200,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5406154881340732,
+        "reversed": 0.5665810631233228,
+        "symmetric": 0.5536348574969757,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.0335361291654408,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t015",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": "replan",
+      "probability": {
+        "original": 0.509731834429039,
+        "reversed": 0.5245689893452664,
+        "symmetric": 0.517154192680391,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 9
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 14
+        }
+      },
+      "symmetric_sdk_seconds": 0.03455258393660188,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t030",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.4622204516591442,
+        "reversed": 0.5059548165733839,
+        "symmetric": 0.48405710925875217,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 8
+        }
+      },
+      "symmetric_sdk_seconds": 0.033510154113173485,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t045",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": "continue",
+      "probability": {
+        "original": 0.4576476427098015,
+        "reversed": 0.5151712368067679,
+        "symmetric": 0.48636428620299815,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 7
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.03351868083700538,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t060",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.4663693313297066,
+        "reversed": 0.4971825640335299,
+        "symmetric": 0.4817586052317495,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.03727855393663049,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t075",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": "continue",
+      "probability": {
+        "original": 0.5087076501306288,
+        "reversed": 0.5139556366154598,
+        "symmetric": 0.5113319556309259,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 5
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03587990812957287,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t090",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": "continue",
+      "probability": {
+        "original": 0.5019209899480652,
+        "reversed": 0.5285278410970036,
+        "symmetric": 0.5152352109178795,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.036956575233489275,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t105",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": "continue",
+      "probability": {
+        "original": 0.5300593643949704,
+        "reversed": 0.5275065253246245,
+        "symmetric": 0.5287831330627877,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03491947799921036,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t120",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 120,
+      "label": "continue",
+      "probability": {
+        "original": 0.5121639289615774,
+        "reversed": 0.5282087051689595,
+        "symmetric": 0.5201915235554813,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03330796118825674,
+      "order_invariant": true
+    },
+    {
+      "id": "t04_s00_h50_smol70_t135",
+      "task": 4,
+      "state": 0,
+      "horizon": 50,
+      "tick": 135,
+      "label": "continue",
+      "probability": {
+        "original": 0.49257268203042537,
+        "reversed": 0.5268680854871989,
+        "symmetric": 0.509731834429039,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03489928646013141,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h100_smol70_t030",
+      "task": 5,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.5174100199295987,
+        "reversed": 0.5397446923262669,
+        "symmetric": 0.5285916654927233,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.03646801318973303,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h100_smol70_t060",
+      "task": 5,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.495261676665733,
+        "reversed": 0.5238023876313866,
+        "symmetric": 0.5095398058365821,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03599269641563296,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h100_smol70_t090",
+      "task": 5,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.4460071495813072,
+        "reversed": 0.47300421944860405,
+        "symmetric": 0.45947595374488936,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03743328992277384,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h100_smol70_t120",
+      "task": 5,
+      "state": 0,
+      "horizon": 100,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.4962221064091325,
+        "reversed": 0.49775884904259754,
+        "symmetric": 0.4969904706183693,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03648019069805741,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h100_smol70_t150",
+      "task": 5,
+      "state": 0,
+      "horizon": 100,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.5116519530554218,
+        "reversed": 0.5376442516235331,
+        "symmetric": 0.5246648064930421,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03365001082420349,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h100_smol70_t180",
+      "task": 5,
+      "state": 0,
+      "horizon": 100,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.48361334248701904,
+        "reversed": 0.5642523901952056,
+        "symmetric": 0.5240898766128572,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.033379131462424994,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h100_smol70_t210",
+      "task": 5,
+      "state": 0,
+      "horizon": 100,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.4707063283071848,
+        "reversed": 0.531590321806878,
+        "symmetric": 0.5011525975983505,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.034214542247354984,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h200_smol70_t060",
+      "task": 5,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.4776033375938622,
+        "reversed": 0.4827178925625802,
+        "symmetric": 0.4801600952742471,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.035342101007699966,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h200_smol70_t120",
+      "task": 5,
+      "state": 0,
+      "horizon": 200,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.4948775141625425,
+        "reversed": 0.5619208796306994,
+        "symmetric": 0.5285278410970036,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.033263593446463346,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h200_smol70_t180",
+      "task": 5,
+      "state": 0,
+      "horizon": 200,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.4928287606915723,
+        "reversed": 0.554340900333826,
+        "symmetric": 0.5236746096759632,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.0357323307543993,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t015",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": null,
+      "probability": {
+        "original": 0.48847604478304457,
+        "reversed": 0.4932128856968208,
+        "symmetric": 0.4908442597376232,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 15
+        }
+      },
+      "symmetric_sdk_seconds": 0.03350388444960117,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t030",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.5278895461819165,
+        "reversed": 0.5245689893452664,
+        "symmetric": 0.5262295577713386,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 13
+        }
+      },
+      "symmetric_sdk_seconds": 0.03502573259174824,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t045",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": null,
+      "probability": {
+        "original": 0.44275025513991834,
+        "reversed": 0.47140833450727665,
+        "symmetric": 0.4570437533676526,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 13
+        }
+      },
+      "symmetric_sdk_seconds": 0.03494844026863575,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t060",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.4391828217007481,
+        "reversed": 0.5273788444870615,
+        "symmetric": 0.4831496138468987,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 11
+        }
+      },
+      "symmetric_sdk_seconds": 0.03315504128113389,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t075",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": null,
+      "probability": {
+        "original": 0.43197089336769406,
+        "reversed": 0.5133157798048547,
+        "symmetric": 0.4724605575421818,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 11
+        }
+      },
+      "symmetric_sdk_seconds": 0.032921751495450735,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t090",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.4399715489274522,
+        "reversed": 0.4869401752579968,
+        "symmetric": 0.4633746297271048,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.03576608235016465,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t105",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": null,
+      "probability": {
+        "original": 0.4302767658478158,
+        "reversed": 0.4579416866296239,
+        "symmetric": 0.4440658750790802,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.03849052218720317,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t120",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.46890398624582497,
+        "reversed": 0.5000960499688154,
+        "symmetric": 0.4844849082441654,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.03341809194535017,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t135",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 135,
+      "label": null,
+      "probability": {
+        "original": 0.45262977749276984,
+        "reversed": 0.49871933653393885,
+        "symmetric": 0.4756226503700556,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.03434098418802023,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t150",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.504354155236207,
+        "reversed": 0.4948775141625425,
+        "symmetric": 0.49961580019562785,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.035951178055256605,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t165",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 165,
+      "label": null,
+      "probability": {
+        "original": 0.5046102679008359,
+        "reversed": 0.504354155236207,
+        "symmetric": 0.5044822118625499,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03428756818175316,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t180",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5275065253246245,
+        "reversed": 0.5289745921636814,
+        "symmetric": 0.528240619803696,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03906926978379488,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t195",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 195,
+      "label": null,
+      "probability": {
+        "original": 0.45656708770144155,
+        "reversed": 0.5112679550230788,
+        "symmetric": 0.4838692049033417,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03346300823614001,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t210",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.4959019597134566,
+        "reversed": 0.5375805806604281,
+        "symmetric": 0.5167704349874478,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03609679453074932,
+      "order_invariant": true
+    },
+    {
+      "id": "t05_s00_h50_smol70_t225",
+      "task": 5,
+      "state": 0,
+      "horizon": 50,
+      "tick": 225,
+      "label": null,
+      "probability": {
+        "original": 0.4920605365341794,
+        "reversed": 0.4994877336725864,
+        "symmetric": 0.4957739019613946,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "continue",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.0357292122207582,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h100_smol70_t030",
+      "task": 6,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.5230356737417655,
+        "reversed": 0.5667068545599617,
+        "symmetric": 0.5449577037274712,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03420280618593097,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h100_smol70_t060",
+      "task": 6,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": "replan",
+      "probability": {
+        "original": 0.5056346930213974,
+        "reversed": 0.532228046913305,
+        "symmetric": 0.5189447870916264,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03844888461753726,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h100_smol70_t090",
+      "task": 6,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": "continue",
+      "probability": {
+        "original": 0.5207348950059554,
+        "reversed": 0.4976948170528681,
+        "symmetric": 0.5092197519542142,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "continue",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03488451521843672,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h200_smol70_t060",
+      "task": 6,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": "replan",
+      "probability": {
+        "original": 0.5807374673995485,
+        "reversed": 0.5215019238282816,
+        "symmetric": 0.5513016135976977,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.036225996911525726,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h50_smol70_t015",
+      "task": 6,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": "continue",
+      "probability": {
+        "original": 0.5444495321474593,
+        "reversed": 0.5469894434648392,
+        "symmetric": 0.5457197852381901,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 7
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.034565006382763386,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h50_smol70_t030",
+      "task": 6,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.45860140495215435,
+        "reversed": 0.5056346930213974,
+        "symmetric": 0.4820783530846206,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.03418132523074746,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h50_smol70_t045",
+      "task": 6,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": "continue",
+      "probability": {
+        "original": 0.4779867797213916,
+        "reversed": 0.5051224858374574,
+        "symmetric": 0.491548407701319,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 5
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.030707606114447117,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h50_smol70_t060",
+      "task": 6,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.560911805005736,
+        "reversed": 0.5343317816049722,
+        "symmetric": 0.5476557704328973,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 3
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.03570866398513317,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h50_smol70_t075",
+      "task": 6,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": "continue",
+      "probability": {
+        "original": 0.495645844763793,
+        "reversed": 0.535223910649863,
+        "symmetric": 0.515459116361182,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.034748129080981016,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h50_smol70_t090",
+      "task": 6,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": "continue",
+      "probability": {
+        "original": 0.5352876255973644,
+        "reversed": 0.49667031692874397,
+        "symmetric": 0.5160028607086891,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "continue",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03315384592860937,
+      "order_invariant": true
+    },
+    {
+      "id": "t06_s00_h50_smol70_t105",
+      "task": 6,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": "continue",
+      "probability": {
+        "original": 0.5677128752596524,
+        "reversed": 0.4897561035187705,
+        "symmetric": 0.5289107734078567,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "continue",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.036016866099089384,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h100_smol70_t030",
+      "task": 7,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": "replan",
+      "probability": {
+        "original": 0.5845989846009887,
+        "reversed": 0.6592152936803838,
+        "symmetric": 0.6226333380723251,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03282672446221113,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h100_smol70_t060",
+      "task": 7,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": "replan",
+      "probability": {
+        "original": 0.5343955124606408,
+        "reversed": 0.6278546304714382,
+        "symmetric": 0.5818595942992726,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03870486980304122,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h100_smol70_t090",
+      "task": 7,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": "continue",
+      "probability": {
+        "original": 0.5335828606458151,
+        "reversed": 0.5692208572328487,
+        "symmetric": 0.5514679257748514,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.034855800680816174,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h200_smol70_t060",
+      "task": 7,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": "replan",
+      "probability": {
+        "original": 0.5621730686034008,
+        "reversed": 0.6101314992485024,
+        "symmetric": 0.586356998152367,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03322368115186691,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h50_smol70_t015",
+      "task": 7,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": "continue",
+      "probability": {
+        "original": 0.5741128007723783,
+        "reversed": 0.6045999432005934,
+        "symmetric": 0.5894422509645248,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.03209062106907368,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h50_smol70_t030",
+      "task": 7,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.5346504246336418,
+        "reversed": 0.5947622016815513,
+        "symmetric": 0.5649449992611857,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 5
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.0320874098688364,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h50_smol70_t045",
+      "task": 7,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": "continue",
+      "probability": {
+        "original": 0.5507946868258843,
+        "reversed": 0.5715901811464519,
+        "symmetric": 0.5612193111804168,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 3
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 4
+        }
+      },
+      "symmetric_sdk_seconds": 0.033645196817815304,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h50_smol70_t060",
+      "task": 7,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.5153631576401604,
+        "reversed": 0.5877366160735861,
+        "symmetric": 0.5518242702071569,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03356190398335457,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h50_smol70_t075",
+      "task": 7,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": "continue",
+      "probability": {
+        "original": 0.5071712393084278,
+        "reversed": 0.5940752340341178,
+        "symmetric": 0.5510125199143073,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03440544893965125,
+      "order_invariant": true
+    },
+    {
+      "id": "t07_s00_h50_smol70_t090",
+      "task": 7,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": "continue",
+      "probability": {
+        "original": 0.5277618761886504,
+        "reversed": 0.5602177734073995,
+        "symmetric": 0.5440365745237361,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.035680961795151234,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h100_smol70_t030",
+      "task": 8,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.5405081430409161,
+        "reversed": 0.5509214284529841,
+        "symmetric": 0.5457197852381901,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.03443056624382734,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h100_smol70_t060",
+      "task": 8,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.5877676465613073,
+        "reversed": 0.5909290512612818,
+        "symmetric": 0.5893492713674146,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03723686095327139,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h100_smol70_t090",
+      "task": 8,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.5478778415872877,
+        "reversed": 0.5688439809519817,
+        "symmetric": 0.5583869315972088,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.036565948743373156,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h100_smol70_t120",
+      "task": 8,
+      "state": 0,
+      "horizon": 100,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5759279601841085,
+        "reversed": 0.5747389460540201,
+        "symmetric": 0.5753335620960723,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03522403538227081,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h100_smol70_t150",
+      "task": 8,
+      "state": 0,
+      "horizon": 100,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.507619374415211,
+        "reversed": 0.551174891854999,
+        "symmetric": 0.5294532024961032,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03497377596795559,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h100_smol70_t180",
+      "task": 8,
+      "state": 0,
+      "horizon": 100,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5731418063999377,
+        "reversed": 0.5769910707759763,
+        "symmetric": 0.5750675765007524,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03522577974945307,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h100_smol70_t210",
+      "task": 8,
+      "state": 0,
+      "horizon": 100,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.5025613101289145,
+        "reversed": 0.5480047308368424,
+        "symmetric": 0.5253354752877823,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03259254526346922,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h200_smol70_t060",
+      "task": 8,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.5497171183129623,
+        "reversed": 0.574238048911244,
+        "symmetric": 0.5620154542522159,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.03546607866883278,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h200_smol70_t120",
+      "task": 8,
+      "state": 0,
+      "horizon": 200,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5015367946805812,
+        "reversed": 0.5309684404404125,
+        "symmetric": 0.5162667230668547,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.033729253336787224,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h200_smol70_t180",
+      "task": 8,
+      "state": 0,
+      "horizon": 200,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5857026112547246,
+        "reversed": 0.5341405823211358,
+        "symmetric": 0.560083671893483,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.032234955579042435,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t015",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": null,
+      "probability": {
+        "original": 0.5520618036232852,
+        "reversed": 0.5571233535000147,
+        "symmetric": 0.5545939940964538,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 15
+        }
+      },
+      "symmetric_sdk_seconds": 0.03111735126003623,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t030",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": null,
+      "probability": {
+        "original": 0.5259741225441955,
+        "reversed": 0.5257825371946425,
+        "symmetric": 0.525878330821833,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 13
+        }
+      },
+      "symmetric_sdk_seconds": 0.03228849172592163,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t045",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": null,
+      "probability": {
+        "original": 0.5440683426518479,
+        "reversed": 0.5559855002967805,
+        "symmetric": 0.5500340991133543,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 13
+        }
+      },
+      "symmetric_sdk_seconds": 0.03350020991638303,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t060",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.5617159525222467,
+        "reversed": 0.5514124896595454,
+        "symmetric": 0.5565703045351873,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 8
+        }
+      },
+      "symmetric_sdk_seconds": 0.035036091692745686,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t075",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": null,
+      "probability": {
+        "original": 0.5169623163348374,
+        "reversed": 0.5415257810297684,
+        "symmetric": 0.5292617648129245,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 11
+        }
+      },
+      "symmetric_sdk_seconds": 0.030683382879942656,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t090",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.5073312889211394,
+        "reversed": 0.542527180241677,
+        "symmetric": 0.5249602312363352,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.03650106629356742,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t105",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": null,
+      "probability": {
+        "original": 0.5308887050627703,
+        "reversed": 0.521853445042406,
+        "symmetric": 0.526373234062193,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.03638021508231759,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t120",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.5243134681266073,
+        "reversed": 0.5670841772270954,
+        "symmetric": 0.5457832824125772,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.034104933962225914,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t135",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 135,
+      "label": null,
+      "probability": {
+        "original": 0.5364342957099809,
+        "reversed": 0.5101478864514889,
+        "symmetric": 0.5233072308477791,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.03516701003536582,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t150",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.5394901671249146,
+        "reversed": 0.538917410315692,
+        "symmetric": 0.5392038016606788,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03219845099374652,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t165",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 165,
+      "label": null,
+      "probability": {
+        "original": 0.5422093125695384,
+        "reversed": 0.5100978809307132,
+        "symmetric": 0.5261806669306693,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03196096606552601,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t180",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5292936716928152,
+        "reversed": 0.541215755751905,
+        "symmetric": 0.5352597504494296,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03342610225081444,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t195",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 195,
+      "label": null,
+      "probability": {
+        "original": 0.5534073745021683,
+        "reversed": 0.5663294545223984,
+        "symmetric": 0.5598785585011659,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.033495721872895956,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t210",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.5067871143031792,
+        "reversed": 0.5509847967880316,
+        "symmetric": 0.5289426829040441,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03618813119828701,
+      "order_invariant": true
+    },
+    {
+      "id": "t08_s00_h50_smol70_t225",
+      "task": 8,
+      "state": 0,
+      "horizon": 50,
+      "tick": 225,
+      "label": null,
+      "probability": {
+        "original": 0.5195522019569467,
+        "reversed": 0.5691580500757231,
+        "symmetric": 0.544465413916066,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.034885330591350794,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h100_smol70_t030",
+      "task": 9,
+      "state": 0,
+      "horizon": 100,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.47325961309213926,
+        "reversed": 0.5241857027350708,
+        "symmetric": 0.4987193365339388,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.031946899835020304,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h100_smol70_t060",
+      "task": 9,
+      "state": 0,
+      "horizon": 100,
+      "tick": 60,
+      "label": "replan",
+      "probability": {
+        "original": 0.5087076501306288,
+        "reversed": 0.5558590356819109,
+        "symmetric": 0.5323555793676266,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.03562287241220474,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h100_smol70_t090",
+      "task": 9,
+      "state": 0,
+      "horizon": 100,
+      "tick": 90,
+      "label": "continue",
+      "probability": {
+        "original": 0.49743868987108547,
+        "reversed": 0.5434329122985584,
+        "symmetric": 0.5204791968265443,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.037701813504099846,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h100_smol70_t120",
+      "task": 9,
+      "state": 0,
+      "horizon": 100,
+      "tick": 120,
+      "label": "continue",
+      "probability": {
+        "original": 0.5065310264865486,
+        "reversed": 0.5254472446002164,
+        "symmetric": 0.5159948647396219,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03616592986509204,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h200_smol70_t060",
+      "task": 9,
+      "state": 0,
+      "horizon": 200,
+      "tick": 60,
+      "label": "continue",
+      "probability": {
+        "original": 0.5292936716928152,
+        "reversed": 0.5678272945482069,
+        "symmetric": 0.54863338459385,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.032564239110797644,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h200_smol70_t120",
+      "task": 9,
+      "state": 0,
+      "horizon": 200,
+      "tick": 120,
+      "label": "continue",
+      "probability": {
+        "original": 0.48386920490334173,
+        "reversed": 0.5094757956773427,
+        "symmetric": 0.49667031692874397,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        }
+      },
+      "symmetric_sdk_seconds": 0.0349614261649549,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h200_smol70_t180",
+      "task": 9,
+      "state": 0,
+      "horizon": 200,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.5277618761886504,
+        "reversed": 0.532483107594399,
+        "symmetric": 0.5301231657835906,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        }
+      },
+      "symmetric_sdk_seconds": 0.03595580207183957,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t015",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 15,
+      "label": "continue",
+      "probability": {
+        "original": 0.43971912303824967,
+        "reversed": 0.5426702094138838,
+        "symmetric": 0.49110030948626654,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "vla_calls": 7
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 15
+        }
+      },
+      "symmetric_sdk_seconds": 0.03535706223919988,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t030",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 30,
+      "label": "continue",
+      "probability": {
+        "original": 0.44117099377436,
+        "reversed": 0.5130598247420032,
+        "symmetric": 0.4769962750515438,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 14
+        },
+        "continue": {
+          "success": true,
+          "vla_calls": 6
+        }
+      },
+      "symmetric_sdk_seconds": 0.033323238138109446,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t045",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 45,
+      "label": null,
+      "probability": {
+        "original": 0.5245689893452664,
+        "reversed": 0.5321005102479586,
+        "symmetric": 0.5283363623217728,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 13
+        }
+      },
+      "symmetric_sdk_seconds": 0.03242608020082116,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t060",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 60,
+      "label": null,
+      "probability": {
+        "original": 0.502305182947132,
+        "reversed": 0.5081955300323188,
+        "symmetric": 0.505250538683497,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 12
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 11
+        }
+      },
+      "symmetric_sdk_seconds": 0.03469056123867631,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t075",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 75,
+      "label": null,
+      "probability": {
+        "original": 0.4115188452159763,
+        "reversed": 0.5352876255973644,
+        "symmetric": 0.47298825781356507,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 11
+        }
+      },
+      "symmetric_sdk_seconds": 0.03135278495028615,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t090",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 90,
+      "label": null,
+      "probability": {
+        "original": 0.4302767658478158,
+        "reversed": 0.5328656667442162,
+        "symmetric": 0.4813749275507609,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 10
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.032402098178863525,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t105",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 105,
+      "label": null,
+      "probability": {
+        "original": 0.46713433325578374,
+        "reversed": 0.5425430727185697,
+        "symmetric": 0.5048663781460457,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 9
+        }
+      },
+      "symmetric_sdk_seconds": 0.03319907607510686,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t120",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 120,
+      "label": null,
+      "probability": {
+        "original": 0.4642026964583012,
+        "reversed": 0.5232912572802375,
+        "symmetric": 0.4937250647572011,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 8
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.03243572264909744,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t135",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 135,
+      "label": null,
+      "probability": {
+        "original": 0.4663693313297066,
+        "reversed": 0.5273788444870615,
+        "symmetric": 0.4968624088316723,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 7
+        }
+      },
+      "symmetric_sdk_seconds": 0.031294465996325016,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t150",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 150,
+      "label": null,
+      "probability": {
+        "original": 0.5051224858374574,
+        "reversed": 0.5587658584004137,
+        "symmetric": 0.5320367403413152,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 6
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.03332102857530117,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t165",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 165,
+      "label": null,
+      "probability": {
+        "original": 0.4971825640335299,
+        "reversed": 0.5198399047257529,
+        "symmetric": 0.5085156071776393,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 5
+        }
+      },
+      "symmetric_sdk_seconds": 0.030719444155693054,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t180",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 180,
+      "label": null,
+      "probability": {
+        "original": 0.4994877336725864,
+        "reversed": 0.5239301624708125,
+        "symmetric": 0.5117159514027009,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 4
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.031219856813549995,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t195",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 195,
+      "label": null,
+      "probability": {
+        "original": 0.5102438964812295,
+        "reversed": 0.5262934144382747,
+        "symmetric": 0.5182733687362018,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 3
+        }
+      },
+      "symmetric_sdk_seconds": 0.036303477827459574,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t210",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 210,
+      "label": null,
+      "probability": {
+        "original": 0.5469894434648392,
+        "reversed": 0.563181501972775,
+        "symmetric": 0.5551000965601316,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "replan",
+        "reversed": "replan",
+        "symmetric": "replan",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "vla_calls": 2
+        },
+        "continue": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03186328988522291,
+      "order_invariant": true
+    },
+    {
+      "id": "t09_s00_h50_smol70_t225",
+      "task": 9,
+      "state": 0,
+      "horizon": 50,
+      "tick": 225,
+      "label": null,
+      "probability": {
+        "original": 0.4329757568643642,
+        "reversed": 0.5253354752877823,
+        "symmetric": 0.47897595940679644,
+        "always_replan": 1.0,
+        "always_continue": 0.0
+      },
+      "choices": {
+        "original": "continue",
+        "reversed": "replan",
+        "symmetric": "continue",
+        "always_replan": "replan",
+        "always_continue": "continue"
+      },
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "vla_calls": 0
+        },
+        "replan": {
+          "success": false,
+          "vla_calls": 1
+        }
+      },
+      "symmetric_sdk_seconds": 0.03461540397256613,
+      "order_invariant": true
+    }
+  ],
+  "source_sha256": {
+    "raw/scores_window_train_v1/data/scores.jsonl": "549ac4cf646d4b5196944da26f9a677e18208eecefa4517a64bfee9c9e60208c",
+    "fixtures/choice_order_audit_v1.json": "9b384b025242d99d12d3e4066df156e1c121d1d008d645bec10f9c5bc42f445a",
+    "raw/choice_order_audit_v1/data/decisions.jsonl": "1c9656b2e28c7f658f2534565eb43fdbd13743df03cb8c8559e3d997c666b1e7",
+    "analysis/first_intervention_development.json": "c7bdb88bef9ec0ebefbbb75a508e4f27744afd3c173f26aeee90b93dc0c49c73",
+    "ORDER_ENSEMBLE_DEVELOPMENT.md": "dbca1b5d5b51fa4c3f604d22607795b9f4015f894bdacd2a04a6bef2fffef744"
+  },
+  "interpretation": "State0 exploratory branch selection, not independent validation or measured full-controller speedup. Paired branches use a fixed-noise realization. No deployment IPC fees are available for this ensemble."
+}

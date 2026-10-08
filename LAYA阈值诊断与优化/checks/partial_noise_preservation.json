@@ -1,0 +1,19 @@
+{
+  "run": "noise_d4_s41_v1",
+  "planned_episodes": 210,
+  "complete_json_records": 199,
+  "unique_episode_keys": 199,
+  "supervisor_status": "failed",
+  "end_weight_hash_available": false,
+  "complete_cohort_or_shard_audit_passed": false,
+  "included_in_effectiveness_analysis": false,
+  "metrics_sha256": {
+    "raw/noise_d4_s41_v1/supervisor.json": "4d073a14bae50c3b89dea8948889987b2c2acbc496d404f6b9df42a5430ac955",
+    "raw/noise_d4_s41_v1/data/manifest.json": "c67e6ab046b123c4b7c3524674e98686deedb871bb2aef9739d004306765ec8d",
+    "raw/noise_d4_s41_v1/data/episodes.jsonl": "f3917492dda7e0e9fd347e7967005eb9ed8a6d784a95eb214c998e2b88c50607"
+  },
+  "scope": "Preservation of complete JSON records only; no success outcomes are aggregated and no full episode/mechanism audit is claimed.",
+  "archive_sha256": "8b8e5ab9be1c5bb25ab940b60330a3d030ac79d9eff01aed267cdf3379b2115a",
+  "archive_bytes": 99134902,
+  "archived_metrics_match_snapshot": true
+}

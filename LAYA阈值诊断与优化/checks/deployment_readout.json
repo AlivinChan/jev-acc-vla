@@ -1,0 +1,14 @@
+[
+  {
+    "name": "positive_affine serialized adapter, independent sigmoid and normalization",
+    "passed": true
+  },
+  {
+    "name": "frozen_feature_linear serialized adapter, independent sigmoid and normalization",
+    "passed": true
+  },
+  {
+    "name": "documented exact tie preserves first option",
+    "passed": true
+  }
+]

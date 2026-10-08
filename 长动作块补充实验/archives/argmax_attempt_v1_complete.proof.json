@@ -1,0 +1,10 @@
+{
+  "attempt": "argmax_attempt_v1",
+  "archive": "/mnt/4t/jev_vla_libero/experiments/long_chunk_laya/archives/argmax_attempt_v1_complete.tar.gz",
+  "sha256": "6741bb2b42eaf5eea05c80978fa2298618f1ce151e883066dc54e2ef86891d73",
+  "bytes": 21780492,
+  "supervisor_status": "completed",
+  "local_archive": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\archives\\argmax_attempt_v1_complete.tar.gz",
+  "local_sha256": "6741bb2b42eaf5eea05c80978fa2298618f1ce151e883066dc54e2ef86891d73",
+  "extracted_to": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw"
+}

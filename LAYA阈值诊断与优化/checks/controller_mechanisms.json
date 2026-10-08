@@ -1,0 +1,86 @@
+[
+  {
+    "name": "cadence 5; d=1 and expired prefix",
+    "passed": true
+  },
+  {
+    "name": "cadence 10; d=1 and expired prefix",
+    "passed": true
+  },
+  {
+    "name": "cadence 20; d=1 and expired prefix",
+    "passed": true
+  },
+  {
+    "name": "finite H50 queue guard despite continue",
+    "passed": true
+  },
+  {
+    "name": "minimum execution window",
+    "passed": true
+  },
+  {
+    "name": "single-skip replan matches smol70 exactly; age15 only",
+    "passed": true
+  },
+  {
+    "name": "single-skip continue matches fixed_r60 exactly; age15 only",
+    "passed": true
+  },
+  {
+    "name": "first-only gate replan: exactly one decision, then Smol70 recovery",
+    "passed": true
+  },
+  {
+    "name": "first-only gate continue: exactly one decision, then Smol70 recovery",
+    "passed": true
+  },
+  {
+    "name": "fixed30 equals H50 fixed_r60; reference reuse is semantically exact",
+    "passed": true
+  },
+  {
+    "name": "actual float32 serializer and prompt cadence",
+    "passed": true
+  },
+  {
+    "name": "d=4: single-skip replan equals smol70; actual delay prefix and prompt",
+    "passed": true
+  },
+  {
+    "name": "d=4: single-skip continue equals fixed_r60; actual delay prefix and prompt",
+    "passed": true
+  },
+  {
+    "name": "d=4: finite queue triggers with exactly d commands left and delivers at tick50",
+    "passed": true
+  },
+  {
+    "name": "d=4: all VLASH K5 boundaries use old image and current state, starting row0",
+    "passed": true
+  },
+  {
+    "name": "d=4: both window inputs exclude every command beyond interval+d",
+    "passed": true
+  },
+  {
+    "name": "d=5: single-skip replan equals smol70; actual delay prefix and prompt",
+    "passed": true
+  },
+  {
+    "name": "d=5: single-skip continue equals fixed_r60; actual delay prefix and prompt",
+    "passed": true
+  },
+  {
+    "name": "d=5: finite queue triggers with exactly d commands left and delivers at tick50",
+    "passed": true
+  },
+  {
+    "name": "d=5: all VLASH K5 boundaries use old image and current state, starting row0",
+    "passed": true
+  },
+  {
+    "name": "d=5: both window inputs exclude every command beyond interval+d",
+    "passed": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "markdown_it": {
+    "version": "2.2.0",
+    "source": "D:\\environment\\anaconda\\conda\\Lib\\site-packages\\markdown_it",
+    "only_pure_python": true
+  },
+  "mdurl": {
+    "version": "0.1.2",
+    "source": "D:\\environment\\anaconda\\conda\\Lib\\site-packages\\mdurl",
+    "only_pure_python": true
+  }
+}

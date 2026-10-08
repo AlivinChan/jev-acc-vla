@@ -1,0 +1,29 @@
+{
+  "status": "recorded_experiment_scope",
+  "registered_queue_fully_completed": false,
+  "experiment_gpu_workers": 0,
+  "additional_experiments_to_start": 0,
+  "final_report_pages": 23,
+  "final_report_tables": 23,
+  "final_report_figures": 10,
+  "complete_analyzed_validation_episodes": 2550,
+  "partial_descriptive_episodes": 420,
+  "interrupted_excluded_episode_records": 199,
+  "unstarted_random_confirmation_target": 450,
+  "archived_runs": 48,
+  "required_archival_and_report_work_remaining": [],
+  "sha256": {
+    "REPORT.md": "f05fca1c7b9842f54744920e4b849c37a4e7b50a84350b85ab0285fcf2e0ebb8",
+    "output/pdf/LAYA阈值诊断与长动作块优化报告.pdf": "0b97ea3e68b4e864e32716650b5a87f262ee3e10457c015d30524e5b38799d02",
+    "checks/pdf_build.json": "627cf6c9013fdce254256f369b530d87ddf253530fe41bc3a06e33dec92ec57b",
+    "checks/report_integrity.json": "aac0903fd50f34769e5778e9937b20922cc76b9cf6afcc9f1324afd95e3ecb90",
+    "checks/final_stop.json": "31ddc89a440658ffc6dc9c4e8e0662e5b98572f6292390c12740039858bdcb19",
+    "checks/final_frozen_scope.json": "5b543ebd4841fe18b19f35d79f33d87ece2e05bbc98b340d53fecf5ad526804c",
+    "checks/partial_noise_preservation.json": "d2300ac50116d40edf5e8605283231afb9da4581ae0c6def27c13f8ed40473b9",
+    "analysis/run_inventory.json": "aff85bf66914d54dcb12af10faf444727732204eefbffe1e7a43dce937cf1dac",
+    "analysis/noise_alignment_validation_d4_v1_partial_descriptive.json": "52ca3fd44d607ac04266314d4a6aba43bd9fe958d5745e95429415e8b90c635e",
+    "analysis/random_skip_validation_d4_v1_partial_descriptive.json": "93ab349275fe0266157be83d692950684bdedb1220ecc5fe6e3d08f6cc206175",
+    "analysis/PARTIAL_SAMPLE_READOUT.md": "45c5bd2fd8a01a19339bf3ab3f140b7a74ea752d92de2dec0920694d2896a686",
+    "REPRODUCE.md": "1e71a637f801d716ad5473460bb4b774d194dc9ee8f96f46c5e73acd036c05cd"
+  }
+}

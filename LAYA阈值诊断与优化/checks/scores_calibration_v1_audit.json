@@ -1,0 +1,12 @@
+{
+  "run": "scores_calibration_v1",
+  "cases": 197,
+  "score_rows": 591,
+  "checks": 6702,
+  "errors": 0,
+  "failures": [],
+  "maximum_probability_rounding_error": 4.998225010732771e-05,
+  "maximum_feature_logit_reconstruction_error": 0.009852533546123254,
+  "feature_logit_reconstruction_note": "FP64 reconstruction versus rounded BF16 live outputs; all checked against per-row BF16 relative rounding bound",
+  "frozen_laya_sha256": "ae9a05c819a0ab99493067336fd9f5c186dce48265e75ef027978f2597dfac71"
+}

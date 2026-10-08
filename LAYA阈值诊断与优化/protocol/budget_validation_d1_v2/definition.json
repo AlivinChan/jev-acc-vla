@@ -1,0 +1,182 @@
+{
+  "cohort_id": "budget_validation_d1_v2",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states_in_execution_order": [
+    22,
+    20,
+    24,
+    21,
+    23
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "episodes_per_method_horizon": 50,
+  "total_episodes": 600,
+  "candidates": {
+    "smol70": {
+      "method": "smol70",
+      "role": "native Smol70 reference"
+    },
+    "fixed45": {
+      "method": "fixed_interval",
+      "interval": 45,
+      "role": "selected fixed-period attribution control"
+    },
+    "window3_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3,
+      "role": "primary LAYA candidate"
+    },
+    "budget_period_h50": {
+      "method": "fixed_interval",
+      "interval": 19,
+      "horizons": [
+        50
+      ],
+      "role": "developer-cost-selected fixed-period control"
+    },
+    "budget_period_h100": {
+      "method": "fixed_interval",
+      "interval": 38,
+      "horizons": [
+        100
+      ],
+      "role": "developer-cost-selected fixed-period control"
+    },
+    "budget_period_h200": {
+      "method": "fixed_interval",
+      "interval": 71,
+      "horizons": [
+        200
+      ],
+      "role": "developer-cost-selected fixed-period control"
+    }
+  },
+  "shards": [
+    {
+      "run": "budget_d1_s22_v2",
+      "config": "budget_d1_s22_v2.json",
+      "state": 22,
+      "episodes": 120,
+      "order": 0,
+      "config_sha256": "f66766505e14a930571be39a6f5025c9a81fac95c4c7b9461bafd8874fbc923f"
+    },
+    {
+      "run": "budget_d1_s20_v2",
+      "config": "budget_d1_s20_v2.json",
+      "state": 20,
+      "episodes": 120,
+      "order": 1,
+      "config_sha256": "e897364ed5c9d2d4ee123005ce4e2e6adf3d7dacf1f1ae1160e49e1b95a85888"
+    },
+    {
+      "run": "budget_d1_s24_v2",
+      "config": "budget_d1_s24_v2.json",
+      "state": 24,
+      "episodes": 120,
+      "order": 2,
+      "config_sha256": "b29a435b00e599be553931e9a35e52ca7576767f312b0457b4db63e371597bec"
+    },
+    {
+      "run": "budget_d1_s21_v2",
+      "config": "budget_d1_s21_v2.json",
+      "state": 21,
+      "episodes": 120,
+      "order": 3,
+      "config_sha256": "300ec6d27e7a212232b6f97e86b14052b148529579f2a4795484931a7790a6cd"
+    },
+    {
+      "run": "budget_d1_s23_v2",
+      "config": "budget_d1_s23_v2.json",
+      "state": 23,
+      "episodes": 120,
+      "order": 4,
+      "config_sha256": "4fec258a249a6dc1fddecf8ab6ecdcc70ed4f3658ef16e11c116fb513aea8f29"
+    }
+  ],
+  "primary_candidate": "window3_skip1",
+  "primary_comparators": [
+    "same-H budget_period",
+    "smol70",
+    "fixed45"
+  ],
+  "comparators_by_horizon": {
+    "50": [
+      "smol70",
+      "fixed45",
+      "budget_period_h50"
+    ],
+    "100": [
+      "smol70",
+      "fixed45",
+      "budget_period_h100"
+    ],
+    "200": [
+      "smol70",
+      "fixed45",
+      "budget_period_h200"
+    ]
+  },
+  "locked_execution_source_sha256": {
+    "run_closed_loop.py": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "window_state.py": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+    "binary_service.py": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "supervise.py": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73",
+    "run_guarded_closed_loop.py": "67d1aefe59bf293128b5daafb8055c49672afdf10641bce3c4e56ee89a32329b",
+    "verified_runtime.py": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e"
+  },
+  "selection_evidence_sha256": {
+    "BUDGET_PERIOD_PROTOCOL.md": "d65981f6fcfa64ed60ca07106c6888fa1ce7659077c691815a1ba08ab22a714e",
+    "protocol/budget_period_controls_v1/definition.json": "91cabd60b255f58d834a6189a915266c7fa742843991eb8b6d1f69fb782e7fb4",
+    "protocol/validation_d1_v1/definition.json": "be1114f31a3da9e0b084691939c28c611e993d531e6d7d9fc2e72437ea979914",
+    "checks/budget_period_definition.json": "8b40a6c99a07625ec42bda5bb577e07361d0366ed4951a573406be816b2087a9",
+    "STATISTICS_AMENDMENT_01.md": "9f4994c4e1adc91d53c65dccac94c91ba36581080c49c4c18343a460dfb0135a"
+  },
+  "vla_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+  "minimum_probability": 0,
+  "binary_argmax": true,
+  "readout_adaptation": false,
+  "logical_delay_steps": 1,
+  "statistics": "Primary descriptive hierarchical paired bootstrap; retain fixed-task and task-only sensitivities. No equivalence or uncorrected significance claim.",
+  "no_adaptation_during_cohort": true,
+  "no_early_stopping_for_favorable_results": true,
+  "interpretation": "Periods selected only from state0-2 developer durations and service costs. Actual new-rollout costs need not match. Do not retune periods or claim exact budget equality. Earlier project exposure to public starts is not excluded.",
+  "technical_revision_of": "budget_validation_d1_v1",
+  "original_definition_sha256": "e8b00126917c65a12d2086917dcddf8d2187f48dfbb63452b13ce7aaebf59724",
+  "technical_amendment_sha256": "38fce1a12309eb23039f5036b1ab34dce758be0a1d98d03c39b011b58fae2be3",
+  "entry_point": "run_guarded_closed_loop.py",
+  "initial_input_verification_required": true,
+  "deterministic_backend_forced": false,
+  "original_candidate_selection_unchanged": true,
+  "v1_technical_attempts_excluded_from_efficacy_denominator": true,
+  "qualification_runs": [
+    {
+      "run": "guarded_runtime_qualification_v1",
+      "episodes": 21,
+      "logical_delay_steps": 1
+    }
+  ],
+  "qualification_evidence_sha256": {
+    "checks/guarded_runtime_qualification_v1_audit.json": "6747f7bdbd86258793d148911f259884630d91f68194d4615fa591dd2e587238",
+    "checks/guarded_runtime_qualification_v1_initial_verification.json": "6f494a23d0c5f3d61a8deb65866dae0635c7e47df2855f2a4b593b7f36a5fe4a",
+    "checks/incidents/guarded_runtime_qualification_v1_vs_initial_repro_plain_v1.json": "263a5f6b53f5bd8a3d968446468e11716f127f282906c592cd6c655a6277ce96",
+    "checks/initial_guard_fault_injection.json": "280dc45c5a33bbda4a2c15c59d671f75c3a0ff7ff2f449a3e03ae67bb18b3be1"
+  }
+}

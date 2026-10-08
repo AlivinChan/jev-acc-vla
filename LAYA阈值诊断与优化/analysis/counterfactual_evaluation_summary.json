@@ -1,0 +1,99 @@
+{
+  "states": [
+    2
+  ],
+  "unique_opportunities": 178,
+  "groups": {
+    "50": {
+      "opportunities": 103,
+      "paired_outcomes": {
+        "both_failure": 75,
+        "both_success": 21,
+        "replan_only": 7
+      },
+      "utility_labels": {
+        "unresolved": 75,
+        "continue": 21,
+        "replan": 7
+      },
+      "necessity_labels": {
+        "unresolved": 75,
+        "continue": 21,
+        "replan": 7
+      },
+      "resolved_coverage": 0.27184466019417475,
+      "source_initial_states": 10,
+      "continue_minus_replan_call_difference": {
+        "-1": 90,
+        "0": 6,
+        "9": 3,
+        "8": 4
+      }
+    },
+    "100": {
+      "opportunities": 52,
+      "paired_outcomes": {
+        "both_failure": 31,
+        "replan_only": 7,
+        "both_success": 10,
+        "continue_only": 4
+      },
+      "utility_labels": {
+        "unresolved": 31,
+        "replan": 7,
+        "continue": 14
+      },
+      "necessity_labels": {
+        "unresolved": 31,
+        "replan": 7,
+        "continue": 14
+      },
+      "resolved_coverage": 0.40384615384615385,
+      "source_initial_states": 10,
+      "continue_minus_replan_call_difference": {
+        "-1": 37,
+        "3": 5,
+        "-2": 4,
+        "1": 2,
+        "-4": 2,
+        "-5": 1,
+        "0": 1
+      }
+    },
+    "200": {
+      "opportunities": 23,
+      "paired_outcomes": {
+        "both_failure": 18,
+        "replan_only": 4,
+        "both_success": 1
+      },
+      "utility_labels": {
+        "unresolved": 18,
+        "replan": 4,
+        "continue": 1
+      },
+      "necessity_labels": {
+        "unresolved": 18,
+        "replan": 4,
+        "continue": 1
+      },
+      "resolved_coverage": 0.21739130434782608,
+      "source_initial_states": 10,
+      "continue_minus_replan_call_difference": {
+        "-1": 19,
+        "0": 1,
+        "1": 3
+      }
+    }
+  },
+  "preparation": [
+    {
+      "run": "counterfactual_evaluation_v1",
+      "cases": 178,
+      "VLA_calls": 1742,
+      "VLA_seconds": 338.1593075268902,
+      "stage_wall_seconds": 1770.4082253417
+    }
+  ],
+  "interpretation": "All registered opportunities from the stated initial states; repeated positions within a trajectory are correlated. These are single fixed-noise intervention outcomes under a common Smol70 tail."
+}

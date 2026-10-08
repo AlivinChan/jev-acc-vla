@@ -1,0 +1,20 @@
+{
+  "cohort_outcomes_read": false,
+  "source_sha256": {
+    "SERVICE_ACCOUNTING_PROTOCOL.md": "f949d0f358dfdb15e850c828b14d3d375f37fc9b5b3bd2510e164d8ece32a3ee",
+    "analysis/serial_vla_latency_development.json": "4d896e4deae9720a89d68a1777074036ba75437afe832d55cb070c806e04c430",
+    "analysis/gate_service_development.json": "6e827ec775b825c26fe63e0849fc2f444ee25b715d43ba003ef529a2e7582a03"
+  },
+  "analyzer_sha256": "543cea9abbe086e71b66913ef3dbc9e8b7dfa37f81a6709e0622de86edd86f22",
+  "prices": {
+    "vla_seconds_by_horizon": {
+      "50": 0.19595937710255384,
+      "100": 0.1964007276110351,
+      "200": 0.19619651325047016
+    },
+    "window3_gate_seconds": 0.021907585126861372
+  },
+  "interpretation": "Exact aggregate accounting, not causal mediation. Fixed development prices are supplementary assumptions and do not replace measured primary service costs. No real-time robot speedup claim.",
+  "supersedes_definition_sha256": "480873fae4e193d79c87b6b73bd3430ab6112f7bb395b82841010ca17d5b4a3e",
+  "technical_amendment": "Restrict fixed-price gate eligibility to the explicitly registered window3_skip1 candidate; version 1 accidentally included window3_first through a shared input variant. No cohort outcome analysis has been run with either version. Measured comparisons remain unchanged."
+}

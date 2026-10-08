@@ -1,0 +1,55 @@
+{
+  "run": "noise_d1_pilot_v1",
+  "groups": 3,
+  "first_update_opportunities": 3,
+  "checks": 76,
+  "by_kind": {
+    "complete common K5 groups": 1,
+    "all four controls present": 3,
+    "identical five-action prefix before update": 3,
+    "recorded raw update input bytes": 12,
+    "saved input and prediction seed receipt": 12,
+    "first K5 boundary and actual execution row": 12,
+    "actual prediction time": 12,
+    "same complete stale input": 3,
+    "same image-tick noise seed": 3,
+    "same prediction block when stale input and noise match": 3,
+    "robot-state fields identified": 3,
+    "current-state intervention preserves all other input": 3,
+    "original versus matched noise have same complete input": 3,
+    "only intended noise-clock offset": 3
+  },
+  "errors": 0,
+  "failures": [],
+  "events": [
+    {
+      "task": 0,
+      "state": 10,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 0.14365226030349731,
+      "noise_clock_action_max_abs": 2.032031297683716
+    },
+    {
+      "task": 0,
+      "state": 10,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 0.4771908223628998,
+      "noise_clock_action_max_abs": 2.034820795059204
+    },
+    {
+      "task": 0,
+      "state": 10,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 0.7148182988166809,
+      "noise_clock_action_max_abs": 2.077899932861328
+    }
+  ],
+  "auditor_sha256": "8e55d22556b3c0222ab26cc27df1616c87313f54bd467955602b0b947546ed38",
+  "scope": "First controlled update only; later policy trajectories may diverge"
+}

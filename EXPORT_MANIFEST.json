@@ -1,0 +1,4093 @@
+{
+  "scope": "two_experiments_docs_code_summaries",
+  "experiment_directories": [
+    "长动作块补充实验",
+    "LAYA阈值诊断与优化"
+  ],
+  "published_files": [
+    {
+      "published": ".gitignore",
+      "published_sha256": "1fe68e0740fedbc5912669008b76b51a21d63693b615e963869d08d15a4d1745",
+      "bytes": 312,
+      "publication_edited": false
+    },
+    {
+      "published": "docs/DATA.md",
+      "published_sha256": "0c30c6ab2137e441003173ccdb69d38f2044501f7f5066c23ba36b63ad3303b7",
+      "bytes": 5649,
+      "publication_edited": true
+    },
+    {
+      "published": "docs/实验记录.md",
+      "published_sha256": "d96f8e465030e67ec20d832b8d24593c416515aae6f0f40cb04d55da2c2326ab",
+      "bytes": 22905,
+      "original_source_sha256": "828bc0562487142d416f8903551f319c67ad0859b948eee304fd13d079806c1b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/budget_validation_d1_v2_cross_horizon.json",
+      "published_sha256": "b693b832be07d88d1cf08cb6211791808bcfd2d42d616f4e1a7db7bea4d643f5",
+      "bytes": 24761,
+      "original_source_sha256": "b693b832be07d88d1cf08cb6211791808bcfd2d42d616f4e1a7db7bea4d643f5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/budget_validation_d1_v2_service_accounting.json",
+      "published_sha256": "8ec1c4b1d16f3ecad62eeb5def48dff332ed18e0aa09f0bd0837af29deccf736",
+      "bytes": 75129,
+      "original_source_sha256": "8ec1c4b1d16f3ecad62eeb5def48dff332ed18e0aa09f0bd0837af29deccf736",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/budget_validation_d1_v2_summary.json",
+      "published_sha256": "44861d0a036b70010276597e5e4f03b3777a7fd98ceccee6993e9c5f57adce4d",
+      "bytes": 113313,
+      "original_source_sha256": "f9157b3086f19b48e9735010a33e3ca3fb36fc775974755d293753de54c4f417",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/cadence_v1_summary.json",
+      "published_sha256": "de4b50ba87b32bcabaab42c1f576cf46408f7c93cddf61e04260e731e52d52eb",
+      "bytes": 30776,
+      "original_source_sha256": "59bfe08b6581f2c86f4bc0b555b61f6c77efd54442cf33cb79fd1cbac0b15ac1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/calibration_development_diagnostics.json",
+      "published_sha256": "3770b5587026d8315e472087a565b54ecc06dac868cd5768a77b9662ad72c265",
+      "bytes": 363168,
+      "original_source_sha256": "55d4a8e5543eaa8f0c6e3d4c73d940e3b992b50a6035a523b6cfed60ae1aa5e5",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/calibration_v1_pre_state2_decision.json",
+      "published_sha256": "f4ab49216ef97633aaafbd009b056651f936dd5e283dd903d915df982aa6ca69",
+      "bytes": 377,
+      "original_source_sha256": "99c57a261d3b9c14bb97dd75346ea1e8a2158e744baf0dbf8c2b19a2d6d85bd7",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/calibrators_v1_state2_evaluation.json",
+      "published_sha256": "5895f042e90bb2c706811339ef320ea1b36c3063e3b6ce7ab1b3418a783ab94a",
+      "bytes": 293853,
+      "original_source_sha256": "dbc5233d0729a731451a862a457475654dce79b176b0f6fe870c8c69d4e9ee2e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/choice_order_audit_v1_summary.json",
+      "published_sha256": "14f426b843ce2c88c3bf86e5e85c9208ede175035d30e0f6d24129e59bc13689",
+      "bytes": 8989,
+      "original_source_sha256": "ff65df4d2ccc18f45d4afb7d583a0e9217a40f9abd8e4b42baffd14a8ea67d6a",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/confirmation_v1_summary.json",
+      "published_sha256": "adc925ed3ae82339c55fd38daaff08d5cb2a9f87e41f22d3fb45a5850097441d",
+      "bytes": 20649,
+      "original_source_sha256": "f8c2299032ac6ba966cd9c03c2c0ae56178120533f09d8c79fef9f53e75cb239",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/counterfactual_calibration_summary.json",
+      "published_sha256": "87bd94216a68b020c3341c30dff3a0bfcdc636a1a07232dc8441453fb5a3f974",
+      "bytes": 2402,
+      "original_source_sha256": "092ffd0e5666c13d1bf32d318c1bb1c8f906ff9faab0b7fb1eb9ab7c811a9038",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/counterfactual_evaluation_summary.json",
+      "published_sha256": "9e6067c91d268f9fedd2ee6d106a0a557efdfa6d6e250ad9c290a87a810e7852",
+      "bytes": 2308,
+      "original_source_sha256": "c948ed737999a8cd1d70b3dfd5f75cf8cb62f7947d0798b8b51ec3a9bf1ea76c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/counterfactual_train_summary.json",
+      "published_sha256": "cc8558b9450757939a50846ba5e3ea7732b557f9a2bc1e0bf3eb00103fb80413",
+      "bytes": 2514,
+      "original_source_sha256": "8a52d44f34c4c3c3f06dcca7ce1233ceaaef2ceb6835ba860cd1f911288a4fcd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/cross_delay_d5_vs_d4.json",
+      "published_sha256": "7950bf3bfb41c3f927d7728e95c8a9cc416e5bb389c17c672a0fbe494e8fa2c5",
+      "bytes": 35392,
+      "original_source_sha256": "7950bf3bfb41c3f927d7728e95c8a9cc416e5bb389c17c672a0fbe494e8fa2c5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/delay_validation_d4_v2_cross_horizon.json",
+      "published_sha256": "0c55cbac9510e4e24fa0b8ef99df1db273d1a7dd13eb91f1cae8ae113d0066a8",
+      "bytes": 41720,
+      "original_source_sha256": "0c55cbac9510e4e24fa0b8ef99df1db273d1a7dd13eb91f1cae8ae113d0066a8",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/delay_validation_d4_v2_service_accounting.json",
+      "published_sha256": "e5dc2c1a7e0c88dd7fbf0e1eb6cd1f93bb09afda11991f146f6a6ef8e70d93e4",
+      "bytes": 126349,
+      "original_source_sha256": "e5dc2c1a7e0c88dd7fbf0e1eb6cd1f93bb09afda11991f146f6a6ef8e70d93e4",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/delay_validation_d4_v2_summary.json",
+      "published_sha256": "e47e7b6671416732fb497f619bc032a51e697b8c06ce54fa66eec6b50104907f",
+      "bytes": 165904,
+      "original_source_sha256": "74a7f0676638da5ff3bacfbd35b3ae609d7967e80805fc95da04680981e11c8d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/delay_validation_d5_v2_cross_horizon.json",
+      "published_sha256": "4b19e401e0b0c444e506d09bc8cfa988aadccee31a244890448a9272280f0496",
+      "bytes": 41453,
+      "original_source_sha256": "4b19e401e0b0c444e506d09bc8cfa988aadccee31a244890448a9272280f0496",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/delay_validation_d5_v2_service_accounting.json",
+      "published_sha256": "a212c209b46e398e73dfbd168dd2a92b7b02aaab316665f68a97007bdfcb8fce",
+      "bytes": 125903,
+      "original_source_sha256": "a212c209b46e398e73dfbd168dd2a92b7b02aaab316665f68a97007bdfcb8fce",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/delay_validation_d5_v2_summary.json",
+      "published_sha256": "67b6cf14abf0fdfdd0c53b072bb69e8ff310cb35c6617f7c7e6cdb8f08a1cf04",
+      "bytes": 165671,
+      "original_source_sha256": "c7850e69d01610ed6db5f208916cf257f866d67301ffa61539c99859a4aa5747",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/diagnosis_summary.json",
+      "published_sha256": "b8874ddb7e18583308be5a15a0305ff1d58eb25050332a349123ebbaaab93510",
+      "bytes": 13370,
+      "original_source_sha256": "6a6d60be030c1fd544909af88d716b782fb88ca852647f0a5882806a6935e73a",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/executed_row_coverage_development.json",
+      "published_sha256": "472e1a4b027405fd9930afeea8fab886c5d0fbd48c595c85b996aceacb4d91fa",
+      "bytes": 163106,
+      "original_source_sha256": "472e1a4b027405fd9930afeea8fab886c5d0fbd48c595c85b996aceacb4d91fa",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/first_intervention_development.json",
+      "published_sha256": "a246a45c945c1764df98ac35dfb55596051faa02e01e7a5f6be295e3e23cffca",
+      "bytes": 91704,
+      "original_source_sha256": "c7bdb88bef9ec0ebefbbb75a508e4f27744afd3c173f26aeee90b93dc0c49c73",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/first_intervention_state2_diagnostic.json",
+      "published_sha256": "f748d8344943b2c44e3791ba2a6cd658891ff3bfcd447bb62f36b0a0638a1f49",
+      "bytes": 49517,
+      "original_source_sha256": "ac771d9c942598310bb14491af82960fca3f17a53cf1a95b0072a47fb378eaee",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/fixed_interval_matrix.json",
+      "published_sha256": "5b754690a70a112db4f6007d4e3173303e3cf951e49cc5078d04747a416322fb",
+      "bytes": 132116,
+      "original_source_sha256": "09f2ad36308a39ad68b9e44281047f4b242e3f5e0af903183f90baac66556b53",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/gate_service_development.json",
+      "published_sha256": "6e827ec775b825c26fe63e0849fc2f444ee25b715d43ba003ef529a2e7582a03",
+      "bytes": 16734,
+      "original_source_sha256": "6e827ec775b825c26fe63e0849fc2f444ee25b715d43ba003ef529a2e7582a03",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/native_initial_chunk_differences.json",
+      "published_sha256": "2481d795bd55a80146d719feaee95da82b5571a5a6bae98485574ec8125f5773",
+      "bytes": 39356,
+      "original_source_sha256": "8540a9865072d1c6f1f1d63ea91ad5b1e5c29193574783b08079100b8be07169",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/noise_alignment_validation_d4_v1_partial_descriptive.json",
+      "published_sha256": "b6c06ebe4e2a1823672f6e1ff07144f240e7ba858d69a6de8a11e7b4c2273aa1",
+      "bytes": 13981,
+      "original_source_sha256": "52ca3fd44d607ac04266314d4a6aba43bd9fe958d5745e95429415e8b90c635e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/order_ensemble_state0_development.json",
+      "published_sha256": "af02b8054e854a501fafbaa3c1415e65104d6e1ac875089f463a9842ab613955",
+      "bytes": 164352,
+      "original_source_sha256": "af02b8054e854a501fafbaa3c1415e65104d6e1ac875089f463a9842ab613955",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/PARTIAL_SAMPLE_READOUT.md",
+      "published_sha256": "2507e312f48932f28b91a15581960f0f8e3644666b5fcd7ba724ed072ca9891a",
+      "bytes": 2893,
+      "original_source_sha256": "45c5bd2fd8a01a19339bf3ab3f140b7a74ea752d92de2dec0920694d2896a686",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/pooled_development.json",
+      "published_sha256": "f06c5ec67a9dfb065b0923729068e8927eebcfcc8f9c8926ace5487190ce0e43",
+      "bytes": 19752,
+      "original_source_sha256": "b132992010ad9874da7dea76bf0b4c2091c2fc06d82e271fe4d0d46803acf8bb",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/random_skip_validation_d4_v1_partial_descriptive.json",
+      "published_sha256": "eabd8dcb938887ec89c2e0754ae7fc4e40e86f8277610e20721d2e4606ffb2f8",
+      "bytes": 1120,
+      "original_source_sha256": "93ab349275fe0266157be83d692950684bdedb1220ecc5fe6e3d08f6cc206175",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/raw_scores_train_summary.json",
+      "published_sha256": "d083412ccb4f20628504666e35ab88c9a126cbcbeedf6ae383728aef1c8977e6",
+      "bytes": 7712,
+      "original_source_sha256": "47356f773bf2e71fb1ec2b4822c662eb37f0bd0a60bc91983c22a12967234d71",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/representations_v1_summary.json",
+      "published_sha256": "54dc01952719eb49a002c4726cc03a09d56127d1013234a758d609f6c8f33f92",
+      "bytes": 22502,
+      "original_source_sha256": "8ee0cc5c78e81f7a5ec60af41a2899c021a777692b8cbdf2aa999eb17417c94f",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/run_inventory.json",
+      "published_sha256": "37a9dc7ba8b06614b261e6309547c2dc01a967e2dbeab35f1f7143b35152f9ef",
+      "bytes": 40517,
+      "original_source_sha256": "aff85bf66914d54dcb12af10faf444727732204eefbffe1e7a43dce937cf1dac",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/run_inventory.md",
+      "published_sha256": "fa767373d5cb53e98c8bdf08a3f8f7ba39167e67019fa5ba8e3443e1c326d5cd",
+      "bytes": 5991,
+      "original_source_sha256": "5183ef27a709a6fc21e6bccd561bffad444d644315e3e15ad939d95a104bcdae",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/serial_vla_latency_development.json",
+      "published_sha256": "f281cb819af5f4f62a06e25b1bfd8fe1b2228518dec551392011403a4dee73ae",
+      "bytes": 1273,
+      "original_source_sha256": "4d896e4deae9720a89d68a1777074036ba75437afe832d55cb070c806e04c430",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/single_skip_confirmation_v1_summary.json",
+      "published_sha256": "71cee564c19acd3eef65dd0b43a2227006ff223716d9037dd59962d3526865ca",
+      "bytes": 23589,
+      "original_source_sha256": "5ffc7c935c5fde6538a7368dd6b6b41e8c05ccef6b1b2c8215722844e2b57b46",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/single_skip_development_pooled.json",
+      "published_sha256": "5f799a326e94a8a20edd17beefccfe3364d8a86d565b987c7bd3b50e2ed74897",
+      "bytes": 66374,
+      "original_source_sha256": "ecf526d5578d0371c66b512925e5d2452dcebc7ebe8d911bdb78172e3dd08397",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/single_skip_v1_summary.json",
+      "published_sha256": "ddd4029aa8dbf5dbf864b49d7d3426aeeb598cc102426dad65fba96c6a4e00a0",
+      "bytes": 42675,
+      "original_source_sha256": "74c43f967c2322212a9a7257a82e2ab1178facbf9da2eb60be2c152c01239cd7",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/validation_d1_v2_cross_horizon.json",
+      "published_sha256": "239191292cd60e1f150bfefcdef4fb4bdecb7dda98b95961619c54d581c9395f",
+      "bytes": 48933,
+      "original_source_sha256": "239191292cd60e1f150bfefcdef4fb4bdecb7dda98b95961619c54d581c9395f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/validation_d1_v2_score_distribution.json",
+      "published_sha256": "e7f19edd8ee3ff6c6c2ee66bf91f6c4f7874a121ef81f1916ecbf443c1ee8977",
+      "bytes": 24286,
+      "original_source_sha256": "e7f19edd8ee3ff6c6c2ee66bf91f6c4f7874a121ef81f1916ecbf443c1ee8977",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/validation_d1_v2_service_accounting.json",
+      "published_sha256": "044e20ebf4ffae66a796a61bb6c92dc8dceb6fe98a9bd1506d3d99e45da2c8c4",
+      "bytes": 146925,
+      "original_source_sha256": "044e20ebf4ffae66a796a61bb6c92dc8dceb6fe98a9bd1506d3d99e45da2c8c4",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/validation_d1_v2_summary.json",
+      "published_sha256": "787990314b6077ead284e97c1134dd9fbf140770954d1cd26eeccc1dc867124b",
+      "bytes": 261458,
+      "original_source_sha256": "2f9781153ea9711844940ef2d52af7ffc80bfb1c3fe6b110a377b2b8691c046b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/analysis/VALIDATION_READOUT.md",
+      "published_sha256": "69b5ac7f10c0ef8786cdefaea3cde9ccdcf04aa1a7f5de3df332116827055392",
+      "bytes": 15018,
+      "original_source_sha256": "b58d91456c8642c99a44a4c99b9d0c46573813d4129d6055d49ced3b0682556a",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/budget_d1_s20_v2_archive.json",
+      "published_sha256": "fb8ed8523b28279131e2ca1bf19bd17b099eefc2dd3c4074adf443407dfcdc98",
+      "bytes": 286,
+      "original_source_sha256": "b85cf7654f7118b7bbaf7b8f00a05fd57e5af41a94127eef138777236bdecf0c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/budget_d1_s21_v2_archive.json",
+      "published_sha256": "7c8f8b060160ca5418f8da79a87da812470e9eeccbff90ac98608a819fd75b9d",
+      "bytes": 286,
+      "original_source_sha256": "d9e18393ec96244ef86dffde1109d4db435a177b03eb93d2c14eeb567b635312",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/budget_d1_s22_v2_archive.json",
+      "published_sha256": "eb053e879e532a7d75798e9fa391aec712c80e707fcf2bd229611f8ee5510d58",
+      "bytes": 286,
+      "original_source_sha256": "baab020c8700be2c39fbe438e6d4ef6a320f0344620a14dd3a39ef60f1c8ca93",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/budget_d1_s23_v2_archive.json",
+      "published_sha256": "1831c37bd7180357c1f14adaac6e87a41d78a156274749cc150fdf9107398fd8",
+      "bytes": 286,
+      "original_source_sha256": "c2f6e289a64675ec65c2a02eb9bebda2f79dadb57047d582020120cd2d76030c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/budget_d1_s24_v2_archive.json",
+      "published_sha256": "871f5900d7bc243da6435a731952eb89120882f904ad7daf7ae5791ed06e41b6",
+      "bytes": 286,
+      "original_source_sha256": "5e84f833218f5da104510b6c4bdb408ce85edd613981fdcef5cc1125819a0afb",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/cadence_v1_archive.json",
+      "published_sha256": "1d2e8e838375347096efef5a777aa82548b36241f45f038005f2fd622a75b3e5",
+      "bytes": 228,
+      "original_source_sha256": "cc31f7e82d1d73040880dbf09d774996b07757a56ebf83d6da79351dccaa5aaf",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/choice_order_audit_v1_archive.json",
+      "published_sha256": "dab5a552f9e7d7316b4f2f391e87bd4d098c352c66b5227552d516e62ce5d54e",
+      "bytes": 289,
+      "original_source_sha256": "8b977a583b46c89f937a60917571fe728f8a693c40ea1fd8ebcc5261ddf88039",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/confirmation_v1_archive.json",
+      "published_sha256": "ba45d0756ec58522c110183a99fca72f9c7f57a8c3ca033557209cccee37dee3",
+      "bytes": 233,
+      "original_source_sha256": "10fc38f562dc695e389cf79e21c04a258d90b02edb42d5e4bb4c9cbb59246c2d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/counterfactual_calibration_v1_archive.json",
+      "published_sha256": "5f9b28a01b02522b4e0ca73ea3a078956bde96b42e15f2fc7d52978bbcc7caa2",
+      "bytes": 247,
+      "original_source_sha256": "42014245bfac55a4d2b33d29b49aded5e6dcc16518c1939bda27af099f35ffab",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/counterfactual_evaluation_v1_archive.json",
+      "published_sha256": "2e29c3a84159cf57a201cd3637a0923a2eb0e985ac8e533f006a7751dc613417",
+      "bytes": 298,
+      "original_source_sha256": "54f0ed4334c143f5f698fe86b6fcfa8b7662fd0361927ff2f7d50271aa0a5f89",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/counterfactual_pilot_v1_archive.json",
+      "published_sha256": "0ff8ba0bb934ac4953b3d5fdb135795c0ab23714818ba5c64dc8d93be68bf2ac",
+      "bytes": 240,
+      "original_source_sha256": "f439469e8767541917c87b6b762e0a1ff5931006e10970268b6c029250e09dcc",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/counterfactual_train_v1_archive.json",
+      "published_sha256": "92a18d2924a582bbca7907e497aebfcf8d90feb7913b0e259208a517682ed646",
+      "bytes": 241,
+      "original_source_sha256": "8dd95c5df522792c042d42dd4c278cae221bd967048b6e0721832dbcf45091d0",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d1_qualification_v1_archive.json",
+      "published_sha256": "aa06f6e6f0b0255b62ef875ea38916f0113665feba11db4fb9f82ff942293d77",
+      "bytes": 294,
+      "original_source_sha256": "07d66fd1a4fc96d773c798bad4de32236227c65cb85b67047e043b0679b579ff",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d4_pilot_v2_archive.json",
+      "published_sha256": "922209386148e3cc81a255a36bc401c76fb9c1f0823daa64707d6bc2a325e7b9",
+      "bytes": 286,
+      "original_source_sha256": "1742850416ba3c7cb03ebe2d0d33806059826c289963df8630885027c65c44f8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d4_s30_v2_archive.json",
+      "published_sha256": "236976d737544a04fea0352881d816a91b204043c80e3f4d8e26511c9cc6df28",
+      "bytes": 285,
+      "original_source_sha256": "f61fa64e1365e31bb1adc24371676794c2656afeaa920d28949d8acdc87a468c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d4_s31_v2_archive.json",
+      "published_sha256": "3a212c69ab356f2ffe7a2b25dea565013b4a4c6bc8bc877454351ec9b88c2320",
+      "bytes": 285,
+      "original_source_sha256": "61eae357d8189e9d6cb54f9383ae81dfed408b6a47b32f995ab4be8f021eacc1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d4_s32_v2_archive.json",
+      "published_sha256": "b06fcfdbfd7e9f2c981436e1c02c77b1fbde49aa67d4b8f05a1eacfc767aa68c",
+      "bytes": 285,
+      "original_source_sha256": "d0ec7d92ca1d7823777e6cb48837b4eb08dd0184441bca3a80acff0a8481f92b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d5_pilot_v2_archive.json",
+      "published_sha256": "ed2193cfadcd3ff99de3ba5d584ed04881ddad51c4d0eefc9938df51c36c9b53",
+      "bytes": 286,
+      "original_source_sha256": "104039fed3f1a1a258bb920fd318b2d3da1f22c9d6dd0cd135d45a28d11f56a6",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d5_s30_v2_archive.json",
+      "published_sha256": "5d8f56f7f7112e68d5a6e3301a1b9e95825bf510d76a032f57e19b9081c56f04",
+      "bytes": 285,
+      "original_source_sha256": "a322a3d81f771b66e9653e780473cc09c7fc9edf30d08c950a8a082319f93d41",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d5_s31_v2_archive.json",
+      "published_sha256": "88ed1e954f05c482bff32845a6da6588155c096b18e392ea3a1cadf1f0c48f46",
+      "bytes": 285,
+      "original_source_sha256": "15f12faf71e7eaa8ed03675e5349e68e2858e36e68821e792dae26ae49f21093",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/delay_d5_s32_v2_archive.json",
+      "published_sha256": "1fbaf6f97e300672894dbdbba0fea877101bf6dcde072ca7d6687adfb862f681",
+      "bytes": 285,
+      "original_source_sha256": "834d9ed5209e45206b69f16ff96f9d62996837a6b205612d07b3bd6179a4e7d4",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/diagnosis_v1_archive.json",
+      "published_sha256": "3271ba78dd6ccf1854112c603af662aadb776eb397323373ed81e91a2d4bfa4b",
+      "bytes": 280,
+      "original_source_sha256": "41a3a1eaa12367b44d5c5df2645ae83672a67fcaabd1cffbd1eb1f2b95a0a3fd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/first_request_qualification_v1_archive.json",
+      "published_sha256": "9e8564b3bfe5e74efdeb000d1c514401c7f9bb3a09c0e9e0455041a6028ba844",
+      "bytes": 298,
+      "original_source_sha256": "71e43c5b3c83664e3e5c77c5882a4e8fdf0752b1d654121b12950444e2a297b1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/fixed_interval_v1_archive.json",
+      "published_sha256": "39dd0d47c727cb33f0bbb5b5d1530f15827c63f4a4b5c6f49c477fcb463043a5",
+      "bytes": 287,
+      "original_source_sha256": "449aedbb6e90e798892b6616f41c9e3381ba6b83df7583bbb55df2a79dc7bc68",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/guarded_runtime_qualification_v1_archive.json",
+      "published_sha256": "6a61923cd5d17cfa384580280aa5d2a705add74500487d4db3fd666cc6667c02",
+      "bytes": 301,
+      "original_source_sha256": "537bc9ac853ba8d1dba497736e99b84a188fb798528bf65bc5b6b82e705f1676",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/initial_repro_plain_v1_archive.json",
+      "published_sha256": "3a27bcb2c60ab89363f5431a5388d8d0896ea91585c6e419513b0259b2de5808",
+      "bytes": 291,
+      "original_source_sha256": "0593c42dd2e1ebd5b6fef968823c9a77e0ce77564ccfab25dc2cce6bd148a03a",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/initial_repro_probe_v1_archive.json",
+      "published_sha256": "ad9eb18e80ae711c2a5c297fcfd22e7d7f80f99f18defef5d292cc482857fe0c",
+      "bytes": 292,
+      "original_source_sha256": "e522300815695880da1adb3c7fbd4f60b51ae3757666b1f9d848ae5381f423ee",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/noise_d1_pilot_v1_archive.json",
+      "published_sha256": "e3e85e755a08fe84be683aa5023b2cdba85d2e1fa7bc77c799d8e4a387a86159",
+      "bytes": 287,
+      "original_source_sha256": "ee4ffff153892ce67d5190fb8396c035c95fedf682552624f169d87036ff0f46",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/noise_d4_pilot_v1_archive.json",
+      "published_sha256": "4586f2a8a9204069744bc8ece60bbd32e572aed535b86d6e1cef2cb7258c7174",
+      "bytes": 287,
+      "original_source_sha256": "7dbb5da8dcaee44dfe2dcc61a922fe534f69ca07a7231172850b9466a69ee6ca",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/noise_d4_s40_v1_archive.json",
+      "published_sha256": "4a0af6f560124ec1dc89ddd8ceac239da21486d2f11db50c30f10ca8cffa9110",
+      "bytes": 285,
+      "original_source_sha256": "cf8335f3c1bbdf4f5e914b32ffb0c50c244bd3736877b95d56fcfa1b45ade5dd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/noise_d4_s41_v1_archive.json",
+      "published_sha256": "62633be305db768295b04a9e4b473d07b1131502c8d4bc2919f9722e063eab2f",
+      "bytes": 282,
+      "original_source_sha256": "b634f133734f6365f0fd3dfa70521f75e2950739250fcdba0d272fe9e1191421",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/noise_d4_s42_v1_archive.json",
+      "published_sha256": "72876de08a6383e3bbc337c35e35171e60cb009e4fc9677b8dfce2a997499bf3",
+      "bytes": 286,
+      "original_source_sha256": "daa17f7fdd06a17a3c591e2e526e82d3e5a0779c6dfcdf425492064e59b1372c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/representations_v1_archive.json",
+      "published_sha256": "5d3714bf5dd2e98c9aa1581bb540f0d264417e4adb6a1b631fc61236c1a2494e",
+      "bytes": 236,
+      "original_source_sha256": "bf2ed6befd5a566b5e74cc894fb7d6613e6114ad2a14df46921ec54ba357c70d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/scores_calibration_v1_archive.json",
+      "published_sha256": "5fde9686f2a7393013f7c7bedff0d8f53d4aa061929f25de90c94796f3c33efb",
+      "bytes": 237,
+      "original_source_sha256": "ae5099007bc543da51382809f4184a5fffcb3a292c4c4ea4ddaf5fbe1a45e276",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/scores_evaluation_v1_archive.json",
+      "published_sha256": "49c572f67e4ce67977628eecc48a95e9c728954dadd782816bf9b35b263cfc83",
+      "bytes": 289,
+      "original_source_sha256": "242f33ace7c640bc61725708d3525a5b668975805714a03d139839145803e8f4",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/scores_train_v1_archive.json",
+      "published_sha256": "4c123a89e82bfb18e3f989a22c5e794d2cb76a42103e39bc3dce9126869f34e1",
+      "bytes": 231,
+      "original_source_sha256": "e9e66c07dd0899f1ae3e5fc8c7c4e4e87d24d1bf977a31983096398ee055a1c8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/scores_window_calibration_v1_archive.json",
+      "published_sha256": "fb710fa54bb3eb546218734edd3e713e3e64bfbff14540582c4a5660c73aa292",
+      "bytes": 244,
+      "original_source_sha256": "e0a5008932e4bbad340679b0c8422e6c72e1ef4f96739ace84c33d78ffde9442",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/scores_window_train_v1_archive.json",
+      "published_sha256": "7e85bd0a02f11586373159a9977939caae0d5e1bb62eb9fda0da89a285e209c6",
+      "bytes": 238,
+      "original_source_sha256": "155b42b7ce8cd935a2020a27125f09699dfc67e7e42d52bcbcec94244a0b7daf",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/single_skip_confirmation_v1_archive.json",
+      "published_sha256": "a2a02e3c9d3cca6a6752d9c82fb1a9c6348db127b326a61bb830189effbe4076",
+      "bytes": 297,
+      "original_source_sha256": "5a1278902b65df0cb121e617f7d0fe8973de2c291ba70cfb4dcf9fc42406c0ad",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/single_skip_v1_archive.json",
+      "published_sha256": "fc68569810176a163eab0c49e9cbc2577e85f6dcc98646ad87e7193f3f827f56",
+      "bytes": 284,
+      "original_source_sha256": "4a829ab6294e063ff357d1bbe614bd9fa6f50df1b3aa7fcdc7e46fcbb259e129",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/validation_d1_s10_v1_archive.json",
+      "published_sha256": "56b2869ad40865d359982b46016a8d178ac3abf5ac7a591bbcfc45d5c9d1b309",
+      "bytes": 290,
+      "original_source_sha256": "13567dd9fca1f3e4982c40fcb1cebb8b5b7ebc8c3ecfb486589e0d0a0ae0c5f8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/validation_d1_s10_v2_archive.json",
+      "published_sha256": "ec0533900a6a4f09309c33fb4f5fdb529aec390256cf25ce28b2a25280a980d2",
+      "bytes": 290,
+      "original_source_sha256": "979046a9954e381401b386ab9666b68e186d8812077515d45869acae480797e9",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/validation_d1_s11_v2_archive.json",
+      "published_sha256": "61ae39535bd36cb4c433fe44be23d213434b9c795f520960f5a81f9273d7fd4a",
+      "bytes": 290,
+      "original_source_sha256": "d2838da9464c2928c6258e4659f0728c10ddfc9d0d79ad636402122171344ab4",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/validation_d1_s12_v1_archive.json",
+      "published_sha256": "79c9e07d5db63e92e37e3e6c61029a93286563f5027bf0056c79afb547704f61",
+      "bytes": 290,
+      "original_source_sha256": "e4d0bd4d46a2e7d9a08637c31582070e26a1cfabcb3e1e7f570c6ae8c1ed006c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/validation_d1_s12_v2_archive.json",
+      "published_sha256": "fa55cf25472c0d17971b286407e542e218b192d6675ffcc09f5afce724c7a0d6",
+      "bytes": 290,
+      "original_source_sha256": "458d23614b6fc463d642fc352fed34155e83ba60d8fc75fac5e16790b3425205",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/validation_d1_s13_v2_archive.json",
+      "published_sha256": "331a5aa6b51dc48dab20adfbf03dd13eee1ed6e799dab09edb33d7910dfad7e8",
+      "bytes": 290,
+      "original_source_sha256": "e655a5dbaee95439b1175e26043e44e6c80679e5c3c28849a183d19bfd55346b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/validation_d1_s14_v2_archive.json",
+      "published_sha256": "9f46767465653113d7b1221841d546633893e0a6550abe524e29cfb87643b5ce",
+      "bytes": 290,
+      "original_source_sha256": "106a61638ecaa10e5348c43bdd3cbc6b9ac20c5539a42360cc2aef879f37bc85",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/artifacts/verified_runtime_qualification_v1_archive.json",
+      "published_sha256": "3cbfd90adba604ffb728e2a2d0e5db43537c4dba55589ecbe9a84f130d8def6e",
+      "bytes": 302,
+      "original_source_sha256": "4684ce7a1e75561c443a309998613ecfc957e106d7a6645ef94faa364c71f6bd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/BALANCED_READOUT_PROTOCOL.md",
+      "published_sha256": "ef510bf19cee476112d4261e9a0941e14f7db55eb8a74ddc7a54de08262314f3",
+      "bytes": 1921,
+      "original_source_sha256": "a15a9d801b99af1f3d965a1c30e16c7a0b9ee064a6988d7fa5c79c1e37ee6a50",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/BUDGET_PERIOD_PROTOCOL.md",
+      "published_sha256": "f9c07604d0f9b65a03de23f3da0f2e2f870d7bf0700362f56ae4ca802a262e3d",
+      "bytes": 2012,
+      "original_source_sha256": "d65981f6fcfa64ed60ca07106c6888fa1ce7659077c691815a1ba08ab22a714e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/CALIBRATION_AMENDMENT_01.md",
+      "published_sha256": "7472c7b2fd2ef7e4d44e66ecf9e9672fe2597e68359644fb3a08356055841cb6",
+      "bytes": 1017,
+      "original_source_sha256": "fdbbfff9470913bd0accebd17df8bc3dbaebbed8fa5b1e732eec1036c6e84a81",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/CALIBRATION_PROTOCOL.md",
+      "published_sha256": "ee59be8a00b62ee92b6647166b8825e24c1f0a2b71dfe11d6cf26704e9235adb",
+      "bytes": 3133,
+      "original_source_sha256": "ee59be8a00b62ee92b6647166b8825e24c1f0a2b71dfe11d6cf26704e9235adb",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/CANDIDATE_BOARD.md",
+      "published_sha256": "d019d90b7cf3c903866d18800a473723a01836418656b1ac187d39c4b804ca80",
+      "bytes": 9439,
+      "original_source_sha256": "7a89f2f4be06d6a44068905d073cc58d14156c19dd2df948bd26f2da34ff5fa2",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/CHECKLIST.md",
+      "published_sha256": "df25627a4bf73fa5cff2641b4c26c13234323b4dd666632290a0269154ac77d0",
+      "bytes": 2086,
+      "original_source_sha256": "c6a5928c4cb5b56a8f8367c68552211f36da770f1342f97ded768558eb39c6b0",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/action_attention_mask.json",
+      "published_sha256": "3fc1b695bf3c8ddf1713f904a38b9cd4dce891730a04d976ae99702d482f1a01",
+      "bytes": 1268,
+      "original_source_sha256": "3fc1b695bf3c8ddf1713f904a38b9cd4dce891730a04d976ae99702d482f1a01",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/balanced_readout_math.json",
+      "published_sha256": "40316b094bd76167d28aba32e06e854d28664a9d87e8b2a9fc4fb635f6660b45",
+      "bytes": 298,
+      "original_source_sha256": "40316b094bd76167d28aba32e06e854d28664a9d87e8b2a9fc4fb635f6660b45",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s20_v2_audit.json",
+      "published_sha256": "8f0fde1a8950f55455d29a2cd7812f442ae2a06f1eb4941921e9964809e2612d",
+      "bytes": 1871,
+      "original_source_sha256": "6f052d85ccd3a0243e2e9d2c0cf7a76105da696d04ea2cf42af6c656af7e5e42",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s20_v2_initial_verification.json",
+      "published_sha256": "4c28334038e74e0b8e5cc9b99028d4e241c48d586afe5afc238adf8886681d23",
+      "bytes": 1352,
+      "original_source_sha256": "4c28334038e74e0b8e5cc9b99028d4e241c48d586afe5afc238adf8886681d23",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s21_v2_audit.json",
+      "published_sha256": "d956babe5c48ed10ed2093b56e20966e7dc69d3174493867b87cd373f248720a",
+      "bytes": 1871,
+      "original_source_sha256": "e0e0d1cc4ee55e7802fddb2495ae4c7da342fb04487d8706a713377b1ed44e68",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s21_v2_initial_verification.json",
+      "published_sha256": "fe0a860b43ae5ab42e6da67e5d395c3ee03f56250ddc64172801e625de10e48d",
+      "bytes": 1352,
+      "original_source_sha256": "fe0a860b43ae5ab42e6da67e5d395c3ee03f56250ddc64172801e625de10e48d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s22_v2_audit.json",
+      "published_sha256": "c2a0ea21ebbaea2a3688df962d1dfd092f9113abd027fd53398115e084472d2e",
+      "bytes": 1870,
+      "original_source_sha256": "7cedd2c539553163ad5d6ba674549852fe2f3fee6002f2622a9f7485871622c1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s22_v2_initial_verification.json",
+      "published_sha256": "851a83b68fcc8551217a26a73839bd2f1c8f1d10f8ded890e4fcdce9eb1e2a04",
+      "bytes": 1352,
+      "original_source_sha256": "851a83b68fcc8551217a26a73839bd2f1c8f1d10f8ded890e4fcdce9eb1e2a04",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s23_v2_audit.json",
+      "published_sha256": "f8e5d697c79f14691746190c8d579fac21a013c45632bce7251ba2434b3a9f3a",
+      "bytes": 1871,
+      "original_source_sha256": "94389e6023d51467605d5cf8e4a50b737c557bd03737ddc57fe6e4d96a58bd3d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s23_v2_initial_verification.json",
+      "published_sha256": "efbb8adc026c3ac3932a6c2c1240951e35d333772825fff98a8f40ae6308e12a",
+      "bytes": 1352,
+      "original_source_sha256": "efbb8adc026c3ac3932a6c2c1240951e35d333772825fff98a8f40ae6308e12a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s24_v2_audit.json",
+      "published_sha256": "1cf21c0c69b323689a75fcb3a1c3bc09db2011d9ef5062620e6b2be86986a08e",
+      "bytes": 1871,
+      "original_source_sha256": "f02b58f252bd914430968a3f0ffbe4b82d8e1a9294e0e15a12b8fbfce14d0b52",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_d1_s24_v2_initial_verification.json",
+      "published_sha256": "2d50ceb387f9fa8b6398dd8e3d7a995db6c5fc125cf875ab4103eaae45a93609",
+      "bytes": 1352,
+      "original_source_sha256": "2d50ceb387f9fa8b6398dd8e3d7a995db6c5fc125cf875ab4103eaae45a93609",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_period_definition.json",
+      "published_sha256": "8b40a6c99a07625ec42bda5bb577e07361d0366ed4951a573406be816b2087a9",
+      "bytes": 311,
+      "original_source_sha256": "8b40a6c99a07625ec42bda5bb577e07361d0366ed4951a573406be816b2087a9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/budget_validation_d1_v2_paired_plotted_values.json",
+      "published_sha256": "593595f45a1132cbf64a88151e675ab6bf281b55a11fb4564fb5158f35016362",
+      "bytes": 2044,
+      "original_source_sha256": "593595f45a1132cbf64a88151e675ab6bf281b55a11fb4564fb5158f35016362",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/cadence_v1_audit.json",
+      "published_sha256": "75c938504ad9cc381b90121bffcdbd985d5191f79f15fc4428dfa9ed63b5f69a",
+      "bytes": 1589,
+      "original_source_sha256": "55cbcabcb219e2757d2577cc4210e385d1b62c911c9a3fef54de0a7c47caa7ed",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/calibration_math.json",
+      "published_sha256": "914762b68c490ecc5fccd16d255fc0d7d66a70bc74dd5f3d0c4b15141de709b5",
+      "bytes": 491,
+      "original_source_sha256": "db36568bdcc4fab9e24eb1afb0795896e1d8acfe33cf8be777773f95ea13e5a9",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/choice_order_audit_v1_audit.json",
+      "published_sha256": "c003a1e965ff19380d021034258687ed2b47c123ed86606ff163fad68f8e7e10",
+      "bytes": 457,
+      "original_source_sha256": "c003a1e965ff19380d021034258687ed2b47c123ed86606ff163fad68f8e7e10",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/choice_order_plotted_values.json",
+      "published_sha256": "3763c69975b02569ec9ff6d82bbbd29378ba3ad75b4bf134fbe736e1ee070680",
+      "bytes": 52681,
+      "original_source_sha256": "3763c69975b02569ec9ff6d82bbbd29378ba3ad75b4bf134fbe736e1ee070680",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/confirmation_v1_audit.json",
+      "published_sha256": "03c52f535fdef7400797ae4deae7851987cecb41bf4f9efbc5a0bff1dcf2151d",
+      "bytes": 1610,
+      "original_source_sha256": "de200e8eddc7a766f1eab1a9bcd0604fba749fe5d38ddda138f17daaed88f502",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/controller_diff.json",
+      "published_sha256": "4bcc729f8ef254766d59901d49167b5a7ba4eab86bb66d313d04f00bc654f4b8",
+      "bytes": 1742,
+      "original_source_sha256": "8537e9e9620b70e3da98631ea873696af601c512d2c64b672d2a1bd443abc695",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/controller_mechanisms.json",
+      "published_sha256": "5d08744e19fdccd312f243cc775fe828e998a19e1dd1aedf94a65c6e2347cccd",
+      "bytes": 2165,
+      "original_source_sha256": "fecba33c721fd24f4333974f1b519ac42f6497aee21921ba1cc8f6efa2c824bd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/counterfactual_calibration_v1_audit.json",
+      "published_sha256": "0ffb408a443f452b3510fda14b526a41989de6cdfaf5ad375616d98e621a6b5f",
+      "bytes": 370,
+      "original_source_sha256": "6b3ff0b83bb3dae726a632f199222af87850afeca36e45b2691935f3c8cd25cc",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/counterfactual_evaluation_v1_audit.json",
+      "published_sha256": "ca30bb487628d07b86e12f13a89076c9db51f36cb81fe47115623ae723ef4b19",
+      "bytes": 370,
+      "original_source_sha256": "26571056491f9cc1df1f8a37319fbae3bb7cdbce80e97237d56540b41586357d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/counterfactual_mechanisms.json",
+      "published_sha256": "25d095d1ecd9059b45ce1ba6a65ce29dad4785632ce41c0e036c50c4db7fdfcf",
+      "bytes": 365,
+      "original_source_sha256": "cd6216f65323baa9c6d89319cae50460e679879cf00f8ae8836227673d2d5b90",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/counterfactual_pilot_v1_audit.json",
+      "published_sha256": "43089283c797671e30da414561851fa0f19355d8888a2361e18f6fe5af9e7743",
+      "bytes": 356,
+      "original_source_sha256": "89f303dca30089a1c04ab04fb355f15609762619e68098ab1d66a7def0f46ac0",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/counterfactual_train_v1_audit.json",
+      "published_sha256": "2dc2b12ae3b29e00bc5d4784a8f2653d1999628d33e4c402221110a92a966aed",
+      "bytes": 364,
+      "original_source_sha256": "81e8f8ade7e22032d06cbeb2fa4ff4b58675a6486e81f4e1f403ba2a6efc33df",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/cross_horizon_pairing.json",
+      "published_sha256": "ae4f12892a47ab4b0c5c46f6e930a1780199bed49acf10f94fe9b794eedc9033",
+      "bytes": 770,
+      "original_source_sha256": "ae4f12892a47ab4b0c5c46f6e930a1780199bed49acf10f94fe9b794eedc9033",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d1_qualification_v1_audit.json",
+      "published_sha256": "f85d1b27108576a46634af836c8617e256fbcb8ab92d0bcb4b40dff8e8269d5f",
+      "bytes": 1959,
+      "original_source_sha256": "f9cbec8fa1ef892e09a2745b2d739245b755c5a7d98d9d21714376ec9151b13b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d1_qualification_v1_exact_reproduction.json",
+      "published_sha256": "4ef79e2ebba135776da2cbf8e230cd55947a78cc1c6e33726fd15835850f6d42",
+      "bytes": 2421,
+      "original_source_sha256": "5e6204f5daf17acd5a1fe94c0079c2cb76aa8acd9198251520b9f3f503657b2c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_pilot_v2_audit.json",
+      "published_sha256": "2b63b93ff9418f152debf721b36f8764007b2f7110bcee69ff29c5af02ca0179",
+      "bytes": 2017,
+      "original_source_sha256": "e83487b8d1325e47196e54c0d034b7a211321e5b53c5b8fc634792794c49364b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_pilot_v2_initial_verification.json",
+      "published_sha256": "fca3096501700441de5ad96bfa927603c8ddffdb33d6b99c28228616eafcdd34",
+      "bytes": 1336,
+      "original_source_sha256": "fca3096501700441de5ad96bfa927603c8ddffdb33d6b99c28228616eafcdd34",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_s30_v2_audit.json",
+      "published_sha256": "010bde7466732cbd47d169139edf739245c2b1e4d31accafb05ee49e64eb960f",
+      "bytes": 1985,
+      "original_source_sha256": "97310f6ffc89cfa46e236013ff0213f3d3b796f555d2a3f509f8d530f93f2c88",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_s30_v2_initial_verification.json",
+      "published_sha256": "bf444a752392300bbcfe4b29a2ddef123f8db9fee10d9d0464708e2cb8be7ea0",
+      "bytes": 1351,
+      "original_source_sha256": "bf444a752392300bbcfe4b29a2ddef123f8db9fee10d9d0464708e2cb8be7ea0",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_s31_v2_audit.json",
+      "published_sha256": "1ede9ed504ab0fe82c9e16c6a7059a94f9e1ab92170608a31a4c21015d536fde",
+      "bytes": 1983,
+      "original_source_sha256": "369b24be648f4ccf9df63057e8a87bc0b8d66bb8a62e6d16606c9218458fedb9",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_s31_v2_initial_verification.json",
+      "published_sha256": "4f4acb43cb82d46d2cf75631bdbaec4ff29c0e4f367324966d966d809136c1f9",
+      "bytes": 1351,
+      "original_source_sha256": "4f4acb43cb82d46d2cf75631bdbaec4ff29c0e4f367324966d966d809136c1f9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_s32_v2_audit.json",
+      "published_sha256": "71d202f0b0c205b4830354e1cca0bd9e040e6b768a5555dc1dc13c82917d6d1b",
+      "bytes": 1984,
+      "original_source_sha256": "55ce932e69439fe7f31b5924dbd1a9345ae8da4967eea6dcd2926b8e9d30b32b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d4_s32_v2_initial_verification.json",
+      "published_sha256": "112d5936ea88570e5bebd6a80cc99e4775762b4c1102d26c564dd23598498a9e",
+      "bytes": 1351,
+      "original_source_sha256": "112d5936ea88570e5bebd6a80cc99e4775762b4c1102d26c564dd23598498a9e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_pilot_v2_audit.json",
+      "published_sha256": "33bf384f615da409f5cfae025e20d35a0427a09ab4efc119a32fea3c69a28941",
+      "bytes": 2044,
+      "original_source_sha256": "21ae4a95447ae786b566ce48dea46140ace92257b130febef3e53e03f5bb7262",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_pilot_v2_initial_verification.json",
+      "published_sha256": "f13cabddd193b225aeaed5417cc13c0f15c7b6a6298242395f8ae5f3a33071b3",
+      "bytes": 1336,
+      "original_source_sha256": "f13cabddd193b225aeaed5417cc13c0f15c7b6a6298242395f8ae5f3a33071b3",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_s30_v2_audit.json",
+      "published_sha256": "06c0418f65dd926dba71ec02e8d15dfee8037930dbcc05a9f86b3e863a3f1924",
+      "bytes": 2015,
+      "original_source_sha256": "fcfdaf23cd77130cbb340b8a64fdd9fbc52e6b9aeb52b1152fde4685ef30dcd8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_s30_v2_initial_verification.json",
+      "published_sha256": "020093b2d0ea232c9788c7c7bef0f7013e76d3c082f8cd0b61f65fe06b05e644",
+      "bytes": 1351,
+      "original_source_sha256": "020093b2d0ea232c9788c7c7bef0f7013e76d3c082f8cd0b61f65fe06b05e644",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_s31_v2_audit.json",
+      "published_sha256": "e82740e013c02ef0d03715063fe4c1bdab56ca63a7130f7cc447d72c0e3f3fa3",
+      "bytes": 2015,
+      "original_source_sha256": "52e08760e0f7edb7b9c17538f61d14cd3dfdc37d604ded42e470bbbe29c84978",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_s31_v2_initial_verification.json",
+      "published_sha256": "a69982d133b1c082c121983b30a19a4f6ea298abcaaf457840a7228ba64d05f9",
+      "bytes": 1351,
+      "original_source_sha256": "a69982d133b1c082c121983b30a19a4f6ea298abcaaf457840a7228ba64d05f9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_s32_v2_audit.json",
+      "published_sha256": "54c8f0930afe8d75887ded840ee50723980fbf18a83ff8f16c41beebc74858ce",
+      "bytes": 2014,
+      "original_source_sha256": "e793bb98aa53c486534eb64d4f2f5cce8f6e0b172ec4ef885f832b800d318828",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_d5_s32_v2_initial_verification.json",
+      "published_sha256": "8a667c14f8530760865d8b134285bdfe5f76b2c0ed524e6dfa86fb05b224468b",
+      "bytes": 1351,
+      "original_source_sha256": "8a667c14f8530760865d8b134285bdfe5f76b2c0ed524e6dfa86fb05b224468b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_validation_d4_v2_paired_plotted_values.json",
+      "published_sha256": "ea0b906400b452fbcfd2617b82d0e919942cb36ac6c330c3835e9bccc4380793",
+      "bytes": 2153,
+      "original_source_sha256": "ea0b906400b452fbcfd2617b82d0e919942cb36ac6c330c3835e9bccc4380793",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/delay_validation_d5_v2_paired_plotted_values.json",
+      "published_sha256": "0d60d28b51dad567bd70fbf996e4a3df7ad57088ad4a1774e548c9596dbb6d4c",
+      "bytes": 2141,
+      "original_source_sha256": "0d60d28b51dad567bd70fbf996e4a3df7ad57088ad4a1774e548c9596dbb6d4c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/deployment_readout.json",
+      "published_sha256": "3be560ef4c3d5c307cb8295d750c271fc5ca9d3c9a51fefdf698e6cb140df8f1",
+      "bytes": 330,
+      "original_source_sha256": "bea5a18ea1708ca230f36e0c1662aeb44cf2356ca3fb0e567bff365cd557b6eb",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/deployment_seeded_skip_v1.json",
+      "published_sha256": "1d68453e4c3796961824898a1f189215500ecb3c9fa545f511b9bdcbbae3877f",
+      "bytes": 2260,
+      "original_source_sha256": "1d68453e4c3796961824898a1f189215500ecb3c9fa545f511b9bdcbbae3877f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/diagnosis_v1_archive_consistency.json",
+      "published_sha256": "cafab4ecd59dcccab83cdd4df0e1d01746d5879fba19aab470a897411ba2a1b2",
+      "bytes": 694,
+      "original_source_sha256": "7ae1bd50cdf6c345055e6f6e3e0ac1d2067e3b0e4f34cf24286f79366bef317e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/diagnosis_v1_audit.json",
+      "published_sha256": "78f105b16818b619189ac660946b038694134d0b79465a96529692a5a3125967",
+      "bytes": 1634,
+      "original_source_sha256": "78f105b16818b619189ac660946b038694134d0b79465a96529692a5a3125967",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/diagnosis_v1_before_archive.json",
+      "published_sha256": "911986cb9a3bec5deb4fa308803976052416390dbb19e3c56620d8d57a1dc2fb",
+      "bytes": 546,
+      "original_source_sha256": "911986cb9a3bec5deb4fa308803976052416390dbb19e3c56620d8d57a1dc2fb",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/final_delivery.json",
+      "published_sha256": "97dbc4649d35e0206dbf0495f336ac5e5a08db73779ff9b4af7478581f9c5cc5",
+      "bytes": 1842,
+      "original_source_sha256": "ee0f4d481fe662f9239b8fd21008106c780502bf58d106e60c28d81c42fe6e96",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/final_frozen_scope.json",
+      "published_sha256": "d9779e842d63a953cd941f0688fe09a4c41ecac4dd6ec5fd5608a93f64952a92",
+      "bytes": 3221,
+      "original_source_sha256": "5b543ebd4841fe18b19f35d79f33d87ece2e05bbc98b340d53fecf5ad526804c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/first_request_qualification_v1_audit.json",
+      "published_sha256": "bd13538a40de667e684dcf479a8e37a52bfad10f2b463ccefdcb3d97eca18ed0",
+      "bytes": 1642,
+      "original_source_sha256": "c26fad18368ed6f81594800e734c566110f69e3deea26973ee4049179865657e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/first_request_qualification_v1_branch_qualification.json",
+      "published_sha256": "3fb443199cc890f9dd68baaaf9ebc501caebec47c7a2795a142b9c2530aa045e",
+      "bytes": 247,
+      "original_source_sha256": "7a425bef71a1b2a4bbfd184bc4b5a879edc17ce9d4473cdb2f4d2ac97a9c9f0d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/fixed_interval_v1_audit.json",
+      "published_sha256": "710ab38c823a223689b4bd8e948abbd3b3defadf8c7d9ff916d527619425b3a0",
+      "bytes": 1194,
+      "original_source_sha256": "4d26d58610d2c76b21a26cb798ed9caffef233364e5685fea49b8729ac181fd8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/guarded_runtime_qualification_v1_audit.json",
+      "published_sha256": "68eecaade089e1cb0e729e20de6a20ca9a27213c1546a6d567e33a28798fa782",
+      "bytes": 2097,
+      "original_source_sha256": "6747f7bdbd86258793d148911f259884630d91f68194d4615fa591dd2e587238",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/guarded_runtime_qualification_v1_initial_verification.json",
+      "published_sha256": "6f494a23d0c5f3d61a8deb65866dae0635c7e47df2855f2a4b593b7f36a5fe4a",
+      "bytes": 1351,
+      "original_source_sha256": "6f494a23d0c5f3d61a8deb65866dae0635c7e47df2855f2a4b593b7f36a5fe4a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/guarded_runtime_qualification_v1_vs_initial_repro_plain_v1.json",
+      "published_sha256": "263a5f6b53f5bd8a3d968446468e11716f127f282906c592cd6c655a6277ce96",
+      "bytes": 8005,
+      "original_source_sha256": "263a5f6b53f5bd8a3d968446468e11716f127f282906c592cd6c655a6277ce96",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/initial_repro_plain_v1_vs_initial_repro_probe_v1.json",
+      "published_sha256": "dc1f15328f09089b46b5b1cddcd4f8064b8e13765ea0577a455715b80cf707ad",
+      "bytes": 7995,
+      "original_source_sha256": "dc1f15328f09089b46b5b1cddcd4f8064b8e13765ea0577a455715b80cf707ad",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/initial_repro_plain_v1_vs_validation_d1_s10_v1.json",
+      "published_sha256": "71b5fcff456e307a1ba9c041aa3810191808c2a01e2ae7ebd5b50f6b015f5536",
+      "bytes": 7994,
+      "original_source_sha256": "71b5fcff456e307a1ba9c041aa3810191808c2a01e2ae7ebd5b50f6b015f5536",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/initial_repro_plain_v1_vs_validation_d1_s10_v2.json",
+      "published_sha256": "426a4adb42d33e34c42726a2ca33e907720cb8476e13e57600bf5fe645a73ffc",
+      "bytes": 8022,
+      "original_source_sha256": "426a4adb42d33e34c42726a2ca33e907720cb8476e13e57600bf5fe645a73ffc",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/initial_repro_probe_v1_original_comparison.json",
+      "published_sha256": "efa4cbb3a08ca54eeda9131c4043d4eec23db5e22611ba0e40b8211c1ab8626f",
+      "bytes": 6260,
+      "original_source_sha256": "efa4cbb3a08ca54eeda9131c4043d4eec23db5e22611ba0e40b8211c1ab8626f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/known_replay_difference_outcomes.json",
+      "published_sha256": "8676a39d614a85a76dd3fdfb4626cf52b7f4d5fdcc5f53f939ad1096e2b1e417",
+      "bytes": 1904,
+      "original_source_sha256": "8676a39d614a85a76dd3fdfb4626cf52b7f4d5fdcc5f53f939ad1096e2b1e417",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/noise_d1_pilot_v1_vs_initial_repro_plain_v1.json",
+      "published_sha256": "5b5a0789ec3673f15d2fbd754bd9e5b02c0b24f4023c9228af4a5c195393058c",
+      "bytes": 2558,
+      "original_source_sha256": "5b5a0789ec3673f15d2fbd754bd9e5b02c0b24f4023c9228af4a5c195393058c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/old_new_complete_overlap.json",
+      "published_sha256": "ac531a26626216de1b47e7836d981aeddb37bc8ed899282f4b89b60031ec7ed5",
+      "bytes": 1462,
+      "original_source_sha256": "6e58154b51c54d77ec2a7d9e0d0d311c3bb49aa3b11d94897bbd165d7d162bbc",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/strict_deterministic_backend_difference.json",
+      "published_sha256": "6c6ffb2283eba51a252cb939c61c01f4920f05cd8ff9639fe341a274b4583879",
+      "bytes": 3614,
+      "original_source_sha256": "6c6ffb2283eba51a252cb939c61c01f4920f05cd8ff9639fe341a274b4583879",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/validation_d1_s10_v1_first_chunk_differences.json",
+      "published_sha256": "bc00812034ae4b8655c99a9077beee4553843f93ad7dd2f15c3d2cd954319cdd",
+      "bytes": 6982,
+      "original_source_sha256": "bc00812034ae4b8655c99a9077beee4553843f93ad7dd2f15c3d2cd954319cdd",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/validation_d1_s10_v1_initial_audit_failure.json",
+      "published_sha256": "c6553c39d5b8f231918c3132073e2ceb53549a2297f49db696a7c7d92a08a7bf",
+      "bytes": 2635,
+      "original_source_sha256": "4d46a7b6e120e8b1439b398caa937b5c1278f1aba655ab9570be2f4648c40ea5",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/validation_d1_s10_v2_vs_validation_d1_s10_v1.json",
+      "published_sha256": "a7acec984bed69443837ec31fa2dfecb259624389c1130a6d63f1bed4b348c14",
+      "bytes": 77089,
+      "original_source_sha256": "a7acec984bed69443837ec31fa2dfecb259624389c1130a6d63f1bed4b348c14",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/validation_d1_s12_v2_later_replay_difference.json",
+      "published_sha256": "22624d9273c22ce42bd814b9fcc96c30bae4f9b5946e8b4a814874603093d4d3",
+      "bytes": 613,
+      "original_source_sha256": "22624d9273c22ce42bd814b9fcc96c30bae4f9b5946e8b4a814874603093d4d3",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/validation_d1_s12_v2_vs_validation_d1_s12_v1.json",
+      "published_sha256": "a2ca358393a3d224fb5077fe1aa99ed844e3e7173d40f2027fa4556863d4cfe5",
+      "bytes": 77090,
+      "original_source_sha256": "a2ca358393a3d224fb5077fe1aa99ed844e3e7173d40f2027fa4556863d4cfe5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/incidents/verified_runtime_qualification_v1_vs_initial_repro_plain_v1.json",
+      "published_sha256": "30084e6557e59bd00acacdbd64aacb434b6ddf491ed8d5aa5d7ccb7967f20f4b",
+      "bytes": 8035,
+      "original_source_sha256": "30084e6557e59bd00acacdbd64aacb434b6ddf491ed8d5aa5d7ccb7967f20f4b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/initial_guard_fault_injection.json",
+      "published_sha256": "280dc45c5a33bbda4a2c15c59d671f75c3a0ff7ff2f449a3e03ae67bb18b3be1",
+      "bytes": 719,
+      "original_source_sha256": "280dc45c5a33bbda4a2c15c59d671f75c3a0ff7ff2f449a3e03ae67bb18b3be1",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/initial_repro_plain_v1_audit.json",
+      "published_sha256": "bb576f33736c894aadd124c4668dccb50b0fa4ba40cf1f2af94693dc6227414f",
+      "bytes": 2087,
+      "original_source_sha256": "a4b134a4e71a0218cb1746603998ab71128bab779e08912b3b3bc637b7e81535",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/initial_repro_probe_v1_audit.json",
+      "published_sha256": "42d2257a4526934607d50cf1392fe4b358317f873d5fbc90393f0ff4898472a5",
+      "bytes": 2087,
+      "original_source_sha256": "22a04843af29979a0e81a08fe82432ff1727ed37d559f36093fcf5c9476c498f",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_alignment_cpu.json",
+      "published_sha256": "ac365d5dd2affeeb447e51d47048fbe56331efc1458a9f7399b68ea2b5b65635",
+      "bytes": 6559,
+      "original_source_sha256": "ac365d5dd2affeeb447e51d47048fbe56331efc1458a9f7399b68ea2b5b65635",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d1_pilot_v1_audit.json",
+      "published_sha256": "081cede5f12c4b6619843721f5961ca182fb27f30b9229d985e7bcfcb3084903",
+      "bytes": 1350,
+      "original_source_sha256": "26824d5d7ae65e46d8926fef64fea5b37deb69b54674bc498ac8efca3ef16f19",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d1_pilot_v1_initial_verification.json",
+      "published_sha256": "4ba94549aa59eaf05c8837be49b9bc856c53486e314d46076c16a638dbd2379b",
+      "bytes": 1336,
+      "original_source_sha256": "4ba94549aa59eaf05c8837be49b9bc856c53486e314d46076c16a638dbd2379b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d1_pilot_v1_noise_alignment.json",
+      "published_sha256": "5491faee6257878d3d671133040cf8427eaef8ea71c0c05a62f8a64e532b0c19",
+      "bytes": 1736,
+      "original_source_sha256": "5491faee6257878d3d671133040cf8427eaef8ea71c0c05a62f8a64e532b0c19",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_pilot_v1_audit.json",
+      "published_sha256": "074e85192a67111eff6796a9cdcd4c39fc63165f87b0e8d9285ed6a97d694359",
+      "bytes": 2061,
+      "original_source_sha256": "97a9e904388d8f6e9eb308c35019c825ef00725dc7fd6b5132c5e83918720bbd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_pilot_v1_initial_verification.json",
+      "published_sha256": "7dd0e9ac260f5172054f2b40cfa90c3d379b63b65a0122c672a480b820b826c8",
+      "bytes": 1336,
+      "original_source_sha256": "7dd0e9ac260f5172054f2b40cfa90c3d379b63b65a0122c672a480b820b826c8",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_pilot_v1_noise_alignment.json",
+      "published_sha256": "530b7359ec3a65e039db0051d293a63464608bfaab79d30e0a9151e1114340ae",
+      "bytes": 1736,
+      "original_source_sha256": "530b7359ec3a65e039db0051d293a63464608bfaab79d30e0a9151e1114340ae",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_s40_v1_audit.json",
+      "published_sha256": "d1adcb6515c533560d06c55056fabc4cc30e105c8a6c6bf53fea1221e1259f15",
+      "bytes": 2030,
+      "original_source_sha256": "fe48a13fe0b864826a5fa66c07449f997f25f8c7d6b0e0ca8597c9ace3b906cd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_s40_v1_initial_verification.json",
+      "published_sha256": "5e902d3ebb22985f7b1dc98e941874c9c1990e72aa82317b7322115824aee33b",
+      "bytes": 1351,
+      "original_source_sha256": "5e902d3ebb22985f7b1dc98e941874c9c1990e72aa82317b7322115824aee33b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_s40_v1_noise_alignment.json",
+      "published_sha256": "9e1020f7479e4ca0dae07a38af855ad4166a2722f417f3dbef632afadf8bd83f",
+      "bytes": 8415,
+      "original_source_sha256": "9e1020f7479e4ca0dae07a38af855ad4166a2722f417f3dbef632afadf8bd83f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_s42_v1_audit.json",
+      "published_sha256": "1430f848b8dc915f7934082a872f3446f39433253caed328cd475214073da527",
+      "bytes": 2030,
+      "original_source_sha256": "6b2494e422952b2e388ab93cc8e2830ee319750c771af574e3536a93d8c4742d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_s42_v1_initial_verification.json",
+      "published_sha256": "ebdba741bb17a9cfffd22c9bd1ce5e473aed5ef7166ec1b1d6a75c2e583dfc12",
+      "bytes": 1351,
+      "original_source_sha256": "ebdba741bb17a9cfffd22c9bd1ce5e473aed5ef7166ec1b1d6a75c2e583dfc12",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_d4_s42_v1_noise_alignment.json",
+      "published_sha256": "511c39ebcd4e17d6d1d0e1f1a8b5df033ee4a0ff997dd4ae3d45182d4db9c79e",
+      "bytes": 8404,
+      "original_source_sha256": "511c39ebcd4e17d6d1d0e1f1a8b5df033ee4a0ff997dd4ae3d45182d4db9c79e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/noise_prefix_cpu.json",
+      "published_sha256": "f8578d846a140d671623beaf8921328e0d9d6ede19a959d4102b938f1d89bc03",
+      "bytes": 13940,
+      "original_source_sha256": "e759d7d8ace3eccdb0997b285dea89e289543dc21f8f39a89fa027eab709beb5",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/partial_noise_preservation.json",
+      "published_sha256": "5d39a7e27806e440a0b084a37f9ce9013b133b28fbc2b3c0cbf99606c196462c",
+      "bytes": 955,
+      "original_source_sha256": "d2300ac50116d40edf5e8605283231afb9da4581ae0c6def27c13f8ed40473b9",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/pdf_dependencies.json",
+      "published_sha256": "fb9a169c1ee6b5ea368b2dfed299196e6222c360b4fa8037fab906652ebb643e",
+      "bytes": 311,
+      "original_source_sha256": "fb9a169c1ee6b5ea368b2dfed299196e6222c360b4fa8037fab906652ebb643e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/random_skip_available_initials.json",
+      "published_sha256": "b82bca1644a55d4dbe0bef340db06ca2de630c6fff04e46178a26613a9a8c8f4",
+      "bytes": 197,
+      "original_source_sha256": "9944838afe08335956935efe36af5fdfc89fc20be49640753a6cefdac21bfc9b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/report_integrity.json",
+      "published_sha256": "2b3cfeffa020cffef31acba17d2787a58f506269aa511626cd53dc6f680017aa",
+      "bytes": 27803,
+      "original_source_sha256": "aac0903fd50f34769e5778e9937b20922cc76b9cf6afcc9f1324afd95e3ecb90",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/report_local_links.json",
+      "published_sha256": "0f3c9ca830a288f727a2a651cdca07a9b87b29a014fe5d164eac2ef3eea3550e",
+      "bytes": 41,
+      "original_source_sha256": "175284868139764ff77b27a5dc20a1364ea9b90487202e7c53bd8f183568e277",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/representations_v1_audit.json",
+      "published_sha256": "30647861ca52e42e235d26ce319f074cb5604ccb8ee19b81cecbf74b403258e7",
+      "bytes": 1671,
+      "original_source_sha256": "fe75420a4086b70973d212cf0ff6c0005a5934debeaf39ef8e00bfc6be2e3320",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/scores_calibration_v1_audit.json",
+      "published_sha256": "98087641f6a9ad67f7e7f7ef44242b0d5fcaf55c342811bdf84c75ec01c3f89b",
+      "bytes": 503,
+      "original_source_sha256": "cafce22de7aa5e6afc8ab457a24b606ced13b0a17da0e77f46b0338348f7887b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/scores_evaluation_v1_audit.json",
+      "published_sha256": "4eabdb9a6cd6aedf603dd454d2bbc07cfebe2f7d32ec9ad8b986fe2f701b6615",
+      "bytes": 503,
+      "original_source_sha256": "675f38ede665105b499f0931a7f6d7a74d748a016655b68b4c698f24cbcee79b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/scores_train_v1_audit.json",
+      "published_sha256": "91d3464daeacde719a2a0733dfa82293a3b03f1df6d8f5ef2d78389dbd80656e",
+      "bytes": 497,
+      "original_source_sha256": "0a6aca43f50f2b6136bf6a6669b235283e483b6b15cd904e0b970c92df339234",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/scores_window_calibration_v1_audit.json",
+      "published_sha256": "fea488ac3eafd4f636deba5094c495c3f138fc5e0f5a017782a4c51ac475751f",
+      "bytes": 509,
+      "original_source_sha256": "f064bf75c991a31887d6fe3d6d416f564b43e358a7452f159270fb0b0604e93e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/scores_window_train_v1_audit.json",
+      "published_sha256": "1b3a086ed16c93f212fd29e4a058ef265d35e2f9b1bdabe25f7c5f49d21b4dd5",
+      "bytes": 504,
+      "original_source_sha256": "da91e2241b95f772edb4c0ab98c861a1af6344f49599032065209668b0aaf945",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/seeded_skip_cpu.json",
+      "published_sha256": "fe9e4cee0dd8202cc4dfb322d6005b28d5a36bfef317b9106ffa436757e68c86",
+      "bytes": 7491,
+      "original_source_sha256": "fe9e4cee0dd8202cc4dfb322d6005b28d5a36bfef317b9106ffa436757e68c86",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/service_accounting_eligibility.json",
+      "published_sha256": "e95de07d1eee907c85fe2a285768a7fe1168b43dd66400f7ef0d3488fb142284",
+      "bytes": 347,
+      "original_source_sha256": "e95de07d1eee907c85fe2a285768a7fe1168b43dd66400f7ef0d3488fb142284",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/service_accounting_math.json",
+      "published_sha256": "91a2dce0e098cebe976a5b311737f9a94e623fc9ae087af344cd262dc0ad4a89",
+      "bytes": 569,
+      "original_source_sha256": "a203f619498c2020f4311e3b32810408d0536394ee6518affc0e5f83f7b26540",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/single_skip_confirmation_v1_audit.json",
+      "published_sha256": "f3a0b89494fb16fa604c6a67f953f408a0b624249a281014aeaacc0bb36d5bdf",
+      "bytes": 1907,
+      "original_source_sha256": "676bb3fa04d63b9fbcfa4f662aa7737cffe458e06c6065ff47a692dbdb15a70c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/single_skip_v1_audit.json",
+      "published_sha256": "a247e565ef4e189dde616848cabc68631c22e3244d0289518e8be9024e17c501",
+      "bytes": 1717,
+      "original_source_sha256": "db13b4eb696c3050a3ddcf28ac36712590b2ea502cfeb9ae574e385971f04489",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s10_v1_audit.json",
+      "published_sha256": "c6553c39d5b8f231918c3132073e2ceb53549a2297f49db696a7c7d92a08a7bf",
+      "bytes": 2635,
+      "original_source_sha256": "4d46a7b6e120e8b1439b398caa937b5c1278f1aba655ab9570be2f4648c40ea5",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s10_v2_audit.json",
+      "published_sha256": "b0f55ee0bc3caffddc81b6b785bc6755c43ea52b8dab26e14475393f4f2665ff",
+      "bytes": 2124,
+      "original_source_sha256": "abb441d41a430d2494afaa23af540de5c4cfd1d5954201b9f86e81e994a7b94c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s10_v2_initial_verification.json",
+      "published_sha256": "2a8df87b840237deafab96a148a2af31e088d6e05bee3758bd611995071a2f7d",
+      "bytes": 1356,
+      "original_source_sha256": "2a8df87b840237deafab96a148a2af31e088d6e05bee3758bd611995071a2f7d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s11_v2_audit.json",
+      "published_sha256": "fdcac5992d07b7fe7402b36f78a9c7a65bbb7015c9afbd1952a54abe9e635c53",
+      "bytes": 2124,
+      "original_source_sha256": "30a5850d8d01cc87dc61e875f534b45b621f90a0831363b4c6d08e25d8c989ea",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s11_v2_initial_verification.json",
+      "published_sha256": "9866d4e86e3d1937ad7b94c6fa2786b5f36918a5b9d9ea415026e34f61a1cbe5",
+      "bytes": 1356,
+      "original_source_sha256": "9866d4e86e3d1937ad7b94c6fa2786b5f36918a5b9d9ea415026e34f61a1cbe5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s12_v1_audit.json",
+      "published_sha256": "71778f04baf3bbaa15eb73b71650e7e872134e36c15071c73d7d0ae4e26413b0",
+      "bytes": 2124,
+      "original_source_sha256": "5bb4dbf8a542d631a9ec2577662eff2cabf499e3ccbd670fec9e9c1ca2baa267",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s12_v2_audit.json",
+      "published_sha256": "aeee6e09508c9f24b0aeac60ae71442bea30e2b73c74fd730ab58563fe6862a5",
+      "bytes": 2124,
+      "original_source_sha256": "65ec0d165f86ea4f7ee6c4f3a8addc5924d13814a1101239b29c6ec1dc33d446",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s12_v2_initial_verification.json",
+      "published_sha256": "027849dabbec417d7a93eb22f9b728f7b8dd784e9dd964cf0728a054d54b5071",
+      "bytes": 1356,
+      "original_source_sha256": "027849dabbec417d7a93eb22f9b728f7b8dd784e9dd964cf0728a054d54b5071",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s13_v2_audit.json",
+      "published_sha256": "c8848b1865998bd4ed11a18d151c6f6a481092962eb947624887f41ba86c49e3",
+      "bytes": 2124,
+      "original_source_sha256": "bdf263b649da97a27e3fd4128bcc42853ffd7d02d0f8ca34918aa1ab57068e65",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s13_v2_initial_verification.json",
+      "published_sha256": "e36bb214397d0aab9d27e28ddfbcd95b0f5c555eb7764b893e2b47f6d5a01333",
+      "bytes": 1356,
+      "original_source_sha256": "e36bb214397d0aab9d27e28ddfbcd95b0f5c555eb7764b893e2b47f6d5a01333",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s14_v2_audit.json",
+      "published_sha256": "418f8254f6ebf27171920efcac979bf17896d46590dcafa755bb0a7d67e738eb",
+      "bytes": 2123,
+      "original_source_sha256": "8bb7f60531ac555591f71c13e5099e95c386b9550eeca7309f7658af47cec137",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_s14_v2_initial_verification.json",
+      "published_sha256": "a769585c44296abd88e22681d9dca56798a97ec7f303e10e4dc04af6e25f80fb",
+      "bytes": 1356,
+      "original_source_sha256": "a769585c44296abd88e22681d9dca56798a97ec7f303e10e4dc04af6e25f80fb",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_v2_gate_trace_equivalence.json",
+      "published_sha256": "f051c739fffccacdab8310ef7ff791ce2e4150df74dd847affc091942870f206",
+      "bytes": 206770,
+      "original_source_sha256": "f051c739fffccacdab8310ef7ff791ce2e4150df74dd847affc091942870f206",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_d1_v2_paired_plotted_values.json",
+      "published_sha256": "dfd8ce26a4d8b62f18c5bb85f55a71f4a8dbd5d5b1f7387479e4aa13d2d88f4f",
+      "bytes": 2013,
+      "original_source_sha256": "dfd8ce26a4d8b62f18c5bb85f55a71f4a8dbd5d5b1f7387479e4aa13d2d88f4f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/validation_readout.json",
+      "published_sha256": "6971959689a8bbb087c3f06f1df8a464cfb3e8d1e73cfbb329fa58d66689e8f2",
+      "bytes": 1935,
+      "original_source_sha256": "663cb3c51e2dc5f6d58230b69aee649aeaaf535491388fd89dcd8943a6dbd29c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/verified_runtime_qualification_v1_audit.json",
+      "published_sha256": "909ce85a4241c37b48131bed1198cb60f7350a5d2c19725ef579feb7e16e577f",
+      "bytes": 2098,
+      "original_source_sha256": "09966313637f016c321c8b832cd65a210401218e09504b085a4e1ce7734f89a0",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/verified_runtime_qualification_v1_initial_verification.json",
+      "published_sha256": "44d3c3b0b54d6821ddbcdc4e7ca9afef05fd40243801781f7772df553c985040",
+      "bytes": 1332,
+      "original_source_sha256": "44d3c3b0b54d6821ddbcdc4e7ca9afef05fd40243801781f7772df553c985040",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/verified_v2_scientific_invariance.json",
+      "published_sha256": "2b07875b851635fc4d7927b35ce837bcc605032231e16ef52202c0f9245eaa94",
+      "bytes": 19707,
+      "original_source_sha256": "2b07875b851635fc4d7927b35ce837bcc605032231e16ef52202c0f9245eaa94",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/checks/window_input.json",
+      "published_sha256": "5875ecf806ab18e4af5b409ab78d49ae1e0cd5425ec5c4f8bfca8b80043715c3",
+      "bytes": 555,
+      "original_source_sha256": "18b86ac6781b2d2b4566581326ee86b241ddd032093aacc81be1ed0b63fa7d97",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/CHOICE_ORDER_AUDIT_PROTOCOL.md",
+      "published_sha256": "e56ab44ccb090011c8454c939676ba574063035f7592c67360d8f0302da7313d",
+      "bytes": 1702,
+      "original_source_sha256": "9cdf046c38554134481752871874f622be0ab045c6a6c2a04842a708f3d165ab",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s20_v1.json",
+      "published_sha256": "34a841ac381bcb04625c9b7258879fcffa26ce1fc8718273e93d924207f2f43c",
+      "bytes": 1936,
+      "original_source_sha256": "34a841ac381bcb04625c9b7258879fcffa26ce1fc8718273e93d924207f2f43c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s20_v2.json",
+      "published_sha256": "e897364ed5c9d2d4ee123005ce4e2e6adf3d7dacf1f1ae1160e49e1b95a85888",
+      "bytes": 2375,
+      "original_source_sha256": "e897364ed5c9d2d4ee123005ce4e2e6adf3d7dacf1f1ae1160e49e1b95a85888",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s21_v1.json",
+      "published_sha256": "dfc20b299282f505f410a0e1240edcaf8038dd52156205b9d0c5fb6b4737f5c7",
+      "bytes": 1936,
+      "original_source_sha256": "dfc20b299282f505f410a0e1240edcaf8038dd52156205b9d0c5fb6b4737f5c7",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s21_v2.json",
+      "published_sha256": "300ec6d27e7a212232b6f97e86b14052b148529579f2a4795484931a7790a6cd",
+      "bytes": 2375,
+      "original_source_sha256": "300ec6d27e7a212232b6f97e86b14052b148529579f2a4795484931a7790a6cd",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s22_v1.json",
+      "published_sha256": "73a3cfd1de273ded2d3a116f868d1cc857d300f247c81dd92c2c9c87968d404b",
+      "bytes": 1936,
+      "original_source_sha256": "73a3cfd1de273ded2d3a116f868d1cc857d300f247c81dd92c2c9c87968d404b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s22_v2.json",
+      "published_sha256": "f66766505e14a930571be39a6f5025c9a81fac95c4c7b9461bafd8874fbc923f",
+      "bytes": 2375,
+      "original_source_sha256": "f66766505e14a930571be39a6f5025c9a81fac95c4c7b9461bafd8874fbc923f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s23_v1.json",
+      "published_sha256": "c3e2053ccad388679ca1b66f5f9399bb01ccc22c81286bd69f109e02bab3a10d",
+      "bytes": 1936,
+      "original_source_sha256": "c3e2053ccad388679ca1b66f5f9399bb01ccc22c81286bd69f109e02bab3a10d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s23_v2.json",
+      "published_sha256": "4fec258a249a6dc1fddecf8ab6ecdcc70ed4f3658ef16e11c116fb513aea8f29",
+      "bytes": 2375,
+      "original_source_sha256": "4fec258a249a6dc1fddecf8ab6ecdcc70ed4f3658ef16e11c116fb513aea8f29",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s24_v1.json",
+      "published_sha256": "64e0fbccfeff806364c435e06a0d815d2bf748e891e73dc65d765e4fa1be9cc9",
+      "bytes": 1936,
+      "original_source_sha256": "64e0fbccfeff806364c435e06a0d815d2bf748e891e73dc65d765e4fa1be9cc9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/budget_d1_s24_v2.json",
+      "published_sha256": "b29a435b00e599be553931e9a35e52ca7576767f312b0457b4db63e371597bec",
+      "bytes": 2375,
+      "original_source_sha256": "b29a435b00e599be553931e9a35e52ca7576767f312b0457b4db63e371597bec",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/confirm_frontier.json",
+      "published_sha256": "b91ef6d9bc7c5762f0362cdfc2aaa0cabdaeebf04bd986d214d9af28a5823a17",
+      "bytes": 1349,
+      "original_source_sha256": "34bfa34058801d86f2ecccc4ffea3e7b3352d569763fd9ed594aac2659adef2d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/confirm_single_skip.json",
+      "published_sha256": "272ecfcaebd7de73ef11b8dc6892d6b8d85ca68ad079ffc400f782b2124961dd",
+      "bytes": 687,
+      "original_source_sha256": "8647e2e11e19bcea9b89cd16bf53f6068f9ee09d715eedd169d8ae68b8680d9e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_pilot_v1.json",
+      "published_sha256": "6d71ae55b1f7829031e26501aa9ffac83cc2f97942db88ce803f379d8e5d1f51",
+      "bytes": 1536,
+      "original_source_sha256": "6d71ae55b1f7829031e26501aa9ffac83cc2f97942db88ce803f379d8e5d1f51",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_pilot_v2.json",
+      "published_sha256": "b657579b55105f3e18778ed6a5a02b9a8c559ef86fc2fa7ae26b66e3d3f1a3a1",
+      "bytes": 1969,
+      "original_source_sha256": "b657579b55105f3e18778ed6a5a02b9a8c559ef86fc2fa7ae26b66e3d3f1a3a1",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_s30_v1.json",
+      "published_sha256": "116cbb439b16b4588b7760d2f6a28e158215fa58463f01f38c19c1f75d5b8d67",
+      "bytes": 1634,
+      "original_source_sha256": "116cbb439b16b4588b7760d2f6a28e158215fa58463f01f38c19c1f75d5b8d67",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_s30_v2.json",
+      "published_sha256": "1fa40dccd00318be6441028f27481fcd657e1363bca78c1568718c80e37a80ca",
+      "bytes": 2072,
+      "original_source_sha256": "1fa40dccd00318be6441028f27481fcd657e1363bca78c1568718c80e37a80ca",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_s31_v1.json",
+      "published_sha256": "8c0542b88f8ed887f5d4460341097979e49cf326a801c29ff1b9387ff239f33d",
+      "bytes": 1634,
+      "original_source_sha256": "8c0542b88f8ed887f5d4460341097979e49cf326a801c29ff1b9387ff239f33d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_s31_v2.json",
+      "published_sha256": "36d76a15303cfaf01862b14c02aaf6a88955f34999ecc53ac00a90468c1222f6",
+      "bytes": 2072,
+      "original_source_sha256": "36d76a15303cfaf01862b14c02aaf6a88955f34999ecc53ac00a90468c1222f6",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_s32_v1.json",
+      "published_sha256": "18b8c2b9ade078f8b10b41494a3e3781c051a9246d6a30c23db29dd583406c4b",
+      "bytes": 1634,
+      "original_source_sha256": "18b8c2b9ade078f8b10b41494a3e3781c051a9246d6a30c23db29dd583406c4b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d4_s32_v2.json",
+      "published_sha256": "753d60fdf9a6c9a2283d12a5511daaea02f7c5deb455f38f8a766f096e8ef0f1",
+      "bytes": 2072,
+      "original_source_sha256": "753d60fdf9a6c9a2283d12a5511daaea02f7c5deb455f38f8a766f096e8ef0f1",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_pilot_v1.json",
+      "published_sha256": "38c96702abe7617b640028eb03c73d2dd10033609a76ae23309807c1dbb7140d",
+      "bytes": 1536,
+      "original_source_sha256": "38c96702abe7617b640028eb03c73d2dd10033609a76ae23309807c1dbb7140d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_pilot_v2.json",
+      "published_sha256": "7ecb6bda7d9270451cb23704c06fec0c4bddaac31eb0e8003f8810e78c99ca69",
+      "bytes": 1969,
+      "original_source_sha256": "7ecb6bda7d9270451cb23704c06fec0c4bddaac31eb0e8003f8810e78c99ca69",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_s30_v1.json",
+      "published_sha256": "dd836492003c3eecaa0cfd4ca5e3678f3f51f71c69fc922a1789b8c4d30022d7",
+      "bytes": 1634,
+      "original_source_sha256": "dd836492003c3eecaa0cfd4ca5e3678f3f51f71c69fc922a1789b8c4d30022d7",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_s30_v2.json",
+      "published_sha256": "2f34d05ef8f3a405650609daeefd384a5ef80b53dde6e564b539c069ec17e26d",
+      "bytes": 2072,
+      "original_source_sha256": "2f34d05ef8f3a405650609daeefd384a5ef80b53dde6e564b539c069ec17e26d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_s31_v1.json",
+      "published_sha256": "1c51b2098d432b1d3134e79456c374f06cecef91617aa0d95b184e77146e187e",
+      "bytes": 1634,
+      "original_source_sha256": "1c51b2098d432b1d3134e79456c374f06cecef91617aa0d95b184e77146e187e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_s31_v2.json",
+      "published_sha256": "9410c207f9c1e88000cc842362fc46f1e7665b37d873f91313c2b95de34852d5",
+      "bytes": 2072,
+      "original_source_sha256": "9410c207f9c1e88000cc842362fc46f1e7665b37d873f91313c2b95de34852d5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_s32_v1.json",
+      "published_sha256": "ee9bfff61ff28f4377a36506f44ba374e9fb11452cb5473a718b1335e3c9c471",
+      "bytes": 1634,
+      "original_source_sha256": "ee9bfff61ff28f4377a36506f44ba374e9fb11452cb5473a718b1335e3c9c471",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/delay_d5_s32_v2.json",
+      "published_sha256": "654413be453dc17f0f734e22ac5fb8bd17e3ac029b7106cd725cb04c30c57ecd",
+      "bytes": 2072,
+      "original_source_sha256": "654413be453dc17f0f734e22ac5fb8bd17e3ac029b7106cd725cb04c30c57ecd",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/fixed_interval_ablation.json",
+      "published_sha256": "345f023a1399921d289d2014cd753442cadbfe9ca636a5b59eb3729c80bb7462",
+      "bytes": 921,
+      "original_source_sha256": "5fbca2dfff5390870483682fca964d696f88e8a8e06401b7a96e08cd169192ea",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/guarded_runtime_qualification_v1.json",
+      "published_sha256": "2a514ed1b746b999b775bb32783b68272ba1d747c666fcca8ddcc2a29b33b921",
+      "bytes": 2498,
+      "original_source_sha256": "2a514ed1b746b999b775bb32783b68272ba1d747c666fcca8ddcc2a29b33b921",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/initial_repro_plain_v1.json",
+      "published_sha256": "7e55a356654d661b2affd9711bafe2d4f9b1e1e8bb417fa83e470eb1bdf7f380",
+      "bytes": 2202,
+      "original_source_sha256": "7e55a356654d661b2affd9711bafe2d4f9b1e1e8bb417fa83e470eb1bdf7f380",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/initial_repro_probe_v1.json",
+      "published_sha256": "614bbb88f2232c0a7635f6970c33b621db3b3459eef4754a6ac39a672fa7003e",
+      "bytes": 2202,
+      "original_source_sha256": "614bbb88f2232c0a7635f6970c33b621db3b3459eef4754a6ac39a672fa7003e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/noise_d1_pilot_v1.json",
+      "published_sha256": "94075f77f1cd964cfe517cfcc20775bda158169b0500a29c83afaea0b48196f2",
+      "bytes": 2284,
+      "original_source_sha256": "94075f77f1cd964cfe517cfcc20775bda158169b0500a29c83afaea0b48196f2",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/noise_d4_pilot_v1.json",
+      "published_sha256": "f32ef7bd626b25e57b1184789bd1a08466110064561ef4959e9a7cbfd7681290",
+      "bytes": 2673,
+      "original_source_sha256": "f32ef7bd626b25e57b1184789bd1a08466110064561ef4959e9a7cbfd7681290",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/noise_d4_s40_v1.json",
+      "published_sha256": "dc2d1f6fd95a0d7ee48983852d3d9761be86e19304b9d99fef4471d81799deae",
+      "bytes": 2742,
+      "original_source_sha256": "dc2d1f6fd95a0d7ee48983852d3d9761be86e19304b9d99fef4471d81799deae",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/noise_d4_s41_v1.json",
+      "published_sha256": "3319e8fd4cc0b7b7993a2bdc8e1eb8c3ed95fbf7dd5553cfee1d642cc7ef6d7a",
+      "bytes": 2742,
+      "original_source_sha256": "3319e8fd4cc0b7b7993a2bdc8e1eb8c3ed95fbf7dd5553cfee1d642cc7ef6d7a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/noise_d4_s42_v1.json",
+      "published_sha256": "78c24c7ff8954a14c54a3ab5e3af9a5d0aad1b61a18a2d688300ab08a34cd475",
+      "bytes": 2742,
+      "original_source_sha256": "78c24c7ff8954a14c54a3ab5e3af9a5d0aad1b61a18a2d688300ab08a34cd475",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/pilot_cadence.json",
+      "published_sha256": "1eab7a2bed9f69148344f0185325e3db4eb0f594fef933e5d2c65ab4ab18e8aa",
+      "bytes": 1666,
+      "original_source_sha256": "5c911e6f5716fdff17fefd2fce5ecf1cb53f59f17e38d6f4af5972407beca5a6",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/pilot_representations.json",
+      "published_sha256": "5d9509bbda8c1c3b4786c54923189c7e5b03770f9910e3fa60a6d4245c2464b3",
+      "bytes": 1027,
+      "original_source_sha256": "3bc9022862311677d562ed0943541500a54f36c76b64a3eda93dc1fa67ae8e7c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/pilot_single_skip.json",
+      "published_sha256": "ac84df48dd73986c39efe27166b7e2e3bfcca4d6f868cc194eb14c595e9f7f4a",
+      "bytes": 745,
+      "original_source_sha256": "c1fc752d2386633641d35c3451cd722536ab519073a44c706f4bd7cb6136bcee",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/qualification_delay_d1.json",
+      "published_sha256": "cd625ba49620822559cdb4fcd42212f68c91ccdaa944efbd1cddefa49ff48516",
+      "bytes": 571,
+      "original_source_sha256": "b8d348995b713cf0a8aa03e07de347d0b520bdcbf338b51e7fe0d6b954f25ef4",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/qualification_first_request.json",
+      "published_sha256": "8d22f7b641b18732add8e911a5fd8360e8e2ee331f97f3a6f8b855951ed53d0f",
+      "bytes": 489,
+      "original_source_sha256": "a00db4fff1084e39b4dff6bba322c54585ce001f26f0846464b2a5fe97f4ae05",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/random_d1_pilot_v1.json",
+      "published_sha256": "13ccb6f956e4ddba27041f2c01c5af95c62596c56f439bfa4787281d68f73657",
+      "bytes": 2916,
+      "original_source_sha256": "13ccb6f956e4ddba27041f2c01c5af95c62596c56f439bfa4787281d68f73657",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/random_d4_pilot_v1.json",
+      "published_sha256": "929eeb45b3845df0f82b48cab7a0fa264bc37f0f5b94cf6e6cb3cc0f2fa38db2",
+      "bytes": 2652,
+      "original_source_sha256": "929eeb45b3845df0f82b48cab7a0fa264bc37f0f5b94cf6e6cb3cc0f2fa38db2",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/random_d4_s45_v1.json",
+      "published_sha256": "4a47eb6219e0534f7a95703f01bfebb467fb3a60853a1eb875e5fa3c4c848c0b",
+      "bytes": 2721,
+      "original_source_sha256": "4a47eb6219e0534f7a95703f01bfebb467fb3a60853a1eb875e5fa3c4c848c0b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/random_d4_s46_v1.json",
+      "published_sha256": "80d18e20c1d9cd115e321e6a2ffce12e4f9752138bd9164e49abaaa1af3b2fb2",
+      "bytes": 2721,
+      "original_source_sha256": "80d18e20c1d9cd115e321e6a2ffce12e4f9752138bd9164e49abaaa1af3b2fb2",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/random_d4_s47_v1.json",
+      "published_sha256": "2a66ca25fc5d8e7e5efd70e5207519a14c4e4068a608bb825b92dbe4f8277c4c",
+      "bytes": 2721,
+      "original_source_sha256": "2a66ca25fc5d8e7e5efd70e5207519a14c4e4068a608bb825b92dbe4f8277c4c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s10_v1.json",
+      "published_sha256": "345d197e842d4d8b310ee3008f7b151266a6bcbeac38a7fd8182683172e2c744",
+      "bytes": 2277,
+      "original_source_sha256": "345d197e842d4d8b310ee3008f7b151266a6bcbeac38a7fd8182683172e2c744",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s10_v2.json",
+      "published_sha256": "ed54957ec1572600537e256ece57b1a6beeb91950ea06414df4f1246593167d0",
+      "bytes": 2709,
+      "original_source_sha256": "ed54957ec1572600537e256ece57b1a6beeb91950ea06414df4f1246593167d0",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s11_v1.json",
+      "published_sha256": "865f7332f985e1dfaa4d82192cd902ded5fc0eb2a1cf67a48c36826a08a41105",
+      "bytes": 2277,
+      "original_source_sha256": "865f7332f985e1dfaa4d82192cd902ded5fc0eb2a1cf67a48c36826a08a41105",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s11_v2.json",
+      "published_sha256": "98ac77a2ad685b6d45aab053cba04a2f621954f931efc633f5734bc93abdded9",
+      "bytes": 2709,
+      "original_source_sha256": "98ac77a2ad685b6d45aab053cba04a2f621954f931efc633f5734bc93abdded9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s12_v1.json",
+      "published_sha256": "d75566d3dedb3613bfa35a3f1070aecdcd302c8706d16a4ba9149da10d123650",
+      "bytes": 2277,
+      "original_source_sha256": "d75566d3dedb3613bfa35a3f1070aecdcd302c8706d16a4ba9149da10d123650",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s12_v2.json",
+      "published_sha256": "c2bcd6375f0b22116339ec64e4c459a8fad947f5e4639fa5f87dcff2b08634d9",
+      "bytes": 2709,
+      "original_source_sha256": "c2bcd6375f0b22116339ec64e4c459a8fad947f5e4639fa5f87dcff2b08634d9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s13_v1.json",
+      "published_sha256": "c6b9e4b613464cb289d6d22a6bb6a1eb5fce09bc90dddd9f354d38cf4957c09a",
+      "bytes": 2277,
+      "original_source_sha256": "c6b9e4b613464cb289d6d22a6bb6a1eb5fce09bc90dddd9f354d38cf4957c09a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s13_v2.json",
+      "published_sha256": "167e1999bacbe1246c2a0db3a015bb6610c0bba75a3b30e058a8a660856adde7",
+      "bytes": 2709,
+      "original_source_sha256": "167e1999bacbe1246c2a0db3a015bb6610c0bba75a3b30e058a8a660856adde7",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s14_v1.json",
+      "published_sha256": "7f79cfec396b8adf7840138226d83005931c3e79df0994326123f46aa049d4e5",
+      "bytes": 2277,
+      "original_source_sha256": "7f79cfec396b8adf7840138226d83005931c3e79df0994326123f46aa049d4e5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/validation_d1_s14_v2.json",
+      "published_sha256": "45d4a56cfc575709e66365703161b31f8b2842a88fad2bd25fdf36a85a31adac",
+      "bytes": 2709,
+      "original_source_sha256": "45d4a56cfc575709e66365703161b31f8b2842a88fad2bd25fdf36a85a31adac",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/configs/verified_runtime_qualification_v1.json",
+      "published_sha256": "b3bb43b41357751779d714fdca7d7306fa550fdffca21794285a4dc06d26bed1",
+      "bytes": 2383,
+      "original_source_sha256": "b3bb43b41357751779d714fdca7d7306fa550fdffca21794285a4dc06d26bed1",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/COUNTERFACTUAL_PROTOCOL.md",
+      "published_sha256": "6d166f9eeb1a30862a4e8eb599092aca91ee5948160f860b2aa0e58cdcbeea76",
+      "bytes": 2867,
+      "original_source_sha256": "a7d3d58719c277c0186366c3d0381717c2aa810d82079ace43a0828a3cd91796",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/CROSS_DELAY_ANALYSIS.md",
+      "published_sha256": "46cf4c83199117ae3c74d5a95a525beda7cd1407cd5b5ab4d5452305b49bec8f",
+      "bytes": 1509,
+      "original_source_sha256": "46cf4c83199117ae3c74d5a95a525beda7cd1407cd5b5ab4d5452305b49bec8f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/CROSS_HORIZON_ANALYSIS.md",
+      "published_sha256": "4557734553d44c40bb438a056553f98f59754f099a10d487452501b12e77196f",
+      "bytes": 1441,
+      "original_source_sha256": "4557734553d44c40bb438a056553f98f59754f099a10d487452501b12e77196f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/DELAY_COHORT_LOCK.md",
+      "published_sha256": "9d0b45ee2c18181da19d285207687e6ad1a1a505cbfde0b658fbc341249d930b",
+      "bytes": 2040,
+      "original_source_sha256": "6491db6debc0ff6ff1f948e6a88a570b5e3bd90e5bc9bbcfb134ca4b3244af38",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/DELAY_ROBUSTNESS_PROTOCOL.md",
+      "published_sha256": "f6e0102afbfb56f9de7ea366c6f7cda1123921b4f29b51112f6bb3feac5b6b61",
+      "bytes": 2416,
+      "original_source_sha256": "29d523e3d6aa869d22bd06f98208204b63259c0eccf13215c96c45419362b8f6",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/DIAGNOSIS.md",
+      "published_sha256": "0c44582673e75c8229655190bcfcce379eff3f341a9b154591e7ebff0a908ffd",
+      "bytes": 3886,
+      "original_source_sha256": "c6e7c5c46fc7d6b9437cf881b491b3de87ebb1a1cd9dc4ef3336ff5e12276ad3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/evidence/attention_source_receipts.json",
+      "published_sha256": "1546327a82e8ed30197ceba8114f36bd5fe5afe2a436cf71a7214f0d15390ec2",
+      "bytes": 494,
+      "original_source_sha256": "e72038a92f82a7cbaad1e275e15bb3a35fec392c0954b78c9ac36e04fce2fcc7",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/evidence/modeling_smolvla_installed.py",
+      "published_sha256": "37b1d56f37510732a087cf5c32c05cd15d6234201a3f002f108ec4c53438cc7d",
+      "bytes": 32694,
+      "original_source_sha256": "37b1d56f37510732a087cf5c32c05cd15d6234201a3f002f108ec4c53438cc7d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/evidence/modeling_smolvla_source_receipt.json",
+      "published_sha256": "4c29fee638c2c5ef08e1875b2a73fd5ec6688edc435f1efb74c3fd5e397ec529",
+      "bytes": 206,
+      "original_source_sha256": "84f53623345d4d5a7e5559595da704d9889760d9e0cdc88c7dac3c411ffc1035",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/evidence/smolvlm_with_expert.py",
+      "published_sha256": "996d3b0c713c0ed42b383aa2cf89b2e6f9868e337747c480a64adaecdc1073cf",
+      "bytes": 23775,
+      "original_source_sha256": "996d3b0c713c0ed42b383aa2cf89b2e6f9868e337747c480a64adaecdc1073cf",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/evidence/vla_utils.py",
+      "published_sha256": "4480fbc90da0f181dab02ac2863567a157c9b2c7d51024945a695a2c8dbbadf8",
+      "bytes": 9420,
+      "original_source_sha256": "4480fbc90da0f181dab02ac2863567a157c9b2c7d51024945a695a2c8dbbadf8",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/academic.mplstyle",
+      "published_sha256": "28de3576a7641caf830dbed301279d5c203cdeb8e17ddcf561ad901dd4839ed5",
+      "bytes": 1020,
+      "original_source_sha256": "28de3576a7641caf830dbed301279d5c203cdeb8e17ddcf561ad901dd4839ed5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/budget_validation_d1_v2_paired.png",
+      "published_sha256": "e37661edbd049eacdc3080b15b50cfae473ce9ff0ea0b82fba0d18f69de2ca4b",
+      "bytes": 178301,
+      "original_source_sha256": "e37661edbd049eacdc3080b15b50cfae473ce9ff0ea0b82fba0d18f69de2ca4b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/budget_validation_d1_v2_paired.svg",
+      "published_sha256": "5a4214401a80d7383db9f19236951544e8087a5ad1de27ba11f9303d0d60fe8f",
+      "bytes": 42983,
+      "original_source_sha256": "37c1bf8b5c8f45892c1b3e7dfe5185299650fd4981f5cb783f724c44a7928ed3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/calibration_state2_diagnostic.png",
+      "published_sha256": "dbe12863a805049a340bde6129254c3c644a3530364e0ba07b10e969d34e7e9d",
+      "bytes": 215226,
+      "original_source_sha256": "dbe12863a805049a340bde6129254c3c644a3530364e0ba07b10e969d34e7e9d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/calibration_state2_diagnostic.svg",
+      "published_sha256": "a4ecc03d04ccf728e1ae32085f78052aa4bcc222425f709cecb18d62d94b3046",
+      "bytes": 35129,
+      "original_source_sha256": "deb909160e363089282521dd9ec7f8adfa3c4101bf5d24fc24a66c43b39d3fec",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/choice_order_sensitivity.png",
+      "published_sha256": "d1d4ba5d7417c68e108058287d97ea84fd87beae860cafad926d695f9aa08cac",
+      "bytes": 309306,
+      "original_source_sha256": "d1d4ba5d7417c68e108058287d97ea84fd87beae860cafad926d695f9aa08cac",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/choice_order_sensitivity.svg",
+      "published_sha256": "e7ed78f4d3e3cf09e495a0e1813a4e9c4b5fc5a174f7d84fa802a6bc72cc2814",
+      "bytes": 207550,
+      "original_source_sha256": "03099bf7741c5647c0a0f6dc49902b584a48f59afe3383f501d877e3b07e0929",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/delay_validation_d4_v2_paired.png",
+      "published_sha256": "60ef18736cd83ca9f7ca3f6de515946e4abcdb24ad61e60c9b37f6f9da37eacd",
+      "bytes": 174553,
+      "original_source_sha256": "60ef18736cd83ca9f7ca3f6de515946e4abcdb24ad61e60c9b37f6f9da37eacd",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/delay_validation_d4_v2_paired.svg",
+      "published_sha256": "51c76d501d18b78dc5360d4235dc1d755acb735f2f8d0e04d0bd6d65f2526ae4",
+      "bytes": 41603,
+      "original_source_sha256": "b292fe43009303d6393372dec8d891f043e4a0022b8780d67b00ca52676b9f19",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/delay_validation_d5_v2_paired.png",
+      "published_sha256": "1c5b04861c16feeeab5cfa1372bf1e0f3b316be97cd200c53185118592a08f0f",
+      "bytes": 176781,
+      "original_source_sha256": "1c5b04861c16feeeab5cfa1372bf1e0f3b316be97cd200c53185118592a08f0f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/delay_validation_d5_v2_paired.svg",
+      "published_sha256": "26e4ed7bc24951dbf787cc8aaace07bf1bdae555c1ad74e386669c1c14f9cd9c",
+      "bytes": 42930,
+      "original_source_sha256": "6ef44921d22977cd5ccc2fcea0cb8d9d138c3f543d985971c3532cceaf23c913",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/developer_cost_success_frontier.png",
+      "published_sha256": "694ad7c125ee0486c30c9f0def7dd3a47217b9fea69cf1dcd29a051d3b32a03d",
+      "bytes": 149136,
+      "original_source_sha256": "694ad7c125ee0486c30c9f0def7dd3a47217b9fea69cf1dcd29a051d3b32a03d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/developer_cost_success_frontier.svg",
+      "published_sha256": "bb406719e6b8edea477582003d3471444413778427cdd0999aae4b7a34e2840d",
+      "bytes": 33194,
+      "original_source_sha256": "f6f5699ea9217d008a964e1fa0518dd8e836ca2d4fdaf1937b30d6d1324619a7",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/diagnostic_probability_ranges.png",
+      "published_sha256": "9c65d0e893c51e03a06496449cc6f872d1e3b729204d60275fd85db24d01ab13",
+      "bytes": 144033,
+      "original_source_sha256": "9c65d0e893c51e03a06496449cc6f872d1e3b729204d60275fd85db24d01ab13",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/diagnostic_probability_ranges.svg",
+      "published_sha256": "dcc52e1b1088da63800deaad6ce2539a106e0842ef43ef667f4110b6ffa62507",
+      "bytes": 15248,
+      "original_source_sha256": "1b389a22e2f4bb9ea624d344c25d8585653268208d5f26f7cfa740d80d5f328e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/figure_catalog.json",
+      "published_sha256": "f4761b5bf089685cd6b1002d9d35b3eb1f6e0bde64125e233a762acd9879b082",
+      "bytes": 9125,
+      "original_source_sha256": "c03b20fe04fd92a4fbcf15d56d77ec2ee8ad846cf3bbfcf74ad3821f13678c5c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/fixed_interval_attribution.png",
+      "published_sha256": "f2d079ade6504b0bc3044e263ae1340e37e1708a4981f6725ec359e76ee48604",
+      "bytes": 152065,
+      "original_source_sha256": "f2d079ade6504b0bc3044e263ae1340e37e1708a4981f6725ec359e76ee48604",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/fixed_interval_attribution.svg",
+      "published_sha256": "d04530964c737f155d1f719f500fcc91ece58e7a0a26a5fd01df77c71305ba71",
+      "bytes": 21977,
+      "original_source_sha256": "af42aa7779c8f16178811c5780a7d047d69c182b3c06c112a4fca6caceb8da7b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/pooled_development_paired.png",
+      "published_sha256": "0267fca8b187ed57cc4e52ee476057c429577c3bc244b7533ccb246a5e925743",
+      "bytes": 189761,
+      "original_source_sha256": "0267fca8b187ed57cc4e52ee476057c429577c3bc244b7533ccb246a5e925743",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/pooled_development_paired.svg",
+      "published_sha256": "4aa5672e08e0d6c26e2a912af27d4bbd6de13df0bac74bb6fb837bb31bf6dd02",
+      "bytes": 29428,
+      "original_source_sha256": "690d5c87af25d0d8643ab21b090738455d1d4ff86c6e5f76586fc319240caaa7",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/validation_d1_v2_paired.png",
+      "published_sha256": "0db686247ee28c1bc8d8124d58c64efcea87ae46107576d84f3a932d2b81e4f2",
+      "bytes": 171082,
+      "original_source_sha256": "0db686247ee28c1bc8d8124d58c64efcea87ae46107576d84f3a932d2b81e4f2",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/figures/validation_d1_v2_paired.svg",
+      "published_sha256": "5c571ff51a0780f55023d5e8d96afaf897a62f9437f023d7a853747703f1476b",
+      "bytes": 42883,
+      "original_source_sha256": "68fb2d2adc1b409d295f7c19b46c7aa8ff0212992d1a29472f0901a79f4f9555",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/FIRST_REQUEST_PROTOCOL.md",
+      "published_sha256": "faf532d40975d3063bf83fae6a511b833a877c2db8b3ac8114c962c8858fba89",
+      "bytes": 1452,
+      "original_source_sha256": "ceddcd9b6d5a85305913147224ec483695e60ae2edf407365d48b658c22a93bf",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/FIXED_INTERVAL_PROTOCOL.md",
+      "published_sha256": "90f3575133a8657e28ebf282442fe17f5a42b067a5864e24bf349da4e932c5e6",
+      "bytes": 1427,
+      "original_source_sha256": "f88769ab494acf5229977a33e2fc486e7fdd5c131da20e877b9a5969a4d9514b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/INCIDENT_FIRST_CHUNK.md",
+      "published_sha256": "01343f39ac6deec308768362e3c556be7978dadba89bb12f7aa2141b4f6cabeb",
+      "bytes": 1637,
+      "original_source_sha256": "c582436c993f4bc6c2711245ecb2a1e010f0086ff778e1ff0d39da4e332ae6d1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/models/balanced_readouts_v1/development_scores.json",
+      "published_sha256": "6bd5e5df22a444d678a67b2c00abd719a9cc6d8b79bab0aa50a7ea8aae495c34",
+      "bytes": 8182,
+      "original_source_sha256": "6bd5e5df22a444d678a67b2c00abd719a9cc6d8b79bab0aa50a7ea8aae495c34",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/models/balanced_readouts_v1/manifest.json",
+      "published_sha256": "759b1f288ddb50257fa2429d2dacaa2a99ca934fc06cf4e0a7ecbf3dd47cb3a4",
+      "bytes": 2666,
+      "original_source_sha256": "23029dd6a756bc7d5814c230a0b56d8b6e0127081d183b7eb49c7843009309a7",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/models/balanced_readouts_v1/models.json",
+      "published_sha256": "d06baaf3415b7e8807307833de096df5d4a35c1c28e5dcd54449cb64b2a69206",
+      "bytes": 293960,
+      "original_source_sha256": "d06baaf3415b7e8807307833de096df5d4a35c1c28e5dcd54449cb64b2a69206",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/models/calibrators_v1/development_scores.json",
+      "published_sha256": "595d65ddfbb24de6232368a11e2eed11cc59b05cf4dcb760486868b4aeed043b",
+      "bytes": 126514,
+      "original_source_sha256": "77231fdeab4e530640f0e91cd35fd181fad3eb44532d0c22af9766cd16cfd574",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/models/calibrators_v1/manifest.json",
+      "published_sha256": "2db629584688160873af88cb5cfed732ac3c6bba032f5f55408b4bede62addac",
+      "bytes": 18521,
+      "original_source_sha256": "15fc49b8b7265b0a5f112ffb50d849a99d45db3fc3941394a2fc97f998d558b0",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/models/calibrators_v1/models.json",
+      "published_sha256": "568545deda4d0ca275b4c0947ce8dce1572bb8eaa281b7b3b12d43c9f829c014",
+      "bytes": 1500949,
+      "original_source_sha256": "4a08babde47322238f156d7ebcbf99bbba792750b52be90c7679dbc796f33a58",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/OPTIMIZE_CHECKLIST.md",
+      "published_sha256": "b21999cdc75d40010aa4a85b712edf499b703b91c7e09681f3514ffa07be3c0b",
+      "bytes": 533,
+      "original_source_sha256": "faa4222ced99894f09445a4c1342fc33c69d43b69ac34af422c42b20979bfdfa",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/ORDER_ENSEMBLE_DEVELOPMENT.md",
+      "published_sha256": "789d9334d66f7411fe757064b2c82827d801e3923a3246198a46b673c790a9fe",
+      "bytes": 1883,
+      "original_source_sha256": "dbca1b5d5b51fa4c3f604d22607795b9f4015f894bdacd2a04a6bef2fffef744",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/PARTIAL_SAMPLE_REPORTING.md",
+      "published_sha256": "0183d8e63c50f2e05002e893efb36c543d1434de4234ff2581a89e682dcc28c1",
+      "bytes": 1769,
+      "original_source_sha256": "2726ee58f88ae866a1d31c5ce955d642c7547200cfabfade2d561ca3cda53fad",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/PLAN.md",
+      "published_sha256": "41ed1341e1340307135174d9178c55973f772cb6b8f514046bca06e3ca8af653",
+      "bytes": 3271,
+      "original_source_sha256": "1e992b6693186a3b6e8120c853da986aedc0d45d02ce250c72438d535f1acfc0",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/POSTHOC_GATE_TRACE_AUDIT.md",
+      "published_sha256": "f74813bbb186b290576b6bc1bf00ec46e73ad77dd252359309ae608fc542b6ca",
+      "bytes": 1205,
+      "original_source_sha256": "dcdbe432ed64e22826442facb7d597dc908c24605af97c62cf0b45c285aa34bc",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/budget_period_controls_v1/definition.json",
+      "published_sha256": "c4272ccc98d0bd8d713296d8907b0f94311d2b450e8af238a457543ccac70e72",
+      "bytes": 67199,
+      "original_source_sha256": "91cabd60b255f58d834a6189a915266c7fa742843991eb8b6d1f69fb782e7fb4",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/budget_validation_d1_v1/definition.json",
+      "published_sha256": "cbd561818e5589bdce7c8530dc66742656c4910ea5372a3d59c2df03233a6d0e",
+      "bytes": 4806,
+      "original_source_sha256": "e8b00126917c65a12d2086917dcddf8d2187f48dfbb63452b13ce7aaebf59724",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/budget_validation_d1_v1/freeze_receipt.json",
+      "published_sha256": "0fc1daf4bdfabfaf8cebd9db6d12f500b490f9bfa9e28dce771c8cbafea7739b",
+      "bytes": 115,
+      "original_source_sha256": "0fc1daf4bdfabfaf8cebd9db6d12f500b490f9bfa9e28dce771c8cbafea7739b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/budget_validation_d1_v2/definition.json",
+      "published_sha256": "6e390079a6288721704a7dae5f7ede7c5a8dafe166e964411516573ad23514c5",
+      "bytes": 6236,
+      "original_source_sha256": "e56d354feb5c9b3dfac5936d967ecdca31c7001379e1df2059633fba60a28b39",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/budget_validation_d1_v2/freeze_receipt.json",
+      "published_sha256": "ba9a88cd973690ad5269b947d8d04ee9e9e0eca2f382500623048fcf6a808bed",
+      "bytes": 115,
+      "original_source_sha256": "ba9a88cd973690ad5269b947d8d04ee9e9e0eca2f382500623048fcf6a808bed",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/choice_order_audit_v1/definition.json",
+      "published_sha256": "9b6aaf360c220b8fdc2e5a72b7eb5d0938a64f1c3b25eccabcdde8ed69664f2e",
+      "bytes": 1089,
+      "original_source_sha256": "e75e9c5f47c212b5e50e497de3b4f28c76e42a0373de38ca92f0279645a54eaa",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/choice_order_audit_v1/freeze_receipt.json",
+      "published_sha256": "2318fe8be99b40e99d81590f02bcd05e93b0c8af5900c1f6cdc676a26f8e51c9",
+      "bytes": 115,
+      "original_source_sha256": "2318fe8be99b40e99d81590f02bcd05e93b0c8af5900c1f6cdc676a26f8e51c9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/cross_delay_analysis_v1/definition.json",
+      "published_sha256": "0faeec47c9f439e29d3a99558e50665131420d8c75ecd2cc370b5e196f5ad716",
+      "bytes": 1064,
+      "original_source_sha256": "863814d8a69a058dbc0b60dafba2989ba1f3b383d963af35764992acbb1f37f4",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/cross_delay_analysis_v1/freeze_receipt.json",
+      "published_sha256": "ee2df4b3099bfc21c4abad4176e9afb05befd7b4a3f0a7283af9b688a43aa27d",
+      "bytes": 94,
+      "original_source_sha256": "ee2df4b3099bfc21c4abad4176e9afb05befd7b4a3f0a7283af9b688a43aa27d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/cross_horizon_analysis_v1/definition.json",
+      "published_sha256": "d9d9573169a8b32d41e2b9e581db31bebc87213dce83716e1207355dbad8fa59",
+      "bytes": 640,
+      "original_source_sha256": "af70aaf0dc1da13a9fdbc295258f2a11b9cdf8b49311be1545d5a09ac0545a73",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/cross_horizon_analysis_v1/freeze_receipt.json",
+      "published_sha256": "7d1369cf1aef02b88372357fa4f5cc63164c8066e27845fffcedfe597f2101c0",
+      "bytes": 94,
+      "original_source_sha256": "7d1369cf1aef02b88372357fa4f5cc63164c8066e27845fffcedfe597f2101c0",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d4_v1/definition.json",
+      "published_sha256": "4b10f60c770637e1de9516afac5546819166d3906482eefb58807c43232a7351",
+      "bytes": 3585,
+      "original_source_sha256": "85187d4db2dc4bd8b40ea3a1e4b9c5932cea7d696a0cbfdcba1c393fef899230",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d4_v1/freeze_receipt.json",
+      "published_sha256": "a753ab30084232bca0c719d64256c8cf463f8a455e224c2abba08bc84f9b0599",
+      "bytes": 115,
+      "original_source_sha256": "a753ab30084232bca0c719d64256c8cf463f8a455e224c2abba08bc84f9b0599",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d4_v2/definition.json",
+      "published_sha256": "e89fbbc3e623317300a5d3047d816d65ca19e1c5abb758c35be1c229cd9ffab3",
+      "bytes": 5009,
+      "original_source_sha256": "b9fb215de42ca7bece82e9b5787a4e019f0cf50ec523a63d342177de5e38cfa3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d4_v2/freeze_receipt.json",
+      "published_sha256": "7cacdb553983766752bbc33f81820d4a667a616de3fae76cd1f69e15407f2d1d",
+      "bytes": 115,
+      "original_source_sha256": "7cacdb553983766752bbc33f81820d4a667a616de3fae76cd1f69e15407f2d1d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d5_v1/definition.json",
+      "published_sha256": "3334daa8cb593cb9948895c9f4241cbb42e2b0ed6f20a1dc95fccf2a3852ea03",
+      "bytes": 3585,
+      "original_source_sha256": "dd5627d955534e07a7664c598052bab32161dd07293d634ab6b0022348bcae44",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d5_v1/freeze_receipt.json",
+      "published_sha256": "daa44b7b64d6efcf06571eefd7f6cdcd84d34a5f06ced4dc3bde06b92eccdcd7",
+      "bytes": 115,
+      "original_source_sha256": "daa44b7b64d6efcf06571eefd7f6cdcd84d34a5f06ced4dc3bde06b92eccdcd7",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d5_v2/definition.json",
+      "published_sha256": "bfe176649e26f1365b741abc4f44d1afdeca71bbd1918b859d118cc8d80ded8c",
+      "bytes": 5009,
+      "original_source_sha256": "06a19237e8300ff2fbf29508527b16ebe4a40332d663892e7c7ca593b79e5c65",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_pilot_d5_v2/freeze_receipt.json",
+      "published_sha256": "9a7aa50b4ce6dbc8ddb0d71cd8d7178b51291aedf4bc7ed6b6c73a37e3171a98",
+      "bytes": 115,
+      "original_source_sha256": "9a7aa50b4ce6dbc8ddb0d71cd8d7178b51291aedf4bc7ed6b6c73a37e3171a98",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d4_v1/definition.json",
+      "published_sha256": "c3c587b551afb3ca2f2cefc157a44299daa90f7aa44f97867a05d2d0466f8e20",
+      "bytes": 4271,
+      "original_source_sha256": "1d6f9f8e740b4a5ac48e1a22da42a8dd987a657b69a5fb3e37c3af1c1075bab9",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d4_v1/freeze_receipt.json",
+      "published_sha256": "c85a30da60b3d5c04f38f4315f0dbfac5fe3d588d3757c0b44fb05d48752a7a7",
+      "bytes": 115,
+      "original_source_sha256": "c85a30da60b3d5c04f38f4315f0dbfac5fe3d588d3757c0b44fb05d48752a7a7",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d4_v2/definition.json",
+      "published_sha256": "c1cb72cfc23a7c1391d1d676f4e4b790bc9bac2e53ab1c2bd77e0cf64eb31e67",
+      "bytes": 5670,
+      "original_source_sha256": "48ff96ac20c20fd80362e0aa23d41560af374afde680bbf4fa39909292dcaee8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d4_v2/freeze_receipt.json",
+      "published_sha256": "6468565b7fb7cc416d4edbbf1fc6615ba973f6ac7310530ea1ad495e4d780ed9",
+      "bytes": 115,
+      "original_source_sha256": "6468565b7fb7cc416d4edbbf1fc6615ba973f6ac7310530ea1ad495e4d780ed9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d5_v1/definition.json",
+      "published_sha256": "9fca25d2fcef589e8c7033a002cf85be3a933459dd5fc417434b42d696cf5796",
+      "bytes": 4271,
+      "original_source_sha256": "d349b99335799b8db37e9644f92a03d079b6a0c3110b4eeb887b9554090abc3a",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d5_v1/freeze_receipt.json",
+      "published_sha256": "8fdf88bd0202bf4ac6c5abd7097d37a88d700cac6502cd5612b88c0c6477087c",
+      "bytes": 115,
+      "original_source_sha256": "8fdf88bd0202bf4ac6c5abd7097d37a88d700cac6502cd5612b88c0c6477087c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d5_v2/definition.json",
+      "published_sha256": "46d9071573353ba8959b1a0fd0b2a1cddca653d827e7e4f932e22545c354f372",
+      "bytes": 5670,
+      "original_source_sha256": "c3a46c90c2f31326f60ee073708e98d12abcc5d43483374076a317dcc3dbf3c8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/delay_validation_d5_v2/freeze_receipt.json",
+      "published_sha256": "79525685c3a033b3d09d50f3e07e51de3f69d62e507d641145b351462426b790",
+      "bytes": 115,
+      "original_source_sha256": "79525685c3a033b3d09d50f3e07e51de3f69d62e507d641145b351462426b790",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_alignment_pilot_d1_v1/definition.json",
+      "published_sha256": "9c021056fe0602e308ca72c754fb9dbe52112cda2afb20b36fadacd27c5bf607",
+      "bytes": 4558,
+      "original_source_sha256": "44c80b9b2146056d85dc0b6ec29830658b56d6c27b39135815a5240ddb154470",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_alignment_pilot_d1_v1/freeze_receipt.json",
+      "published_sha256": "a877b0cb01eebd1f5faa87c3c7ff065965b870ed8cdce892dc4e2d53a2e1b028",
+      "bytes": 115,
+      "original_source_sha256": "a877b0cb01eebd1f5faa87c3c7ff065965b870ed8cdce892dc4e2d53a2e1b028",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_alignment_pilot_d4_v1/definition.json",
+      "published_sha256": "74dfc86b637ffe81ace4ff81380536bee6ac320695e84e9d16d55e358f2a0877",
+      "bytes": 5296,
+      "original_source_sha256": "513e2ebc66c8d0ac89ce9d8966813b4f12f22ae6097491804be741f51a54262a",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_alignment_pilot_d4_v1/freeze_receipt.json",
+      "published_sha256": "93adb8a8b21788f4f2f62209da5d86de9a02735d5a9afcb032f39f1f357a7f44",
+      "bytes": 115,
+      "original_source_sha256": "93adb8a8b21788f4f2f62209da5d86de9a02735d5a9afcb032f39f1f357a7f44",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_alignment_validation_d4_v1/definition.json",
+      "published_sha256": "9a1670521bc8a676a7712a409d32f15cc734e27a86d99f362a529bb3ce7066c9",
+      "bytes": 6012,
+      "original_source_sha256": "b7bcf653527bff3e293ef2db61b7bc4be7567c5d5baea042703eea8da24d4f1e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_alignment_validation_d4_v1/freeze_receipt.json",
+      "published_sha256": "914f07a2fcac901f51f32eac4cba61b6f1e0756475083a389d77eef49b78aa12",
+      "bytes": 115,
+      "original_source_sha256": "914f07a2fcac901f51f32eac4cba61b6f1e0756475083a389d77eef49b78aa12",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_attribution_analysis_v1/definition.json",
+      "published_sha256": "7e3220e478c295d6f22c228d4c1731145e09fc8721bfb7ddacdf4c24f0aa9f73",
+      "bytes": 1006,
+      "original_source_sha256": "6e5c35133693b186074ea2ed834032c716f10d75aad57802fa163c7a270828c3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/noise_attribution_analysis_v1/freeze_receipt.json",
+      "published_sha256": "9b4f2790a28430e47ea6e618e55451cd7dc6a751fa43e74f6940fe2f60a5da7a",
+      "bytes": 94,
+      "original_source_sha256": "9b4f2790a28430e47ea6e618e55451cd7dc6a751fa43e74f6940fe2f60a5da7a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/partial_sample_reporting_v1/definition.json",
+      "published_sha256": "3068b844f396f16f1ced04047ad75590015bdf872317bd15d4648803a61ea20c",
+      "bytes": 1380,
+      "original_source_sha256": "9246c2a4af40d18676133b9d48fc64229add36e188708c10e0e34cc49e920fbe",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/partial_sample_reporting_v1/freeze_receipt.json",
+      "published_sha256": "725843678d908598da38d77225fd3f55704b5f1b616655a9cafa8e19b515ba70",
+      "bytes": 94,
+      "original_source_sha256": "cfd54f71fed4aaa436051e6be7ad01d09c53e550f9e160d0186e98824908f497",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/random_skip_pilot_d1_v1/definition.json",
+      "published_sha256": "37d0af3db06c03c9cfaa5c7f9735dbd4c7fe52d1d5cb6b47ca4ce974b5499c05",
+      "bytes": 5200,
+      "original_source_sha256": "eda654172fcef389a2885391f2f930c898f244066e6dbcf7225f5274c012aaab",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/random_skip_pilot_d1_v1/freeze_receipt.json",
+      "published_sha256": "3547a8b7918b02b4eb28bc7cb158a425840e50d184d0afc949f2c0594b2c0f28",
+      "bytes": 115,
+      "original_source_sha256": "3547a8b7918b02b4eb28bc7cb158a425840e50d184d0afc949f2c0594b2c0f28",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/random_skip_pilot_d4_v1/definition.json",
+      "published_sha256": "bc65587418142f771f53fff49a6702e8f4c54e400e89573742dbed78431db960",
+      "bytes": 5318,
+      "original_source_sha256": "8247061d060d66da90fc03cc2afb499604ffc03a8076cef6d7fbc5b7d2b93e31",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/random_skip_pilot_d4_v1/freeze_receipt.json",
+      "published_sha256": "9c198bf30f6ec1ff747d00d1c1e91565ee314f408d7b58b7a6aa98be61f1c0fc",
+      "bytes": 115,
+      "original_source_sha256": "9c198bf30f6ec1ff747d00d1c1e91565ee314f408d7b58b7a6aa98be61f1c0fc",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/random_skip_validation_d4_v1/definition.json",
+      "published_sha256": "4ad6d8bf2a388aaabaa7ac523b084785faf1b20af0b895a49c3f30cb0f2f09b1",
+      "bytes": 6222,
+      "original_source_sha256": "2a2b9f80cc1a798e753f272acc072cbcd50d677dac20b12b27cf96660a28e3a9",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/random_skip_validation_d4_v1/freeze_receipt.json",
+      "published_sha256": "0cf721c734bf4223f61ccbd842bfca673618c382c2a71232bceeabe4e670b03c",
+      "bytes": 115,
+      "original_source_sha256": "0cf721c734bf4223f61ccbd842bfca673618c382c2a71232bceeabe4e670b03c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/service_accounting_v1/definition.json",
+      "published_sha256": "ec80d4d5623f7464ad520e1b2669327b130c58ea477e9635ef9a7bf814f71768",
+      "bytes": 909,
+      "original_source_sha256": "480873fae4e193d79c87b6b73bd3430ab6112f7bb395b82841010ca17d5b4a3e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/service_accounting_v1/freeze_receipt.json",
+      "published_sha256": "64ac47245659985c30a5c694ccc41d0afdcf2133da03410d0edfd818f2745d65",
+      "bytes": 94,
+      "original_source_sha256": "d9d692941a4e9be03e6be54d64701cf4c663c2f58d33f0fb6886228a6793523b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/service_accounting_v2/definition.json",
+      "published_sha256": "59350359f5d67bddf8f6037efbc9ca9728c72dc6717416183ed9da8d48c1e377",
+      "bytes": 1309,
+      "original_source_sha256": "7ee08344aecff49501923448517dbd866445af77fadd54c2debe50f1fa763e5b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/service_accounting_v2/freeze_receipt.json",
+      "published_sha256": "a1a7c996dd51b544b70cf727c74945563fdc3f94c8fa2623daba6fefa572915d",
+      "bytes": 94,
+      "original_source_sha256": "a1a7c996dd51b544b70cf727c74945563fdc3f94c8fa2623daba6fefa572915d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/validation_d1_v1/definition.json",
+      "published_sha256": "2f659404b8e4a40551d9e482a853fc9fe1967aeda59464c6a0032c747130e72a",
+      "bytes": 5199,
+      "original_source_sha256": "be1114f31a3da9e0b084691939c28c611e993d531e6d7d9fc2e72437ea979914",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/validation_d1_v1/freeze_receipt.json",
+      "published_sha256": "e11233d2b10b7c08939390a7a52f697c4d0f038188db643aaa50cf1190cc974f",
+      "bytes": 115,
+      "original_source_sha256": "e11233d2b10b7c08939390a7a52f697c4d0f038188db643aaa50cf1190cc974f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/validation_d1_v2/definition.json",
+      "published_sha256": "36727a7aece2cc7ec8aacaa6ec14539c234c0aa3ced71e2baac07a7452f1f0bf",
+      "bytes": 6622,
+      "original_source_sha256": "4d8d04ad001c1daaa972603374785d77c3ef22cd67c483cf6859e8d5e0f9124e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/protocol/validation_d1_v2/freeze_receipt.json",
+      "published_sha256": "2a10e195cd28bbc44a328a328fb3fde0db4405b91ec5f36a6d6794497b68c42e",
+      "bytes": 115,
+      "original_source_sha256": "2a10e195cd28bbc44a328a328fb3fde0db4405b91ec5f36a6d6794497b68c42e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/RANDOM_SKIP_PROTOCOL.md",
+      "published_sha256": "5d012d422f192a994e68ebc6c4b00db1b296c6dbe579087de32c80bcd098b47e",
+      "bytes": 2549,
+      "original_source_sha256": "1dc19b84b637885bb4e24a1787f835f541d2e2a3ed32b727cd8da8ac751de4f6",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/raw/README.md",
+      "published_sha256": "a1f782f75887adc1a537389689ee7b1822e3c59c1b744cdb114f6fd1d4015e12",
+      "bytes": 182,
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/REPORT.md",
+      "published_sha256": "dc526da16affb9bd1eb078b86428dd0fc823e8b88f662183abb7172c5cb4a503",
+      "bytes": 60552,
+      "original_source_sha256": "f05fca1c7b9842f54744920e4b849c37a4e7b50a84350b85ab0285fcf2e0ebb8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/REPRODUCE.md",
+      "published_sha256": "8f0109fd9a6ee4d62ebe6c5e75274ad2e6c67a498555fcd7bfacf3c9777b91c5",
+      "bytes": 2509,
+      "original_source_sha256": "1e71a637f801d716ad5473460bb4b774d194dc9ee8f96f46c5e73acd036c05cd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/REPRODUCIBILITY_NOTE_03.md",
+      "published_sha256": "e15532751df1d984a8e28d8b8848c9ceff6df2d80dd5768e7e02c2d6c4c45ab4",
+      "bytes": 1929,
+      "original_source_sha256": "e15532751df1d984a8e28d8b8848c9ceff6df2d80dd5768e7e02c2d6c4c45ab4",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/REPRODUCIBILITY_NOTE_04.md",
+      "published_sha256": "70f54afeb8ce0ce60cca928a8abd9a5666e0655bd70f7f8c9d592b8f13d8ecc9",
+      "bytes": 1468,
+      "original_source_sha256": "9b65628d557ac0df0b4132237e7191d8dcc3afa5c805de8fb3db4ef6de3e99bc",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/adapted_service.py",
+      "published_sha256": "657369b68c612ba4c2849007be0d8090d40f0999ace0b0878c9655e7411a66cc",
+      "bytes": 4721,
+      "original_source_sha256": "657369b68c612ba4c2849007be0d8090d40f0999ace0b0878c9655e7411a66cc",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_choice_order.py",
+      "published_sha256": "8c03aa1b79b8fe4fa32f2866faf741069fee55eb50c1b22f10e7f5f43dee51fd",
+      "bytes": 7073,
+      "original_source_sha256": "8c03aa1b79b8fe4fa32f2866faf741069fee55eb50c1b22f10e7f5f43dee51fd",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_closed_loop.py",
+      "published_sha256": "41e30ea2ea85dcac8ea477a6d658b6a2169775b5a3affa1b77fdac85fd7fdbf4",
+      "bytes": 5758,
+      "original_source_sha256": "362874207b9f0bcf4bdb8a64380d6bf8a2bb5b1670fa1298a4882b6a8ba694ca",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_counterfactuals.py",
+      "published_sha256": "53b4e264defcbd7f8fc2f72bf2bfd78e5ada36ae7d434c23d88e05b470f808c7",
+      "bytes": 2753,
+      "original_source_sha256": "53b4e264defcbd7f8fc2f72bf2bfd78e5ada36ae7d434c23d88e05b470f808c7",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_cross_delay.py",
+      "published_sha256": "644f0d31f8461aac63b644b0c510aeecfbdbd56f5bd6fd063bbb9e82936e0689",
+      "bytes": 3562,
+      "original_source_sha256": "644f0d31f8461aac63b644b0c510aeecfbdbd56f5bd6fd063bbb9e82936e0689",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_cross_horizon.py",
+      "published_sha256": "eb1177eb0c989917f5ddee73f5cfd0ad2739bf5e5cbe493f7e1454017367ea73",
+      "bytes": 4545,
+      "original_source_sha256": "eb1177eb0c989917f5ddee73f5cfd0ad2739bf5e5cbe493f7e1454017367ea73",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_development_calibration.py",
+      "published_sha256": "4c0b57e5394fff771a1ce88932e870be94342dc93bf4b77ddf75c71c0d039caa",
+      "bytes": 2978,
+      "original_source_sha256": "4c0b57e5394fff771a1ce88932e870be94342dc93bf4b77ddf75c71c0d039caa",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_diagnosis.py",
+      "published_sha256": "9323c6bf1ddf5f1d89c3c88b72d1ade6769c4581f7b8d866bf13a61d2868be30",
+      "bytes": 2686,
+      "original_source_sha256": "9323c6bf1ddf5f1d89c3c88b72d1ade6769c4581f7b8d866bf13a61d2868be30",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_executed_row_coverage.py",
+      "published_sha256": "72009aff9e5ea210a492e464e90409bea67ab6a0ca538e961e48381964d49965",
+      "bytes": 3168,
+      "original_source_sha256": "72009aff9e5ea210a492e464e90409bea67ab6a0ca538e961e48381964d49965",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_fixed_intervals.py",
+      "published_sha256": "d1ad12ff1961e42ef72d0d074bb38cc893a396f59cee73513e52ee0a8935c03a",
+      "bytes": 4339,
+      "original_source_sha256": "e5a9e0d9ac6a282e551f476078d6c6ac143e2eb09971cac4418a5308a375a16b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_gate_service.py",
+      "published_sha256": "f07f1b40b34eb1d254be0b0aff4d68525913e4bcd4d0a82341c9270b451de389",
+      "bytes": 3180,
+      "original_source_sha256": "f07f1b40b34eb1d254be0b0aff4d68525913e4bcd4d0a82341c9270b451de389",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_native_initial_chunks.py",
+      "published_sha256": "5290454586ceac63d8557386d9ce74e40f0977b9350b39797b769bcb5aa7fb13",
+      "bytes": 2344,
+      "original_source_sha256": "471abaf4be8571d40245b3c7678aa63c05d860834fea4c9c947dcfe1e83bb810",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_noise_attribution.py",
+      "published_sha256": "2286b68d5b1ce2818ef5513472ce08dc99d8b7696b18cc5b73a09ee4419f72a9",
+      "bytes": 5934,
+      "original_source_sha256": "2286b68d5b1ce2818ef5513472ce08dc99d8b7696b18cc5b73a09ee4419f72a9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_order_ensemble_development.py",
+      "published_sha256": "52a3ec0ca08c645d67450893042a910447216aa4682911331eade59ddb1d1098",
+      "bytes": 6794,
+      "original_source_sha256": "52a3ec0ca08c645d67450893042a910447216aa4682911331eade59ddb1d1098",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_partial_sample.py",
+      "published_sha256": "6f63658c1663e979c931683885d68439a8191487cccb2f70ff74d07720168eae",
+      "bytes": 6377,
+      "original_source_sha256": "93d0bda53f565a3c8af0da3763031181efa7c55c799a52e2d3ee9148610ccad7",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_serial_latency.py",
+      "published_sha256": "12efb7c06605b84650dba2dc0180c59352bdb3d76fb2e8df82123a6156f53d66",
+      "bytes": 1814,
+      "original_source_sha256": "12efb7c06605b84650dba2dc0180c59352bdb3d76fb2e8df82123a6156f53d66",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_service_accounting.py",
+      "published_sha256": "3edf81ba30e531a81795abec56fda602321af1c831a6011706778a559a934361",
+      "bytes": 5634,
+      "original_source_sha256": "3edf81ba30e531a81795abec56fda602321af1c831a6011706778a559a934361",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_service_accounting_v2.py",
+      "published_sha256": "543cea9abbe086e71b66913ef3dbc9e8b7dfa37f81a6709e0622de86edd86f22",
+      "bytes": 5620,
+      "original_source_sha256": "543cea9abbe086e71b66913ef3dbc9e8b7dfa37f81a6709e0622de86edd86f22",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_single_intervention.py",
+      "published_sha256": "776e0b85f236357925b9f959e8c6c2c379b61cd91bdef75027cc5cb017c18edf",
+      "bytes": 5920,
+      "original_source_sha256": "5332b9b9f73b74f19b4feb86fc8fd38b386cb8666df34f17fdd83440ca0b89b9",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_single_skip_confirmation.py",
+      "published_sha256": "f96f43c3a328821711b12880b557ee2b079f3b7b57fc23bdefdf5b6dc4486219",
+      "bytes": 3118,
+      "original_source_sha256": "a0f6df5e0ec0fcdf9bc116b76f42b3fab39b45e7e6b1e503fd6b2408f180cc95",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_validation_cohort.py",
+      "published_sha256": "e9f8ef6793af9f6a38f859f6675d0a705334c08160d10606f023d317b07a3d44",
+      "bytes": 5465,
+      "original_source_sha256": "e9f8ef6793af9f6a38f859f6675d0a705334c08160d10606f023d317b07a3d44",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/analyze_validation_gate_scores.py",
+      "published_sha256": "fabdddbb25392cdf36a2599c700140ad1adc572b98feff16a47ca9f9cbf498ce",
+      "bytes": 2822,
+      "original_source_sha256": "fabdddbb25392cdf36a2599c700140ad1adc572b98feff16a47ca9f9cbf498ce",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_closed_loop.py",
+      "published_sha256": "2a15d3d3d99ef49384aa3284f70a0a66373f8424004528decd744da7ea04e501",
+      "bytes": 11412,
+      "original_source_sha256": "2e7f3389eaba99374cf5d595e9a6443e983033045c99402b3338e8148adcd2f2",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_counterfactuals.py",
+      "published_sha256": "15a288badf32cb216f56e75afd9dbbc3582bf6011f18442cb3c3d5490d75ca11",
+      "bytes": 3769,
+      "original_source_sha256": "03eb272ed5a10c9f61a72aa27a4d9eb26d3c5c681c60c7b2dea5ced2a0dcb1c8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_delay_d1_qualification.py",
+      "published_sha256": "9893ac429783b1c90a3890a275b3c45aeacc369d9a87eb5d367b2eb08a8407e8",
+      "bytes": 3291,
+      "original_source_sha256": "e65145c423a8e13b2720764fe8a50b094cccb1a04dc6ee9c8e58de5051fe9986",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_diagnosis_receipts.py",
+      "published_sha256": "1c655a2470993476814a23f31931482fa428a81c9c9e1c6d39082d583a4dd52a",
+      "bytes": 5496,
+      "original_source_sha256": "1c655a2470993476814a23f31931482fa428a81c9c9e1c6d39082d583a4dd52a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_first_request_qualification.py",
+      "published_sha256": "68b98f1ab5eefa1dd23a9d63c61ee80f9e9e6d0a2c6fbc05d4ff9c3358058f04",
+      "bytes": 3227,
+      "original_source_sha256": "9f9ce7239b3ef365e4ff782784866f3efd8384c51e8991fda10785d53d0c6ecd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_gate_trace_equivalence.py",
+      "published_sha256": "2a1264e7591f2daabb5544552bba2aedd707356ef5e3970a4559d9a7591fd199",
+      "bytes": 6344,
+      "original_source_sha256": "2a1264e7591f2daabb5544552bba2aedd707356ef5e3970a4559d9a7591fd199",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_initial_verification.py",
+      "published_sha256": "e21e556b94f39dfebe5931bacc3fa7092246e4afd3e61ce70193a2921600c00e",
+      "bytes": 6604,
+      "original_source_sha256": "e21e556b94f39dfebe5931bacc3fa7092246e4afd3e61ce70193a2921600c00e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_known_difference_outcomes.py",
+      "published_sha256": "bff76dc8f539914954e3c9662b9c28b18dfc343f69ce83981593375f21ba540c",
+      "bytes": 2055,
+      "original_source_sha256": "bff76dc8f539914954e3c9662b9c28b18dfc343f69ce83981593375f21ba540c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_mechanism_closed_loop.py",
+      "published_sha256": "e5bc40465bbded55abae919f39b91a859fec6062d96563c863395246198f1286",
+      "bytes": 11996,
+      "original_source_sha256": "6628f8b2836f8a0e86da8fb585746ef39c2cdae621d866ccdd47a4f3b39808d6",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_noise_alignment.py",
+      "published_sha256": "8e55d22556b3c0222ab26cc27df1616c87313f54bd467955602b0b947546ed38",
+      "bytes": 6282,
+      "original_source_sha256": "8e55d22556b3c0222ab26cc27df1616c87313f54bd467955602b0b947546ed38",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_report_values.py",
+      "published_sha256": "70a5b15993d70480f10398e2f9d673c93a667dd659921dc01d3ec3effa524912",
+      "bytes": 10847,
+      "original_source_sha256": "2e423afe590974d7114e6b556815d41912d7dbd942a6ed3668b7d7f208bc7e8c",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_scores.py",
+      "published_sha256": "cceb244a7280ac86deeb7f77a353ff74aed997b1216e82ae104f53ea9218779e",
+      "bytes": 4544,
+      "original_source_sha256": "8e63bdc6c6c2090c3e826a0c5a9e02a68e0c41c0517428b7559c8fefda7bd9dc",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/audit_seeded_skip_closed_loop.py",
+      "published_sha256": "7ee44d5363f8547784f009e5b7c891356d6eab83a186013f2b1f90b2d5edb988",
+      "bytes": 14569,
+      "original_source_sha256": "bf63949e8973332afc69a30e97e7ada09eb7f7b678599abb2c6a207a30c527b3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/balanced_readout_math.py",
+      "published_sha256": "0640808130b9c4ad08d04eafa823a2916d86f4ecf8ee55a1f673ac16137ef4a2",
+      "bytes": 2054,
+      "original_source_sha256": "0640808130b9c4ad08d04eafa823a2916d86f4ecf8ee55a1f673ac16137ef4a2",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/binary_service.py",
+      "published_sha256": "997a6a511028fe06bbdf7dc98348e8d9c5123bc1343aa1448c0b748dcd9035fe",
+      "bytes": 3625,
+      "original_source_sha256": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_calibration_figure.py",
+      "published_sha256": "9786e1279d78693a022165f97f753fe30d2e9463681554eebf89661ad14c3989",
+      "bytes": 3635,
+      "original_source_sha256": "9786e1279d78693a022165f97f753fe30d2e9463681554eebf89661ad14c3989",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_choice_order_figure.py",
+      "published_sha256": "f062deab7d3accd975973336853da1730f49c4bfa63952a738341a409e2ba3f9",
+      "bytes": 4248,
+      "original_source_sha256": "f062deab7d3accd975973336853da1730f49c4bfa63952a738341a409e2ba3f9",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_figures.py",
+      "published_sha256": "3782ed0ad900f3875a2fb09d2693d3f3f266c12feb9fe18cd00b72c16fdf032e",
+      "bytes": 5603,
+      "original_source_sha256": "3782ed0ad900f3875a2fb09d2693d3f3f266c12feb9fe18cd00b72c16fdf032e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_fixed_interval_figure.py",
+      "published_sha256": "f21f90058ee3c62b2ae87bd5dbcebf698a167d84b299c8cd1a1d1e0b881e1f9f",
+      "bytes": 3650,
+      "original_source_sha256": "f21f90058ee3c62b2ae87bd5dbcebf698a167d84b299c8cd1a1d1e0b881e1f9f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_noise_attribution_figure.py",
+      "published_sha256": "6164ed2547c36bd5703ba2724a11f1a50b6d647e9ec73bf968bb33167e4fe13d",
+      "bytes": 5528,
+      "original_source_sha256": "6164ed2547c36bd5703ba2724a11f1a50b6d647e9ec73bf968bb33167e4fe13d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_partial_readout.py",
+      "published_sha256": "80811fd10c3f3a8f72f44dbc3fe3ea85840fce6921d39b070e7ac63ec829066e",
+      "bytes": 4308,
+      "original_source_sha256": "11be0df9096b324f557103af7adc1a1a957f48797b1d72acf2d2dea876b0e1c5",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_pooled_figure.py",
+      "published_sha256": "76ef684602595f95514dbdf6182c2e91077ada56fa8483d3020cf6aa949a2b10",
+      "bytes": 3585,
+      "original_source_sha256": "76ef684602595f95514dbdf6182c2e91077ada56fa8483d3020cf6aa949a2b10",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_report_pdf.py",
+      "published_sha256": "547836fee4953012d86230e461f3dd376e2bba3a280bb72f234c6e639dee8599",
+      "bytes": 11849,
+      "original_source_sha256": "547836fee4953012d86230e461f3dd376e2bba3a280bb72f234c6e639dee8599",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_run_inventory.py",
+      "published_sha256": "ca340b597ef97ac04379fb3aa23b8be8ffd515df6f01040e6a56eeb1a70d0a0e",
+      "bytes": 9091,
+      "original_source_sha256": "ca340b597ef97ac04379fb3aa23b8be8ffd515df6f01040e6a56eeb1a70d0a0e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_validation_figure.py",
+      "published_sha256": "3db5a3d432d41364d44a4f462d3b03c41ff40843798a810d01f78d567262246d",
+      "bytes": 6594,
+      "original_source_sha256": "3db5a3d432d41364d44a4f462d3b03c41ff40843798a810d01f78d567262246d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/build_validation_readout.py",
+      "published_sha256": "0a9df85040aa26aa2b88445d86bf248e5abfd1e284accb4a832463b037255b1a",
+      "bytes": 9152,
+      "original_source_sha256": "0a9df85040aa26aa2b88445d86bf248e5abfd1e284accb4a832463b037255b1a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/calibration_data.py",
+      "published_sha256": "4bfb3f7f844b445806c20c94604561a37497b0583d6fa3be79022ac33f927c80",
+      "bytes": 3084,
+      "original_source_sha256": "4bfb3f7f844b445806c20c94604561a37497b0583d6fa3be79022ac33f927c80",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/calibration_math.py",
+      "published_sha256": "de84ba1ad7d204654b70c86d04d61bdc86e0146d48a8921b69641a170421f708",
+      "bytes": 5923,
+      "original_source_sha256": "de84ba1ad7d204654b70c86d04d61bdc86e0146d48a8921b69641a170421f708",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_action_attention_mask.py",
+      "published_sha256": "82e9503e00b220a6d5c7ec711c4010d10ce9bf5d573f0e9bca9110b8759f7d87",
+      "bytes": 2041,
+      "original_source_sha256": "82e9503e00b220a6d5c7ec711c4010d10ce9bf5d573f0e9bca9110b8759f7d87",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_balanced_readout_math.py",
+      "published_sha256": "2c54685eec6c9bf38fc3d357bb730196a4fdfd1d3d0b44330fab71b0b569f6af",
+      "bytes": 1449,
+      "original_source_sha256": "2c54685eec6c9bf38fc3d357bb730196a4fdfd1d3d0b44330fab71b0b569f6af",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_calibration_math.py",
+      "published_sha256": "91a1f4de7b14e8904eea2458b26f459db6a0b5b4dbd4ee48dc23349fa16d3f47",
+      "bytes": 2035,
+      "original_source_sha256": "91a1f4de7b14e8904eea2458b26f459db6a0b5b4dbd4ee48dc23349fa16d3f47",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_controller_mechanisms.py",
+      "published_sha256": "361e49841f8699fb5ef40850ff0baefeb658d026cdae6e6e552fabe2c2088d0b",
+      "bytes": 9383,
+      "original_source_sha256": "361e49841f8699fb5ef40850ff0baefeb658d026cdae6e6e552fabe2c2088d0b",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_counterfactual_mechanisms.py",
+      "published_sha256": "8468acd883a2377f16a3336418a1c15915465806fdb30ee9709c93770c83f2b2",
+      "bytes": 4521,
+      "original_source_sha256": "8468acd883a2377f16a3336418a1c15915465806fdb30ee9709c93770c83f2b2",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_deployment_readout.py",
+      "published_sha256": "8eb6387253699af5835e8b847630963b9f55f09bdf76dd95a367918524199487",
+      "bytes": 1527,
+      "original_source_sha256": "8eb6387253699af5835e8b847630963b9f55f09bdf76dd95a367918524199487",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_initial_guard_failure.py",
+      "published_sha256": "8cd69cd6b462a4872ef0cd5795949e4ce127394db0e90c1e080a4260d09bfc45",
+      "bytes": 3577,
+      "original_source_sha256": "8cd69cd6b462a4872ef0cd5795949e4ce127394db0e90c1e080a4260d09bfc45",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_noise_alignment_mechanisms.py",
+      "published_sha256": "af7b94f4832b3ec88d4dd0685709d7589ea6ae4d8b0d7e6b6b30899f9ae12bf7",
+      "bytes": 6432,
+      "original_source_sha256": "af7b94f4832b3ec88d4dd0685709d7589ea6ae4d8b0d7e6b6b30899f9ae12bf7",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_noise_prefix_cpu.py",
+      "published_sha256": "94d9c2ac37ced1096584f914e86e1ab187a9a3f7bb97925e171181e9a3395f21",
+      "bytes": 1613,
+      "original_source_sha256": "53d4620a4863fa248fdc9c92efae712e8574bb560295a273ae1666c5fc98b8ff",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_seeded_skip_mechanisms.py",
+      "published_sha256": "e75edd1ed65660a29fb385c5596ac8569eb941aafc9b30eaa79cda865e392d55",
+      "bytes": 8283,
+      "original_source_sha256": "e75edd1ed65660a29fb385c5596ac8569eb941aafc9b30eaa79cda865e392d55",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/check_window_input.py",
+      "published_sha256": "c8488f8f94ce4739a11af7fe57840ee982d98f404a8de2a711b8e84f91a80ae4",
+      "bytes": 1896,
+      "original_source_sha256": "335b0d097a6b38182bb79e7a612ef6c07a40b387ac188c1c96deeecdd39f9487",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/collect_gate_counterfactuals.py",
+      "published_sha256": "8fe8edd2f5657d22b0f28a3b180c22697629fa169a836a28dff1e38a6902a139",
+      "bytes": 10056,
+      "original_source_sha256": "39e51880f4134d9a09a24050023856931029e20bc0159f36ad4c9892e91da157",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/compare_forensic_runs.py",
+      "published_sha256": "8a9b5eff45a34f7bebf44221dced9d61969b78c667f22d17d2bbf0597ddb6218",
+      "bytes": 3629,
+      "original_source_sha256": "8a9b5eff45a34f7bebf44221dced9d61969b78c667f22d17d2bbf0597ddb6218",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/controller_runtime.py",
+      "published_sha256": "4c9abc8bb96ed382183ae07ebee32ae3932e20cee31b78d84bdbb5aeabb112d6",
+      "bytes": 17023,
+      "original_source_sha256": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/create_controller_runtime.py",
+      "published_sha256": "edf6ea972712a57c29773c2e8397e017b325e87359cb2cf73828dcc65b6dbec9",
+      "bytes": 2362,
+      "original_source_sha256": "da7127d453c633c511c10ddf11c0af377aec7cf3b88522512e1214f6e8ada91f",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/deploy.py",
+      "published_sha256": "9737c2f64636d410e1578f6b6c2610ebc5627484062b6d283e1b074e017640dd",
+      "bytes": 1658,
+      "original_source_sha256": "3c3d500a3d66d3379fa95a15dfdeb598f5d2de430b05604b861f426ce82dc94b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/deploy_seeded_skip.py",
+      "published_sha256": "6137b5d6311df79a80161eac95d08a84ef6c355b9472efd97675c5a75e539079",
+      "bytes": 3932,
+      "original_source_sha256": "41307e258693b219ab17cbe3e8135378897fa232335121369565d8537cfca2f2",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/deployment_readout.py",
+      "published_sha256": "a61e7f697f0df9126e278ae4130cf36c638fc539031ced38ed122be668e47e75",
+      "bytes": 1875,
+      "original_source_sha256": "a61e7f697f0df9126e278ae4130cf36c638fc539031ced38ed122be668e47e75",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/diagnose_choice_order.py",
+      "published_sha256": "1f5df4d7ecabe70ba7c3a425a23ba697f8dc3355ef6a9b4c92d4f3d06a792467",
+      "bytes": 6996,
+      "original_source_sha256": "5939d84be38b36ff013ce3ad61a4ef2e9228d47ee4f61e74abc490f07091cdf1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/diagnose_laya.py",
+      "published_sha256": "151475a087ce6434d1fe680b77bb800a4525dd5fecb1baa3fd28e17eb386bb90",
+      "bytes": 6149,
+      "original_source_sha256": "f9bef6a0234a275506ed4d47c88f833eb526c9ed7958e293418c83b1173543c3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/evaluate_calibrators.py",
+      "published_sha256": "f2e26e32abd0c87fcb0909cdcf89dce48f314fd05fd0302166e51bc682a1e9f8",
+      "bytes": 3710,
+      "original_source_sha256": "f2e26e32abd0c87fcb0909cdcf89dce48f314fd05fd0302166e51bc682a1e9f8",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/fetch_sources.py",
+      "published_sha256": "45e3971515dc9e11134086823b185e6f0fae1fa5f7154634318686e785c92246",
+      "bytes": 1275,
+      "original_source_sha256": "9338429684e0fae0ba200d46d6f8eeb95e317bf391927200e8e4c60294a63755",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/fit_balanced_readouts.py",
+      "published_sha256": "39ddfbed37c7fd499eeedd126d9b92c0a20273c6165b17827b9b4a75eb0b8e76",
+      "bytes": 6871,
+      "original_source_sha256": "39ddfbed37c7fd499eeedd126d9b92c0a20273c6165b17827b9b4a75eb0b8e76",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/fit_calibrators.py",
+      "published_sha256": "37acd010f3cf0213d7e4d2a02a7d08b9d82ba46be1644837a9e05f7dcc621eea",
+      "bytes": 7573,
+      "original_source_sha256": "37acd010f3cf0213d7e4d2a02a7d08b9d82ba46be1644837a9e05f7dcc621eea",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_budget_cohort.py",
+      "published_sha256": "2764a02f7e40005dff27e450411d8cbcc8958eb0c45fa1ea9e4aa3052724694f",
+      "bytes": 4638,
+      "original_source_sha256": "2764a02f7e40005dff27e450411d8cbcc8958eb0c45fa1ea9e4aa3052724694f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_choice_order_audit.py",
+      "published_sha256": "e82e2d3db19e712cae2e5d7237081bd8b4d802d8b04d8b22dc546adb5a0a35f5",
+      "bytes": 3587,
+      "original_source_sha256": "e82e2d3db19e712cae2e5d7237081bd8b4d802d8b04d8b22dc546adb5a0a35f5",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_delay_cohorts.py",
+      "published_sha256": "0c4c1e46ed1b7731087dccd9971e1fd23f2679a14e7c9af5913eda243b28d80f",
+      "bytes": 5137,
+      "original_source_sha256": "0c4c1e46ed1b7731087dccd9971e1fd23f2679a14e7c9af5913eda243b28d80f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_noise_alignment_cohorts.py",
+      "published_sha256": "365f3879e65fb0417764a1f0aadc5ba8bee4783a00b3f350c4ebe916019df49a",
+      "bytes": 6978,
+      "original_source_sha256": "365f3879e65fb0417764a1f0aadc5ba8bee4783a00b3f350c4ebe916019df49a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_run_sources.py",
+      "published_sha256": "2224f78c11cf9a46ab29be1206eff6e8299ba6b659c5e35f4e75b28e3d45ae11",
+      "bytes": 1216,
+      "original_source_sha256": "2224f78c11cf9a46ab29be1206eff6e8299ba6b659c5e35f4e75b28e3d45ae11",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_seeded_skip_cohorts.py",
+      "published_sha256": "8e54b1f89076968969f0286c1ec6e37655396a0d88b5ef0b45e8647804d33012",
+      "bytes": 7387,
+      "original_source_sha256": "8e54b1f89076968969f0286c1ec6e37655396a0d88b5ef0b45e8647804d33012",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_validation_cohort.py",
+      "published_sha256": "fac2361314dd52fc9aba3d3bdd01d978be4369d17ce89256f0aea6a902b633e2",
+      "bytes": 4807,
+      "original_source_sha256": "96b69e8de5ecc8ed503cd500c14ef148b3bf9c204c919019ac1017fae8571167",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/freeze_verified_cohorts.py",
+      "published_sha256": "2ec1ad448218e68825d135ca12cf9a70a72353e58ba66999dc1b1f4411457913",
+      "bytes": 5327,
+      "original_source_sha256": "2ec1ad448218e68825d135ca12cf9a70a72353e58ba66999dc1b1f4411457913",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/gate_variants.py",
+      "published_sha256": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+      "bytes": 4983,
+      "original_source_sha256": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/local_policy.py",
+      "published_sha256": "8ecf02b35959b39d74593e2150e0131a6b42f64f5a7a86b936f4f8f46f093580",
+      "bytes": 273,
+      "original_source_sha256": "049299d92ea714436cb6204a41f434e64a2d82c0e072dd86239bc812c70287a8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/make_counterfactual_schedule.py",
+      "published_sha256": "1086c0f2d81c391fded2fe1d71653f2c48256297eea6fef1f03b244ca5f84917",
+      "bytes": 2052,
+      "original_source_sha256": "4e602dc0333f5e22cd7a03c27891b7ea890869a3bedcfd6d35c6f9fbe5a145cd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/make_diagnostic_fixture.py",
+      "published_sha256": "fc292f9736cd70559adfa0b877779800db996b4c22472ccf0945bf7a517d4fae",
+      "bytes": 3541,
+      "original_source_sha256": "28a5dfa927949932d5c9b8c51c8d122daff4db0677d1f5f48638bbe1ac37f5b6",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/make_model_bundle.py",
+      "published_sha256": "bee65ddc28a784f1b7eb4395c4cf03a6cb60350f73d7ec71f89bc95080e0faa6",
+      "bytes": 3052,
+      "original_source_sha256": "bee65ddc28a784f1b7eb4395c4cf03a6cb60350f73d7ec71f89bc95080e0faa6",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/mechanism_runtime.py",
+      "published_sha256": "685a5ac0cfe1d7c37609725cd9179ecb814b76de5ef7aeee2794d5cd740ec718",
+      "bytes": 11064,
+      "original_source_sha256": "685a5ac0cfe1d7c37609725cd9179ecb814b76de5ef7aeee2794d5cd740ec718",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/paired_resampling.py",
+      "published_sha256": "d1d784f1bcb9f796dac74659175a919ae53ef9f9d6591c3dcdce66575c50f4f8",
+      "bytes": 1887,
+      "original_source_sha256": "d1d784f1bcb9f796dac74659175a919ae53ef9f9d6591c3dcdce66575c50f4f8",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/pool_development.py",
+      "published_sha256": "3983a1f817d12e741d40bb67d2ea247b400cba69d48d011e13d922fe4228298c",
+      "bytes": 1991,
+      "original_source_sha256": "21d89816f2900ce170840154dad2b2b35ba43702e79bc28c1f8aec33788e2cd2",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/probe_initial_reproducibility.py",
+      "published_sha256": "ef74d2f1a2d67956c0207e80cb5f3f008fbf0ce00d1af9b55ab5cb5cefb696d8",
+      "bytes": 6940,
+      "original_source_sha256": "ef74d2f1a2d67956c0207e80cb5f3f008fbf0ce00d1af9b55ab5cb5cefb696d8",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/readout_client.py",
+      "published_sha256": "a5adfd6532b9e645aeae084812bc98ce3219ff7e97aeda7802ff54a846ba4110",
+      "bytes": 3850,
+      "original_source_sha256": "a5adfd6532b9e645aeae084812bc98ce3219ff7e97aeda7802ff54a846ba4110",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_closed_loop.py",
+      "published_sha256": "662f1426a9261b576d05da312197826017b76d8d2861499394747be41d6599e9",
+      "bytes": 11156,
+      "original_source_sha256": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_frozen_cohort.py",
+      "published_sha256": "781f1054d69ceb6a1e06a3eeb38f9c171e388b3faa9c561dab7e64ce97736002",
+      "bytes": 9118,
+      "original_source_sha256": "bff1cec76dc9c118e6a53a2ddee408546325765abe0481d10f0187b60e337b21",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_guarded_closed_loop.py",
+      "published_sha256": "0a6c1486d03042ad3906340322bc2fc0157fb2d7261359bdc3b4e8a0dd53204c",
+      "bytes": 11478,
+      "original_source_sha256": "67d1aefe59bf293128b5daafb8055c49672afdf10641bce3c4e56ee89a32329b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_mechanism_closed_loop.py",
+      "published_sha256": "99ab46f24cd2ea908779c957fea1530bdcd883e1f85571849be56602a98066aa",
+      "bytes": 11628,
+      "original_source_sha256": "70689651495f960ab18778cae850ed10fb160725f075d01df0c41744311dd2b1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_registered_followups.py",
+      "published_sha256": "2988969c50f674beb07b5683e0445058b9678287546619da8c346237da57da19",
+      "bytes": 4101,
+      "original_source_sha256": "2988969c50f674beb07b5683e0445058b9678287546619da8c346237da57da19",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_seeded_skip_closed_loop.py",
+      "published_sha256": "a0b948c569649e9a9f4eae9aac397e7e280a4d45e59cf1116093b19517b77f71",
+      "bytes": 11633,
+      "original_source_sha256": "9a18169d49843ae31dbe87557d712a5a58b83b4e909a6c63387fdc0ddae42e41",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_seeded_skip_followup.py",
+      "published_sha256": "fa2a830eb3859a88d48df2d8af3c2b652944e573fca11e12779f1ceed836b72f",
+      "bytes": 4215,
+      "original_source_sha256": "fa2a830eb3859a88d48df2d8af3c2b652944e573fca11e12779f1ceed836b72f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/run_verified_closed_loop.py",
+      "published_sha256": "45808c004b1660da4abd886c329023b21b15fa2515a7802ed4404f05c23f4457",
+      "bytes": 11685,
+      "original_source_sha256": "3384322342934fe69348b95625ebc87d34df079b1de68f227cc596ee3d63b76b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/score_counterfactuals.py",
+      "published_sha256": "2dd165fcf1fcc588b26f035723fb8a0265283426a812b586383944c18777d844",
+      "bytes": 9586,
+      "original_source_sha256": "c40fc1b4c33739b485cbcc813b1bc9b849dc29bf3d5f2611d6536547ca965b3b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/seeded_skip_runtime.py",
+      "published_sha256": "dee270428f91b9d633c6ad96ea444a65b1394a6f5596bae36de40a1ce718156a",
+      "bytes": 11955,
+      "original_source_sha256": "dee270428f91b9d633c6ad96ea444a65b1394a6f5596bae36de40a1ce718156a",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/supervise.py",
+      "published_sha256": "bd4d8837660d007a134e82d8bf49b6a91806f22ce4faa85a8c7c9b2e08c6a530",
+      "bytes": 4288,
+      "original_source_sha256": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/sync_run.py",
+      "published_sha256": "1cd15b5e1cc2452b51d5e6c40a2f717194c5b949bbb1f985a1d9329caffea99c",
+      "bytes": 3290,
+      "original_source_sha256": "4418ffa71ebcb1d43ce80be6f08c2acd8022f88104769039874aed34ad66be87",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/verified_runtime.py",
+      "published_sha256": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e",
+      "bytes": 9825,
+      "original_source_sha256": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/verify_budget_period_controls.py",
+      "published_sha256": "f2da40676ee7f5c041826de4c268cf9d46223e3f6510b22bbac0bd2fbbc24b1c",
+      "bytes": 2325,
+      "original_source_sha256": "f2da40676ee7f5c041826de4c268cf9d46223e3f6510b22bbac0bd2fbbc24b1c",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/scripts/window_state.py",
+      "published_sha256": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+      "bytes": 3003,
+      "original_source_sha256": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/SERVICE_ACCOUNTING_PROTOCOL.md",
+      "published_sha256": "f949d0f358dfdb15e850c828b14d3d375f37fc9b5b3bd2510e164d8ece32a3ee",
+      "bytes": 2103,
+      "original_source_sha256": "f949d0f358dfdb15e850c828b14d3d375f37fc9b5b3bd2510e164d8ece32a3ee",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/SINGLE_SKIP_PROTOCOL.md",
+      "published_sha256": "f5a111fa5f26e0ae0a525d0b5bada78be1f26c6162febe3261eb2ac9e189602b",
+      "bytes": 2536,
+      "original_source_sha256": "53f4f554c7182ab1d6601a818129bfa547bceaf70a4404646e337c3f5c477f4d",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/source_snapshot/laya_source_config.json",
+      "published_sha256": "b02d47fb6bfdc7da814110107b5c660d5293492e6acadfbbe93713998cdbfb7c",
+      "bytes": 1953,
+      "original_source_sha256": "d580d2cf169c95f7ab93ebb6197cbac23c3cd30bb5584d5f0d5b12a76404c77b",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/source_snapshot/manifest.json",
+      "published_sha256": "5d9992d3520a1b86f5238b7630e22d9362d2c111b2f6003d9fdc8db5dcb5280d",
+      "bytes": 548,
+      "original_source_sha256": "46a97b0e008c7e06fbd6ba2b057bae042252ecea0f592e04893ed97e106342e8",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/source_snapshot/rl_agent_config.json",
+      "published_sha256": "d96dc2cb39d6375e030ff48c9957088f3c52668f45c30c56504f4e801ed3ee62",
+      "bytes": 746,
+      "original_source_sha256": "ae287b56bbcf5f8c4f4541ae9dfd00c914c4c48b940b8398c3058af37ba92bbd",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/source_snapshot/sdk_agent.py",
+      "published_sha256": "903c990d37f5b22aa026f8ed95fcc2acfcef54b460491a35f4bcb88448f44b4e",
+      "bytes": 95496,
+      "original_source_sha256": "903c990d37f5b22aa026f8ed95fcc2acfcef54b460491a35f4bcb88448f44b4e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/source_snapshot/sdk_calibrate.py",
+      "published_sha256": "e286f1e3666f4e2be376393220fe0f966b290e4d2dd07afc03c17c8553a2080e",
+      "bytes": 16025,
+      "original_source_sha256": "e286f1e3666f4e2be376393220fe0f966b290e4d2dd07afc03c17c8553a2080e",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/source_snapshot/sdk_common.py",
+      "published_sha256": "cb77c34b3b5abfc1f59eb1a73357ad80238df397ffdddcfaf634c01949f89b3f",
+      "bytes": 32516,
+      "original_source_sha256": "cb77c34b3b5abfc1f59eb1a73357ad80238df397ffdddcfaf634c01949f89b3f",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/source_snapshot/sdk_confidence.py",
+      "published_sha256": "f830d6ecfe9b1ce26499b593d6532e70bca77ccf751e0af4b92b9adee0b0d1a2",
+      "bytes": 3986,
+      "original_source_sha256": "f830d6ecfe9b1ce26499b593d6532e70bca77ccf751e0af4b92b9adee0b0d1a2",
+      "publication_edited": false
+    },
+    {
+      "published": "LAYA阈值诊断与优化/STATISTICS_AMENDMENT_01.md",
+      "published_sha256": "a322da8d1341a97fa42f50061623ff614c0cfcba6752051b7b2bc996a21017a6",
+      "bytes": 1735,
+      "original_source_sha256": "9f4994c4e1adc91d53c65dccac94c91ba36581080c49c4c18343a460dfb0135a",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/TECHNICAL_AMENDMENT_02.md",
+      "published_sha256": "ab262a2677f23592299348ed9c1b11e0a866ace5b4fa451f0c1ced6acdc4dbd5",
+      "bytes": 5006,
+      "original_source_sha256": "38fce1a12309eb23039f5036b1ab34dce758be0a1d98d03c39b011b58fae2be3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/VALIDATION_PROTOCOL.md",
+      "published_sha256": "46030ae821bf0abd46c0409b55909dd8a041402935354eae7f0d964f9d881e30",
+      "bytes": 1869,
+      "original_source_sha256": "14891d61f02ba92c1fb1ad33afebd96868e2fcc65e556108729c36d8d8472ed3",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/VALIDATION_SELECTION_D1.md",
+      "published_sha256": "1c7f2247aa1bed20913bfa814a2ee0d62fe0382a22e6a175e3d2ad74f1f140d1",
+      "bytes": 2541,
+      "original_source_sha256": "d56fa441d0cb49de12761a8e3e373f95f327708f5dfa08fde2f1005bd4739cb1",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/VLASH_NOISE_ATTRIBUTION_PROTOCOL.md",
+      "published_sha256": "46553524cf3a722a0ba57827734ab4a3b353f28e1d5ee9a56b6e335376e10d7c",
+      "bytes": 3103,
+      "original_source_sha256": "56dafa6a729feb03a96b6722052186fea20b4c388f92225c5ba6409374d09b48",
+      "publication_edited": true
+    },
+    {
+      "published": "LAYA阈值诊断与优化/WINDOW_INPUT_PROTOCOL.md",
+      "published_sha256": "ec2fa250bcd8aca58f9e20975201a4d9e790a5f23c6e3ccf796348d248d4f45e",
+      "bytes": 1909,
+      "original_source_sha256": "213dac8314a0635791bea24939a9d9184286876aaacfd28e0a1472deaa061be3",
+      "publication_edited": true
+    },
+    {
+      "published": "README.md",
+      "published_sha256": "5d75cc411564e5b2af20d90fae76b50706ae8e7513aa25d90b4d20f0239d7358",
+      "bytes": 4656,
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/archives/argmax_attempt_v1_complete.proof.json",
+      "published_sha256": "8551471c523c883b2ac9404472ce7e86ee256a1af83c9a536cc2526b3f37dead",
+      "bytes": 645,
+      "original_source_sha256": "72332622b6527ef5b5a33f8c4db9a229a53272011df4637fa852323a32917d7b",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/archives/attempt_v1_complete.proof.json",
+      "published_sha256": "a12fc8269917e54ffc6c82af9950ce32f709a3c0a4f288f682cf96d4089e8108",
+      "bytes": 624,
+      "original_source_sha256": "0e106175d945cd6b64808e6e9d13a68d2419a3e0e3512fda6026c194901ebef0",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/ARGMAX_PLAN.md",
+      "published_sha256": "c469dc95deeba691e26f8183a8c28311fddf939d47b3bc94f63d12c1167644bd",
+      "bytes": 1942,
+      "original_source_sha256": "33228690f994699b4016ef05d74a453ab5ea9fd0d6e86fe54123dcc06a761a95",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/ARGMAX_RUNTIME_REVIEW.md",
+      "published_sha256": "ab95adac1377e6c28a0baa6f64df26fd5561e5201bed1c2abe0df7ce3011cf71",
+      "bytes": 3924,
+      "original_source_sha256": "db244f55cc0e483e777dcf315edae573be94a6316160952bffbb1d451cc490c0",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/ARGMAX_SOURCE_REVIEW.md",
+      "published_sha256": "538302e72f0c5105975b32682604a2d890e564042b6e8a330b278bdebbb592dd",
+      "bytes": 2935,
+      "original_source_sha256": "debe5e05c9343f791fd82261caacc70b561ce48ddaddb7be731ec162f280987d",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/BASELINE_AUDIT.md",
+      "published_sha256": "78219f286ba150e51e6ec728215295e4a04ca5809c8dcc30d0c63d82d48e1ce8",
+      "bytes": 5459,
+      "original_source_sha256": "262ed513ce5747aadc19a600acbcdc4fb7db3ebfc3004d3c3bb55e3300e9f093",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/CHECKLIST.md",
+      "published_sha256": "c52fa03b76b174a02310eee05022a98cda7b444ebb0cacff1368a047bf8e8c55",
+      "bytes": 795,
+      "original_source_sha256": "af1748a8f9fc694b49d3291fedfe3633b83faad96b73ceed6dd458f4dd98fdda",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/figures/cost_by_horizon.png",
+      "published_sha256": "99f18c8ef98134fe756375c445c5a5288cc5ef7943ea01fab51489745882e595",
+      "bytes": 149107,
+      "original_source_sha256": "99f18c8ef98134fe756375c445c5a5288cc5ef7943ea01fab51489745882e595",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/figures/cost_by_horizon.svg",
+      "published_sha256": "5a1f7b28b9ff758ae001e433b5aa94de244f33cc46c5bd2c8e316ff0073eadc4",
+      "bytes": 22350,
+      "original_source_sha256": "66d9b6390b9f3fc4ece884566cbd582a91f8026580fa381d4aaa4c97c73c3c60",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/figures/figure_catalog.json",
+      "published_sha256": "d742cea376b44b058bbd5f207a91593068bcfb129d713efacf2039a6147e3ea4",
+      "bytes": 1699,
+      "original_source_sha256": "7fad6863599d943cf4d0a633c1d3cddb3af2459ed3386fce93d1b0e343b29ae9",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/figures/success_by_horizon.png",
+      "published_sha256": "89afd815dd89b812b9d0f20d14d34121d6e0518c936935632667679add63e5a6",
+      "bytes": 109209,
+      "original_source_sha256": "89afd815dd89b812b9d0f20d14d34121d6e0518c936935632667679add63e5a6",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/figures/success_by_horizon.svg",
+      "published_sha256": "175803aed7cbf3dc1745ce6cac018914fc2965fd024b16b758b5986f9ed363bc",
+      "bytes": 20277,
+      "original_source_sha256": "e723c48d2675a431ee8a9cb4e676775207880de7f6de701abc1f56e2cd40470d",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/FINAL_REPORT_REVIEW.md",
+      "published_sha256": "666a015a189197faf2a80f29cfbf5dd08bc071d49681c85369faa05907b092e9",
+      "bytes": 3738,
+      "original_source_sha256": "205544d22105393a8ecced6803bd0da829c7cf605410ff89924f4322de15bcc0",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/FINAL_RUNTIME_REVIEW.md",
+      "published_sha256": "a732ef8ae2de98bb2c27daf2db11df847155b8f5d951b666b601f5daa230dc0d",
+      "bytes": 3832,
+      "original_source_sha256": "0c6c15c685db66414a51bd77edc36fc0e918c6e564edc15d6b6177815291cece",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/PILOT_RUNTIME_AUDIT.md",
+      "published_sha256": "62db4cb6428e0ee907359e918bdf2940f50494d5f54832169f68251d2f7938e4",
+      "bytes": 3229,
+      "original_source_sha256": "79436287d8cf541b38b2da5b5d64a5228a5c54cf01c9b1adfaf86eed3d4a5068",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/PLAN.md",
+      "published_sha256": "ae814ad182b1013b6179341b6cab9c3bd1cc318e954fb6287409d37c8e50464c",
+      "bytes": 5766,
+      "original_source_sha256": "899cc6937f427e1095a0aae7dbd8d260e12d12cdec947ba6ee7641fa0fe492ca",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/raw/README.md",
+      "published_sha256": "a1f782f75887adc1a537389689ee7b1822e3c59c1b744cdb114f6fd1d4015e12",
+      "bytes": 182,
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/references/HISTORICAL_VLASH_REPORT.md",
+      "published_sha256": "af15333563648d748116ed11ea3d3cb38c85c80a5311f9890d769cc56f0254cf",
+      "bytes": 6693,
+      "original_source_sha256": "edcc20b501de0b91a90996a7c9ba72b63e03910945fc78b04c8a74c5b76d2d15",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/REPORT.md",
+      "published_sha256": "fa7a2e604d363a0785bd3139ef7277ef0dc4bd4fcc0b3cfc5a32ca574b1324ee",
+      "bytes": 15927,
+      "original_source_sha256": "fa1ab1830bc397881bf10dbf0ade0e8ee6ebedb4eabf6eeead138d743607a900",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/REPORT_GENERATOR_REVIEW.md",
+      "published_sha256": "944df622cc5cebf78f9f2e4d28187daf4a91c696af4f63d07601078d8fdb2d1f",
+      "bytes": 3993,
+      "original_source_sha256": "fe961b632a25af9c91b426bb22c57a27a5680cebbc1d3c5468318937bfe9df4c",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/argmax/argmax_audit.json",
+      "published_sha256": "4dd90a2a04d312d6685d4a3690dbf93df14c9f89b80244c0765dc17947b1cca1",
+      "bytes": 2070,
+      "original_source_sha256": "487820e718dd4ad57fde064b40e3eeac54e0fb7b069f0b6b6ced90d926f27372",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/argmax/argmax_metrics.json",
+      "published_sha256": "8ed987f52a8303875a9f45c3742c9a0ef4ab5005302d9e962088d427de670d96",
+      "bytes": 45300,
+      "original_source_sha256": "c49856a009708bfc813bc67a381ea0b3802c6cce9c2259da98701b6d35dc5175",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/argmax/argmax_summary.md",
+      "published_sha256": "fe9cc962643eed90d201f82991b3ede7e1669cf3cd02bf90a35d58cb4d1a445c",
+      "bytes": 3069,
+      "original_source_sha256": "5d94adcd76c6e39ded6e2d0de034da6cd7877e43cb67e71af8d1679c795359ff",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/conclusion.txt",
+      "published_sha256": "b1421f46ba3ed46906a9eb7944c281d06b5eea38a52630e5d0f909d32da4091c",
+      "bytes": 565,
+      "original_source_sha256": "b1421f46ba3ed46906a9eb7944c281d06b5eea38a52630e5d0f909d32da4091c",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/results/horizon_effects.json",
+      "published_sha256": "4afa5828dd76b3c3a430c208c74aceef618a653815c60c7c22b2760229dd66e5",
+      "bytes": 163981,
+      "original_source_sha256": "956bf3ee95cb9f19896f55274fe2d8af85efb855a3f2efb56fadc451221fd9a3",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/horizon_effects.md",
+      "published_sha256": "8701334c3351630181d33cf5eee6ecffe74458bf3e54a6d9785080a9bd167438",
+      "bytes": 3278,
+      "original_source_sha256": "861765ad6bf7c43e190234d56f5ee2e87a736fee14e3d377fa83c3bf05c43e75",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/main/audit.json",
+      "published_sha256": "12e25ecfdf8e070363b791fe9811fa71d6bddf9a135ed99da3415b3c797a2f56",
+      "bytes": 2059,
+      "original_source_sha256": "62112448d73a03872e1f6a1066d04fa0d5e5f0b2b71c8b36f7465361d0d2ffce",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/main/claim_validation.md",
+      "published_sha256": "8a3efab632158a4d52b6583509ef0dea86bcc0af72b7ea019e9ecc9f1a44efdf",
+      "bytes": 4732,
+      "original_source_sha256": "6e802012a39a05f52e2e826512916b03b527814626782b465f36f7b6f9b6a374",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/main/metrics.csv",
+      "published_sha256": "209afe3fce86c67bd7c96e52e54bc7a05ac1600e2f12ddfff26a057b200e1310",
+      "bytes": 3492,
+      "original_source_sha256": "209afe3fce86c67bd7c96e52e54bc7a05ac1600e2f12ddfff26a057b200e1310",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/results/main/metrics.json",
+      "published_sha256": "945a954e22578e67d0166d1d20423b4905c16ca81bc415adf0a3717247514b80",
+      "bytes": 66670,
+      "original_source_sha256": "a6185f7c03641988c84ad150f4941ee77266cd0f3122641624cb324bc87e15dc",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/official/audit.json",
+      "published_sha256": "c0a923d1dbd7e642d3074e3f2bea86073fb77f5f7c2067298de6da347b59340c",
+      "bytes": 16926,
+      "original_source_sha256": "2f7334441405b53348e2e99ae32466eb4d9a89c8c60b62aa22138130952469f9",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/official/episodes.csv",
+      "published_sha256": "370bb3b9100cecc09901131ffb655ea8b858ce72fd121cee7078566a2fb40cb2",
+      "bytes": 3305,
+      "original_source_sha256": "370bb3b9100cecc09901131ffb655ea8b858ce72fd121cee7078566a2fb40cb2",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/results/official/summary.md",
+      "published_sha256": "1ffa742ab338402d38b6e4a1eebbdd880cd8202dd1f3dc411b8dc463e3b5ec2a",
+      "bytes": 1192,
+      "original_source_sha256": "ab0651211fbb92253cd9be44d3324e826baa1eb3e68206181b99d63ae18ebc93",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/qualification/native_length_prefix_diagnostic.json",
+      "published_sha256": "8a6cf664a34ccc86dc3651c26c0457164ed85b2bee1dcde5e4c0466ae9077fbe",
+      "bytes": 464,
+      "original_source_sha256": "bcc6d19d3a0f7b855bcb2da97c64f343968a9f3b2cfe2e33886a4a8b5d69637c",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/task_breakdown.json",
+      "published_sha256": "68ac484d83a64bbf59dc582194404aa50c1643f15b2148616809d568fa581bdc",
+      "bytes": 911026,
+      "original_source_sha256": "3b14e9bc50bce7cd407115b7706a615d48083a49d582defd240bf958354d49b7",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/results/task_breakdown.md",
+      "published_sha256": "bdee70d8667359de72efb39ec6e9ac5a55eef4a6f9f61f8e9551a688cbfc9eb3",
+      "bytes": 10130,
+      "original_source_sha256": "06aae8a2d6fd0a1923b8a4aee22e018e8956aed9f6b2b28408182932ebb0e8d3",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/analyze_argmax.py",
+      "published_sha256": "cb0402ac0517bd0b210448d3d34bcfc3285ddbb5c0c7f78db3baa1e5a9f077f2",
+      "bytes": 33212,
+      "original_source_sha256": "cb0402ac0517bd0b210448d3d34bcfc3285ddbb5c0c7f78db3baa1e5a9f077f2",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/analyze_horizon_effects.py",
+      "published_sha256": "31c707f469bfd96ba60678e28c008b129e319be09e3e74a5b8588e59df62d8cd",
+      "bytes": 16379,
+      "original_source_sha256": "31c707f469bfd96ba60678e28c008b129e319be09e3e74a5b8588e59df62d8cd",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/analyze_results.py",
+      "published_sha256": "77c196361dab006c0830fddda2972cba190e76f7181e68ec3078b5e30bfe85ad",
+      "bytes": 38109,
+      "original_source_sha256": "77c196361dab006c0830fddda2972cba190e76f7181e68ec3078b5e30bfe85ad",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/analyze_task_breakdown.py",
+      "published_sha256": "dcbb38ea9a353e172ff54065498e33e6864b5811951d9cb8c68312a9dbafcb65",
+      "bytes": 22053,
+      "original_source_sha256": "dcbb38ea9a353e172ff54065498e33e6864b5811951d9cb8c68312a9dbafcb65",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/audit_official_results.py",
+      "published_sha256": "6b160d2fbdd07077070e4d6cc874616b84f5f334a3f830b7054b7fc4756cec3c",
+      "bytes": 18320,
+      "original_source_sha256": "6b160d2fbdd07077070e4d6cc874616b84f5f334a3f830b7054b7fc4756cec3c",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/build_report.py",
+      "published_sha256": "090b3a5d3b8903b157c02b975e279ed8349be25063d87176686059964c7eda4c",
+      "bytes": 20294,
+      "original_source_sha256": "08374738069c9d190c59f5c50c2f856781e93d09054b8e589794d1fb86ef0830",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/laya_argmax_service.py",
+      "published_sha256": "b042be96a83e21f1dbb3df59129fb13829205a93df2b37148b224fc6e59a2f21",
+      "bytes": 212,
+      "original_source_sha256": "b042be96a83e21f1dbb3df59129fb13829205a93df2b37148b224fc6e59a2f21",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/laya_service.py",
+      "published_sha256": "d77b29328561d5a473eb0fe8296b8b97326022691772493825a772a8b2320fb2",
+      "bytes": 13363,
+      "original_source_sha256": "5f079e4b6fbc05f7de725093089bc7192cea2a780c2090675b645bf16894661c",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/main_experiment.py",
+      "published_sha256": "d5441f2ae86032ee22da73480fcc0d0e1c18dbbb33241e3756ea412f548e72c1",
+      "bytes": 21136,
+      "original_source_sha256": "1ee93eb30d87f0fd56ea1dbf4dd9d52006cc83a80cb59ddcde64ce0e6a367f80",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/monitor_remote.py",
+      "published_sha256": "ffbb6737d26aec978398e5196f7d257225ad46bae9bc8cc133329f79018656c4",
+      "bytes": 2777,
+      "original_source_sha256": "f67ab751b828b95d3a99b2f407b2ed7d8f3b2f6a15b9cf1dee6ae158810a135f",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/official_reference.py",
+      "published_sha256": "e4fe44ea56059c82eea7376fb9d5cca0425fc918c78a9c9acea62d0eeb1b92b4",
+      "bytes": 13460,
+      "original_source_sha256": "1341d2a3006900eb8e87447141bba72429169d493623815595a01e0514e28089",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/plot_results.py",
+      "published_sha256": "cf339a02b46ab3a9b34d7bf738874c1876aeeb6845215ccc6a6026fa2eaefcef",
+      "bytes": 5382,
+      "original_source_sha256": "cf339a02b46ab3a9b34d7bf738874c1876aeeb6845215ccc6a6026fa2eaefcef",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/run_argmax_ablation.py",
+      "published_sha256": "a980b2f6f53bc11ef6b10454bb9cbcac58020a1d0b4f5216919498d92d707b46",
+      "bytes": 11253,
+      "original_source_sha256": "a980b2f6f53bc11ef6b10454bb9cbcac58020a1d0b4f5216919498d92d707b46",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/snapshot_remote.py",
+      "published_sha256": "328ccbe24bff7d6bf09ec4796c846c104a6449b950596d7127f98ccd28c71da4",
+      "bytes": 3662,
+      "original_source_sha256": "b1ff02696d799047b436bee60d1cdc77d1a935cb9bb7526ac1e9c70f9f91446e",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/supervise.py",
+      "published_sha256": "8756c3aa4f7d982f1641f37ef8139f61aa2676627d142a2bf4dbe1eea641dcc3",
+      "bytes": 4777,
+      "original_source_sha256": "83f9797e7f901817635ced6f3c8aea56c20733cb59c7e3705321d21a093446c7",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/scripts/supervise_argmax.py",
+      "published_sha256": "b10aa6b910ed98e940ae1b7dd6dca2c47e498183d53a32c50955450ef16085b0",
+      "bytes": 5591,
+      "original_source_sha256": "b10aa6b910ed98e940ae1b7dd6dca2c47e498183d53a32c50955450ef16085b0",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/scripts/sync_report.py",
+      "published_sha256": "e1d03f1bb989c4906d8946bf5bad68c85e85916ad933f4728eaee0daa8772079",
+      "bytes": 4274,
+      "original_source_sha256": "e728eb9e171e03f9b8c06540a8383d6d8df34fc91be74445f6b3f8d5ee19e6b4",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/SOURCE_REVIEW.md",
+      "published_sha256": "941598a4239c2b43be5ba0341e7d1be997492444bb5510195eb4360067bf3a60",
+      "bytes": 4308,
+      "original_source_sha256": "245c3a77535b51d044fedcfb580bbcacb64f781a120bde8c2344d6419b1a2381",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/source_snapshot/collect_counterfactual_dev.py",
+      "published_sha256": "14d506b3b0c93e7ee98847911821d8f6cffc627d22ff99eb9b45bb07f5d2a1f5",
+      "bytes": 19711,
+      "original_source_sha256": "a86eb2f1670958244b596a3cdf915cc579f1b2f2ed037800860b6d4620f3f281",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/source_snapshot/eval_libero.py",
+      "published_sha256": "8c65d17772ee870a8a66fe6c034f5b07e2d936572baacc221d2b80c7189445a7",
+      "bytes": 46483,
+      "original_source_sha256": "d1e68abb6a09c2b210fe46b5931d3d29f63dd0266b56f08d83d884e34b7cdca9",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/source_snapshot/modeling_smolvla.py",
+      "published_sha256": "37b1d56f37510732a087cf5c32c05cd15d6234201a3f002f108ec4c53438cc7d",
+      "bytes": 32694,
+      "original_source_sha256": "37b1d56f37510732a087cf5c32c05cd15d6234201a3f002f108ec4c53438cc7d",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/verification/argmax_cpu_audit.json",
+      "published_sha256": "8127db15f11ec2e5638aef86ed51315432f4e597aa7e32044b4bd32e515b681a",
+      "bytes": 1444,
+      "original_source_sha256": "cd20347e9056e60d70e914c73ac3d58211bee1baa45a5a9a589a297c99e5f9a4",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/argmax_runtime_review.json",
+      "published_sha256": "c81409251f9c32830a1c59728237df987e5ee60a6580485b716737556deba44a",
+      "bytes": 27002,
+      "original_source_sha256": "0547832f1b10a6f16d1cf56d02cac53244d40a269f5b19de6e827ca6977a8ec7",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/argmax_runtime_review.py",
+      "published_sha256": "4cb7689852ec1dbcc5840a368e6853512e36de7a0a6dbbc1ba6bce6940bf8a2b",
+      "bytes": 16158,
+      "original_source_sha256": "4cb7689852ec1dbcc5840a368e6853512e36de7a0a6dbbc1ba6bce6940bf8a2b",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/verification/argmax_source_review_cpu.json",
+      "published_sha256": "8a0c1100a0fc771da232853072e9e5fc68676d5185ae9b2e5afef2a824e49ff6",
+      "bytes": 2073,
+      "original_source_sha256": "c96060012587e9e34eaf2205431c05eef18c87798c0b3f354a9e4af9d5476321",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/argmax_source_review_cpu.py",
+      "published_sha256": "c6d8aabeafdad60fc590815b06b915464733a676299b27ef46985070036bd8f3",
+      "bytes": 3943,
+      "original_source_sha256": "c6d8aabeafdad60fc590815b06b915464733a676299b27ef46985070036bd8f3",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/verification/explanation_intake.md",
+      "published_sha256": "5cb7dd132a5fe65e67ef3cf5f4700150ce33983ca51462861ed5ff3c2bc76abc",
+      "bytes": 3102,
+      "original_source_sha256": "5ee94c86a2ebb7b2b22df7de463faeeba45807556093ef2ec1215a66afadcc0f",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/final_runtime_review.json",
+      "published_sha256": "8d7e2e832244f117b93bf500e6ff6115470b8527bab7e7bc6b4dc0d670bf8149",
+      "bytes": 21186,
+      "original_source_sha256": "14bd296d8e8773c97bfdf4a22fe6b74f214751b2f709f38b47248ff589883d7b",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/final_runtime_review.py",
+      "published_sha256": "854d20ae8fd9509ed2cb333caea9f7cf6d3c0bb03cb3f0750774ce5ca430e3bc",
+      "bytes": 13413,
+      "original_source_sha256": "854d20ae8fd9509ed2cb333caea9f7cf6d3c0bb03cb3f0750774ce5ca430e3bc",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/verification/official_auditor_cpu_mock.json",
+      "published_sha256": "567ce1bfb32d427d18a27db8e998465afa9a707b8bd27c5e2961850d5573f06a",
+      "bytes": 667,
+      "original_source_sha256": "198b7001a389f3c078a0e468f646b01f4158588b7eb459f49df6086fd103ba2f",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/official_reference_cpu_audit.json",
+      "published_sha256": "db4d4dc9755554416df059f39e785a23aacf183c9c6d856346da59b1f500802a",
+      "bytes": 1574,
+      "original_source_sha256": "02ec2d9ce37ff03c702b45235aa77471469835d0af86a35fca2eb2eec47e8435",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/pilot_runtime_audit.json",
+      "published_sha256": "9b262d3e4f638dc236af7bb68ff9b24012763fc043470ab1a69f54e47e429bad",
+      "bytes": 20391,
+      "original_source_sha256": "aa2d4bb2de2f40d2142ef179615c41e0a2c5d40d77a5c938cd61fae9de7cb9e3",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/pilot_runtime_audit.py",
+      "published_sha256": "b9ee1c2b16927375f0e5211d7c8118a8b03ae304508e39c7b0d9eab6b5ac6bc0",
+      "bytes": 8859,
+      "original_source_sha256": "b9ee1c2b16927375f0e5211d7c8118a8b03ae304508e39c7b0d9eab6b5ac6bc0",
+      "publication_edited": false
+    },
+    {
+      "published": "长动作块补充实验/verification/source_review_cpu.json",
+      "published_sha256": "34a0d54ae8324b25e0a21c7498cf3c4d916e2e308882949cb34cf1d6c832b188",
+      "bytes": 2147,
+      "original_source_sha256": "822c61ed99ed5e13266682971be30964a84f34fdb4577653bc14b652fb8fe815",
+      "publication_edited": true
+    },
+    {
+      "published": "长动作块补充实验/verification/source_review_cpu.py",
+      "published_sha256": "172f092dc81f19f14dd1f5b7c7b3ee78e0b9e8601e11159a160a853d657bcdd9",
+      "bytes": 5516,
+      "original_source_sha256": "172f092dc81f19f14dd1f5b7c7b3ee78e0b9e8601e11159a160a853d657bcdd9",
+      "publication_edited": false
+    }
+  ],
+  "integrity_note": "Published hashes verify this edition. Original source hashes identify historical experiment bytes; historical execution receipts were not regenerated for the edited publication copy."
+}

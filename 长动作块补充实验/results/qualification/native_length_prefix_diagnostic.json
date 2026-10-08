@@ -1,0 +1,17 @@
+{
+  "scope": "one qualification observation only, not task quality",
+  "pairs": [
+    {
+      "H": 100,
+      "first50_maxabs_vs_H50": 0.0023618340492248535,
+      "first50_meanabs_vs_H50": 0.00038389096152968705,
+      "tail_action_norm_mean": 0.6278518438339233
+    },
+    {
+      "H": 200,
+      "first50_maxabs_vs_H50": 0.0032113194465637207,
+      "first50_meanabs_vs_H50": 0.0003689969889819622,
+      "tail_action_norm_mean": 0.3642657399177551
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "cohort_definition_sha256": {
+    "noise_alignment_validation_d4_v1": "b7bcf653527bff3e293ef2db61b7bc4be7567c5d5baea042703eea8da24d4f1e",
+    "random_skip_validation_d4_v1": "2a2b9f80cc1a798e753f272acc072cbcd50d677dac20b12b27cf96660a28e3a9"
+  },
+  "source_sha256": {
+    "scripts/analyze_partial_sample.py": "93d0bda53f565a3c8af0da3763031181efa7c55c799a52e2d3ee9148610ccad7",
+    "scripts/analyze_closed_loop.py": "362874207b9f0bcf4bdb8a64380d6bf8a2bb5b1670fa1298a4882b6a8ba694ca",
+    "PARTIAL_SAMPLE_REPORTING.md": "2726ee58f88ae866a1d31c5ce955d642c7547200cfabfade2d561ca3cda53fad"
+  },
+  "no_confirmation_outcomes_read": true,
+  "registration_progress": {
+    "cohort": "noise_alignment_validation_d4_v1",
+    "definition_sha256": "b7bcf653527bff3e293ef2db61b7bc4be7567c5d5baea042703eea8da24d4f1e",
+    "begin": 0,
+    "completed_shards": [],
+    "phase": "running",
+    "run": "noise_d4_s42_v1",
+    "completed_episodes": 67,
+    "planned_episodes": 210,
+    "remote_status": "running"
+  },
+  "interpretation": "Incomplete cohort: only the consecutive complete audited shards in original order; all methods/H retained. Descriptive point values only, no new intervals, promotion, pooling or claim of complete confirmation. Fixed order and runtime-related completion selection remain limitations. Incomplete shards are preserved but excluded from the paired description."
+}

@@ -1,0 +1,216 @@
+{
+  "scope": "Forensic exact trajectory comparison; no success-rate comparison or replacement selection",
+  "cases": [
+    {
+      "candidate": "window3_skip1",
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "naive_k5",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "fixed45",
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "fixed45",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "fixed45",
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": false,
+      "physics_exact": false,
+      "all_prediction_blocks_exact": false,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": 0
+    },
+    {
+      "candidate": "smol70",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "compact_skip1",
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "window3_first",
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "window3_skip1",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "compact_minr30_i5",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "window3_skip1",
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "smol70",
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "window3_first",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "naive_k5",
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "compact_skip1",
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "compact_skip1",
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "smol70",
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "naive_k5",
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null
+    }
+  ],
+  "complete_trajectory_matches": 20
+}

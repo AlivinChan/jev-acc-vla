@@ -1,0 +1,86 @@
+{
+  "cpu_only": true,
+  "status": "passed",
+  "schema_validation": [
+    {
+      "horizon": 50,
+      "raw_choice": "continue",
+      "valid": true,
+      "checks": 1383,
+      "vla_calls": 5,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 50,
+      "raw_choice": "replan",
+      "valid": true,
+      "checks": 1752,
+      "vla_calls": 46,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 50,
+      "raw_choice": "uncertain",
+      "valid": true,
+      "checks": 1482,
+      "vla_calls": 16,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 100,
+      "raw_choice": "continue",
+      "valid": true,
+      "checks": 1365,
+      "vla_calls": 3,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 100,
+      "raw_choice": "replan",
+      "valid": true,
+      "checks": 1752,
+      "vla_calls": 46,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 100,
+      "raw_choice": "uncertain",
+      "valid": true,
+      "checks": 1410,
+      "vla_calls": 8,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 200,
+      "raw_choice": "continue",
+      "valid": true,
+      "checks": 1356,
+      "vla_calls": 2,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 200,
+      "raw_choice": "replan",
+      "valid": true,
+      "checks": 1752,
+      "vla_calls": 46,
+      "gate_calls": 45
+    },
+    {
+      "horizon": 200,
+      "raw_choice": "uncertain",
+      "valid": true,
+      "checks": 1374,
+      "vla_calls": 4,
+      "gate_calls": 45
+    }
+  ],
+  "empty_input_annotated_partial": true,
+  "source_sha256": {
+    "laya_argmax_service.py": "b042be96a83e21f1dbb3df59129fb13829205a93df2b37148b224fc6e59a2f21",
+    "run_argmax_ablation.py": "a980b2f6f53bc11ef6b10454bb9cbcac58020a1d0b4f5216919498d92d707b46",
+    "supervise_argmax.py": "b10aa6b910ed98e940ae1b7dd6dca2c47e498183d53a32c50955450ef16085b0",
+    "analyze_argmax.py": "cb0402ac0517bd0b210448d3d34bcfc3285ddbb5c0c7f78db3baa1e5a9f077f2"
+  },
+  "scope": "Actual AST-extracted primary.run_episode with distinguishable action rows and real analyze_argmax.validate_case; no torch/model/CUDA imports."
+}

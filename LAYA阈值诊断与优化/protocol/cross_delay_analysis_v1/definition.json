@@ -1,0 +1,14 @@
+{
+  "candidate_cohort": "delay_validation_d5_v2",
+  "reference_cohort": "delay_validation_d4_v2",
+  "before_complete_d4_or_d5_efficacy_analysis": true,
+  "source_sha256": {
+    "scripts/analyze_cross_delay.py": "644f0d31f8461aac63b644b0c510aeecfbdbd56f5bd6fd063bbb9e82936e0689",
+    "scripts/analyze_closed_loop.py": "362874207b9f0bcf4bdb8a64380d6bf8a2bb5b1670fa1298a4882b6a8ba694ca",
+    "scripts/paired_resampling.py": "d1d784f1bcb9f796dac74659175a919ae53ef9f9d6591c3dcdce66575c50f4f8",
+    "CROSS_DELAY_ANALYSIS.md": "46cf4c83199117ae3c74d5a95a525beda7cd1407cd5b5ab4d5452305b49bec8f",
+    "protocol/delay_validation_d4_v2/definition.json": "48ff96ac20c20fd80362e0aa23d41560af374afde680bbf4fa39909292dcaee8",
+    "protocol/delay_validation_d5_v2/definition.json": "c3a46c90c2f31326f60ee073708e98d12abcc5d43483374076a317dcc3dbf3c8"
+  },
+  "interpretation": "All 15 predeclared paired contrasts; whole frozen-policy response to logical delay, not real-time speedup or isolated image/proprioception effect. No favorable-delay selection and no equivalence claim."
+}

@@ -1,0 +1,197 @@
+{
+  "cohort_id": "random_skip_validation_d4_v1",
+  "entry_point": "run_seeded_skip_closed_loop.py",
+  "audit_entry": "audit_seeded_skip_closed_loop.py",
+  "initial_input_verification_required": true,
+  "deterministic_backend_forced": false,
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states_in_execution_order": [
+    47,
+    45,
+    46
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "episodes_per_method_horizon": 30,
+  "total_episodes": 450,
+  "candidates": {
+    "smol70": {
+      "method": "smol70",
+      "role": "native Smol70 reference"
+    },
+    "fixed45": {
+      "method": "fixed_interval",
+      "interval": 45,
+      "role": "selected fixed-period attribution control"
+    },
+    "window3_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3,
+      "role": "primary LAYA candidate"
+    },
+    "random_skip_s11131": {
+      "method": "seeded_skip1",
+      "coin_seed": 11131,
+      "continue_fractions": {
+        "50": [
+          93,
+          232
+        ],
+        "100": [
+          47,
+          132
+        ],
+        "200": [
+          12,
+          64
+        ]
+      },
+      "role": "State-blind random single skip; fixed development frequency; no LAYA calls"
+    },
+    "random_skip_s22261": {
+      "method": "seeded_skip1",
+      "coin_seed": 22261,
+      "continue_fractions": {
+        "50": [
+          93,
+          232
+        ],
+        "100": [
+          47,
+          132
+        ],
+        "200": [
+          12,
+          64
+        ]
+      },
+      "role": "State-blind random single skip; fixed development frequency; no LAYA calls"
+    }
+  },
+  "shards": [
+    {
+      "run": "random_d4_s47_v1",
+      "config": "random_d4_s47_v1.json",
+      "state": 47,
+      "episodes": 150,
+      "order": 0,
+      "config_sha256": "2a66ca25fc5d8e7e5efd70e5207519a14c4e4068a608bb825b92dbe4f8277c4c"
+    },
+    {
+      "run": "random_d4_s45_v1",
+      "config": "random_d4_s45_v1.json",
+      "state": 45,
+      "episodes": 150,
+      "order": 1,
+      "config_sha256": "4a47eb6219e0534f7a95703f01bfebb467fb3a60853a1eb875e5fa3c4c848c0b"
+    },
+    {
+      "run": "random_d4_s46_v1",
+      "config": "random_d4_s46_v1.json",
+      "state": 46,
+      "episodes": 150,
+      "order": 2,
+      "config_sha256": "80d18e20c1d9cd115e321e6a2ffce12e4f9752138bd9164e49abaaa1af3b2fb2"
+    }
+  ],
+  "primary_candidate": "window3_skip1",
+  "primary_comparators": [
+    "random_skip_s11131",
+    "random_skip_s22261"
+  ],
+  "comparators_by_horizon": {
+    "50": [
+      "smol70",
+      "fixed45",
+      "random_skip_s11131",
+      "random_skip_s22261"
+    ],
+    "100": [
+      "smol70",
+      "fixed45",
+      "random_skip_s11131",
+      "random_skip_s22261"
+    ],
+    "200": [
+      "smol70",
+      "fixed45",
+      "random_skip_s11131",
+      "random_skip_s22261"
+    ]
+  },
+  "logical_delay_steps": 4,
+  "locked_execution_source_sha256": {
+    "run_closed_loop.py": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "window_state.py": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+    "binary_service.py": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "supervise.py": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73",
+    "run_guarded_closed_loop.py": "67d1aefe59bf293128b5daafb8055c49672afdf10641bce3c4e56ee89a32329b",
+    "verified_runtime.py": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e",
+    "seeded_skip_runtime.py": "dee270428f91b9d633c6ad96ea444a65b1394a6f5596bae36de40a1ce718156a",
+    "run_seeded_skip_closed_loop.py": "9a18169d49843ae31dbe87557d712a5a58b83b4e909a6c63387fdc0ddae42e41",
+    "audit_seeded_skip_closed_loop.py": "bf63949e8973332afc69a30e97e7ada09eb7f7b678599abb2c6a207a30c527b3"
+  },
+  "vla_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+  "minimum_probability": 0,
+  "laya_binary_argmax": true,
+  "random_baseline_not_a_laya_prediction": true,
+  "random_sequences_reported_separately": true,
+  "readout_adaptation": false,
+  "implementation_pilot": false,
+  "qualification_runs": [
+    {
+      "run": "random_d1_pilot_v1",
+      "episodes": 21,
+      "logical_delay_steps": 1
+    },
+    {
+      "run": "random_d4_pilot_v1",
+      "episodes": 15,
+      "logical_delay_steps": 4
+    }
+  ],
+  "exact_replay_qualifications": [
+    {
+      "file": "checks/incidents/random_d1_pilot_v1_vs_initial_repro_plain_v1.json",
+      "n": 15,
+      "current": "random_d1_pilot_v1",
+      "reference": "initial_repro_plain_v1",
+      "candidates_filter": "smol70,fixed45,window3_skip1,naive_k5,vlash_style_k5"
+    },
+    {
+      "file": "checks/incidents/random_d4_pilot_v1_vs_delay_d4_pilot_v2.json",
+      "n": 9,
+      "current": "random_d4_pilot_v1",
+      "reference": "delay_d4_pilot_v2",
+      "candidates_filter": "smol70,fixed45,window3_skip1"
+    }
+  ],
+  "statistics": "Primary descriptive hierarchical paired bootstrap; retain fixed-task and task-only sensitivities. No equivalence or uncorrected significance claim.",
+  "no_adaptation_during_cohort": true,
+  "no_early_stopping_for_favorable_results": true,
+  "selection_evidence_sha256": {
+    "protocol/validation_d1_v2/definition.json": "4d8d04ad001c1daaa972603374785d77c3ef22cd67c483cf6859e8d5e0f9124e",
+    "analysis/gate_service_development.json": "6e827ec775b825c26fe63e0849fc2f444ee25b715d43ba003ef529a2e7582a03",
+    "RANDOM_SKIP_PROTOCOL.md": "1dc19b84b637885bb4e24a1787f835f541d2e2a3ed32b727cd8da8ac751de4f6",
+    "checks/seeded_skip_cpu.json": "fe9e4cee0dd8202cc4dfb322d6005b28d5a36bfef317b9106ffa436757e68c86",
+    "checks/random_skip_available_initials.json": "9944838afe08335956935efe36af5fdfc89fc20be49640753a6cefdac21bfc9b"
+  },
+  "interpretation": "Two fixed state-blind random sequences at development-only continue frequencies. Actual new episode lengths, calls and costs may differ; two sequences are not independent extra starts. Primary LAYA remains original binary argmax."
+}

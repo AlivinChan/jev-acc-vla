@@ -1,0 +1,61 @@
+{
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states": [
+    0,
+    1,
+    2
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "schedule_seed": 202610084,
+  "cohort_role": "Developer attribution: separate native output length from fixed request interval; reuse predeclared completed reference cells",
+  "candidates": {
+    "fixed30_h50": {
+      "method": "fixed_interval",
+      "interval": 30,
+      "horizons": [
+        50
+      ],
+      "states": [
+        1,
+        2
+      ]
+    },
+    "fixed30_h200": {
+      "method": "fixed_interval",
+      "interval": 30,
+      "horizons": [
+        200
+      ]
+    },
+    "fixed45": {
+      "method": "fixed_interval",
+      "interval": 45
+    },
+    "fixed60_h100": {
+      "method": "fixed_interval",
+      "interval": 60,
+      "horizons": [
+        100
+      ],
+      "states": [
+        1,
+        2
+      ]
+    }
+  }
+}

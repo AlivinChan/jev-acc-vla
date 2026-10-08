@@ -1,0 +1,552 @@
+{
+  "episodes": 30,
+  "successes": 30,
+  "pc_success": 100.0,
+  "wilson95_percent": [
+    88.64866068260312,
+    99.99999999999999
+  ],
+  "mask_disagreements": 0,
+  "unique_initial_state_pairs": 30,
+  "nominal_initial_states_match_primary": true,
+  "exact_cross_wrapper_physics_match_verified": false,
+  "strict_control_steps": 3049,
+  "actual_batched_environment_steps": 3900,
+  "predict_calls": 80,
+  "predict_batch_elements": 800,
+  "active_episode_prediction_elements": 621,
+  "already_done_prediction_elements": 179,
+  "predict_wall_seconds": 50.321067166980356,
+  "evaluation_wall_seconds": 75.53422231692821,
+  "freeze_attestations_equal": true,
+  "parameter_numel_by_dtype": {
+    "torch.float32": 119644906,
+    "torch.bfloat16": 3497112688
+  },
+  "parameter_count": 3616757594,
+  "state_dict_sha256": "db6a992903509ec0f51f0f96fb1324fcbb7f2707ce3d93967052b244ee711431",
+  "alias_count": 255,
+  "per_task": [
+    {
+      "task_id": 0,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 225
+    },
+    {
+      "task_id": 1,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 326
+    },
+    {
+      "task_id": 2,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 299
+    },
+    {
+      "task_id": 3,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 246
+    },
+    {
+      "task_id": 4,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 374
+    },
+    {
+      "task_id": 5,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 269
+    },
+    {
+      "task_id": 6,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 316
+    },
+    {
+      "task_id": 7,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 328
+    },
+    {
+      "task_id": 8,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 300
+    },
+    {
+      "task_id": 9,
+      "episodes": 3,
+      "successes": 3,
+      "initial_state_ids": [
+        0,
+        1,
+        2
+      ],
+      "strict_control_steps": 366
+    }
+  ],
+  "episode_details": [
+    {
+      "task_id": 0,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 0,
+      "seed": 42,
+      "steps": 70,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 0,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 0,
+      "seed": 42,
+      "steps": 75,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 0,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 0,
+      "seed": 42,
+      "steps": 80,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 1,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 1,
+      "seed": 43,
+      "steps": 116,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 1,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 1,
+      "seed": 43,
+      "steps": 106,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 1,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 1,
+      "seed": 43,
+      "steps": 104,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 2,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 2,
+      "seed": 44,
+      "steps": 93,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 2,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 2,
+      "seed": 44,
+      "steps": 113,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 2,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 2,
+      "seed": 44,
+      "steps": 93,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 3,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 3,
+      "seed": 45,
+      "steps": 84,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 3,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 3,
+      "seed": 45,
+      "steps": 88,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 3,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 3,
+      "seed": 45,
+      "steps": 74,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 4,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 4,
+      "seed": 46,
+      "steps": 121,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 4,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 4,
+      "seed": 46,
+      "steps": 128,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 4,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 4,
+      "seed": 46,
+      "steps": 125,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 5,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 5,
+      "seed": 47,
+      "steps": 97,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 5,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 5,
+      "seed": 47,
+      "steps": 92,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 5,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 5,
+      "seed": 47,
+      "steps": 80,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 6,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 6,
+      "seed": 48,
+      "steps": 107,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 6,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 6,
+      "seed": 48,
+      "steps": 102,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 6,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 6,
+      "seed": 48,
+      "steps": 107,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 7,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 7,
+      "seed": 49,
+      "steps": 108,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 7,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 7,
+      "seed": 49,
+      "steps": 107,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 7,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 7,
+      "seed": 49,
+      "steps": 113,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 8,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 8,
+      "seed": 50,
+      "steps": 99,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 8,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 8,
+      "seed": 50,
+      "steps": 99,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 8,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 8,
+      "seed": 50,
+      "steps": 102,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    },
+    {
+      "task_id": 9,
+      "init_state_id": 0,
+      "batch": 0,
+      "env_slot": 9,
+      "seed": 51,
+      "steps": 115,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_000.npz",
+      "trace_sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd"
+    },
+    {
+      "task_id": 9,
+      "init_state_id": 1,
+      "batch": 1,
+      "env_slot": 9,
+      "seed": 51,
+      "steps": 110,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_001.npz",
+      "trace_sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d"
+    },
+    {
+      "task_id": 9,
+      "init_state_id": 2,
+      "batch": 2,
+      "env_slot": 9,
+      "seed": 51,
+      "steps": 141,
+      "success_strict": true,
+      "success_official_mask": true,
+      "trace": "rollout_002.npz",
+      "trace_sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+    }
+  ],
+  "traces": [
+    {
+      "file": "rollout_000.npz",
+      "sha256": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd",
+      "batch": 0,
+      "batch_size": 10,
+      "batch_control_steps": 121
+    },
+    {
+      "file": "rollout_001.npz",
+      "sha256": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d",
+      "batch": 1,
+      "batch_size": 10,
+      "batch_control_steps": 128
+    },
+    {
+      "file": "rollout_002.npz",
+      "sha256": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345",
+      "batch": 2,
+      "batch_size": 10,
+      "batch_control_steps": 141
+    }
+  ],
+  "limitations": [
+    "Official and Smol runs share nominal task/state IDs; official artifacts contain no initial physics snapshots, so bitwise cross-wrapper pairing is unverified.",
+    "Freeze hashes attest the runtime tensor state before and after. Archived hashes agree; the CPU audit does not reload checkpoint tensors.",
+    "Batch timing includes already-done environment slots and is not comparable to single-environment inference latency.",
+    "Wilson interval is descriptive for 30 fixed states across ten tasks; it does not establish independent generalization or paper-table equivalence."
+  ],
+  "verified": true,
+  "checks": 3046,
+  "errors": [],
+  "run": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference",
+  "auditor_sha256": "6b160d2fbdd07077070e4d6cc874616b84f5f334a3f830b7054b7fc4756cec3c",
+  "source_file_sha256": {
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\contract.json": "c3a2c4d4b4e0a4d83ca3249c4f7efefc504feb2a3d1b70c9edde05b99d0d8561",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\episodes.json": "014e21360b93769750aae938c5de98819fe0f42af31855dda9454d3da283daf3",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\summary.json": "aa3412de1fabb95e70b6c2fa8cc424a8443e13b974fa684bddb710bd18f530d0",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\official_eval_info.json": "548141b6812ec21df098ca5f1330188eafaee562cdfb6137594f452359f21aa9",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\missing_alias_audit.json": "1d5b601250747d10933c5aa3f6e6cf91d0b9530685673f0984ce7e2fb375f274",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\load_audit.json": "ea0bcb97a93e79a2bc379fcfa71c46cc79775379359efcc8afa111704e5386e1",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\freeze_before.json": "26576e978586c40eacd589f1a4b3929c92fc5fe6ac06f7576dcb76f81cf88f58",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\freeze_after.json": "26576e978586c40eacd589f1a4b3929c92fc5fe6ac06f7576dcb76f81cf88f58",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\predict_calls.jsonl": "76d425470a1b71eb1808378d6afd672349bfe48e81f08495ad125224179462e8",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\scripts\\official_reference.py": "1341d2a3006900eb8e87447141bba72429169d493623815595a01e0514e28089",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\rollout_000.npz": "ad150c1a9e18abb8b82102192c725e8bc2f87bdda7021485fc07d909c28a2efd",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\rollout_001.npz": "80521c01bd5870bffbd696541598661f6357e01dcf64fb3e662a8eb4fdf7d65d",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\official_reference\\rollout_002.npz": "2520b0d44993bc9b6413b0915c006460ea0826f57052c076d2b22d75599a6345"
+  }
+}

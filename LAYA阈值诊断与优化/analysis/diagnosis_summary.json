@@ -1,0 +1,620 @@
+{
+  "original3": {
+    "n": 270,
+    "max_probability": {
+      "min": 0.4395,
+      "median": 0.46945000000000003,
+      "mean": 0.47541,
+      "max": 0.5511
+    },
+    "cross_07": 0,
+    "raw_choices": {
+      "replan": 165,
+      "continue": 105
+    },
+    "changed_from_original": 0,
+    "tokens": {
+      "min": 901,
+      "median": 924.5,
+      "mean": 923.8407407407408,
+      "max": 942
+    },
+    "head_dropped": {
+      "min": 0,
+      "median": 0.0,
+      "mean": 0,
+      "max": 0
+    },
+    "fits_512": 0,
+    "sdk_wall_ms": {
+      "min": 21.600924897938967,
+      "median": 24.81799782253802,
+      "mean": 24.948149422804516,
+      "max": 33.58445502817631
+    },
+    "semantic_controls": {
+      "n": 10,
+      "correct": 9,
+      "cross_07": 2,
+      "probabilities": [
+        {
+          "id": "synthetic_00",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7742
+        },
+        {
+          "id": "synthetic_01",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.6322
+        },
+        {
+          "id": "synthetic_02",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7847
+        },
+        {
+          "id": "synthetic_03",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.5144
+        },
+        {
+          "id": "synthetic_04",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.5731
+        },
+        {
+          "id": "synthetic_05",
+          "label": "continue",
+          "choice": "replan",
+          "p": 0.6414
+        },
+        {
+          "id": "synthetic_06",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5308
+        },
+        {
+          "id": "synthetic_07",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5604
+        },
+        {
+          "id": "synthetic_08",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5715
+        },
+        {
+          "id": "synthetic_09",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.4717
+        }
+      ]
+    },
+    "old_probability_max_error": 0.0,
+    "conditional_binary_probability": {
+      "min": 0.5010738103311857,
+      "median": 0.5299140438471648,
+      "mean": 0.5356434204608727,
+      "max": 0.6123313635856841
+    },
+    "temperature_one_max_probability": {
+      "min": 0.4765436133467643,
+      "median": 0.5276858422269066,
+      "mean": 0.5381895441970411,
+      "max": 0.6667496602817712
+    }
+  },
+  "numbers3": {
+    "n": 270,
+    "max_probability": {
+      "min": 0.4508,
+      "median": 0.4805,
+      "mean": 0.4894737037037037,
+      "max": 0.5835
+    },
+    "cross_07": 0,
+    "raw_choices": {
+      "replan": 103,
+      "continue": 167
+    },
+    "changed_from_original": 86,
+    "tokens": {
+      "min": 742,
+      "median": 748.0,
+      "mean": 748.3407407407408,
+      "max": 756
+    },
+    "head_dropped": {
+      "min": 0,
+      "median": 0.0,
+      "mean": 0,
+      "max": 0
+    },
+    "fits_512": 0,
+    "sdk_wall_ms": {
+      "min": 19.14779981598258,
+      "median": 21.78715798072517,
+      "mean": 21.96189828079056,
+      "max": 34.11074820905924
+    },
+    "semantic_controls": {
+      "n": 10,
+      "correct": 9,
+      "cross_07": 2,
+      "probabilities": [
+        {
+          "id": "synthetic_00",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7742
+        },
+        {
+          "id": "synthetic_01",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.6322
+        },
+        {
+          "id": "synthetic_02",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7847
+        },
+        {
+          "id": "synthetic_03",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.5144
+        },
+        {
+          "id": "synthetic_04",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.5731
+        },
+        {
+          "id": "synthetic_05",
+          "label": "continue",
+          "choice": "replan",
+          "p": 0.6414
+        },
+        {
+          "id": "synthetic_06",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5308
+        },
+        {
+          "id": "synthetic_07",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5604
+        },
+        {
+          "id": "synthetic_08",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5715
+        },
+        {
+          "id": "synthetic_09",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.4717
+        }
+      ]
+    }
+  },
+  "fullhead3": {
+    "n": 270,
+    "max_probability": {
+      "min": 0.4508,
+      "median": 0.4805,
+      "mean": 0.4894737037037037,
+      "max": 0.5835
+    },
+    "cross_07": 0,
+    "raw_choices": {
+      "replan": 103,
+      "continue": 167
+    },
+    "changed_from_original": 86,
+    "tokens": {
+      "min": 742,
+      "median": 748.0,
+      "mean": 748.3407407407408,
+      "max": 756
+    },
+    "head_dropped": {
+      "min": 0,
+      "median": 0.0,
+      "mean": 0,
+      "max": 0
+    },
+    "fits_512": 0,
+    "sdk_wall_ms": {
+      "min": 18.794718198478222,
+      "median": 21.640908205881715,
+      "mean": 21.77554623534282,
+      "max": 33.16610772162676
+    },
+    "semantic_controls": {
+      "n": 10,
+      "correct": 9,
+      "cross_07": 2,
+      "probabilities": [
+        {
+          "id": "synthetic_00",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7742
+        },
+        {
+          "id": "synthetic_01",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.6322
+        },
+        {
+          "id": "synthetic_02",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7847
+        },
+        {
+          "id": "synthetic_03",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.5144
+        },
+        {
+          "id": "synthetic_04",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.5731
+        },
+        {
+          "id": "synthetic_05",
+          "label": "continue",
+          "choice": "replan",
+          "p": 0.6414
+        },
+        {
+          "id": "synthetic_06",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5308
+        },
+        {
+          "id": "synthetic_07",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5604
+        },
+        {
+          "id": "synthetic_08",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.5715
+        },
+        {
+          "id": "synthetic_09",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.4717
+        }
+      ]
+    }
+  },
+  "binary_full": {
+    "n": 270,
+    "max_probability": {
+      "min": 0.5971,
+      "median": 0.7036,
+      "mean": 0.7114844444444445,
+      "max": 0.8503
+    },
+    "cross_07": 146,
+    "raw_choices": {
+      "continue": 270
+    },
+    "changed_from_original": 165,
+    "tokens": {
+      "min": 721,
+      "median": 727.0,
+      "mean": 727.3407407407408,
+      "max": 735
+    },
+    "head_dropped": {
+      "min": 0,
+      "median": 0.0,
+      "mean": 0,
+      "max": 0
+    },
+    "fits_512": 0,
+    "sdk_wall_ms": {
+      "min": 18.326267134398222,
+      "median": 21.52725192718208,
+      "mean": 21.74083462709354,
+      "max": 31.691172160208225
+    },
+    "semantic_controls": {
+      "n": 10,
+      "correct": 7,
+      "cross_07": 5,
+      "probabilities": [
+        {
+          "id": "synthetic_00",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.8478
+        },
+        {
+          "id": "synthetic_01",
+          "label": "replan",
+          "choice": "continue",
+          "p": 0.6854
+        },
+        {
+          "id": "synthetic_02",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.5051
+        },
+        {
+          "id": "synthetic_03",
+          "label": "replan",
+          "choice": "continue",
+          "p": 0.672
+        },
+        {
+          "id": "synthetic_04",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.548
+        },
+        {
+          "id": "synthetic_05",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7028
+        },
+        {
+          "id": "synthetic_06",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.844
+        },
+        {
+          "id": "synthetic_07",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7522
+        },
+        {
+          "id": "synthetic_08",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7737
+        },
+        {
+          "id": "synthetic_09",
+          "label": "continue",
+          "choice": "replan",
+          "p": 0.5154
+        }
+      ]
+    }
+  },
+  "binary_short": {
+    "n": 270,
+    "max_probability": {
+      "min": 0.5005,
+      "median": 0.5365500000000001,
+      "mean": 0.5421092592592592,
+      "max": 0.6151
+    },
+    "cross_07": 0,
+    "raw_choices": {
+      "replan": 61,
+      "continue": 209
+    },
+    "changed_from_original": 152,
+    "tokens": {
+      "min": 656,
+      "median": 662.0,
+      "mean": 662.3407407407408,
+      "max": 670
+    },
+    "head_dropped": {
+      "min": 0,
+      "median": 0.0,
+      "mean": 0,
+      "max": 0
+    },
+    "fits_512": 0,
+    "sdk_wall_ms": {
+      "min": 16.440256964415312,
+      "median": 19.66157485730946,
+      "mean": 19.96043788234669,
+      "max": 28.023600112646818
+    },
+    "semantic_controls": {
+      "n": 10,
+      "correct": 7,
+      "cross_07": 6,
+      "probabilities": [
+        {
+          "id": "synthetic_00",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.9366
+        },
+        {
+          "id": "synthetic_01",
+          "label": "replan",
+          "choice": "continue",
+          "p": 0.662
+        },
+        {
+          "id": "synthetic_02",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7257
+        },
+        {
+          "id": "synthetic_03",
+          "label": "replan",
+          "choice": "continue",
+          "p": 0.6042
+        },
+        {
+          "id": "synthetic_04",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.68
+        },
+        {
+          "id": "synthetic_05",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7884
+        },
+        {
+          "id": "synthetic_06",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7584
+        },
+        {
+          "id": "synthetic_07",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7674
+        },
+        {
+          "id": "synthetic_08",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7891
+        },
+        {
+          "id": "synthetic_09",
+          "label": "continue",
+          "choice": "replan",
+          "p": 0.5
+        }
+      ]
+    }
+  },
+  "binary_compact": {
+    "n": 270,
+    "max_probability": {
+      "min": 0.5,
+      "median": 0.5295,
+      "mean": 0.5350085185185185,
+      "max": 0.6806
+    },
+    "cross_07": 0,
+    "raw_choices": {
+      "continue": 88,
+      "replan": 182
+    },
+    "changed_from_original": 131,
+    "tokens": {
+      "min": 431,
+      "median": 439.0,
+      "mean": 441.9259259259259,
+      "max": 471
+    },
+    "head_dropped": {
+      "min": 0,
+      "median": 0.0,
+      "mean": 0,
+      "max": 0
+    },
+    "fits_512": 270,
+    "sdk_wall_ms": {
+      "min": 13.649147003889084,
+      "median": 16.80636452510953,
+      "mean": 17.07248216736372,
+      "max": 26.573318988084793
+    },
+    "semantic_controls": {
+      "n": 10,
+      "correct": 7,
+      "cross_07": 6,
+      "probabilities": [
+        {
+          "id": "synthetic_00",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.9366
+        },
+        {
+          "id": "synthetic_01",
+          "label": "replan",
+          "choice": "continue",
+          "p": 0.662
+        },
+        {
+          "id": "synthetic_02",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.7257
+        },
+        {
+          "id": "synthetic_03",
+          "label": "replan",
+          "choice": "continue",
+          "p": 0.6042
+        },
+        {
+          "id": "synthetic_04",
+          "label": "replan",
+          "choice": "replan",
+          "p": 0.68
+        },
+        {
+          "id": "synthetic_05",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7884
+        },
+        {
+          "id": "synthetic_06",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7584
+        },
+        {
+          "id": "synthetic_07",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7674
+        },
+        {
+          "id": "synthetic_08",
+          "label": "continue",
+          "choice": "continue",
+          "p": 0.7891
+        },
+        {
+          "id": "synthetic_09",
+          "label": "continue",
+          "choice": "replan",
+          "p": 0.5
+        }
+      ]
+    }
+  }
+}

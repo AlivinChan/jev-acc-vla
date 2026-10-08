@@ -1,0 +1,157 @@
+{
+  "cohort_id": "delay_validation_d4_v2",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states_in_execution_order": [
+    31,
+    30,
+    32
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "episodes_per_method_horizon": 30,
+  "total_episodes": 450,
+  "candidates": {
+    "smol70": {
+      "method": "smol70",
+      "role": "native Smol70 reference"
+    },
+    "naive_k5": {
+      "method": "naive_k5",
+      "role": "frequency-matched reference for VLASH mechanism"
+    },
+    "vlash_style_k5": {
+      "method": "vlash_style_k5",
+      "role": "same frozen model VLASH-style mechanism, without offset training"
+    },
+    "fixed45": {
+      "method": "fixed_interval",
+      "interval": 45,
+      "role": "selected fixed-period attribution control"
+    },
+    "window3_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3,
+      "role": "primary LAYA candidate"
+    }
+  },
+  "primary_candidate": "window3_skip1",
+  "primary_comparators": [
+    "smol70",
+    "fixed45"
+  ],
+  "comparators_by_horizon": {
+    "50": [
+      "smol70",
+      "fixed45",
+      "naive_k5",
+      "vlash_style_k5"
+    ],
+    "100": [
+      "smol70",
+      "fixed45",
+      "naive_k5",
+      "vlash_style_k5"
+    ],
+    "200": [
+      "smol70",
+      "fixed45",
+      "naive_k5",
+      "vlash_style_k5"
+    ]
+  },
+  "locked_execution_source_sha256": {
+    "run_closed_loop.py": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "window_state.py": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+    "binary_service.py": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "supervise.py": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73",
+    "run_guarded_closed_loop.py": "67d1aefe59bf293128b5daafb8055c49672afdf10641bce3c4e56ee89a32329b",
+    "verified_runtime.py": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e"
+  },
+  "selection_evidence_sha256": {
+    "DELAY_ROBUSTNESS_PROTOCOL.md": "29d523e3d6aa869d22bd06f98208204b63259c0eccf13215c96c45419362b8f6",
+    "DELAY_COHORT_LOCK.md": "6491db6debc0ff6ff1f948e6a88a570b5e3bd90e5bc9bbcfb134ca4b3244af38",
+    "protocol/validation_d1_v1/definition.json": "be1114f31a3da9e0b084691939c28c611e993d531e6d7d9fc2e72437ea979914",
+    "checks/delay_d1_qualification_v1_exact_reproduction.json": "5e6204f5daf17acd5a1fe94c0079c2cb76aa8acd9198251520b9f3f503657b2c",
+    "checks/controller_mechanisms.json": "fecba33c721fd24f4333974f1b519ac42f6497aee21921ba1cc8f6efa2c824bd",
+    "STATISTICS_AMENDMENT_01.md": "9f4994c4e1adc91d53c65dccac94c91ba36581080c49c4c18343a460dfb0135a"
+  },
+  "vla_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+  "minimum_probability": 0,
+  "binary_argmax": true,
+  "readout_adaptation": false,
+  "logical_delay_steps": 4,
+  "statistics": "Primary descriptive hierarchical paired bootstrap; retain fixed-task and task-only sensitivities. No equivalence or uncorrected significance claim.",
+  "no_adaptation_during_cohort": true,
+  "no_early_stopping_for_favorable_results": true,
+  "implementation_pilot": false,
+  "interpretation": "Paused-simulator logical delay, no actual concurrency speedup. Both d4 and d5 retained. K5 noise is seeded at actual prediction tick; ordinary d5 also makes the prescribed tick0 pending request in addition to initialization.",
+  "qualification_runs": [
+    {
+      "run": "delay_d4_pilot_v2",
+      "episodes": 15,
+      "logical_delay_steps": 4
+    },
+    {
+      "run": "guarded_runtime_qualification_v1",
+      "episodes": 21,
+      "logical_delay_steps": 1
+    }
+  ],
+  "shards": [
+    {
+      "run": "delay_d4_s31_v2",
+      "config": "delay_d4_s31_v2.json",
+      "state": 31,
+      "episodes": 150,
+      "order": 0,
+      "config_sha256": "36d76a15303cfaf01862b14c02aaf6a88955f34999ecc53ac00a90468c1222f6"
+    },
+    {
+      "run": "delay_d4_s30_v2",
+      "config": "delay_d4_s30_v2.json",
+      "state": 30,
+      "episodes": 150,
+      "order": 1,
+      "config_sha256": "1fa40dccd00318be6441028f27481fcd657e1363bca78c1568718c80e37a80ca"
+    },
+    {
+      "run": "delay_d4_s32_v2",
+      "config": "delay_d4_s32_v2.json",
+      "state": 32,
+      "episodes": 150,
+      "order": 2,
+      "config_sha256": "753d60fdf9a6c9a2283d12a5511daaea02f7c5deb455f38f8a766f096e8ef0f1"
+    }
+  ],
+  "technical_revision_of": "delay_validation_d4_v1",
+  "original_definition_sha256": "1d6f9f8e740b4a5ac48e1a22da42a8dd987a657b69a5fb3e37c3af1c1075bab9",
+  "technical_amendment_sha256": "38fce1a12309eb23039f5036b1ab34dce758be0a1d98d03c39b011b58fae2be3",
+  "entry_point": "run_guarded_closed_loop.py",
+  "initial_input_verification_required": true,
+  "deterministic_backend_forced": false,
+  "original_candidate_selection_unchanged": true,
+  "v1_technical_attempts_excluded_from_efficacy_denominator": true,
+  "qualification_evidence_sha256": {
+    "checks/guarded_runtime_qualification_v1_audit.json": "6747f7bdbd86258793d148911f259884630d91f68194d4615fa591dd2e587238",
+    "checks/guarded_runtime_qualification_v1_initial_verification.json": "6f494a23d0c5f3d61a8deb65866dae0635c7e47df2855f2a4b593b7f36a5fe4a",
+    "checks/incidents/guarded_runtime_qualification_v1_vs_initial_repro_plain_v1.json": "263a5f6b53f5bd8a3d968446468e11716f127f282906c592cd6c655a6277ce96",
+    "checks/initial_guard_fault_injection.json": "280dc45c5a33bbda4a2c15c59d671f75c3a0ff7ff2f449a3e03ae67bb18b3be1"
+  }
+}

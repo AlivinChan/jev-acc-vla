@@ -1,0 +1,177 @@
+{
+  "cohort_id": "validation_d1_v2",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states_in_execution_order": [
+    12,
+    10,
+    14,
+    11,
+    13
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "episodes_per_method_horizon": 50,
+  "total_episodes": 1050,
+  "candidates": {
+    "smol70": {
+      "method": "smol70",
+      "role": "native Smol70 reference"
+    },
+    "naive_k5": {
+      "method": "naive_k5",
+      "role": "frequency-matched reference for VLASH mechanism"
+    },
+    "vlash_style_k5": {
+      "method": "vlash_style_k5",
+      "role": "same frozen model VLASH-style mechanism, without offset training"
+    },
+    "fixed45": {
+      "method": "fixed_interval",
+      "interval": 45,
+      "role": "selected fixed-period attribution control"
+    },
+    "compact_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_compact",
+      "interval_ratio": 0.3,
+      "role": "input-window ablation"
+    },
+    "window3_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3,
+      "role": "primary LAYA candidate"
+    },
+    "window3_first": {
+      "method": "laya_first",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3,
+      "horizons": [
+        50,
+        100
+      ],
+      "role": "secondary limited first-request policy"
+    },
+    "compact_minr30_i5": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval": 5,
+      "minimum_age_ratio": 0.3,
+      "horizons": [
+        100
+      ],
+      "role": "secondary H100 quality/cost endpoint"
+    }
+  },
+  "shards": [
+    {
+      "run": "validation_d1_s12_v2",
+      "config": "validation_d1_s12_v2.json",
+      "state": 12,
+      "episodes": 210,
+      "order": 0,
+      "config_sha256": "c2bcd6375f0b22116339ec64e4c459a8fad947f5e4639fa5f87dcff2b08634d9"
+    },
+    {
+      "run": "validation_d1_s10_v2",
+      "config": "validation_d1_s10_v2.json",
+      "state": 10,
+      "episodes": 210,
+      "order": 1,
+      "config_sha256": "ed54957ec1572600537e256ece57b1a6beeb91950ea06414df4f1246593167d0"
+    },
+    {
+      "run": "validation_d1_s14_v2",
+      "config": "validation_d1_s14_v2.json",
+      "state": 14,
+      "episodes": 210,
+      "order": 2,
+      "config_sha256": "45d4a56cfc575709e66365703161b31f8b2842a88fad2bd25fdf36a85a31adac"
+    },
+    {
+      "run": "validation_d1_s11_v2",
+      "config": "validation_d1_s11_v2.json",
+      "state": 11,
+      "episodes": 210,
+      "order": 3,
+      "config_sha256": "98ac77a2ad685b6d45aab053cba04a2f621954f931efc633f5734bc93abdded9"
+    },
+    {
+      "run": "validation_d1_s13_v2",
+      "config": "validation_d1_s13_v2.json",
+      "state": 13,
+      "episodes": 210,
+      "order": 4,
+      "config_sha256": "167e1999bacbe1246c2a0db3a015bb6610c0bba75a3b30e058a8a660856adde7"
+    }
+  ],
+  "primary_candidate": "window3_skip1",
+  "primary_comparators": [
+    "smol70",
+    "fixed45"
+  ],
+  "locked_execution_source_sha256": {
+    "run_closed_loop.py": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "window_state.py": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+    "binary_service.py": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "supervise.py": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73",
+    "run_guarded_closed_loop.py": "67d1aefe59bf293128b5daafb8055c49672afdf10641bce3c4e56ee89a32329b",
+    "verified_runtime.py": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e"
+  },
+  "selection_evidence_sha256": {
+    "analysis/single_skip_development_pooled.json": "ecf526d5578d0371c66b512925e5d2452dcebc7ebe8d911bdb78172e3dd08397",
+    "analysis/fixed_interval_matrix.json": "09f2ad36308a39ad68b9e44281047f4b242e3f5e0af903183f90baac66556b53",
+    "analysis/pooled_development.json": "b132992010ad9874da7dea76bf0b4c2091c2fc06d82e271fe4d0d46803acf8bb",
+    "analysis/first_intervention_development.json": "c7bdb88bef9ec0ebefbbb75a508e4f27744afd3c173f26aeee90b93dc0c49c73",
+    "analysis/first_intervention_state2_diagnostic.json": "ac771d9c942598310bb14491af82960fca3f17a53cf1a95b0072a47fb378eaee",
+    "STATISTICS_AMENDMENT_01.md": "9f4994c4e1adc91d53c65dccac94c91ba36581080c49c4c18343a460dfb0135a",
+    "checks/delay_d1_qualification_v1_exact_reproduction.json": "5e6204f5daf17acd5a1fe94c0079c2cb76aa8acd9198251520b9f3f503657b2c"
+  },
+  "vla_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+  "minimum_probability": 0,
+  "binary_argmax": true,
+  "readout_adaptation": false,
+  "logical_delay_steps": 1,
+  "statistics": "Primary descriptive hierarchical paired bootstrap; retain fixed-task and task-only sensitivities. No equivalence or uncorrected significance claim.",
+  "qualification_note": "Nine real d=1 episodes exactly reproduced prior trajectories. Afterwards only the preflight source-byte lock was added to the runner.",
+  "no_adaptation_during_cohort": true,
+  "no_early_stopping_for_favorable_results": true,
+  "interpretation": "Main policies span all three H. Two secondary policies have explicitly restricted H. Official pi0.5 remains a separate completed model reference.",
+  "technical_revision_of": "validation_d1_v1",
+  "original_definition_sha256": "be1114f31a3da9e0b084691939c28c611e993d531e6d7d9fc2e72437ea979914",
+  "technical_amendment_sha256": "38fce1a12309eb23039f5036b1ab34dce758be0a1d98d03c39b011b58fae2be3",
+  "entry_point": "run_guarded_closed_loop.py",
+  "initial_input_verification_required": true,
+  "deterministic_backend_forced": false,
+  "original_candidate_selection_unchanged": true,
+  "v1_technical_attempts_excluded_from_efficacy_denominator": true,
+  "qualification_runs": [
+    {
+      "run": "guarded_runtime_qualification_v1",
+      "episodes": 21,
+      "logical_delay_steps": 1
+    }
+  ],
+  "qualification_evidence_sha256": {
+    "checks/guarded_runtime_qualification_v1_audit.json": "6747f7bdbd86258793d148911f259884630d91f68194d4615fa591dd2e587238",
+    "checks/guarded_runtime_qualification_v1_initial_verification.json": "6f494a23d0c5f3d61a8deb65866dae0635c7e47df2855f2a4b593b7f36a5fe4a",
+    "checks/incidents/guarded_runtime_qualification_v1_vs_initial_repro_plain_v1.json": "263a5f6b53f5bd8a3d968446468e11716f127f282906c592cd6c655a6277ce96",
+    "checks/initial_guard_fault_injection.json": "280dc45c5a33bbda4a2c15c59d671f75c3a0ff7ff2f449a3e03ae67bb18b3be1"
+  }
+}

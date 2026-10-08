@@ -1,0 +1,14 @@
+{
+  "run": "choice_order_audit_v1",
+  "inputs": 1029,
+  "decisions": 2058,
+  "checks": {
+    "historical_original_order_exact": 1029,
+    "input_schema_and_untruncated": 2058,
+    "logits_to_semantic_probability": 2058,
+    "raw_choice_and_timing": 2058
+  },
+  "errors": 0,
+  "audit_script_sha256": "8c03aa1b79b8fe4fa32f2866faf741069fee55eb50c1b22f10e7f5f43dee51fd",
+  "manifest_sha256": "714072957f4f788a8e2556ea449cbdcca5b7142f8fc13d80c9e713be67bfab31"
+}

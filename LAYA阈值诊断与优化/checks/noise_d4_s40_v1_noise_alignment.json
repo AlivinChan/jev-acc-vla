@@ -1,0 +1,298 @@
+{
+  "run": "noise_d4_s40_v1",
+  "groups": 30,
+  "first_update_opportunities": 30,
+  "checks": 751,
+  "by_kind": {
+    "complete common K5 groups": 1,
+    "all four controls present": 30,
+    "identical five-action prefix before update": 30,
+    "recorded raw update input bytes": 120,
+    "saved input and prediction seed receipt": 120,
+    "first K5 boundary and actual execution row": 120,
+    "actual prediction time": 120,
+    "same complete stale input": 30,
+    "same image-tick noise seed": 30,
+    "same prediction block when stale input and noise match": 30,
+    "robot-state fields identified": 30,
+    "current-state intervention preserves all other input": 30,
+    "original versus matched noise have same complete input": 30,
+    "only intended noise-clock offset": 30
+  },
+  "errors": 0,
+  "failures": [],
+  "events": [
+    {
+      "task": 0,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0184974670410156,
+      "noise_clock_action_max_abs": 2.000200033187866
+    },
+    {
+      "task": 0,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0162832736968994,
+      "noise_clock_action_max_abs": 2.030808448791504
+    },
+    {
+      "task": 0,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0299177169799805,
+      "noise_clock_action_max_abs": 2.0583808422088623
+    },
+    {
+      "task": 1,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 1.9640990495681763,
+      "noise_clock_action_max_abs": 1.9807857275009155
+    },
+    {
+      "task": 1,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0367908477783203,
+      "noise_clock_action_max_abs": 1.997807502746582
+    },
+    {
+      "task": 1,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0379045009613037,
+      "noise_clock_action_max_abs": 2.032207727432251
+    },
+    {
+      "task": 2,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0029430389404297,
+      "noise_clock_action_max_abs": 1.9946928024291992
+    },
+    {
+      "task": 2,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0010197162628174,
+      "noise_clock_action_max_abs": 2.0024285316467285
+    },
+    {
+      "task": 2,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.033205270767212,
+      "noise_clock_action_max_abs": 2.0580644607543945
+    },
+    {
+      "task": 3,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0148377418518066,
+      "noise_clock_action_max_abs": 2.0318870544433594
+    },
+    {
+      "task": 3,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.011871337890625,
+      "noise_clock_action_max_abs": 2.050612211227417
+    },
+    {
+      "task": 3,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0143091678619385,
+      "noise_clock_action_max_abs": 2.0907576084136963
+    },
+    {
+      "task": 4,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 0.4690699875354767,
+      "noise_clock_action_max_abs": 2.0107102394104004
+    },
+    {
+      "task": 4,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.008417844772339,
+      "noise_clock_action_max_abs": 2.0613515377044678
+    },
+    {
+      "task": 4,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.051412343978882,
+      "noise_clock_action_max_abs": 2.1018295288085938
+    },
+    {
+      "task": 5,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0195870399475098,
+      "noise_clock_action_max_abs": 2.0036821365356445
+    },
+    {
+      "task": 5,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0198516845703125,
+      "noise_clock_action_max_abs": 2.0529682636260986
+    },
+    {
+      "task": 5,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0404090881347656,
+      "noise_clock_action_max_abs": 2.065154552459717
+    },
+    {
+      "task": 6,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0051515102386475,
+      "noise_clock_action_max_abs": 1.9949753284454346
+    },
+    {
+      "task": 6,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0068788528442383,
+      "noise_clock_action_max_abs": 2.0252227783203125
+    },
+    {
+      "task": 6,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.028355360031128,
+      "noise_clock_action_max_abs": 2.061575412750244
+    },
+    {
+      "task": 7,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.021574020385742,
+      "noise_clock_action_max_abs": 2.0004754066467285
+    },
+    {
+      "task": 7,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0429394245147705,
+      "noise_clock_action_max_abs": 2.038606643676758
+    },
+    {
+      "task": 7,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0219764709472656,
+      "noise_clock_action_max_abs": 2.076854705810547
+    },
+    {
+      "task": 8,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 1.9933149814605713,
+      "noise_clock_action_max_abs": 2.0366625785827637
+    },
+    {
+      "task": 8,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.010018825531006,
+      "noise_clock_action_max_abs": 2.038771152496338
+    },
+    {
+      "task": 8,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.013718605041504,
+      "noise_clock_action_max_abs": 2.06632924079895
+    },
+    {
+      "task": 9,
+      "state": 40,
+      "horizon": 50,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.005284309387207,
+      "noise_clock_action_max_abs": 2.028249979019165
+    },
+    {
+      "task": 9,
+      "state": 40,
+      "horizon": 100,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.038104295730591,
+      "noise_clock_action_max_abs": 2.0333662033081055
+    },
+    {
+      "task": 9,
+      "state": 40,
+      "horizon": 200,
+      "opportunity": true,
+      "robot_state_changed": true,
+      "state_alignment_action_max_abs": 2.0686581134796143,
+      "noise_clock_action_max_abs": 2.095273017883301
+    }
+  ],
+  "auditor_sha256": "8e55d22556b3c0222ab26cc27df1616c87313f54bd467955602b0b947546ed38",
+  "scope": "First controlled update only; later policy trajectories may diverge"
+}

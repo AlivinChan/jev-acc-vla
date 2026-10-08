@@ -1,0 +1,1220 @@
+{
+  "report_sha256": "f05fca1c7b9842f54744920e4b849c37a4e7b50a84350b85ab0285fcf2e0ebb8",
+  "script_sha256": "2e423afe590974d7114e6b556815d41912d7dbd942a6ed3668b7d7f208bc7e8c",
+  "source_sha256": {
+    "analysis/validation_d1_v2_summary.json": "2f9781153ea9711844940ef2d52af7ffc80bfb1c3fe6b110a377b2b8691c046b",
+    "analysis/delay_validation_d4_v2_summary.json": "74a7f0676638da5ff3bacfbd35b3ae609d7967e80805fc95da04680981e11c8d",
+    "analysis/delay_validation_d5_v2_summary.json": "c7850e69d01610ed6db5f208916cf257f866d67301ffa61539c99859a4aa5747",
+    "analysis/budget_validation_d1_v2_summary.json": "f9157b3086f19b48e9735010a33e3ca3fb36fc775974755d293753de54c4f417",
+    "analysis/cross_delay_d5_vs_d4.json": "7950bf3bfb41c3f927d7728e95c8a9cc416e5bb389c17c672a0fbe494e8fa2c5",
+    "analysis/noise_alignment_validation_d4_v1_partial_descriptive.json": "52ca3fd44d607ac04266314d4a6aba43bd9fe958d5745e95429415e8b90c635e",
+    "checks/final_stop.json": "31ddc89a440658ffc6dc9c4e8e0662e5b98572f6292390c12740039858bdcb19"
+  },
+  "figure_catalog_sha256": "c03b20fe04fd92a4fbcf15d56d77ec2ee8ad846cf3bbfcf74ad3821f13678c5c",
+  "verified_rows": [
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "smol70",
+      "horizon": 50,
+      "values": [
+        "32",
+        "102.832"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "smol70",
+      "horizon": 100,
+      "values": [
+        "20",
+        "62.618"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "smol70",
+      "horizon": 200,
+      "values": [
+        "17",
+        "33.200"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "fixed45",
+      "horizon": 50,
+      "values": [
+        "20",
+        "46.083"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "fixed45",
+      "horizon": 100,
+      "values": [
+        "20",
+        "46.099"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "fixed45",
+      "horizon": 200,
+      "values": [
+        "18",
+        "47.188"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "naive_k5",
+      "horizon": 50,
+      "values": [
+        "31",
+        "300.743"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "naive_k5",
+      "horizon": 100,
+      "values": [
+        "32",
+        "302.147"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "naive_k5",
+      "horizon": 200,
+      "values": [
+        "26",
+        "324.707"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "vlash_style_k5",
+      "horizon": 50,
+      "values": [
+        "33",
+        "285.494"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "vlash_style_k5",
+      "horizon": 100,
+      "values": [
+        "28",
+        "310.122"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "vlash_style_k5",
+      "horizon": 200,
+      "values": [
+        "34",
+        "284.819"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "window3_skip1",
+      "horizon": 50,
+      "values": [
+        "26",
+        "92.572"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "window3_skip1",
+      "horizon": 100,
+      "values": [
+        "18",
+        "56.017"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "window3_skip1",
+      "horizon": 200,
+      "values": [
+        "16",
+        "33.507"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "compact_skip1",
+      "horizon": 50,
+      "values": [
+        "25",
+        "96.050"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "compact_skip1",
+      "horizon": 100,
+      "values": [
+        "21",
+        "63.355"
+      ]
+    },
+    {
+      "section": "完整配对主验证：1,050回合",
+      "method": "compact_skip1",
+      "horizon": 200,
+      "values": [
+        "16",
+        "35.160"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "smol70",
+      "horizon": 50,
+      "values": [
+        "12",
+        "73.518"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "smol70",
+      "horizon": 100,
+      "values": [
+        "15",
+        "35.517"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "smol70",
+      "horizon": 200,
+      "values": [
+        "13",
+        "18.929"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "fixed45",
+      "horizon": 50,
+      "values": [
+        "14",
+        "26.442"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "fixed45",
+      "horizon": 100,
+      "values": [
+        "13",
+        "26.978"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "fixed45",
+      "horizon": 200,
+      "values": [
+        "14",
+        "26.454"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "naive_k5",
+      "horizon": 50,
+      "values": [
+        "22",
+        "162.364"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "naive_k5",
+      "horizon": 100,
+      "values": [
+        "21",
+        "168.627"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "naive_k5",
+      "horizon": 200,
+      "values": [
+        "23",
+        "158.859"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "vlash_style_k5",
+      "horizon": 50,
+      "values": [
+        "18",
+        "194.402"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "vlash_style_k5",
+      "horizon": 100,
+      "values": [
+        "17",
+        "198.103"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "vlash_style_k5",
+      "horizon": 200,
+      "values": [
+        "16",
+        "200.475"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "window3_skip1",
+      "horizon": 50,
+      "values": [
+        "17",
+        "47.649"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "window3_skip1",
+      "horizon": 100,
+      "values": [
+        "10",
+        "30.713"
+      ]
+    },
+    {
+      "section": "4步逻辑延迟对照：450回合",
+      "method": "window3_skip1",
+      "horizon": 200,
+      "values": [
+        "13",
+        "16.466"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "smol70",
+      "horizon": 50,
+      "values": [
+        "14",
+        "70.105"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "smol70",
+      "horizon": 100,
+      "values": [
+        "18",
+        "32.422"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "smol70",
+      "horizon": 200,
+      "values": [
+        "12",
+        "19.477"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "fixed45",
+      "horizon": 50,
+      "values": [
+        "13",
+        "26.845"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "fixed45",
+      "horizon": 100,
+      "values": [
+        "13",
+        "27.056"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "fixed45",
+      "horizon": 200,
+      "values": [
+        "13",
+        "27.381"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "naive_k5",
+      "horizon": 50,
+      "values": [
+        "20",
+        "173.263"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "naive_k5",
+      "horizon": 100,
+      "values": [
+        "22",
+        "163.689"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "naive_k5",
+      "horizon": 200,
+      "values": [
+        "23",
+        "159.230"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "vlash_style_k5",
+      "horizon": 50,
+      "values": [
+        "11",
+        "219.967"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "vlash_style_k5",
+      "horizon": 100,
+      "values": [
+        "12",
+        "225.592"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "vlash_style_k5",
+      "horizon": 200,
+      "values": [
+        "11",
+        "224.745"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "window3_skip1",
+      "horizon": 50,
+      "values": [
+        "13",
+        "54.654"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "window3_skip1",
+      "horizon": 100,
+      "values": [
+        "18",
+        "27.837"
+      ]
+    },
+    {
+      "section": "5步逻辑延迟对照：450回合",
+      "method": "window3_skip1",
+      "horizon": 200,
+      "values": [
+        "12",
+        "18.567"
+      ]
+    },
+    {
+      "section": "费用接近对照：600回合",
+      "horizon": 50,
+      "values": [
+        "50；I19",
+        "26；24",
+        "89.981；92.371",
+        "0.974",
+        "11/9"
+      ]
+    },
+    {
+      "section": "费用接近对照：600回合",
+      "horizon": 100,
+      "values": [
+        "100；I38",
+        "24；20",
+        "55.121；53.942",
+        "1.022",
+        "9/5"
+      ]
+    },
+    {
+      "section": "费用接近对照：600回合",
+      "horizon": 200,
+      "values": [
+        "200；I71",
+        "17；17",
+        "33.487；32.468",
+        "1.031",
+        "6/6"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "固定I45",
+        "50",
+        "13/14",
+        "0/1",
+        "-3.3 [-13.3, +0.0]",
+        "1.015 [0.985, 1.087]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "固定I45",
+        "100",
+        "13/13",
+        "1/1",
+        "+0.0 [-13.3, +13.3]",
+        "1.003 [0.923, 1.098]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "固定I45",
+        "200",
+        "13/14",
+        "0/1",
+        "-3.3 [-13.3, +0.0]",
+        "1.035 [0.993, 1.118]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "普通K5",
+        "50",
+        "20/22",
+        "3/5",
+        "-6.7 [-30.0, +16.7]",
+        "1.067 [0.856, 1.352]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "普通K5",
+        "100",
+        "22/21",
+        "2/1",
+        "+3.3 [-10.0, +16.7]",
+        "0.971 [0.833, 1.132]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "普通K5",
+        "200",
+        "23/23",
+        "3/3",
+        "+0.0 [-20.0, +23.3]",
+        "1.002 [0.803, 1.243]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "Smol70",
+        "50",
+        "14/12",
+        "2/0",
+        "+6.7 [+0.0, +20.0]",
+        "0.954 [0.857, 1.012]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "Smol70",
+        "100",
+        "18/15",
+        "4/1",
+        "+10.0 [-6.7, +30.0]",
+        "0.913 [0.792, 1.034]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "Smol70",
+        "200",
+        "12/13",
+        "1/2",
+        "-3.3 [-16.7, +10.0]",
+        "1.029 [0.978, 1.107]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "VLASH式K5",
+        "50",
+        "11/18",
+        "1/8",
+        "-23.3 [-46.7, +0.0]",
+        "1.132 [0.965, 1.355]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "VLASH式K5",
+        "100",
+        "12/17",
+        "1/6",
+        "-16.7 [-36.7, +3.3]",
+        "1.139 [0.999, 1.323]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "VLASH式K5",
+        "200",
+        "11/16",
+        "1/6",
+        "-16.7 [-36.7, +3.3]",
+        "1.121 [0.992, 1.309]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "LAYA三样本窗口",
+        "50",
+        "13/17",
+        "2/6",
+        "-13.3 [-36.7, +6.7]",
+        "1.147 [0.991, 1.386]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "LAYA三样本窗口",
+        "100",
+        "18/10",
+        "8/0",
+        "+26.7 [+6.7, +46.7]",
+        "0.906 [0.782, 1.026]"
+      ]
+    },
+    {
+      "section": "同起点：延迟从4步变为5步",
+      "values": [
+        "LAYA三样本窗口",
+        "200",
+        "12/13",
+        "3/4",
+        "-3.3 [-26.7, +20.0]",
+        "1.128 [1.044, 1.238]"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "Smol70",
+        "50",
+        "8/20",
+        "242",
+        "0",
+        "46.830"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "Smol70",
+        "100",
+        "9/20",
+        "122",
+        "0",
+        "23.987"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "Smol70",
+        "200",
+        "4/20",
+        "72",
+        "0",
+        "14.127"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "固定I45",
+        "50",
+        "7/20",
+        "97",
+        "0",
+        "18.865"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "固定I45",
+        "100",
+        "7/20",
+        "97",
+        "0",
+        "19.076"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "固定I45",
+        "200",
+        "6/20",
+        "100",
+        "0",
+        "19.290"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "LAYA三样本窗口",
+        "50",
+        "7/20",
+        "155",
+        "145",
+        "33.279"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "LAYA三样本窗口",
+        "100",
+        "7/20",
+        "90",
+        "78",
+        "19.355"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "LAYA三样本窗口",
+        "200",
+        "3/20",
+        "60",
+        "45",
+        "12.729"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "普通K5",
+        "50",
+        "14/20",
+        "563",
+        "0",
+        "109.267"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "普通K5",
+        "100",
+        "15/20",
+        "537",
+        "0",
+        "104.590"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "普通K5",
+        "200",
+        "15/20",
+        "550",
+        "0",
+        "107.329"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "原VLASH式K5",
+        "50",
+        "9/20",
+        "708",
+        "0",
+        "138.600"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "原VLASH式K5",
+        "100",
+        "7/20",
+        "754",
+        "0",
+        "146.421"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "原VLASH式K5",
+        "200",
+        "7/20",
+        "746",
+        "0",
+        "144.633"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "VLASH式匹配噪声",
+        "50",
+        "9/20",
+        "701",
+        "0",
+        "136.268"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "VLASH式匹配噪声",
+        "100",
+        "7/20",
+        "754",
+        "0",
+        "146.658"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "VLASH式匹配噪声",
+        "200",
+        "7/20",
+        "749",
+        "0",
+        "146.489"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "旧状态row0",
+        "50",
+        "3/20",
+        "869",
+        "0",
+        "169.124"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "旧状态row0",
+        "100",
+        "4/20",
+        "853",
+        "0",
+        "165.549"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "旧状态row0",
+        "200",
+        "3/20",
+        "870",
+        "0",
+        "169.361"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "Smol70",
+        "50",
+        "20",
+        "4/5",
+        "-5.0",
+        "0.711"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "固定I45",
+        "50",
+        "20",
+        "2/2",
+        "+0.0",
+        "1.764"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "普通K5",
+        "50",
+        "20",
+        "1/8",
+        "-35.0",
+        "0.305"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "原VLASH式K5",
+        "50",
+        "20",
+        "4/6",
+        "-10.0",
+        "0.240"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "VLASH式匹配噪声",
+        "50",
+        "20",
+        "4/6",
+        "-10.0",
+        "0.244"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "旧状态row0",
+        "50",
+        "20",
+        "6/2",
+        "+20.0",
+        "0.197"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "Smol70",
+        "100",
+        "20",
+        "1/3",
+        "-10.0",
+        "0.807"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "固定I45",
+        "100",
+        "20",
+        "3/3",
+        "+0.0",
+        "1.015"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "普通K5",
+        "100",
+        "20",
+        "1/9",
+        "-40.0",
+        "0.185"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "原VLASH式K5",
+        "100",
+        "20",
+        "2/2",
+        "+0.0",
+        "0.132"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "VLASH式匹配噪声",
+        "100",
+        "20",
+        "5/5",
+        "+0.0",
+        "0.132"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "旧状态row0",
+        "100",
+        "20",
+        "6/3",
+        "+15.0",
+        "0.117"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "Smol70",
+        "200",
+        "20",
+        "0/1",
+        "-5.0",
+        "0.901"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "固定I45",
+        "200",
+        "20",
+        "1/4",
+        "-15.0",
+        "0.660"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "普通K5",
+        "200",
+        "20",
+        "1/13",
+        "-60.0",
+        "0.119"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "原VLASH式K5",
+        "200",
+        "20",
+        "1/5",
+        "-20.0",
+        "0.088"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "VLASH式匹配噪声",
+        "200",
+        "20",
+        "2/6",
+        "-20.0",
+        "0.087"
+      ]
+    },
+    {
+      "section": "8. 未完成组的输入对齐部分样本",
+      "values": [
+        "旧状态row0",
+        "200",
+        "20",
+        "3/3",
+        "+0.0",
+        "0.075"
+      ]
+    }
+  ],
+  "local_links": [
+    "COMPLETION_BOUNDARY.md",
+    "checks/final_stop.json",
+    "analysis/run_inventory.md",
+    "POSTHOC_GATE_TRACE_AUDIT.md",
+    "checks/validation_d1_v2_gate_trace_equivalence.json",
+    "figures/validation_d1_v2_paired.png",
+    "analysis/VALIDATION_READOUT.md",
+    "analysis/validation_d1_v2_summary.json",
+    "analysis/validation_d1_v2_service_accounting.json",
+    "analysis/validation_d1_v2_cross_horizon.json",
+    "figures/budget_validation_d1_v2_paired.png",
+    "analysis/VALIDATION_READOUT.md",
+    "analysis/budget_validation_d1_v2_summary.json",
+    "analysis/budget_validation_d1_v2_service_accounting.json",
+    "analysis/budget_validation_d1_v2_cross_horizon.json",
+    "figures/delay_validation_d4_v2_paired.png",
+    "analysis/VALIDATION_READOUT.md",
+    "analysis/delay_validation_d4_v2_summary.json",
+    "analysis/delay_validation_d4_v2_service_accounting.json",
+    "analysis/delay_validation_d4_v2_cross_horizon.json",
+    "figures/delay_validation_d5_v2_paired.png",
+    "analysis/delay_validation_d5_v2_summary.json",
+    "analysis/delay_validation_d5_v2_service_accounting.json",
+    "analysis/delay_validation_d5_v2_cross_horizon.json",
+    "analysis/cross_delay_d5_vs_d4.json",
+    "CROSS_DELAY_ANALYSIS.md",
+    "raw/validation_d1_s12_v2/data/manifest.json",
+    "scripts/controller_runtime.py",
+    "scripts/paired_resampling.py",
+    "STATISTICS_AMENDMENT_01.md",
+    "scripts/window_state.py",
+    "scripts/gate_variants.py",
+    "scripts/binary_service.py",
+    "figures/diagnostic_probability_ranges.png",
+    "analysis/validation_d1_v2_score_distribution.json",
+    "DIAGNOSIS.md",
+    "analysis/diagnosis_summary.json",
+    "figures/choice_order_sensitivity.png",
+    "analysis/choice_order_audit_v1_summary.json",
+    "ORDER_ENSEMBLE_DEVELOPMENT.md",
+    "analysis/order_ensemble_state0_development.json",
+    "figures/developer_cost_success_frontier.png",
+    "figures/pooled_development_paired.png",
+    "analysis/pooled_development.json",
+    "COUNTERFACTUAL_PROTOCOL.md",
+    "analysis/raw_scores_train_summary.json",
+    "CALIBRATION_PROTOCOL.md",
+    "models/calibrators_v1/manifest.json",
+    "analysis/calibrators_v1_state2_evaluation.json",
+    "figures/calibration_state2_diagnostic.png",
+    "analysis/first_intervention_development.json",
+    "FIRST_REQUEST_PROTOCOL.md",
+    "checks/first_request_qualification_v1_branch_qualification.json",
+    "analysis/first_intervention_state2_diagnostic.json",
+    "checks/noise_prefix_cpu.json",
+    "analysis/native_initial_chunk_differences.json",
+    "FIXED_INTERVAL_PROTOCOL.md",
+    "evidence/modeling_smolvla_installed.py",
+    "evidence/vla_utils.py",
+    "checks/action_attention_mask.json",
+    "analysis/executed_row_coverage_development.json",
+    "figures/fixed_interval_attribution.png",
+    "analysis/fixed_interval_matrix.json",
+    "analysis/serial_vla_latency_development.json",
+    "DELAY_ROBUSTNESS_PROTOCOL.md",
+    "CROSS_DELAY_ANALYSIS.md",
+    "analysis/single_skip_v1_summary.json",
+    "SINGLE_SKIP_PROTOCOL.md",
+    "analysis/single_skip_development_pooled.json",
+    "STATISTICS_AMENDMENT_01.md",
+    "analysis/gate_service_development.json",
+    "VALIDATION_SELECTION_D1.md",
+    "protocol/validation_d1_v1/definition.json",
+    "protocol/validation_d1_v2/definition.json",
+    "TECHNICAL_AMENDMENT_02.md",
+    "BUDGET_PERIOD_PROTOCOL.md",
+    "RANDOM_SKIP_PROTOCOL.md",
+    "BALANCED_READOUT_PROTOCOL.md",
+    "models/balanced_readouts_v1/development_scores.json",
+    "VLASH_NOISE_ATTRIBUTION_PROTOCOL.md",
+    "checks/incidents/noise_d1_pilot_v1_vs_initial_repro_plain_v1.json",
+    "../长动作块补充实验/REPORT.md",
+    "REPRODUCIBILITY_NOTE_03.md",
+    "REPRODUCIBILITY_NOTE_04.md",
+    "checks/incidents/known_replay_difference_outcomes.json",
+    "analysis/run_inventory.md",
+    "CANDIDATE_BOARD.md",
+    "VALIDATION_PROTOCOL.md",
+    "analysis/representations_v1_summary.json",
+    "analysis/cadence_v1_summary.json",
+    "checks/representations_v1_audit.json",
+    "checks/cadence_v1_audit.json",
+    "checks/counterfactual_pilot_v1_audit.json",
+    "REPRODUCE.md",
+    "checks/report_integrity.json",
+    "PARTIAL_SAMPLE_REPORTING.md",
+    "analysis/noise_alignment_validation_d4_v1_partial_descriptive.json",
+    "analysis/PARTIAL_SAMPLE_READOUT.md",
+    "analysis/random_skip_validation_d4_v1_partial_descriptive.json"
+  ],
+  "figures": [
+    {
+      "path": "figures/validation_d1_v2_paired.png",
+      "sha256": "0db686247ee28c1bc8d8124d58c64efcea87ae46107576d84f3a932d2b81e4f2"
+    },
+    {
+      "path": "figures/budget_validation_d1_v2_paired.png",
+      "sha256": "e37661edbd049eacdc3080b15b50cfae473ce9ff0ea0b82fba0d18f69de2ca4b"
+    },
+    {
+      "path": "figures/delay_validation_d4_v2_paired.png",
+      "sha256": "60ef18736cd83ca9f7ca3f6de515946e4abcdb24ad61e60c9b37f6f9da37eacd"
+    },
+    {
+      "path": "figures/delay_validation_d5_v2_paired.png",
+      "sha256": "1c5b04861c16feeeab5cfa1372bf1e0f3b316be97cd200c53185118592a08f0f"
+    },
+    {
+      "path": "figures/diagnostic_probability_ranges.png",
+      "sha256": "9c65d0e893c51e03a06496449cc6f872d1e3b729204d60275fd85db24d01ab13"
+    },
+    {
+      "path": "figures/choice_order_sensitivity.png",
+      "sha256": "d1d4ba5d7417c68e108058287d97ea84fd87beae860cafad926d695f9aa08cac"
+    },
+    {
+      "path": "figures/developer_cost_success_frontier.png",
+      "sha256": "694ad7c125ee0486c30c9f0def7dd3a47217b9fea69cf1dcd29a051d3b32a03d"
+    },
+    {
+      "path": "figures/pooled_development_paired.png",
+      "sha256": "0267fca8b187ed57cc4e52ee476057c429577c3bc244b7533ccb246a5e925743"
+    },
+    {
+      "path": "figures/calibration_state2_diagnostic.png",
+      "sha256": "dbe12863a805049a340bde6129254c3c644a3530364e0ba07b10e969d34e7e9d"
+    },
+    {
+      "path": "figures/fixed_interval_attribution.png",
+      "sha256": "f2d079ade6504b0bc3044e263ae1340e37e1708a4981f6725ec359e76ee48604"
+    }
+  ],
+  "errors": 0,
+  "scope": "Complete main/budget/delay tables, all 15 cross-delay contrasts, all available resource-stop group and primary point-comparison rows, denominators, evidence links and accepted figure sources. Does not automatically validate narrative numbers or causal interpretation."
+}

@@ -1,0 +1,1253 @@
+{
+  "cohort": "delay_validation_d5_v2",
+  "summary_sha256": "c7850e69d01610ed6db5f208916cf257f866d67301ffa61539c99859a4aa5747",
+  "definition_sha256": "c3a46c90c2f31326f60ee073708e98d12abcc5d43483374076a317dcc3dbf3c8",
+  "recipe_sha256": "af70aaf0dc1da13a9fdbc295258f2a11b9cdf8b49311be1545d5a09ac0545a73",
+  "primary_length_control": "fixed45",
+  "methods": {
+    "smol70": {
+      "request_rule": "H also changes the request or gate schedule",
+      "comparisons": {
+        "h100_vs_h50": {
+          "candidate_horizon": 100,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 18,
+            "success_rate": 0.6,
+            "vla_calls": 165,
+            "gate_calls": 0,
+            "vla_seconds": 32.42191437073052,
+            "gate_seconds": 0,
+            "total_service_seconds": 32.42191437073052,
+            "steps": 4573,
+            "generated_rows": 16500,
+            "used_rows": 4573,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 14,
+            "success_rate": 0.4666666666666667,
+            "vla_calls": 359,
+            "gate_calls": 0,
+            "vla_seconds": 70.10485608223826,
+            "gate_seconds": 0,
+            "total_service_seconds": 70.10485608223826,
+            "steps": 5109,
+            "generated_rows": 17950,
+            "used_rows": 5109,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 8,
+            "losses": 4,
+            "success_delta": 0.13333333333333333,
+            "descriptive_mcnemar_exact_p": 0.3876953125,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.4596100278551532,
+            "total_service_cost_ratio": 0.46247743997501656,
+            "cost_ratio_95_task_bootstrap": [
+              0.4138019809257726,
+              0.5098376572063071
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.03333333333333333,
+              0.3
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.3862355357053473,
+                    0.5572872803509082
+                  ],
+                  "success_delta_95": [
+                    -0.13333333333333333,
+                    0.36666666666666664
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.3991354669891071,
+                    0.5367405004004902
+                  ],
+                  "success_delta_95": [
+                    -0.06666666666666667,
+                    0.3333333333333333
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h50": {
+          "candidate_horizon": 200,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 12,
+            "success_rate": 0.4,
+            "vla_calls": 99,
+            "gate_calls": 0,
+            "vla_seconds": 19.477134788408875,
+            "gate_seconds": 0,
+            "total_service_seconds": 19.477134788408875,
+            "steps": 5383,
+            "generated_rows": 19800,
+            "used_rows": 5383,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 14,
+            "success_rate": 0.4666666666666667,
+            "vla_calls": 359,
+            "gate_calls": 0,
+            "vla_seconds": 70.10485608223826,
+            "gate_seconds": 0,
+            "total_service_seconds": 70.10485608223826,
+            "steps": 5109,
+            "generated_rows": 17950,
+            "used_rows": 5109,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 6,
+            "losses": 8,
+            "success_delta": -0.06666666666666667,
+            "descriptive_mcnemar_exact_p": 0.79052734375,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.2757660167130919,
+            "total_service_cost_ratio": 0.2778286109818232,
+            "cost_ratio_95_task_bootstrap": [
+              0.2521880261373362,
+              0.30716253842543095
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.2,
+              0.06666666666666667
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.2354810708040127,
+                    0.33210957225087173
+                  ],
+                  "success_delta_95": [
+                    -0.3333333333333333,
+                    0.2
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.242558998563775,
+                    0.32232635202867904
+                  ],
+                  "success_delta_95": [
+                    -0.3,
+                    0.16666666666666666
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h100": {
+          "candidate_horizon": 200,
+          "reference_horizon": 100,
+          "candidate": {
+            "n": 30,
+            "successes": 12,
+            "success_rate": 0.4,
+            "vla_calls": 99,
+            "gate_calls": 0,
+            "vla_seconds": 19.477134788408875,
+            "gate_seconds": 0,
+            "total_service_seconds": 19.477134788408875,
+            "steps": 5383,
+            "generated_rows": 19800,
+            "used_rows": 5383,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 18,
+            "success_rate": 0.6,
+            "vla_calls": 165,
+            "gate_calls": 0,
+            "vla_seconds": 32.42191437073052,
+            "gate_seconds": 0,
+            "total_service_seconds": 32.42191437073052,
+            "steps": 4573,
+            "generated_rows": 16500,
+            "used_rows": 4573,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 0,
+            "losses": 6,
+            "success_delta": -0.2,
+            "descriptive_mcnemar_exact_p": 0.03125,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.6,
+            "total_service_cost_ratio": 0.6007398133773438,
+            "cost_ratio_95_task_bootstrap": [
+              0.5588203190208604,
+              0.6570393361036965
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.3,
+              -0.1
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.5431748161241745,
+                    0.6858810470539669
+                  ],
+                  "success_delta_95": [
+                    -0.36666666666666664,
+                    -0.06666666666666667
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.5537465445922227,
+                    0.6565304895636328
+                  ],
+                  "success_delta_95": [
+                    -0.3333333333333333,
+                    -0.06666666666666667
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        }
+      }
+    },
+    "naive_k5": {
+      "request_rule": "Fixed interval 5 steps",
+      "comparisons": {
+        "h100_vs_h50": {
+          "candidate_horizon": 100,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 22,
+            "success_rate": 0.7333333333333333,
+            "vla_calls": 840,
+            "gate_calls": 0,
+            "vla_seconds": 163.68860016623512,
+            "gate_seconds": 0,
+            "total_service_seconds": 163.68860016623512,
+            "steps": 4001,
+            "generated_rows": 84000,
+            "used_rows": 4001,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 20,
+            "success_rate": 0.6666666666666666,
+            "vla_calls": 891,
+            "gate_calls": 0,
+            "vla_seconds": 173.26278567733243,
+            "gate_seconds": 0,
+            "total_service_seconds": 173.26278567733243,
+            "steps": 4277,
+            "generated_rows": 44550,
+            "used_rows": 4277,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 2,
+            "losses": 0,
+            "success_delta": 0.06666666666666667,
+            "descriptive_mcnemar_exact_p": 0.5,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.9427609427609428,
+            "total_service_cost_ratio": 0.9447418239660111,
+            "cost_ratio_95_task_bootstrap": [
+              0.8647576158536273,
+              1.0073315449531894
+            ],
+            "success_delta_95_task_bootstrap": [
+              0.0,
+              0.16666666666666666
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.8333696731571812,
+                    1.0095588163310334
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.2
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.8808718468307651,
+                    1.0040311839588825
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.13333333333333333
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h50": {
+          "candidate_horizon": 200,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 23,
+            "success_rate": 0.7666666666666667,
+            "vla_calls": 811,
+            "gate_calls": 0,
+            "vla_seconds": 159.23038575332612,
+            "gate_seconds": 0,
+            "total_service_seconds": 159.23038575332612,
+            "steps": 3865,
+            "generated_rows": 162200,
+            "used_rows": 3865,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 20,
+            "success_rate": 0.6666666666666666,
+            "vla_calls": 891,
+            "gate_calls": 0,
+            "vla_seconds": 173.26278567733243,
+            "gate_seconds": 0,
+            "total_service_seconds": 173.26278567733243,
+            "steps": 4277,
+            "generated_rows": 44550,
+            "used_rows": 4277,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 4,
+            "losses": 1,
+            "success_delta": 0.1,
+            "descriptive_mcnemar_exact_p": 0.375,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.9102132435465768,
+            "total_service_cost_ratio": 0.9190108835596187,
+            "cost_ratio_95_task_bootstrap": [
+              0.820625499143916,
+              1.0399565585127402
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.03333333333333333,
+              0.23333333333333334
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.7791187986146288,
+                    1.0757145280834317
+                  ],
+                  "success_delta_95": [
+                    -0.06666666666666667,
+                    0.26666666666666666
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.8232467051627294,
+                    1.0162300426537496
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.23333333333333334
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h100": {
+          "candidate_horizon": 200,
+          "reference_horizon": 100,
+          "candidate": {
+            "n": 30,
+            "successes": 23,
+            "success_rate": 0.7666666666666667,
+            "vla_calls": 811,
+            "gate_calls": 0,
+            "vla_seconds": 159.23038575332612,
+            "gate_seconds": 0,
+            "total_service_seconds": 159.23038575332612,
+            "steps": 3865,
+            "generated_rows": 162200,
+            "used_rows": 3865,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 22,
+            "success_rate": 0.7333333333333333,
+            "vla_calls": 840,
+            "gate_calls": 0,
+            "vla_seconds": 163.68860016623512,
+            "gate_seconds": 0,
+            "total_service_seconds": 163.68860016623512,
+            "steps": 4001,
+            "generated_rows": 84000,
+            "used_rows": 4001,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 2,
+            "losses": 1,
+            "success_delta": 0.03333333333333333,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.9654761904761905,
+            "total_service_cost_ratio": 0.9727640507134802,
+            "cost_ratio_95_task_bootstrap": [
+              0.8841023509729284,
+              1.0706848591077984
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.06666666666666667,
+              0.13333333333333333
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.8483986325380096,
+                    1.1092023840068672
+                  ],
+                  "success_delta_95": [
+                    -0.1,
+                    0.2
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.8881741950210121,
+                    1.066060150120121
+                  ],
+                  "success_delta_95": [
+                    -0.06666666666666667,
+                    0.13333333333333333
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        }
+      }
+    },
+    "vlash_style_k5": {
+      "request_rule": "Fixed interval 5 steps",
+      "comparisons": {
+        "h100_vs_h50": {
+          "candidate_horizon": 100,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 12,
+            "success_rate": 0.4,
+            "vla_calls": 1156,
+            "gate_calls": 0,
+            "vla_seconds": 225.59183781361207,
+            "gate_seconds": 0,
+            "total_service_seconds": 225.59183781361207,
+            "steps": 5756,
+            "generated_rows": 115600,
+            "used_rows": 5756,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 11,
+            "success_rate": 0.36666666666666664,
+            "vla_calls": 1131,
+            "gate_calls": 0,
+            "vla_seconds": 219.96654403023422,
+            "gate_seconds": 0,
+            "total_service_seconds": 219.96654403023422,
+            "steps": 5635,
+            "generated_rows": 56550,
+            "used_rows": 5635,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 2,
+            "losses": 1,
+            "success_delta": 0.03333333333333333,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 1.02210433244916,
+            "total_service_cost_ratio": 1.0255734062112858,
+            "cost_ratio_95_task_bootstrap": [
+              0.9591691543349795,
+              1.1069439257509668
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.06666666666666667,
+              0.13333333333333333
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.9447061169976079,
+                    1.1337023436747173
+                  ],
+                  "success_delta_95": [
+                    -0.1,
+                    0.2
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.973182178720235,
+                    1.0879378262227668
+                  ],
+                  "success_delta_95": [
+                    -0.06666666666666667,
+                    0.13333333333333333
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h50": {
+          "candidate_horizon": 200,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 11,
+            "success_rate": 0.36666666666666664,
+            "vla_calls": 1149,
+            "gate_calls": 0,
+            "vla_seconds": 224.74453421030194,
+            "gate_seconds": 0,
+            "total_service_seconds": 224.74453421030194,
+            "steps": 5729,
+            "generated_rows": 229800,
+            "used_rows": 5729,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 11,
+            "success_rate": 0.36666666666666664,
+            "vla_calls": 1131,
+            "gate_calls": 0,
+            "vla_seconds": 219.96654403023422,
+            "gate_seconds": 0,
+            "total_service_seconds": 219.96654403023422,
+            "steps": 5635,
+            "generated_rows": 56550,
+            "used_rows": 5635,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 2,
+            "losses": 2,
+            "success_delta": 0.0,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 1.0159151193633953,
+            "total_service_cost_ratio": 1.0217214404178254,
+            "cost_ratio_95_task_bootstrap": [
+              0.9426837717901078,
+              1.1100234129054891
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.13333333333333333,
+              0.13333333333333333
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.9216434548862447,
+                    1.1401833357411881
+                  ],
+                  "success_delta_95": [
+                    -0.16666666666666666,
+                    0.16666666666666666
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.9582366783844753,
+                    1.090520233963405
+                  ],
+                  "success_delta_95": [
+                    -0.1,
+                    0.1
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h100": {
+          "candidate_horizon": 200,
+          "reference_horizon": 100,
+          "candidate": {
+            "n": 30,
+            "successes": 11,
+            "success_rate": 0.36666666666666664,
+            "vla_calls": 1149,
+            "gate_calls": 0,
+            "vla_seconds": 224.74453421030194,
+            "gate_seconds": 0,
+            "total_service_seconds": 224.74453421030194,
+            "steps": 5729,
+            "generated_rows": 229800,
+            "used_rows": 5729,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 12,
+            "success_rate": 0.4,
+            "vla_calls": 1156,
+            "gate_calls": 0,
+            "vla_seconds": 225.59183781361207,
+            "gate_seconds": 0,
+            "total_service_seconds": 225.59183781361207,
+            "steps": 5756,
+            "generated_rows": 115600,
+            "used_rows": 5756,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 1,
+            "losses": 2,
+            "success_delta": -0.03333333333333333,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.9939446366782007,
+            "total_service_cost_ratio": 0.9962440857279146,
+            "cost_ratio_95_task_bootstrap": [
+              0.9400833349406565,
+              1.0467979880308766
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.13333333333333333,
+              0.06666666666666667
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.920399413700978,
+                    1.0647655587174492
+                  ],
+                  "success_delta_95": [
+                    -0.2,
+                    0.1
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.9515069782271044,
+                    1.0398262145253072
+                  ],
+                  "success_delta_95": [
+                    -0.13333333333333333,
+                    0.06666666666666667
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        }
+      }
+    },
+    "fixed45": {
+      "request_rule": "Fixed interval 45 steps",
+      "comparisons": {
+        "h100_vs_h50": {
+          "candidate_horizon": 100,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 138,
+            "gate_calls": 0,
+            "vla_seconds": 27.055730040185153,
+            "gate_seconds": 0,
+            "total_service_seconds": 27.055730040185153,
+            "steps": 5239,
+            "generated_rows": 13800,
+            "used_rows": 5239,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 138,
+            "gate_calls": 0,
+            "vla_seconds": 26.845330596435815,
+            "gate_seconds": 0,
+            "total_service_seconds": 26.845330596435815,
+            "steps": 5229,
+            "generated_rows": 6900,
+            "used_rows": 5229,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 0,
+            "losses": 0,
+            "success_delta": 0.0,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 1.0,
+            "total_service_cost_ratio": 1.007837468903336,
+            "cost_ratio_95_task_bootstrap": [
+              0.9948499850326603,
+              1.0195797670145155
+            ],
+            "success_delta_95_task_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.9932943176099268,
+                    1.0234028570243965
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.9996785597807405,
+                    1.0167041466304156
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h50": {
+          "candidate_horizon": 200,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 140,
+            "gate_calls": 0,
+            "vla_seconds": 27.38091653632,
+            "gate_seconds": 0,
+            "total_service_seconds": 27.38091653632,
+            "steps": 5310,
+            "generated_rows": 28000,
+            "used_rows": 5310,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 138,
+            "gate_calls": 0,
+            "vla_seconds": 26.845330596435815,
+            "gate_seconds": 0,
+            "total_service_seconds": 26.845330596435815,
+            "steps": 5229,
+            "generated_rows": 6900,
+            "used_rows": 5229,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 0,
+            "losses": 0,
+            "success_delta": 0.0,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 1.0144927536231885,
+            "total_service_cost_ratio": 1.0199508044037757,
+            "cost_ratio_95_task_bootstrap": [
+              1.0018947062707386,
+              1.0490120710812523
+            ],
+            "success_delta_95_task_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.998732930042189,
+                    1.0688677586825015
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    1.0007721949333472,
+                    1.0512875186691883
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h100": {
+          "candidate_horizon": 200,
+          "reference_horizon": 100,
+          "candidate": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 140,
+            "gate_calls": 0,
+            "vla_seconds": 27.38091653632,
+            "gate_seconds": 0,
+            "total_service_seconds": 27.38091653632,
+            "steps": 5310,
+            "generated_rows": 28000,
+            "used_rows": 5310,
+            "gate_choices": {}
+          },
+          "reference": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 138,
+            "gate_calls": 0,
+            "vla_seconds": 27.055730040185153,
+            "gate_seconds": 0,
+            "total_service_seconds": 27.055730040185153,
+            "steps": 5239,
+            "generated_rows": 13800,
+            "used_rows": 5239,
+            "gate_choices": {}
+          },
+          "paired": {
+            "n": 30,
+            "wins": 0,
+            "losses": 0,
+            "success_delta": 0.0,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 1.0144927536231885,
+            "total_service_cost_ratio": 1.012019135896605,
+            "cost_ratio_95_task_bootstrap": [
+              0.9885587768804452,
+              1.0520480288246867
+            ],
+            "success_delta_95_task_bootstrap": [
+              0.0,
+              0.0
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.9852843944470623,
+                    1.0703717238862913
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.0
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.9908030846240916,
+                    1.0425609224350854
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.0
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        }
+      }
+    },
+    "window3_skip1": {
+      "request_rule": "H also changes the request or gate schedule",
+      "comparisons": {
+        "h100_vs_h50": {
+          "candidate_horizon": 100,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 18,
+            "success_rate": 0.6,
+            "vla_calls": 130,
+            "gate_calls": 108,
+            "vla_seconds": 25.64254239341244,
+            "gate_seconds": 2.194493760354817,
+            "total_service_seconds": 27.837036153767258,
+            "steps": 4723,
+            "generated_rows": 13000,
+            "used_rows": 4723,
+            "gate_choices": {
+              "continue": 41,
+              "replan": 67
+            }
+          },
+          "reference": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 253,
+            "gate_calls": 234,
+            "vla_seconds": 49.925503126345575,
+            "gate_seconds": 4.7286126827821136,
+            "total_service_seconds": 54.65411580912769,
+            "steps": 5233,
+            "generated_rows": 12650,
+            "used_rows": 5233,
+            "gate_choices": {
+              "continue": 115,
+              "replan": 119
+            }
+          },
+          "paired": {
+            "n": 30,
+            "wins": 8,
+            "losses": 3,
+            "success_delta": 0.16666666666666666,
+            "descriptive_mcnemar_exact_p": 0.2265625,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.5138339920948617,
+            "total_service_cost_ratio": 0.509331012708804,
+            "cost_ratio_95_task_bootstrap": [
+              0.4549322092858959,
+              0.5836558790363557
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.03333333333333333,
+              0.36666666666666664
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.4213993933867456,
+                    0.6288725871846224
+                  ],
+                  "success_delta_95": [
+                    -0.1,
+                    0.43333333333333335
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.434770696156714,
+                    0.5964476866062413
+                  ],
+                  "success_delta_95": [
+                    0.0,
+                    0.3333333333333333
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h50": {
+          "candidate_horizon": 200,
+          "reference_horizon": 50,
+          "candidate": {
+            "n": 30,
+            "successes": 12,
+            "success_rate": 0.4,
+            "vla_calls": 87,
+            "gate_calls": 61,
+            "vla_seconds": 17.189032137859613,
+            "gate_seconds": 1.3782286145724356,
+            "total_service_seconds": 18.56726075243205,
+            "steps": 5382,
+            "generated_rows": 17400,
+            "used_rows": 5382,
+            "gate_choices": {
+              "continue": 12,
+              "replan": 49
+            }
+          },
+          "reference": {
+            "n": 30,
+            "successes": 13,
+            "success_rate": 0.43333333333333335,
+            "vla_calls": 253,
+            "gate_calls": 234,
+            "vla_seconds": 49.925503126345575,
+            "gate_seconds": 4.7286126827821136,
+            "total_service_seconds": 54.65411580912769,
+            "steps": 5233,
+            "generated_rows": 12650,
+            "used_rows": 5233,
+            "gate_choices": {
+              "continue": 115,
+              "replan": 119
+            }
+          },
+          "paired": {
+            "n": 30,
+            "wins": 5,
+            "losses": 6,
+            "success_delta": -0.03333333333333333,
+            "descriptive_mcnemar_exact_p": 1.0,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.3438735177865613,
+            "total_service_cost_ratio": 0.3397230103817938,
+            "cost_ratio_95_task_bootstrap": [
+              0.2955945215934075,
+              0.39517950175314936
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.2,
+              0.13333333333333333
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.2759801598292683,
+                    0.4206019375091062
+                  ],
+                  "success_delta_95": [
+                    -0.3,
+                    0.23333333333333334
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.2919659963855334,
+                    0.39630577770365144
+                  ],
+                  "success_delta_95": [
+                    -0.23333333333333334,
+                    0.16666666666666666
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        },
+        "h200_vs_h100": {
+          "candidate_horizon": 200,
+          "reference_horizon": 100,
+          "candidate": {
+            "n": 30,
+            "successes": 12,
+            "success_rate": 0.4,
+            "vla_calls": 87,
+            "gate_calls": 61,
+            "vla_seconds": 17.189032137859613,
+            "gate_seconds": 1.3782286145724356,
+            "total_service_seconds": 18.56726075243205,
+            "steps": 5382,
+            "generated_rows": 17400,
+            "used_rows": 5382,
+            "gate_choices": {
+              "continue": 12,
+              "replan": 49
+            }
+          },
+          "reference": {
+            "n": 30,
+            "successes": 18,
+            "success_rate": 0.6,
+            "vla_calls": 130,
+            "gate_calls": 108,
+            "vla_seconds": 25.64254239341244,
+            "gate_seconds": 2.194493760354817,
+            "total_service_seconds": 27.837036153767258,
+            "steps": 4723,
+            "generated_rows": 13000,
+            "used_rows": 4723,
+            "gate_choices": {
+              "continue": 41,
+              "replan": 67
+            }
+          },
+          "paired": {
+            "n": 30,
+            "wins": 0,
+            "losses": 6,
+            "success_delta": -0.2,
+            "descriptive_mcnemar_exact_p": 0.03125,
+            "multiple_search_comparisons_uncorrected": true,
+            "vla_call_ratio": 0.6692307692307692,
+            "total_service_cost_ratio": 0.6669984782097319,
+            "cost_ratio_95_task_bootstrap": [
+              0.5866065053015913,
+              0.7772594099311547
+            ],
+            "success_delta_95_task_bootstrap": [
+              -0.3333333333333333,
+              -0.06666666666666667
+            ],
+            "paired_uncertainty": {
+              "n": 30,
+              "tasks": 10,
+              "initials_per_task": 3,
+              "replicates": 10000,
+              "seed": 20261008,
+              "intervals": {
+                "hierarchical_task_and_initial": {
+                  "cost_ratio_95": [
+                    0.5728257255262119,
+                    0.8039330527479194
+                  ],
+                  "success_delta_95": [
+                    -0.4,
+                    -0.03333333333333333
+                  ]
+                },
+                "fixed_tasks_resample_initials": {
+                  "cost_ratio_95": [
+                    0.606537875130231,
+                    0.7358388673367198
+                  ],
+                  "success_delta_95": [
+                    -0.3333333333333333,
+                    -0.1
+                  ]
+                }
+              },
+              "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+            }
+          }
+        }
+      }
+    }
+  },
+  "interpretation": "Same task/initial pairs; fixed45 isolates native H at a fixed request interval. Other H-dependent schedules are joint interventions. Descriptive uncertainty only; no equivalence or model-selection claim."
+}

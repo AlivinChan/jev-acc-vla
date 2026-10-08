@@ -1,0 +1,2160 @@
+{
+  "states": [
+    2
+  ],
+  "groups": {
+    "always_replan_h50": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 0,
+      "successes": 5,
+      "vla_calls": 113,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 0,
+      "matched_skip_count_random_policy_expected_successes": 5.0,
+      "matched_skip_count_random_policy_expected_calls": 113.0
+    },
+    "always_skip_h50": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 10,
+      "successes": 4,
+      "vla_calls": 114,
+      "wins": 0,
+      "losses": 1,
+      "calls_saved": -1,
+      "matched_skip_count_random_policy_expected_successes": 4.0,
+      "matched_skip_count_random_policy_expected_calls": 114.0
+    },
+    "oracle_h50": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 9,
+      "successes": 5,
+      "vla_calls": 106,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 7,
+      "matched_skip_count_random_policy_expected_successes": 4.1,
+      "matched_skip_count_random_policy_expected_calls": 113.9
+    },
+    "binary_short_h50": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 8,
+      "successes": 4,
+      "vla_calls": 116,
+      "wins": 0,
+      "losses": 1,
+      "calls_saved": -3,
+      "matched_skip_count_random_policy_expected_successes": 4.2,
+      "matched_skip_count_random_policy_expected_calls": 113.8
+    },
+    "binary_compact_h50": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 5,
+      "successes": 5,
+      "vla_calls": 109,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 4,
+      "matched_skip_count_random_policy_expected_successes": 4.5,
+      "matched_skip_count_random_policy_expected_calls": 113.5
+    },
+    "binary_window_h50": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 1,
+      "successes": 5,
+      "vla_calls": 112,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 1,
+      "matched_skip_count_random_policy_expected_successes": 4.9,
+      "matched_skip_count_random_policy_expected_calls": 113.1
+    },
+    "binary_window3_h50": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 4,
+      "successes": 5,
+      "vla_calls": 110,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 3,
+      "matched_skip_count_random_policy_expected_successes": 4.6,
+      "matched_skip_count_random_policy_expected_calls": 113.4
+    },
+    "always_replan_h100": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 0,
+      "successes": 5,
+      "vla_calls": 62,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 0,
+      "matched_skip_count_random_policy_expected_successes": 5.0,
+      "matched_skip_count_random_policy_expected_calls": 62.0
+    },
+    "always_skip_h100": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 10,
+      "successes": 3,
+      "vla_calls": 61,
+      "wins": 1,
+      "losses": 3,
+      "calls_saved": 1,
+      "matched_skip_count_random_policy_expected_successes": 3.0,
+      "matched_skip_count_random_policy_expected_calls": 61.0
+    },
+    "oracle_h100": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 7,
+      "successes": 6,
+      "vla_calls": 54,
+      "wins": 1,
+      "losses": 0,
+      "calls_saved": 8,
+      "matched_skip_count_random_policy_expected_successes": 3.6,
+      "matched_skip_count_random_policy_expected_calls": 61.3
+    },
+    "binary_short_h100": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 5,
+      "successes": 6,
+      "vla_calls": 57,
+      "wins": 1,
+      "losses": 0,
+      "calls_saved": 5,
+      "matched_skip_count_random_policy_expected_successes": 4.0,
+      "matched_skip_count_random_policy_expected_calls": 61.5
+    },
+    "binary_compact_h100": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 3,
+      "successes": 5,
+      "vla_calls": 60,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 2,
+      "matched_skip_count_random_policy_expected_successes": 4.4,
+      "matched_skip_count_random_policy_expected_calls": 61.7
+    },
+    "binary_window_h100": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 1,
+      "successes": 5,
+      "vla_calls": 61,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 1,
+      "matched_skip_count_random_policy_expected_successes": 4.8,
+      "matched_skip_count_random_policy_expected_calls": 61.9
+    },
+    "binary_window3_h100": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 4,
+      "successes": 4,
+      "vla_calls": 63,
+      "wins": 0,
+      "losses": 1,
+      "calls_saved": -1,
+      "matched_skip_count_random_policy_expected_successes": 4.2,
+      "matched_skip_count_random_policy_expected_calls": 61.6
+    },
+    "always_replan_h200": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 0,
+      "successes": 4,
+      "vla_calls": 33,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 0,
+      "matched_skip_count_random_policy_expected_successes": 4.0,
+      "matched_skip_count_random_policy_expected_calls": 33.0
+    },
+    "always_skip_h200": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 10,
+      "successes": 0,
+      "vla_calls": 30,
+      "wins": 0,
+      "losses": 4,
+      "calls_saved": 3,
+      "matched_skip_count_random_policy_expected_successes": 0.0,
+      "matched_skip_count_random_policy_expected_calls": 30.0
+    },
+    "oracle_h200": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 6,
+      "successes": 4,
+      "vla_calls": 27,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 6,
+      "matched_skip_count_random_policy_expected_successes": 1.6,
+      "matched_skip_count_random_policy_expected_calls": 31.2
+    },
+    "binary_short_h200": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 6,
+      "successes": 2,
+      "vla_calls": 31,
+      "wins": 0,
+      "losses": 2,
+      "calls_saved": 2,
+      "matched_skip_count_random_policy_expected_successes": 1.6,
+      "matched_skip_count_random_policy_expected_calls": 31.2
+    },
+    "binary_compact_h200": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 0,
+      "successes": 4,
+      "vla_calls": 33,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 0,
+      "matched_skip_count_random_policy_expected_successes": 4.0,
+      "matched_skip_count_random_policy_expected_calls": 33.0
+    },
+    "binary_window_h200": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 2,
+      "successes": 3,
+      "vla_calls": 33,
+      "wins": 0,
+      "losses": 1,
+      "calls_saved": 0,
+      "matched_skip_count_random_policy_expected_successes": 3.2,
+      "matched_skip_count_random_policy_expected_calls": 32.4
+    },
+    "binary_window3_h200": {
+      "episodes": 10,
+      "opportunities": 10,
+      "skips": 1,
+      "successes": 4,
+      "vla_calls": 32,
+      "wins": 0,
+      "losses": 0,
+      "calls_saved": 1,
+      "matched_skip_count_random_policy_expected_successes": 3.6,
+      "matched_skip_count_random_policy_expected_calls": 32.7
+    }
+  },
+  "cases": [
+    {
+      "task": 0,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t00_s02_h50_smol70_t015",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 15,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 1,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t01_s02_h50_smol70_t015",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 90
+        },
+        "continue": {
+          "success": true,
+          "calls": 6,
+          "steps": 102
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 90,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": true,
+          "calls": 6,
+          "steps": 102,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 6,
+          "steps": 102,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 6,
+          "steps": 102,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 6,
+          "steps": 90,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 6,
+          "steps": 90,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 6,
+          "steps": 102,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 2,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t02_s02_h50_smol70_t015",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 86
+        },
+        "continue": {
+          "success": true,
+          "calls": 6,
+          "steps": 92
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": true,
+          "calls": 6,
+          "steps": 92,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 6,
+          "steps": 92,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 6,
+          "steps": 92,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 6,
+          "steps": 92,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 3,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t03_s02_h50_smol70_t015",
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "calls": 5,
+          "steps": 86
+        },
+        "replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 86
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": true,
+          "calls": 5,
+          "steps": 86,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 5,
+          "steps": 86,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 6,
+          "steps": 86,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 4,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t04_s02_h50_smol70_t015",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230
+        },
+        "continue": {
+          "success": false,
+          "calls": 15,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 5,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t05_s02_h50_smol70_t015",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 15,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 6,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t06_s02_h50_smol70_t015",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 7,
+          "steps": 103
+        },
+        "continue": {
+          "success": false,
+          "calls": 15,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 7,
+          "steps": 103,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 7,
+          "steps": 103,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 7,
+          "steps": 103,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 7,
+          "steps": 103,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 7,
+          "steps": 103,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 7,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t07_s02_h50_smol70_t015",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230
+        },
+        "continue": {
+          "success": false,
+          "calls": 15,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 8,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t08_s02_h50_smol70_t015",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 15,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 15,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 16,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 9,
+      "state": 2,
+      "horizon": 50,
+      "opportunity": true,
+      "id": "t09_s02_h50_smol70_t015",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 8,
+          "steps": 119
+        },
+        "continue": {
+          "success": true,
+          "calls": 7,
+          "steps": 120
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 8,
+          "steps": 119,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": true,
+          "calls": 7,
+          "steps": 120,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 7,
+          "steps": 120,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 7,
+          "steps": 120,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 7,
+          "steps": 120,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 8,
+          "steps": 119,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 7,
+          "steps": 120,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 0,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t00_s02_h100_smol70_t030",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 7,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 1,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t01_s02_h100_smol70_t030",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 99
+        },
+        "continue": {
+          "success": false,
+          "calls": 7,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 2,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t02_s02_h100_smol70_t030",
+      "outcomes": {
+        "continue": {
+          "success": true,
+          "calls": 2,
+          "steps": 87
+        },
+        "replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 95
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 95,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": true,
+          "calls": 2,
+          "steps": 87,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 2,
+          "steps": 87,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 4,
+          "steps": 95,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 4,
+          "steps": 95,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 4,
+          "steps": 95,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 4,
+          "steps": 95,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 3,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t03_s02_h100_smol70_t030",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 7,
+          "steps": 230
+        },
+        "replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 151
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 6,
+          "steps": 151,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 6,
+          "steps": 151,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 6,
+          "steps": 151,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 6,
+          "steps": 151,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 6,
+          "steps": 151,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 6,
+          "steps": 151,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 4,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t04_s02_h100_smol70_t030",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230
+        },
+        "continue": {
+          "success": false,
+          "calls": 7,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 5,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t05_s02_h100_smol70_t030",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 7,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 6,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t06_s02_h100_smol70_t030",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 99
+        },
+        "continue": {
+          "success": false,
+          "calls": 7,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 4,
+          "steps": 99,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 7,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t07_s02_h100_smol70_t030",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230
+        },
+        "continue": {
+          "success": true,
+          "calls": 6,
+          "steps": 190
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": true,
+          "calls": 6,
+          "steps": 190,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 6,
+          "steps": 190,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 6,
+          "steps": 190,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 8,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t08_s02_h100_smol70_t030",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 7,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 7,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 8,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 9,
+      "state": 2,
+      "horizon": 100,
+      "opportunity": true,
+      "id": "t09_s02_h100_smol70_t030",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 116
+        },
+        "continue": {
+          "success": true,
+          "calls": 4,
+          "steps": 122
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 4,
+          "steps": 116,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": true,
+          "calls": 4,
+          "steps": 122,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 4,
+          "steps": 122,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 4,
+          "steps": 122,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 4,
+          "steps": 122,
+          "choice": "continue"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 4,
+          "steps": 116,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 4,
+          "steps": 122,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 0,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t00_s02_h200_smol70_t060",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230
+        },
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 1,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t01_s02_h200_smol70_t060",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 2,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t02_s02_h200_smol70_t060",
+      "outcomes": {
+        "replan": {
+          "success": true,
+          "calls": 3,
+          "steps": 172
+        },
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 3,
+          "steps": 172,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 3,
+          "steps": 172,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 3,
+          "steps": 172,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 3,
+          "steps": 172,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 3,
+          "steps": 172,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 3,
+          "steps": 172,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 3,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t03_s02_h200_smol70_t060",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230
+        },
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 4,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t04_s02_h200_smol70_t060",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        },
+        "replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 5,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t05_s02_h200_smol70_t060",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230
+        },
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        }
+      }
+    },
+    {
+      "task": 6,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t06_s02_h200_smol70_t060",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        },
+        "replan": {
+          "success": true,
+          "calls": 2,
+          "steps": 100
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 2,
+          "steps": 100,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 2,
+          "steps": 100,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": true,
+          "calls": 2,
+          "steps": 100,
+          "choice": "replan"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 2,
+          "steps": 100,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 2,
+          "steps": 100,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 2,
+          "steps": 100,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 7,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t07_s02_h200_smol70_t060",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        },
+        "replan": {
+          "success": true,
+          "calls": 2,
+          "steps": 114
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 2,
+          "steps": 114,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 2,
+          "steps": 114,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 2,
+          "steps": 114,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": true,
+          "calls": 2,
+          "steps": 114,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 2,
+          "steps": 114,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 8,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t08_s02_h200_smol70_t060",
+      "outcomes": {
+        "replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230
+        },
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        },
+        "binary_window3": {
+          "success": false,
+          "calls": 4,
+          "steps": 230,
+          "choice": "replan"
+        }
+      }
+    },
+    {
+      "task": 9,
+      "state": 2,
+      "horizon": 200,
+      "opportunity": true,
+      "id": "t09_s02_h200_smol70_t060",
+      "outcomes": {
+        "continue": {
+          "success": false,
+          "calls": 3,
+          "steps": 230
+        },
+        "replan": {
+          "success": true,
+          "calls": 2,
+          "steps": 119
+        }
+      },
+      "choices": {
+        "always_replan": {
+          "success": true,
+          "calls": 2,
+          "steps": 119,
+          "choice": "replan"
+        },
+        "always_skip": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "oracle": {
+          "success": true,
+          "calls": 2,
+          "steps": 119,
+          "choice": "replan"
+        },
+        "binary_short": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_compact": {
+          "success": true,
+          "calls": 2,
+          "steps": 119,
+          "choice": "replan"
+        },
+        "binary_window": {
+          "success": false,
+          "calls": 3,
+          "steps": 230,
+          "choice": "continue"
+        },
+        "binary_window3": {
+          "success": true,
+          "calls": 2,
+          "steps": 119,
+          "choice": "replan"
+        }
+      }
+    }
+  ],
+  "source_sha256": {
+    "raw\\counterfactual_evaluation_v1\\data\\records.jsonl": "4e0403b791eb72a00104b5a77d0b14c4dfe7e018a939b2904eaa30d902e750df",
+    "raw\\scores_evaluation_v1\\data\\scores.jsonl": "c43f87490971051d99dd50d1916588a142239e2344a4501e8bb70fe3f7e07691"
+  },
+  "intervention_rule": "Only the first Smol70 request can be skipped; afterwards both branches follow Smol70. No addition of effects from multiple opportunities.",
+  "oracle_note": "Uses observed future branch outcomes; unattainable deployment upper reference, not a deployable LAYA result.",
+  "missing_label_note": "Both-failure cases and episodes ending before the first request are included in episode success and call totals.",
+  "cost_note": "VLA call counts only. No gate cost included, so this is not a measured total-service speedup.",
+  "randomness_note": "Expected outcome of a uniformly random subset with the same skip count per H, not a confidence interval or significance test."
+}

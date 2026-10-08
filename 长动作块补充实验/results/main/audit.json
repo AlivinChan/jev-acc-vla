@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "run_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol",
+  "completion_status": "complete",
+  "audit_status": "passed_complete",
+  "checks": 366208,
+  "errors": [],
+  "warnings": [],
+  "episodes_seen": 372,
+  "episodes_valid": 372,
+  "main_seen": 360,
+  "pilot_seen": 12,
+  "main_expected": 360,
+  "pilot_expected": 12,
+  "missing_episode_keys": [],
+  "paired_initial_state_groups": 30,
+  "main_arm_counts": [
+    {
+      "horizon": 50,
+      "method": "smol70",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 50,
+      "method": "laya",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 50,
+      "method": "naive_k5",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 50,
+      "method": "vlash_style_k5",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 100,
+      "method": "smol70",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 100,
+      "method": "laya",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 100,
+      "method": "naive_k5",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 100,
+      "method": "vlash_style_k5",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 200,
+      "method": "smol70",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 200,
+      "method": "laya",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 200,
+      "method": "naive_k5",
+      "valid": 30,
+      "expected": 30
+    },
+    {
+      "horizon": 200,
+      "method": "vlash_style_k5",
+      "valid": 30,
+      "expected": 30
+    }
+  ],
+  "qualification_repeated_exact_note": "The runner reports exact repeated outputs; only one array per H is retained, so the second array cannot be independently compared from this mirror.",
+  "failure_artifacts": [],
+  "source_manifest_sha256": "a6e5344b29fa313c94f6ae505ea3e5966733f6509ce4e8955ae4a66934ee7e8f"
+}

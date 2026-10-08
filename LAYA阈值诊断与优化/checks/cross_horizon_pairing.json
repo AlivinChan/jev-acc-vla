@@ -1,0 +1,35 @@
+{
+  "checks": 3,
+  "errors": 0,
+  "known_example": "50 exact pairs; one win/one loss; service ratio 0.5; original H keys preserved",
+  "uncertainty": {
+    "n": 50,
+    "tasks": 10,
+    "initials_per_task": 5,
+    "replicates": 10000,
+    "seed": 20261008,
+    "intervals": {
+      "hierarchical_task_and_initial": {
+        "cost_ratio_95": [
+          0.5,
+          0.5
+        ],
+        "success_delta_95": [
+          -0.08,
+          0.08
+        ]
+      },
+      "fixed_tasks_resample_initials": {
+        "cost_ratio_95": [
+          0.5,
+          0.5
+        ],
+        "success_delta_95": [
+          -0.04,
+          0.04
+        ]
+      }
+    },
+    "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+  }
+}

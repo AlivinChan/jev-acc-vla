@@ -1,0 +1,264 @@
+{
+  "cases": [
+    {
+      "delay": 1,
+      "horizon": 50,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "variant": "naive",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "variant": "original_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": true
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "variant": "matched_vlash",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "variant": "stale_row0",
+      "all_update_clocks_and_rows_correct": true,
+      "default_path_unchanged": false
+    }
+  ],
+  "checks": 36,
+  "errors": 0,
+  "GPU_used": false,
+  "source_sha256": {
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "mechanism_runtime.py": "685a5ac0cfe1d7c37609725cd9179ecb814b76de5ef7aeee2794d5cd740ec718"
+  },
+  "scope": "Actual functions, weight-free environment; real GPU pilot remains required"
+}

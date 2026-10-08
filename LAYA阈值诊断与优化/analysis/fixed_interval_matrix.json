@@ -1,0 +1,1964 @@
+{
+  "groups": {
+    "H50_I30": {
+      "n": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "vla_calls": 191,
+      "gate_calls": 0,
+      "vla_seconds": 37.070392242167145,
+      "gate_seconds": 0,
+      "total_service_seconds": 37.070392242167145,
+      "steps": 5340,
+      "generated_rows": 9550,
+      "used_rows": 5340,
+      "gate_choices": {}
+    },
+    "H50_I45": {
+      "n": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "vla_calls": 139,
+      "gate_calls": 0,
+      "vla_seconds": 27.17639483930543,
+      "gate_seconds": 0,
+      "total_service_seconds": 27.17639483930543,
+      "steps": 5311,
+      "generated_rows": 6950,
+      "used_rows": 5311,
+      "gate_choices": {}
+    },
+    "H100_I30": {
+      "n": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "vla_calls": 191,
+      "gate_calls": 0,
+      "vla_seconds": 37.401286164764315,
+      "gate_seconds": 0,
+      "total_service_seconds": 37.401286164764315,
+      "steps": 5329,
+      "generated_rows": 19100,
+      "used_rows": 5329,
+      "gate_choices": {}
+    },
+    "H100_I45": {
+      "n": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "vla_calls": 141,
+      "gate_calls": 0,
+      "vla_seconds": 27.419714426621795,
+      "gate_seconds": 0,
+      "total_service_seconds": 27.419714426621795,
+      "steps": 5401,
+      "generated_rows": 14100,
+      "used_rows": 5401,
+      "gate_choices": {}
+    },
+    "H100_I60": {
+      "n": 30,
+      "successes": 9,
+      "success_rate": 0.3,
+      "vla_calls": 106,
+      "gate_calls": 0,
+      "vla_seconds": 20.8883691332303,
+      "gate_seconds": 0,
+      "total_service_seconds": 20.8883691332303,
+      "steps": 5862,
+      "generated_rows": 10600,
+      "used_rows": 5862,
+      "gate_choices": {}
+    },
+    "H200_I30": {
+      "n": 30,
+      "successes": 14,
+      "success_rate": 0.4666666666666667,
+      "vla_calls": 186,
+      "gate_calls": 0,
+      "vla_seconds": 36.147119019180536,
+      "gate_seconds": 0,
+      "total_service_seconds": 36.147119019180536,
+      "steps": 5182,
+      "generated_rows": 37200,
+      "used_rows": 5182,
+      "gate_choices": {}
+    },
+    "H200_I45": {
+      "n": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "vla_calls": 142,
+      "gate_calls": 0,
+      "vla_seconds": 27.602155946660787,
+      "gate_seconds": 0,
+      "total_service_seconds": 27.602155946660787,
+      "steps": 5410,
+      "generated_rows": 28400,
+      "used_rows": 5410,
+      "gate_choices": {}
+    },
+    "H200_I60": {
+      "n": 30,
+      "successes": 11,
+      "success_rate": 0.36666666666666664,
+      "vla_calls": 101,
+      "gate_calls": 0,
+      "vla_seconds": 19.848549539223313,
+      "gate_seconds": 0,
+      "total_service_seconds": 19.848549539223313,
+      "steps": 5589,
+      "generated_rows": 20200,
+      "used_rows": 5589,
+      "gate_choices": {}
+    }
+  },
+  "same_interval_horizon_comparisons": {
+    "I30_H100_vs_H50": {
+      "n": 30,
+      "wins": 2,
+      "losses": 2,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 1.0,
+      "total_service_cost_ratio": 1.008926097151483,
+      "cost_ratio_95_task_bootstrap": [
+        0.9417150940704451,
+        1.0809202531679847
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.13333333333333333,
+        0.13333333333333333
+      ]
+    },
+    "I30_H200_vs_H50": {
+      "n": 30,
+      "wins": 2,
+      "losses": 1,
+      "success_delta": 0.03333333333333333,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 0.9738219895287958,
+      "total_service_cost_ratio": 0.9750940530395469,
+      "cost_ratio_95_task_bootstrap": [
+        0.9070597557764519,
+        1.0423229544747883
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.06666666666666667,
+        0.13333333333333333
+      ]
+    },
+    "I45_H100_vs_H50": {
+      "n": 30,
+      "wins": 1,
+      "losses": 1,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 1.014388489208633,
+      "total_service_cost_ratio": 1.0089533431036426,
+      "cost_ratio_95_task_bootstrap": [
+        0.9614814559293505,
+        1.0664300001473586
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.1,
+        0.1
+      ]
+    },
+    "I45_H200_vs_H50": {
+      "n": 30,
+      "wins": 1,
+      "losses": 1,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 1.0215827338129497,
+      "total_service_cost_ratio": 1.0156665779207614,
+      "cost_ratio_95_task_bootstrap": [
+        0.972746281865216,
+        1.083963975087508
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.1,
+        0.1
+      ]
+    },
+    "I60_H200_vs_H100": {
+      "n": 30,
+      "wins": 3,
+      "losses": 1,
+      "success_delta": 0.06666666666666667,
+      "descriptive_mcnemar_exact_p": 0.625,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 0.9528301886792453,
+      "total_service_cost_ratio": 0.9502201637966659,
+      "cost_ratio_95_task_bootstrap": [
+        0.8618128429951046,
+        1.0194927940363356
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.06666666666666667,
+        0.23333333333333334
+      ]
+    }
+  },
+  "source_cells": {
+    "100:30:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h100_smol70\\result.json",
+      "result_sha256": "76d141a7c7047f85dc9b40d8c2bbd23e57434b286dad6a0558d8c4aaf42722e1",
+      "calls_sha256": "acdb682c418b6dfd06f3dc67a252ce5cbdd022563f75fee887c965a75a11df4f"
+    },
+    "100:30:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s01_h100_smol70\\result.json",
+      "result_sha256": "073e627535221ec4a401e53b41724d500473fd9cda1be6cc2e13ad327f7aaa6f",
+      "calls_sha256": "793bf93d2dc6a78b83107a0c3f29fa51019bef0eb6edc67244fb221286f7bf07"
+    },
+    "100:30:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s02_h100_smol70\\result.json",
+      "result_sha256": "173b0a7334dc5189e7c822f103f72c39cec0dedb87b695c6af8f7cf42860ab4e",
+      "calls_sha256": "a4cdeee94ebff326242ebbd5dfbc1ea01103e42b5f11b2c46c8df57092b2a592"
+    },
+    "100:30:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s00_h100_smol70\\result.json",
+      "result_sha256": "7156bb98e29c91bca272ab8b88c75af4d41620e882167fa108602857730a10da",
+      "calls_sha256": "1454763875528c587a4f9529f4258dc55d7a6303589020f4ce9ee7b29619d4f3"
+    },
+    "100:30:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s01_h100_smol70\\result.json",
+      "result_sha256": "84cd91f16536cc01701bd3dfd5b0ca160c90d168e00228b79b0052e6aaab76df",
+      "calls_sha256": "7f9658d7a0aa31a66165c5d1e217d09d99b589d1abecac79174b8107359aade9"
+    },
+    "100:30:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s02_h100_smol70\\result.json",
+      "result_sha256": "1b2609776ba07ae7bb95342c12eca0b57f9effa0a6b2f3dec6b043c0bf48396d",
+      "calls_sha256": "67e50f15604e47e566f0db9ab10bac3ac8636a7872ac48f6685c171bc5757e64"
+    },
+    "100:30:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s00_h100_smol70\\result.json",
+      "result_sha256": "392324cd6cbf20dc899e1512a1063847000e5f67a719774df375685c8417699c",
+      "calls_sha256": "71aa79a5a08858f04bd3ed6f7c70ee08da7cc35b97ffe9758ef3fdac4edd30eb"
+    },
+    "100:30:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s01_h100_smol70\\result.json",
+      "result_sha256": "8fd1b43cc0d2988346e53cf6d71047e0fc34a6728c34f93c0a33f7d57d73a7d4",
+      "calls_sha256": "36e8adea9111c7bdd24401afcd67dfb44c4e1c6566de4ab2b87e2656a19893b2"
+    },
+    "100:30:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s02_h100_smol70\\result.json",
+      "result_sha256": "8d5539efb25a61a4c92b1ec853e3cca1624aabe41aaa8e323a7201d14a6d933e",
+      "calls_sha256": "fda13ec3860e10c5cacbec64c46db145bb6131ae66bb04bcc554e35403dc5e51"
+    },
+    "100:30:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s00_h100_smol70\\result.json",
+      "result_sha256": "d2cfd1d87b3b7311b1010f103216474636da058e6d6552ee8205ff676ce61c11",
+      "calls_sha256": "12870c99362164627e427c16c14baa0dc679a31955a6de3cf253917a3c703c10"
+    },
+    "100:30:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s01_h100_smol70\\result.json",
+      "result_sha256": "f9317d98ba791730dc666d2b881ba0bd5f0c0e50f16368369f9ba85f3778c6c5",
+      "calls_sha256": "0817d8f52ce30163368829e5af8e8cc10fa39e48e9183fef4685693dba4e0fd6"
+    },
+    "100:30:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s02_h100_smol70\\result.json",
+      "result_sha256": "7e95b84416eda544ece5eb9e759f9bc08bfb3c4a3199a26c66e984b121429cce",
+      "calls_sha256": "ae5d16708d0d4d630e34e60b636755c8254a4cba73e7fb1df0b1238bc78fea9e"
+    },
+    "100:30:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s00_h100_smol70\\result.json",
+      "result_sha256": "46611f1c1a7440b943671cd364597fa09fb0fb082d37d4a3a544b505d73400c3",
+      "calls_sha256": "919635d4070d21d7392f7884cd3ebc1ee40800021ac988feb2d93d9b53b41618"
+    },
+    "100:30:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s01_h100_smol70\\result.json",
+      "result_sha256": "cdf43a5aa393105d82ca5b44a5279d4ce15a0f1bfcff6716c6488d448539d6e1",
+      "calls_sha256": "0d7b87564908f8db6b46795132f94685fb48db0e6b7eae44c820e21752936c28"
+    },
+    "100:30:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s02_h100_smol70\\result.json",
+      "result_sha256": "435ae41c6f4b858fbed09f2aecaa8d88f78281ce50525b4bcc18dfd414402032",
+      "calls_sha256": "6eb9e4d0addf652638ba22dcadb7bc419be4825221f530f808b710ef1ea71e7c"
+    },
+    "100:30:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s00_h100_smol70\\result.json",
+      "result_sha256": "476d6b92c159e2e8530d7cccb724c30ac9aa7b48cfc3200970b5e1df1bc7f21b",
+      "calls_sha256": "ebfae1272dbc7944712ebafe4cfc525c870af5479d491c6c7ccdb215ad4d4f28"
+    },
+    "100:30:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s01_h100_smol70\\result.json",
+      "result_sha256": "b8e53d38e163cbf3decb5a60594ef11a8e1866a78a4740244e425e9d10d9b2f0",
+      "calls_sha256": "d45e42cc28a3f3da318e8d106b1a8cfa23f52b17f3932584585afd57a29517ce"
+    },
+    "100:30:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s02_h100_smol70\\result.json",
+      "result_sha256": "cd9f50f01bc3570892f068b6b1695b680a8a17d465271329a89bc7ef357e6ee5",
+      "calls_sha256": "a3704105db77bbe1ec06c91137929030deaecbfe007ae155425839915cf8aee1"
+    },
+    "100:30:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s00_h100_smol70\\result.json",
+      "result_sha256": "a3c57543b8430af479aee274134224749904da4ba66f7fb9b067db43c1425edd",
+      "calls_sha256": "272c7ac1fdfbc74ab4a5bfb343139d2fb5a79a6a3a2d78072ba2fb88d49998dd"
+    },
+    "100:30:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s01_h100_smol70\\result.json",
+      "result_sha256": "c8accce1c330c690d1c431878f491d109f7ed63ecae2c3431f9ac265b4ab19f4",
+      "calls_sha256": "87db712f7227f5153423766f807c2ed6acc65e8e14fde8b4eed2bfd65396d769"
+    },
+    "100:30:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s02_h100_smol70\\result.json",
+      "result_sha256": "2294d221f64df71b79bf02c5847e40d8eaa8266ff222d6e9fcaaeeb69334b8e9",
+      "calls_sha256": "32e8f71cab2c28aec9380e83ebc82b9af68f2e90364bb149cd95ca5173402314"
+    },
+    "100:30:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s00_h100_smol70\\result.json",
+      "result_sha256": "3c7cebb2be84aca05e011d9da8518aebe6a997f01bd1289f35a4ab98b811400a",
+      "calls_sha256": "e267867f188d15d2ac84f706175a757e08fe4d24ae1cb0eac64904c362fa4afd"
+    },
+    "100:30:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s01_h100_smol70\\result.json",
+      "result_sha256": "fadfc3317b57d6eef06eb1a343144f125b43d4cf04a316c6c68de51c292e5fb8",
+      "calls_sha256": "5f50e4ff2f31f806d7a4b396120941f0472bea2bf07f6ad99bda671c3bf9ee05"
+    },
+    "100:30:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s02_h100_smol70\\result.json",
+      "result_sha256": "77adc8df4797efbff831fa7da610f79e595187fbae62cb220b66a711c1769370",
+      "calls_sha256": "4a4612092c35a659324424a6efeccec627ff32e9c30dfb10f81ac74a9bb2c82a"
+    },
+    "100:30:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s00_h100_smol70\\result.json",
+      "result_sha256": "00512ec7a4f47685acd3e35a5944fa2e168c0c9d0029d7bf881d94f1610e3d46",
+      "calls_sha256": "2601e9168363483c1b535691bb3a8b1c68f4a31b35eea808f8e2ee584775518e"
+    },
+    "100:30:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s01_h100_smol70\\result.json",
+      "result_sha256": "21783569ecd86a0fd2fec4357facc478218b15b396f392f84393dec179683d26",
+      "calls_sha256": "c5117328933fc14e90dc1712c32a7cc597dcafa58ec4bdc13cb10fd3032b9c77"
+    },
+    "100:30:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s02_h100_smol70\\result.json",
+      "result_sha256": "6369812c72075027394a0ae2ed5de631fc398b80c9ae44dcacbc000c52be0221",
+      "calls_sha256": "8adcdb72fe498a6e9ef2bfab709e41739fcb582fb970b6159dbd6de92369a9c1"
+    },
+    "100:30:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s00_h100_smol70\\result.json",
+      "result_sha256": "c3126eef3d84f608b7560cc8f13f995b62f534159ef1b149c883632a1c576e4f",
+      "calls_sha256": "278f2ea5a62d2e7a4d09ae6ac0a93de00964364d4dd02f0079b5fa17e262ab9c"
+    },
+    "100:30:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s01_h100_smol70\\result.json",
+      "result_sha256": "723ea24c8d51e35129c8365702658bd89a02e92a67810c562028ad318925e453",
+      "calls_sha256": "8ec86bc6da8398156640d306ba5f891164e2af43a689a814e85b488ea9141608"
+    },
+    "100:30:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s02_h100_smol70\\result.json",
+      "result_sha256": "6a3b257b375b94e8fa71755e7f8990eba656e62b43fd21b1e92fafc16ad67c7c",
+      "calls_sha256": "af482abd189cf3b32f7ea3386e83b6a77eb8b79d8db434fae59f15795ea45f6d"
+    },
+    "200:60:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h200_smol70\\result.json",
+      "result_sha256": "8287b7df5a2cf2487bf6fc58830ecf8f1f6b378065f1b29ff9bbf10d296300be",
+      "calls_sha256": "2f5e6a48bc84d779962a0acc151d871f9f15c662966e2b136eb9010e1df36ed1"
+    },
+    "200:60:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s01_h200_smol70\\result.json",
+      "result_sha256": "f2b7a12a2ac6b6880933092d8db8699d75fa265a5aba52789862a69cf2b73f79",
+      "calls_sha256": "9271683dffaef25948624096be7f6ee4563de6d4e9fb6d8702091fd38fec8604"
+    },
+    "200:60:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s02_h200_smol70\\result.json",
+      "result_sha256": "0737692bcb92c7d178f8dbf7bb51904ec9fbebdf1dac083ab9f991adfa2f7121",
+      "calls_sha256": "13b64de59dad2691526e27503b41f353236900a226616200f3bfb6e443263471"
+    },
+    "200:60:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s00_h200_smol70\\result.json",
+      "result_sha256": "ca4b8d2acd51990d1197d44229b0a8db5c65baf03e8434ccf19fe18ea3412751",
+      "calls_sha256": "c24d6b3e976566d3eeb0e3574442b1701eed5766e1b36f0e48a1beecf0374310"
+    },
+    "200:60:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s01_h200_smol70\\result.json",
+      "result_sha256": "a122475435c63f002d7fc9b02bb6d0c6077b58b143cf9551c0afa786a8ef852f",
+      "calls_sha256": "a8c12bf88d6b340bb3ddbe27a58656f50dd878fb11e3af451b1e12001745b8ea"
+    },
+    "200:60:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s02_h200_smol70\\result.json",
+      "result_sha256": "279e84dd81c0cd50ce840104665d945dcdcae9887e26457afdd23fa6b198d6f2",
+      "calls_sha256": "dc46378682da73523dc06cb9fb8cfb690bb4fdf32a74da890070943a5f77fd3c"
+    },
+    "200:60:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s00_h200_smol70\\result.json",
+      "result_sha256": "3efaff874ae40ad4597a845134109f9d5a9b28a418e88cd6caf3f0f21b54da45",
+      "calls_sha256": "2cda881e81aa9843e135d4f876ddf8fc8a375741dc4171373a2997d3f4ca560a"
+    },
+    "200:60:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s01_h200_smol70\\result.json",
+      "result_sha256": "338dc0a24c6dafe3312ef61fe799d1481e81a12b45467e5e9cee6175778d7d1f",
+      "calls_sha256": "91289f1a4b6562f592ec714d4f37a773b4043c458b9852e9f7110c0a7f47d2a3"
+    },
+    "200:60:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s02_h200_smol70\\result.json",
+      "result_sha256": "a423955fc7fdb0a64a3fe391529aacd84b19b7bbcd15ab7ed3c065849cd32af9",
+      "calls_sha256": "bfea7486f7ce95b3ef3c7b7e9299e8c4070514c1cbe0709efafc620c26f0e4ac"
+    },
+    "200:60:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s00_h200_smol70\\result.json",
+      "result_sha256": "edf601cd9ea0f85e833f8ea6c1b8fab4b25e3ab429ef03f6ea3047a2827844b6",
+      "calls_sha256": "b79cb1c7642e024131a0cac6847ae23c9d3a3304a999f1cc98a364a07e1703c2"
+    },
+    "200:60:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s01_h200_smol70\\result.json",
+      "result_sha256": "38f492da462b3a30dad763b9c63c76b52a8ea5b1ec0daac8e3b1c3047735a580",
+      "calls_sha256": "abe6731dabaef51638dd97dcfda876f4b0012b09899d7bd93be50ab41500446c"
+    },
+    "200:60:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s02_h200_smol70\\result.json",
+      "result_sha256": "8c0adbd82cf8dd73b6385d4531fb513c0dfb9c8df21fe1f379ea19ea99f3ec82",
+      "calls_sha256": "06ed484062109ef3dace54922c85cddae6673c0df2e6701ec8ad5d1085cf22cb"
+    },
+    "200:60:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s00_h200_smol70\\result.json",
+      "result_sha256": "a742786ace8e0f0e0f63fe46ac0f9a20dd8d224725806a47db6c58b39c2b284c",
+      "calls_sha256": "d78092a4d4f93c9feba78810329cb7d87e4d3019df33754388a3ef15c1794509"
+    },
+    "200:60:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s01_h200_smol70\\result.json",
+      "result_sha256": "e35811084686bdd31c8826be2b600eaf43ee0071aa3e590f422347dd8ff7f3c4",
+      "calls_sha256": "8e171c2a54f1575f0b1fe61f3809621c99d3398899283dd1d980ac0a186027de"
+    },
+    "200:60:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s02_h200_smol70\\result.json",
+      "result_sha256": "ae8e3c56b6f2f084dc5e3c261ce99ec2fa09fb2772e17ae99dfba90f78792dd7",
+      "calls_sha256": "2143d0657d2dad52cfb2fcffa224e619da029c9da30ecb8d395bb1ae090895f9"
+    },
+    "200:60:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s00_h200_smol70\\result.json",
+      "result_sha256": "0b934b42dd22babf2b1862664198dd317b8e19aa1780eddbb0f644334254ab38",
+      "calls_sha256": "7dc2d43be6b70a74374b2291b5c5743574228aef538bea17580fa4fb59eb4701"
+    },
+    "200:60:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s01_h200_smol70\\result.json",
+      "result_sha256": "2d1eba45926b81ddcbe1afb8f1962cb810c4deda4fcb8b1b86fc98f2f9a719bb",
+      "calls_sha256": "5ef35976f53610f2dafd792ddb254cfad5401f864ce99bafd073b78acad2776d"
+    },
+    "200:60:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s02_h200_smol70\\result.json",
+      "result_sha256": "1a845fc515ea8f695980f037ad08b4395516aab98cdb9bf8bce91260ba114a3c",
+      "calls_sha256": "924b9443542347a8a42719fd325568128d6ec7b9b6ce773a48df1f11f36affe4"
+    },
+    "200:60:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s00_h200_smol70\\result.json",
+      "result_sha256": "42cd92376038e50ee36179ca2336f15ffb2f6a448c7bb28f5ecfa424aa27d415",
+      "calls_sha256": "e54675149dce69cd24f365f223a41802c42d1b83f7ba3bf67c85c3e465f5eb74"
+    },
+    "200:60:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s01_h200_smol70\\result.json",
+      "result_sha256": "bd5f2d66ab8891d77c74d19add12cfce3f978486a9ea8ed12059bdbbd266d83e",
+      "calls_sha256": "2c38493638f51c0ed555a148ed0f41a7f07d38ba6d039ad02651def76561ad19"
+    },
+    "200:60:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s02_h200_smol70\\result.json",
+      "result_sha256": "216bddf33354384c5bebb93d8684792fe79daf72bd484bcfa403d1025e9c4b46",
+      "calls_sha256": "64a300ac354b056b36906e38901225e74465e6a98fd4a5b42e8f50f62f4f08af"
+    },
+    "200:60:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s00_h200_smol70\\result.json",
+      "result_sha256": "a8c1efe64802f70c019df97526ec5a5e4506c0b6337d3c95e7484852be35d69c",
+      "calls_sha256": "14e35798a7a34bda9b6da77c1669f08f2b722ffcd3e2a19c5c7f4d5f2d58e32b"
+    },
+    "200:60:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s01_h200_smol70\\result.json",
+      "result_sha256": "444e75cce1bdb7214836b548ccac7a16556edd7be9dc18d5dc82b95fc9f600b0",
+      "calls_sha256": "98e0e9b0a07425219fb608fd7a0e52c47cc81bf2f9134d13ae556956e92ea859"
+    },
+    "200:60:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s02_h200_smol70\\result.json",
+      "result_sha256": "5c6ad1f25fca72ade022fbccca0f0c5685fe597e908368380b61bdd2822b981f",
+      "calls_sha256": "7da4fb1c0609f8e14cf5f021930106a75bf7138ae736f0951a7a8175d20ce703"
+    },
+    "200:60:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s00_h200_smol70\\result.json",
+      "result_sha256": "75cbae8ebaf9a870fb766936dc4aca31479a4311c56a180917107d0e08393daf",
+      "calls_sha256": "17dd226d0bab594bcf1f3246c00ac031fd2e7d49be9be5f1b7b368968b7113a9"
+    },
+    "200:60:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s01_h200_smol70\\result.json",
+      "result_sha256": "9fdb4c0850b460d1b541be4fc46a2059b5e55a7016d077222f891bfc3ff8fbda",
+      "calls_sha256": "150d491ff698b3a0f924bffc95bcc01cebd886719a32d9cb0d69e404b06256d9"
+    },
+    "200:60:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s02_h200_smol70\\result.json",
+      "result_sha256": "1900647d5b5bf20c47caa06e214b63ef4a098635a3d1790cd615c6c539e5c2df",
+      "calls_sha256": "00e6b0ff30d075b01784e6799777a4c960f608b86cc489276a93790f8bd92d05"
+    },
+    "200:60:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s00_h200_smol70\\result.json",
+      "result_sha256": "64b8cf732d13ea7c2a9c83d84283d5607f1068e11cf38233cc62051f0116e464",
+      "calls_sha256": "64ce3565cb7588f34997cae5ce33950dd35e1c8847e08ec9821faf977b0cfb43"
+    },
+    "200:60:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s01_h200_smol70\\result.json",
+      "result_sha256": "91b9e65dcf0ad4e8b42d928e219683bfe688fc86a37e24583f151e433c543c09",
+      "calls_sha256": "bd9125474d43554c825408e0943d08bd4c4b231506e2bdce52d85232d726ab71"
+    },
+    "200:60:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s02_h200_smol70\\result.json",
+      "result_sha256": "22c9f2889e5b396ad0c4fea60d91b9cb923ac973f18f4e00157cc8b3ed2fd94e",
+      "calls_sha256": "773828a2fd836450e743666751797a470566d7b97c1d49f1cfaa03e3cbeb42d8"
+    },
+    "100:60:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t00_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "f052df1d6674ab848a9086708b67c2be6a6c988866e397f87b3c23b9d5defdf2",
+      "calls_sha256": "9e282a5f8c77530704b94bd1e04b970f8f25c10aa6c0711e87fd17fbc8aaa390"
+    },
+    "50:30:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t00_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "0f939b0a2e09bb53e8054d5e320189de23848b7829da6637f08a6f4cbdf895ca",
+      "calls_sha256": "44b765726f81ac80cf3b3e66042171bd64aa5add63ac0e9bb382840819047d61"
+    },
+    "100:60:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t01_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "188fc98968fa3602ec4beca912062e3b96f04033c44e3b8c0c17d49a02c37cdb",
+      "calls_sha256": "d7059fd253061ddb8094cf5795676292accc954b516530d81d3007c8ce31b3f7"
+    },
+    "50:30:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t01_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "665bbe06284080bdf5e78b872fac28b9315247f47d2ced3e4d814607b62f7e26",
+      "calls_sha256": "f44ef280e7cddc75b1934ace70ff601903c2d933ed7570a2bf1d8b8282e3b36b"
+    },
+    "50:30:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t02_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "e5e95a20fe9fdaec9fef5df3529391ce31f183152b5bccf734b82d2260fc2961",
+      "calls_sha256": "3c00ce4702fd9c763b19005a3eb93142da2d3dafad8a6d324d19207be3ea241c"
+    },
+    "100:60:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t02_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "e34a2e48064de3662d5161941cc950f7acd90f46ccffc78c67bf9eb5b9f1ac59",
+      "calls_sha256": "36867bc51ae763b09cdc6968ccb8d6cbd5e1ad2ae5e6ab4b6b3c7d2fafb04dec"
+    },
+    "50:30:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t03_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "790df34d2213efa919bcdc3d7e4134d7a6fcc343143efbe50042a279d3434210",
+      "calls_sha256": "784e41a92fa7c66ac0da1f373c2f84dfa5bca108b9e84a14a4da50f642fabd7b"
+    },
+    "100:60:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t03_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "ab1fbebf08e5d27bff5babd781277df69ea2b58f653d7c85976fa38d2cbaf178",
+      "calls_sha256": "447b3ed1ccdbbf97304801c193370d483fb13fe508e7b1885b32b73d2835fc3c"
+    },
+    "100:60:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t04_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "b7450aa28dfbc1a2820e02046209c6c366f0dd1ba69cb47256b6814271646887",
+      "calls_sha256": "83d08c1ef24dffe18627e50bccabacf50603e07ead6acf7f408cb7d03759c2b6"
+    },
+    "50:30:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t04_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "0eec02b805bddeb276aacc3dad7d9f4b328e6c7ab9499491b8b9c1f55f01358f",
+      "calls_sha256": "7ff73e5789d66bba0a9852d99ac15bf1f6182769d1d6b45992bf064e987f2c72"
+    },
+    "50:30:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t05_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "19589d64433c74fba855309738db8abea45008a5ac67d1764367f7d0546b51a1",
+      "calls_sha256": "ba17995b23390aeb9c5b396519ecdac6638f30a15bd2bffccfdd43572d81ae3d"
+    },
+    "100:60:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t05_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "f53bb7c62dc193b6a51fc902d300d7b594e59e8a8c6c6c248d4a63fe44383e92",
+      "calls_sha256": "f0618002ce788a6be16982fe5776b4063a61966cab556f07aad0ebfa6ae19ae4"
+    },
+    "100:60:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t06_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "bb8e3e47699cfd177b9274d407e8a52c9fc207ac34844dbb5dd57dd24c2cdba8",
+      "calls_sha256": "d3ffd92f3098f8086c81bd86268f03639d0e1ff01c2d84df650e7aefc19092bf"
+    },
+    "50:30:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t06_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "64155a9fc97b3368c2d6997a77e07f8b5e92c6783c822a998c0758e3ede95c68",
+      "calls_sha256": "0b699f200fe6499271b11ce063aa66663dc1bb7379f63b362c1c4fef10d7369e"
+    },
+    "100:60:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t07_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "c38b98e54f6db554a33272980d204fef2f34682763b71ab83d025e558e1319e4",
+      "calls_sha256": "8b85ba0037471f9a063f74f8aa40e6fa352689d3a51e25df2ada8cd6fbe78b10"
+    },
+    "50:30:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t07_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "826a9710a10779c00373cee8afaa982f4708fb416bcdcb992f246cfbfb34e031",
+      "calls_sha256": "410034122b37aa8fd224bf03cd71bcf5f90eac4ea5eb97369ee94a0f9195bf92"
+    },
+    "50:30:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t08_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "386fd96d8868763743d4af769269e26fa826da8754ff1a5463c2f3a3446b778a",
+      "calls_sha256": "a78533f562c328d17db7d2cbc1242f52831eeff89f35c440c8202a2023af5ec1"
+    },
+    "100:60:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t08_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "d90df973b7f7c4c28f8e8cf45dbce35655765c812eade32cff38cfefd36d6891",
+      "calls_sha256": "ab0c2b81db95773219f954fc15a571f15734892e5fd74b437af433b9358c5e3f"
+    },
+    "50:30:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t09_s00_h50_fixed_r60\\result.json",
+      "result_sha256": "4c9c6eb4801e9eeb049af82dcc41044dadfc15e2087eae4125695bb3d057072c",
+      "calls_sha256": "9bbf21088e33d4c51407cd62661f8f178de21b8c7e681bf9b6eb8873f8a64bac"
+    },
+    "100:60:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\fixed_r60\\t09_s00_h100_fixed_r60\\result.json",
+      "result_sha256": "0fa8aa3f29a0e03c9c42b74ea6eecbe067ecdff36675278ac63e83a5dd6bc648",
+      "calls_sha256": "efa4a3a90f87dc80676feffc2d78231790eb5b33a50f49c79ac4f74acdf7c82c"
+    },
+    "200:45:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "f8e08fc74e3ee3bbac830c82c1b2f8c7f08eda26530ceb8b10d590acf6bc2b37",
+      "calls_sha256": "bf6784281a4051ea9abe369e317612eaf542da0d8b82c3dca322b3db7ecb093f"
+    },
+    "100:45:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "aa7ec27a02afa1b0a9ee3a8fc6929bcf10f305f14a726246ba0bc00078ed27be",
+      "calls_sha256": "7a51cc67de1b4b8a96852092180edea6aece375e14f31de541c14a7fee8f26f9"
+    },
+    "50:45:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "5b9516229b059a59de270c693c6e83f2b49374217c3158b5c0213be8eba519b3",
+      "calls_sha256": "19a7adba53797b0f807da188fc47989a93b963eefcdd0dfba635a3e9185f8004"
+    },
+    "200:30:0:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t00_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "d86ccb4985113b500bddbb909a12a12f627e254ea987516e75baeb5966fdbae9",
+      "calls_sha256": "48ebbd0ab28609ac45b96ac5802821a9a083e3d785dab663dffc794d4c365a16"
+    },
+    "100:45:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "9ebaec6a93928b2f4d4d67432447fbcadba43f344140c25b0e583694db2e723a",
+      "calls_sha256": "7a58d723656ee2d5ea1c4943f7ed39d6aff22fea2b44bfba731802058960c379"
+    },
+    "200:45:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "eef841b6738255e86741a6c281f7370963ee94ddbbc8a2c3a00592d27ff3be92",
+      "calls_sha256": "cae08d597a00e16cbd6a24d40c94d9cd6e8fb13ecbe956cc064f5a0068cade16"
+    },
+    "50:45:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "5bc8e11b98a75703e2763697396aa054e7c7c7fc73d104376a255e273bc5e518",
+      "calls_sha256": "16abbf7cb7b62d6ea0a43185d188d7867f5372329a3f68067ba9f2d8d71a4e3e"
+    },
+    "200:30:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t00_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "a18978f8b25e573a5ce9fab5a6dfbb903491a90659fbb92b0498b23b06720aed",
+      "calls_sha256": "ec1c7c649ec5ecd604237726f042787dc408139734d943d23ded46b6651e79b0"
+    },
+    "100:60:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t00_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "2303390050233a3995b818c204e34496b781900e6f5551d2a17a4a5c48203baa",
+      "calls_sha256": "b1f90dc55d8bb63a3b911492d2844101a9174d259d2412925f234c6dfdc4fe08"
+    },
+    "50:30:0:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t00_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "fa5595b49034c8ff7b548eab9407b96e2395997e80a3b0ec5dad423fd97e9124",
+      "calls_sha256": "94e875cbb10024208c72646acd3eec257e9e283072bcfa85dec45de1d9cd8ae1"
+    },
+    "50:45:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "681e0100a70c5ea7ce136ccaf389481ebd556ec10d05bac22e7ecaeb95a1e02c",
+      "calls_sha256": "40c641c1383b6450d00bf17bfd16bfdfacd8a53f42f7c2325f359aa3f3b5109c"
+    },
+    "100:45:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "d6b2697a270d0225ee10aad863497980f7e684760f2c5a994645b87004b031f8",
+      "calls_sha256": "1d50320c4082f725e3802d229a0a0a3254786a9c139d2e98640a823b03c5fd8f"
+    },
+    "50:30:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t00_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "9016f644dea1e8e0227b9a7395120629607cfd2dfa0bded25b3d9d3631d735be",
+      "calls_sha256": "4c5951b74ee70e649df93933d46bcbb8d85671c1a40a591d208e746d301fb515"
+    },
+    "100:60:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t00_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "c53443d8317713eb9c8ad4834f3bffb5bda250415ee89addd00318cb662cb4e9",
+      "calls_sha256": "55944108bad9dcb2d8b8ccbe813108b637cc06d367dd8f7fa8fb8fd590dc8907"
+    },
+    "200:45:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t00_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "fcb4ee46aed90823b86d86743c2a7fdb9507d07ab5d6aa705b223f43f262ffe6",
+      "calls_sha256": "0e0a950f2eafc5e3abb5b21fdb9893201f59f894885bbaae37fc40f5cd925677"
+    },
+    "200:30:0:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t00_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "b2fb3b5866f8f4a600b9089cc5c033f8a4dbdafd2279c6046486adc96a932a75",
+      "calls_sha256": "ee5989c0086c4f64580d6d2794cf03f0d77713dc28f59159773e6d1fe251dfaf"
+    },
+    "200:30:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t01_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "0a4bfdcf782f1c45712042fbc194353b499e7f821a7826ba020a6bb5122875ce",
+      "calls_sha256": "c0b7b60865688f037c5b38726379bfccbf7aff5894bb7b174e75024668967e49"
+    },
+    "100:45:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "c3ae8c7c91394c31b96ca8d0012a7e88abfbba25796abea09bf3ffec9b9a8167",
+      "calls_sha256": "ecd66aa905526cc997e14e68eb1b1551f54fae31f2b34939d06519d5d3c18c1c"
+    },
+    "50:45:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "79647537c2c9cb9be009c5c394becfec04deb3546c66883b6ea3342742e0dcf2",
+      "calls_sha256": "c7fdbf5b61283a108da4fdfff02f9f6ff5ad01c11033f5f173ceb59fe764c6c5"
+    },
+    "200:45:1:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "3707fa8d56be7f89ace5c011bf0542e3cda5d8612e6482c96f30290f8d94fd6b",
+      "calls_sha256": "9f9d74c58f88498aebf03dfb386e9e53d64f0de91f9bbadbd551b1faa087e527"
+    },
+    "100:45:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "4f0bf489fcd8c68e6f51ae6bfccab8010707d7bf22c1a19c5ef83bcea247e7f5",
+      "calls_sha256": "28033090093e15600c2964f3e71447be5846263546bdb4aaa330810d13debc1c"
+    },
+    "200:30:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t01_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "2665e24c057c8a9b1b021872a4692c9cd2871969044a061b5c1c3eb69b3d8633",
+      "calls_sha256": "0d14b6585c422a3085873c5eb8dededfc9f9cd083eeced9a7ef8722a6630a0ed"
+    },
+    "200:45:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "1963dc7f3d8c2ff09ae5543a78cbcea2f6fd4b206fbcab62204e954367ce1016",
+      "calls_sha256": "e7a4e941f902ec51159080d3e2199c57fdabf4066e6e22929405f1f06b578338"
+    },
+    "100:60:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t01_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "59013f0ae96f9f79e86fee412dfc5b120fbff9dab7df5ed04533ab216d3abefe",
+      "calls_sha256": "2922bfa20d22140568c826cf89e7b2c238b47ffc62347f6ac069d418e229abe3"
+    },
+    "50:45:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "81d2e63949a1d293d3bb0e559164ea51ae3e0835e69da18aa90e507482a63db4",
+      "calls_sha256": "95ecd36cbf92ac64b1e760fef9502a1a580e0d1b5602a296c6601a8236372926"
+    },
+    "50:30:1:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t01_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "60c5d2d7af3e7b56ea8bd59f4e59ee5c98221aa1279ef34563e771ab6a350e9b",
+      "calls_sha256": "4aacb4ea9f89b6c6f42ae61be6484d52cc7dd34485e8cc300f9b9309a1217d06"
+    },
+    "50:30:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t01_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "1b3fe3766050d6f78767b7c5e066aedd52ba13b48a8b261223facd0b8afbe224",
+      "calls_sha256": "6b7c18a28c4c99fd703c73666c7af76808584366683d7ee240b02875c6486df8"
+    },
+    "200:45:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "460a4b9433445c67de9141efaed89ffe0e10c6def29c10d9a1a16e0a7de088ac",
+      "calls_sha256": "a33a6161bd04efefb4d6fb239eb3895369196a129c5852ebe29d6e2122a5279c"
+    },
+    "100:60:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t01_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "2996ac6952893aaa3e539f71e985bdaf0dc1ed272aefef26d6867dff403a3fb8",
+      "calls_sha256": "52f72a8247299bd283331de7f6893abf6051db946a716497c5f49e9cd4a357fc"
+    },
+    "100:45:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "d106e4897d636fd09d393551dd096c81a280f0e47dccab21fa7f1750ba91bc21",
+      "calls_sha256": "71eb0e3bd7dd8f57d4d3db040090ea680d229e85be4d40425bf5e6a8a9ab8e86"
+    },
+    "50:45:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t01_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "823455e4f3444b6f4c2f8e67fda70cc7952f602378a30f412aa227de77856be4",
+      "calls_sha256": "384ba885d924a48a852368e2209c23783533dbb53f4c01627a5e4bfc598d643d"
+    },
+    "200:30:1:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t01_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "aa51e04a6e45a9db281984d39b3558b3eae645f63d79455b778eada755d7aa36",
+      "calls_sha256": "9a98dc31b3663b81940f3937677baf2a2bd9f0ed1d71e6ea22c52aa2baeb8296"
+    },
+    "100:45:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "39a11109412a33da940de38eaebd85e56b34c68b2692c14cd73e9df1cd04e2a3",
+      "calls_sha256": "c6677b03a83c86d4e3d356dcda8456aa6bf03105dcb410afe821a1c8d6a81208"
+    },
+    "50:45:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "2537873c6d34ed26f315bc14d95f4faa7cf825f2c2f2b2b495fc6bed2fb0884f",
+      "calls_sha256": "1b42e8dc5f2071d84ed537bc6160018279d7ff520662e1c9e19630fff65e1b82"
+    },
+    "200:30:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t02_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "8be16fd4f0fee07e902df4d4571aab40753da25a9a31cda33ff650a12de8d090",
+      "calls_sha256": "d80791e92ebce9f37e838d5756aaff98eb582ab42d412de6de89ce724f9218f2"
+    },
+    "200:45:2:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "10c9abe2acf48bd3ae81a388bc8a4b60341239f982aa2dd10b19821d0cf11e8e",
+      "calls_sha256": "1953be4c857678184cca25e0beec2c4b6486fc0967fa8289aec04618369c1e40"
+    },
+    "200:45:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "dd9bf81f8bb196a8a069f7fef7d039579b08f149854d5512f0ee044ff4c7d2f0",
+      "calls_sha256": "423d8a2c6080c7a7aed6d820e2aa204f19805b9b67baef748a078776f2349132"
+    },
+    "100:45:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "b30fc2468e47fa389940ee8f41a39e2cf020dbe4963bd25960d196540c8726bd",
+      "calls_sha256": "dd01a4f2fafad1d458784eb02a2d2782345d69a249dde4d8f7da87a8d2ccb0b4"
+    },
+    "200:30:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t02_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "01eebac4ea01ca3d281ee150215950c9e21665a032415389b4fbfbf092b3f354",
+      "calls_sha256": "65725aa880385b36add89285f1860fda8cc49fa614ac56db738e881da1370464"
+    },
+    "50:30:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t02_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "4c5c2657c9183372d5a864c138ca2d552613a1d863d07873d7f6c2b289b0e9aa",
+      "calls_sha256": "ba69214b7e654d86fdd678a40dc1da6ebaa2d89c2f4b9cce857c4a9ad219270a"
+    },
+    "50:45:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "5255ed4b0b25cc7bc6d0e33ef1e3eb2bc8029b45b7c38a5f69a5e9daf28a1562",
+      "calls_sha256": "d180380274221361943c4541f865afcb722ea6db1b325ec0f07ab3a4f759b84c"
+    },
+    "100:60:2:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t02_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "01b5316767207cfd4725da14dc28b27576a1b91a31277d1f2902926c8cb87d7c",
+      "calls_sha256": "9713be9cc84329256b3acadd61f85259a9df55ed75eccfe2117b4f283510904c"
+    },
+    "50:30:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t02_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "2fd5e1980a9e3bbca329ec849d37885ecf9c8d429e102f489abc9a7bf9834a1f",
+      "calls_sha256": "6133c362fd52589c9f974946740571733246be70bc324051675ad61d28ad79fc"
+    },
+    "100:60:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t02_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "1bb50856fecba93b62ccfe3674b42a1657c0608f54c7ca2bfdffbc147954b3b5",
+      "calls_sha256": "e051e05c7c56905ae2729a7520268c29f58f0824f13d75bd151a603021c62b31"
+    },
+    "200:45:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "6f53928639ecd03898bb610aa840232113a5d18dbf615bb22944c0a28efcd205",
+      "calls_sha256": "afbcb034e5e01c5847363402d12b52d29e05171086c15d74660d824536723211"
+    },
+    "100:45:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "86ab555e029e70d1c3cc0418d7a1ea84d85c00b5c1771e9928ddac1d84d618ff",
+      "calls_sha256": "bf5aebf75659baf89751a303d7da1eea9b974ab5151aa25f8babf477b5ead652"
+    },
+    "50:45:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t02_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "397e4cbe285e82cbaafe63fb032c65a6af40c4003c78682166b7a4a286ca56c2",
+      "calls_sha256": "2a5ad97fd2a58b05ab973f127db8585a09bae0f04351fa864f3c81260e0983d9"
+    },
+    "200:30:2:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t02_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "d378df2399907f872fa8d1f6ba03d96dbd7d5c1fd00ab43fb5aea8e83f95740d",
+      "calls_sha256": "c22783c442a1a33cbaa984736ecd0ed6c43da85d88b5b1fd621aa276cb4ecc20"
+    },
+    "100:45:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "4e6fd202653b88e372d949301d254bcbfe4bf87202112dd58ac782697a61056e",
+      "calls_sha256": "74bcce92eafe3d31a61f6d784f94aad13e8ee6f31af82df5ecd25cae895eb3af"
+    },
+    "200:30:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t03_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "dd99f1c0bdbcc65566e193f347445f8d874fea052a14418e3dd0aef364f74af2",
+      "calls_sha256": "d67cda89d16d50e5bbdd167087bc284f93a844c681b19ec24e12343831af63ea"
+    },
+    "200:45:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "c18442afa7c748806a0d864c41fccde09557b422c69db776e1a6a7c34db3843d",
+      "calls_sha256": "9dee5dd53c3145d2d51503fa1aa33301fbc7df43da69a5c0e603e043af67211f"
+    },
+    "50:45:3:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "16b7edcb0f45a6e71025d11827995d75cdd98e1e174325b05bae638dbd0f3290",
+      "calls_sha256": "18c54fedad2ff026d0bfb1455d622725f18f8174e940a62373aa30ec9b7b11e2"
+    },
+    "50:30:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t03_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "44d7735f43221c6fa8b7268b44588717e0eeccec07eb66236d4b47a1ba6d4e32",
+      "calls_sha256": "27429b1e08755022c4a0da5ff7fd7b476581e42d96fca7e43c69178bb3d8f347"
+    },
+    "50:45:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "c1e4fbda163459bf17c16688cd14bf502a2182b97f321d60f7662bd8ea64d573",
+      "calls_sha256": "675687bef6c09c748ef55e2f88f4916fe3e7f62bd243b5a180eaa1cb2a565a47"
+    },
+    "100:45:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "560192f058ad50b8325139a5fc51b57ffc3bede9ee84fa471b53965a740c69a0",
+      "calls_sha256": "a605018ca7c07b2d6003fc8f9eec3c31caa54a3ff12d48748c2344939679fbff"
+    },
+    "200:45:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "31287b6b3dbfabb8049a35854d16c1f4a513378d16a67ba98d1e04d1333410ba",
+      "calls_sha256": "e38524ecc1b74a9bc70bddd6be3792c04d3031dc00e7058001b23208432227fe"
+    },
+    "200:30:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t03_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "a3c23a44fe2a3695b933d6ab477c143b8aa6d739c29225cc4cfa786e54e59b43",
+      "calls_sha256": "394d786cbc49bab0f335c97def14c03670d829687982762a5b2b6fc67b35bb37"
+    },
+    "100:60:3:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t03_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "0b06bd1e5ce9395d4c696fa3e359a223004756738b6b2f6d9a471b4a6920555d",
+      "calls_sha256": "29f1d2f0e688055c25452b884188d28dddfd55f579c6d7993f06f3dc9357e327"
+    },
+    "200:45:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "ac445540774c8a4475a6b3e2f3dd39866d1807de57c9fe9bb69ad4f211aed424",
+      "calls_sha256": "695e11c099afc8fb22ba257c429bf136c9221047536eff827278a5dbf15cfd49"
+    },
+    "50:30:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t03_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "0b7ae805b5c6e552f68212a55173e68a272d8a1670941d67ad8af0825ae76425",
+      "calls_sha256": "4c54a81c5f249178e528c80f8d1ee4c24d0b5c292358f155fc7e23461d4397ff"
+    },
+    "100:60:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t03_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "1e40fe95acc8dec66bf4b645751d54554889f7d2b9066b8a6637d7ebd9311594",
+      "calls_sha256": "50c34fec15d84fefb23706a605543a4308b81807fca45f179a10a5e6e507be31"
+    },
+    "100:45:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "888d9484e878fbfd4471f0c8c5a16fc9851f020896686cbdce685eadd874a456",
+      "calls_sha256": "3962a46cbd76f324c1557d8e61add1629e4e49bf877baf47b2b83be7517a0c8c"
+    },
+    "50:45:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t03_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "17af25e13605cb9bb9cb09d67f14d51bf817b766f7bcc318f0155db47e640e18",
+      "calls_sha256": "1f40d205f1adaf2bc3ebeb4669e20fdb78985ce72ae6187e283beeca7daa5e55"
+    },
+    "200:30:3:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t03_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "438b404710cb024bd6ec2028a53eb77176b69152baf727501d17f4d2afa8fb35",
+      "calls_sha256": "1d3aff71c4f0cba41127e2f7f11c392300dde62b86a1a98f40738f661487a061"
+    },
+    "200:30:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t04_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "d64bf483d36ba716194d3d96bc35950575857205c12a7f841ea6460a7e4bb21d",
+      "calls_sha256": "7b7234322ebdb125dd5ed1805c24edf5ffe3441eb1f6fca78de729dbb869f1d1"
+    },
+    "50:45:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "01a372985549d859d58be24a22988913642070e59b5551b818323bd3d8d3f4c7",
+      "calls_sha256": "99522dac97880948db3d9ac156b2aa903f831dc3fa30d7023cb5243b65f8d561"
+    },
+    "100:45:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "be8f6a712efd7e67989348170b324b3d6eb94a4e1d2e56df9a1fdb9e0781b9f2",
+      "calls_sha256": "72e36fd9c7c82a20fb4dfcd53fe9836c5455b5bd9098abc4993e0974bb0baabd"
+    },
+    "200:45:4:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "05cd22a00530a4558d5fb9be8185807d7eae245d4dbb52485f8cea4d4d79156b",
+      "calls_sha256": "1c95fe5d71b8daf51de0245c38fdc3891eb44c95cd25c0c43270f02a3730221e"
+    },
+    "100:60:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t04_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "a144cce755a9fe360a5eff0537e1a750ab87262ebfc38154e41e1e4583210c08",
+      "calls_sha256": "d5195ff6b013a2b91cfd8500c03b4fdf576cef26258e58617f480b76c41b9a62"
+    },
+    "100:45:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "f2961a9b0972e7ac38f80dcc0196d7ad208009b3b8366988af1065b72f9bbb00",
+      "calls_sha256": "27f5c40c72345ec5f34a05269776109433b1236f37f0df7864b977338b6006c8"
+    },
+    "200:45:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "caeb820d198b27bf2bed58b1b3c2690b2a6ba47b44ca47d8675b837d0d209a61",
+      "calls_sha256": "01c349991e75e68b5d92df4afc789691c2204d3f0b437e749fc275a306c0fb33"
+    },
+    "50:30:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t04_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "43afab98a22b8ea51e3adc23e65f583e80df83a2ad95e57832b4e74f6d105a6e",
+      "calls_sha256": "8358049da20eccbae4eb6931721aa438f5650d29b0ca269378964c2b7423ac24"
+    },
+    "50:45:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "3ff7b735e701936824aa0aa4154dfedbf333e0b6c1853b02df192a9aebdb94dd",
+      "calls_sha256": "a9964bd42c78beb6428d85c95761f6139cc5bce1cf3f2096d990e27d29c4eb8c"
+    },
+    "200:30:4:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t04_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "6905a9b7f3cf5b9ff507787d98ef0874293488db8606bfff0a543292f296a39d",
+      "calls_sha256": "f29e6dc0e94b7147f844b3aa19162eacd17747ce715bf699ed7254f3dd638927"
+    },
+    "50:45:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "39ee18ae2f98319dbf00318f7a261f06b300e214ed0403f7719dcc296956e409",
+      "calls_sha256": "ae642a96b15ebe73351ee4bceac673e2ca886743c114ed3805230b1c37307d1d"
+    },
+    "100:45:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "9e1c05afe1f1f5a3fd249371b9a19b9ea25d7314f52c01a2f59aa2e64ab6dbf6",
+      "calls_sha256": "85010ffdfc7bf4c7978f4e230c4d54c5406a575099199b0277e210507b51a9e1"
+    },
+    "200:45:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t04_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "39e5e04a658bde562e9b7f588a9201679535e690d5cef4cb8445309e4300f74f",
+      "calls_sha256": "928fb6617405d54fe5af03874566b3c68552d3849a57815e432979af5f331b3d"
+    },
+    "100:60:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t04_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "288c3eeb63462375bae9b6eb386093eaa39a28b87025264d4f9e0e70c9dc2483",
+      "calls_sha256": "f71e086d17c6288236d5f12234530ae227e43cee5b755a593ab6edf9f5ba001a"
+    },
+    "50:30:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t04_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "ca9e0a7bc30e0fec02d6c7c8bf508f74a25e63b04b2cfbcf0adfc007727ae39e",
+      "calls_sha256": "a2ff7cb02d56efe3d8908485c4b2856cd05aea45674243f1d397595e9a79dbb2"
+    },
+    "200:30:4:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t04_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "4752786c18b51137ae1ded05cffbfa455180e917858bb897e986fe2b9a7f6da2",
+      "calls_sha256": "4f3999cb53406852fe368dafc15f61584f03b2401d5e5f2db83b41bf0ba125b1"
+    },
+    "100:45:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "46906a26c3be5bf42cc7b0d8c3afbd692ac3309e82c74af6bd9c6df3c03ef6eb",
+      "calls_sha256": "004b860056ba762de9d36f8c9901e56236ab3a57877da729fb2acfbd6170d50f"
+    },
+    "50:45:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "6412245bca9e4842e04d87962082b996dc39f704bca165633a6bf0e899d2188c",
+      "calls_sha256": "57bcfc2d30008ca29a9d379369195321475322527fad9888f34a78452e54748e"
+    },
+    "200:45:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "7f37d6a379c6251aa216c214f63bec0026aae16df01e07f9da0796e3f598b3a0",
+      "calls_sha256": "c2bfb0b9f9983488a82bb93aed8b6940d2c71042a3e561e16f5d320e61c71502"
+    },
+    "200:30:5:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t05_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "5b2c650c4ae4a1a7a5bbb9fda77807716e906dc50ddb812f99b4cf4fbec082c8",
+      "calls_sha256": "75654799790c6a6e6a6b21fb1e604c3dafce5eb6f9a2dc916d805aadf4eae534"
+    },
+    "50:45:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "0fe7dbc0043dece06ee82c12eb59b05699f954c5c404d6c13f981b4a2a2e0eef",
+      "calls_sha256": "ac4439275dac546c4ce17c52bfbd63afc266696be25d117c6eee6b8eba0fab2d"
+    },
+    "100:45:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "1a61c350953d7a45c0b4773e19342fc8f10ab586a5c105e646b7c6e88305479d",
+      "calls_sha256": "0b9386029726008b2c872ea28d012e7a6ec4a6785b3167edf99aeb447f26f39d"
+    },
+    "100:60:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t05_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "87dca7295485794576fbb302ea5bb6f77942c0b2590aa8c4323920e837f31f16",
+      "calls_sha256": "a58fdd0253bead51c1475e53aba807c47bf174cba190b8bed863e18405adcc39"
+    },
+    "200:45:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "c6123a1d70b69a11dda00326643f75441dc0d5554c49a64b15392cf831b36186",
+      "calls_sha256": "eba191a37ef6d3bf176123f49623cdaebc7d96ed9a3b6320f7f2ee8fcd32d57a"
+    },
+    "50:30:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t05_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "e18901ef9d60f4ec1b8824dad766f0bac83efe2aebfc81f24f97f294678419f4",
+      "calls_sha256": "c412fa3751ce49131ecc1e61074dff09cbddce5af3e3ba7c3c5c474a8fd27d67"
+    },
+    "200:30:5:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t05_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "d775cafd8456acdf18615e3f24f9ed0815ce7b25c6d7883d2f2306d75604bd79",
+      "calls_sha256": "b8c4dac3b79b5f9f3b15d2d93439158a2893fc06b7053a9674002722b46ef6b8"
+    },
+    "50:30:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t05_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "415c8f8f2f41173355a58b9df03bfdba857f191fe2cc91c141a64ecb83bc3937",
+      "calls_sha256": "5e2ce94dac75371ad362a2e280d01355b06f4f9cf0c8626b93535b43f9585293"
+    },
+    "200:30:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t05_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "465b8e7ff5fc632b284caba0f57c43ef02b001808259387f685278579e1c22d0",
+      "calls_sha256": "2b2abbb083fc842b8e77304650ff89301980fbeabff562c593ee97c5d1c81ec1"
+    },
+    "100:45:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "815b8d4846e974b2475f5317f212ede33f91e55fd63f7a1c6182cbf73d29e2e9",
+      "calls_sha256": "52a2cb221e320e116477f2aa710605a9f56d93470b9e799538b753ee3a24da74"
+    },
+    "50:45:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "089c6733865b8da1855f572d11e9f170a9e4c5ace4a44dc39cc270a1a0223909",
+      "calls_sha256": "d25345fc068a349698a275735230ee4679099db0ce3ae3f780f4d3d92ef3ebba"
+    },
+    "100:60:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t05_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "b5f3250fc4f369a47ddc0e937d3dec61b41b1e10e6652d1b03ef69291960ff3e",
+      "calls_sha256": "380ba0738a53eb6052d02cb4d201e55a3626328b1d5dd081cc50f616656abe87"
+    },
+    "200:45:5:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t05_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "05250dd893edf62ebf5dd1df8b0534fd98ea3a82390c92395b0e3f9b0bc46b88",
+      "calls_sha256": "772c826702764e0c3b08f27216c8248ed33e86c5d1c454c80bb2a3520bb6b960"
+    },
+    "200:30:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t06_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "2a21b98d800631995246658cb18c94174ebfc677818eb9c89d6011105acd9c99",
+      "calls_sha256": "ab1d18971132383e0b43aeffdd08d01cff4b0c981b69c14118352444b06e4891"
+    },
+    "200:45:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "0975f986921aa8db288a0762be052ec8237ce3ebda13507dee02e48210948d84",
+      "calls_sha256": "4b29dc37db669f7db1f8116cd20762c07ead17ff82abf148e16108d06e2e5cff"
+    },
+    "100:45:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "f188007ea028e4276ef851feba1cd7c87067077f36f283cb4668b61237c45bc2",
+      "calls_sha256": "e697d9e975cace1f00ab1b1f445318080ec0a30c73fe2c6636e3288938b00365"
+    },
+    "50:45:6:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "8d26952c1ae16180e93291cd25701e6e5fa73add41d3fdc49656b5301deb681f",
+      "calls_sha256": "fa3417c7a8dde98435583a47e26725db4c94173ac0c4bf63108aced3075bb99b"
+    },
+    "100:60:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t06_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "82faccaab19681dcbd5925600225842f49490ca118904751143cf55bd51e4549",
+      "calls_sha256": "6ce2279cb64c4d1fba0dabbc221e5d60c5fe83085ba9546bdf3fd79f3e4883cc"
+    },
+    "50:30:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t06_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "2bf808fcbe613ae0f73a3a9b4391d0c265b62ff82c4c15dcb6ff56920a91863f",
+      "calls_sha256": "d49b0716d9f42bf3f6d5317723a94ceb56078cc160671faa72b51ca2d4682062"
+    },
+    "200:45:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "18a1f1d8368431acc96c24fdb9f0b1c671298129f7503fa8ab76e5f2c7cb21dd",
+      "calls_sha256": "0b1644c8e894f3c27be3362ac07e08fb491ae0eb75180252239769c3d6888bff"
+    },
+    "50:45:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "27bcd0fc56ff327a784f703e3464e4f38372e23b060b01c0a03dbb42441eeb13",
+      "calls_sha256": "1316c12a0babd2a727a8462c1d4e39b6116e95f2b1b08d1d28ae3a189c25304c"
+    },
+    "100:45:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "272f3da02222423908bd6a91531ec47d412547186f1316d2eebbabf2ee6fd13e",
+      "calls_sha256": "dab363da76e7401faff82eaa24080a509214d1a44feac8f89bbfb258c3a632ce"
+    },
+    "200:30:6:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t06_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "121c2ac74733a0024ab0ce10cb18a563086c51075d06239f8e3a470d4ac6a059",
+      "calls_sha256": "d4890b2fac3f51ad8b743218829eb558b4de6e7b91e8f4f18c857b3c1a2d41bf"
+    },
+    "200:30:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t06_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "1f14c3bd52b084279dafaaf8560b9ea2678e1b608f1d157dfe13b1416e190aee",
+      "calls_sha256": "f991729247221f58d98fac4a25769e88f7b276cbf735ddc40419ee09a8afdae4"
+    },
+    "50:45:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "00ef587100c6750b67acdcdba45709a11fcc4f518b8c3b24a30cf240cd5b687e",
+      "calls_sha256": "df3433fbd4dba72855fe9abc46148cecdd9635ebbedf451b9ae86439fec1e4a3"
+    },
+    "200:45:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "fe66ad2fe22a9ef40782907f3202f9be1d6556eb5960e2ce1547ce421285d548",
+      "calls_sha256": "fe2394762e0b96e726f9a7faa4dfd89a12872647ac70f7c2eb69c49a6e142c37"
+    },
+    "100:60:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t06_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "afac59ca10cf7612b558e4318a1010592ce235cd7d45beff493b868f196d289a",
+      "calls_sha256": "4853bc8103f328f60318d2b384ce8b94ce08749ea6dc6ae5325439c17422d3a1"
+    },
+    "100:45:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t06_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "a42fbd895ef602681c0bc89ccbe7949c9e27d05b0a70a82cbef8c778d9fac046",
+      "calls_sha256": "20ff0e67f5e094d44995fa13b809c9f694dfdd022c983f582c3f515b97b6f362"
+    },
+    "50:30:6:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t06_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "25feef25c8532347ab4df3188c7be81de24ac3e37c8888fe79efa882a6a50468",
+      "calls_sha256": "0bec1f312639c570a5d6b3d965d901580d814cf382075ef83c34608894ebf223"
+    },
+    "50:45:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "cf94ab9457e174922700137a1565d60fa6a2c2f2dbd3ceaa5ccf090246aeaa2f",
+      "calls_sha256": "5ba1424211556185507575f9ef0e273722444ac53f90615594390169c18a9a60"
+    },
+    "100:45:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "6c637c2779901e1e059b9850233fe56f5e41020b39c9b37f99ad053a4be6639f",
+      "calls_sha256": "766371d246719e80a5dd0028d5e1ed7134c44fe24fc382f5b79c0365e2e19f31"
+    },
+    "200:30:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t07_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "4301c254522e6fe3d7a3bc2225ecf32a42d834b8eb554d2c1d6ff56e164a5fd2",
+      "calls_sha256": "450b226d28f2687d42660c6ca2110643ecd2e5add6f89cefe7eb36dc8f82c561"
+    },
+    "200:45:7:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "9ea8d20f0397181c597fe757118b6f09a7122c6b9755822e117104a6d540b1da",
+      "calls_sha256": "a6c50c796f45863a369d92152abad0b1d3a08d1c1df6547b3cc96853834c40c3"
+    },
+    "50:30:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t07_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "f9900790e8cb6a36c98ff9a3e3e0f418731f3cb2cafb2affc81a823d16e385b4",
+      "calls_sha256": "e3389cc47d024e1e4feccd4e8679979bc6620a962ee19369508ea9c29ccaf06e"
+    },
+    "50:45:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "06806a0b0c0b60a253d413f8c1b627991171b25e6ea03754113128529c9790cb",
+      "calls_sha256": "59b6d834a9f97ab4f3bf95e409c5020409befc554db4afb3c88d1fb96e0173b5"
+    },
+    "200:45:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "f025621e50fee1d3398b3be1acf7b50c640609f9c3a83d4ff7168abb4617e35d",
+      "calls_sha256": "0fe15d7f7b8e8ce1a29a89e16d9e853c4ebb78d996cd05d61c40d12157b6ff2b"
+    },
+    "100:60:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t07_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "3112fc47ff1b922d7595f02e77c269361c97f363606d6ae29ff94ccbcb96a2ca",
+      "calls_sha256": "606a4fdfbb90fdfd1cf437c0868737403d0dc55f004c0a2bc21fb6c5ffb85d31"
+    },
+    "200:30:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t07_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "936ede7afb7051bc15fcfad193272ec4ea8a1218a40f522077b390f0279830e4",
+      "calls_sha256": "34b2c3730f431712b667f5f65fb5ca9bfeb1104f0be5bd6ee4a153322d73d60d"
+    },
+    "100:45:7:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "9425509b195b3ee8affe5b8b5bf7a1273181ee14933be14f928b4bc9b7d67f6e",
+      "calls_sha256": "aeffcc256b672af5a8f5967c8521b939d580c41831a9bb147389c120da603941"
+    },
+    "100:60:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t07_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "75ae41140655e88971d1440993f35df807c3ee5bd86db4182006147e261893c2",
+      "calls_sha256": "a46f101648663c9b4c6396d953a47a5cce942393832649cc08100a39e909a888"
+    },
+    "200:30:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t07_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "534d1511a4f0577875fa543e59780394c821053d07336400c80ebc71fb3343a0",
+      "calls_sha256": "67d270feb6e34f84d410fcaa9419dc4cfc28cfcef52f423e472bf440088fa6e6"
+    },
+    "50:45:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "25cb799bafa5863d33177561ce5c0cc2d36ec21059520c1cd209485957400638",
+      "calls_sha256": "568542f992221e284e7cd62288ddf53ce928496d07dfbf4712c820d3c051b39b"
+    },
+    "200:45:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "ca81b86186c048b3d06e6f3b082d3afac060ad29af9401db3780829df3262fc6",
+      "calls_sha256": "ec0b6d2f8be15ac85e5c59f49b389897f57efbe2d709c076f7cce21b3995c2cf"
+    },
+    "50:30:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t07_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "38516a0faed0a7694c5de14738468df9b3ba3248e21add15c3edaa71ebf8a3fd",
+      "calls_sha256": "054e52fffff692a8895e5c4aa8abffb4f788f8698a57a16db915e5bd54d2e307"
+    },
+    "100:45:7:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t07_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "1da0c4579098998e6004505f0d22a834018dee0603f3c27b2a10f1ebe73c3fb3",
+      "calls_sha256": "58e4c0bde0a82c726cbbfe1645d90cd2686da1a57e3602bfff33dc8eb944726d"
+    },
+    "200:30:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t08_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "15ede40406ac254ccede80ade2ff4fe341624ad93f9c8e1a2e92e8b9a3f35876",
+      "calls_sha256": "29c6840c3fb97d2cbbec104d281cf68bbfa1f759a1a482093ba4d0b0d265889e"
+    },
+    "50:45:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "c85f811fc35e934fb3d4822c0e885fbac553244b6da46e1b6e170d09542e30d9",
+      "calls_sha256": "1760eb13da6e19896f7755b8b6325a14c369654c703711cfaa6b3de0c523b35f"
+    },
+    "100:45:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "53c87c9ac96f946a948b642fbb75dae1ea5d51fb324947d7e8054fca43a05d6f",
+      "calls_sha256": "18a02da4c7a64f76eed3e9c21bfb69bf2f2551570c4c1f5158b45ad4123bb5ce"
+    },
+    "200:45:8:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "53a8ff216bb1c4afb4ee38d2870c0b5a31932ee5d096d0ce3dbd8a52e3ffeb18",
+      "calls_sha256": "b73fb48e4d83c7f05ecf0a1d67a99a3b3d885586447af1cdddc48371b43e8ad7"
+    },
+    "100:60:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t08_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "ceeb73a5b49492086c3d72bb5eec2749c1fa127a2506e9721231710fc8e42c99",
+      "calls_sha256": "b16288d3e062d2d687671bf90d17920a535a33121c2d02c10395f7a573c8d986"
+    },
+    "50:30:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t08_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "ffcead011aa4116b30321598c1304c3ffb389d1eccf8706fa5ce412109c7d824",
+      "calls_sha256": "7c7832a73683538b70fc160a1ba75bf15e0a39c84fd03d2270a1894f8788490a"
+    },
+    "200:45:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "01f73e05069d02f4a8b522b8c4e429c0978d8c60451995a8d832238631853512",
+      "calls_sha256": "3bf2e8806291e94253061d5bc12bbf6e50253873896f238ec143c68def3bb362"
+    },
+    "50:45:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "7a3e1fe0de514d864431aa85a15e543075b573df6f79c67b797c240edce0bf57",
+      "calls_sha256": "6946f1953eb5afebee033b85fc05923cb68d5f444e4fe58bfde9bb083ce98672"
+    },
+    "100:45:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "155e7373198b451027ab4e37eaec565a99fce5539794c433b76fc3d49f12aa6d",
+      "calls_sha256": "8c65fb8ef29bfcfb73393ea9cfe5618d0f116a6119dca432280fef591bb1fc66"
+    },
+    "200:30:8:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t08_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "eef8d790257801de881e3e09fdf03ebd4b20a5bb69dc88a64585ec89f208a798",
+      "calls_sha256": "394c8f3538a814bc0fe197c3e69b74cedfa55e42127000986d70c5fb3edaa644"
+    },
+    "50:30:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t08_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "2603d51f85a07c7d1d68fe94efa6325ab9d3346b9237d9c737b53de8dbcd9a40",
+      "calls_sha256": "40629ad39f1a877ea2bf9324de1af0a54b53290f591520a558db41239129803c"
+    },
+    "200:30:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t08_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "67ce659658b2e149e72007d95c66edcaaafde16b1f0244dc45a05da7c2f5275f",
+      "calls_sha256": "cc82556c9ca9267d0cbba85ddba973f66bba3433d1ea87992a47d25e1d7f932a"
+    },
+    "50:45:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "8e944d0368beeda2785c362ff7cd6e4033e36b4816eb949e1d8e27c6d4917be9",
+      "calls_sha256": "b8c888ee18668ad6a4e4b8294e55f02a6799cb9a52d3fbdf234224448dd208ae"
+    },
+    "200:45:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "7b2e272c5035e6fa127cd5fda0369da667b67106335e6631688f81cab1d3235e",
+      "calls_sha256": "43c2fdc6c46827c1273a2ff34c51c1dc159500962b6d0b64f1b13b72501ab3bd"
+    },
+    "100:45:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t08_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "283656a35503ad9fc5630243613c9e729c07335a3de5ae4a0cc6942a7e847479",
+      "calls_sha256": "3466044fe8a564c8ea4708242fc07af2330949dab35696be6ac439825a4c6fea"
+    },
+    "100:60:8:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t08_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "3b776f322d2fa846f8b1b8442d9444fef193e43ace09e92ee10de784b4f05837",
+      "calls_sha256": "d2a6e69e50e82ff83b3595912ab4ca55a232de9cbb1faee3eede4d4889e9df4d"
+    },
+    "50:45:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s00_h50_fixed_interval\\result.json",
+      "result_sha256": "5b2aa5df1e40c1177ec14f18a6e3ce2c5277faaa75b690e2801e60d8c4eccd1a",
+      "calls_sha256": "b4d995ee5c30dd92653baa523dca0725e4db065a2e9fb0809efe24a572dcf5ac"
+    },
+    "100:45:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s00_h100_fixed_interval\\result.json",
+      "result_sha256": "180d5800dc8a9af53804ad356020b615aa06448185a89e667c911f54437e2000",
+      "calls_sha256": "b87dad5109018242c2bfd5d59431a3bfe016a2ffed77a604f0ddcfa7bc8ccad6"
+    },
+    "200:30:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t09_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "2de5bd03b31f999ee7ac9d914223c41f9ad0bf57a50f3b26f0a486972a0cac1f",
+      "calls_sha256": "6e2000567116c2060cad2eb737159814fb2211b7f14c831a22ac8cb7b75a2a00"
+    },
+    "200:45:9:0": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s00_h200_fixed_interval\\result.json",
+      "result_sha256": "6049fec125d0ff4fcce8d229f31ebf27595068bbd6862b4e16049dab4c12e58a",
+      "calls_sha256": "0edafa8eb0ecb3787eaf689f061ad4bced5dab41a0742d328b2681de4799cc7d"
+    },
+    "50:45:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "708d3a4dfec75704e535f751f34835400d36e8d7e12d2effafd173b89cdebc97",
+      "calls_sha256": "e610770c70d7c046b40ee74c1e000a2daf5cbfb782c379afca264df32989527f"
+    },
+    "200:30:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t09_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "315b7151528312b7c567fe136209c5bf02ae0e1049694af5325ed13545c882af",
+      "calls_sha256": "8f93a2a5abae650956f3e926905013d1eec4c150c0b10260a69423d83f261224"
+    },
+    "100:45:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "7d5b93d1f9c8355fe33a6abfe3767d2841227cdd5ff425d213b745c058fe2ee8",
+      "calls_sha256": "de3cbd8e069995640806c098e022e63181d4990d4d4d4bffb8d7390f0842becf"
+    },
+    "50:30:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t09_s01_h50_fixed_interval\\result.json",
+      "result_sha256": "ad13984d25e2fb4a06083945fa5d22edcc6206a41bc7f811cdac27294fd10cd3",
+      "calls_sha256": "db19a4f3ed644f411a44f68780545d06d28d11d5ecc1938f70ba89aefc03bcdf"
+    },
+    "200:45:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s01_h200_fixed_interval\\result.json",
+      "result_sha256": "94e8549eeb03c7b209579cfe55dc2388a4c4a8f985ea68b5bc16eddfce55411a",
+      "calls_sha256": "ff298d0ef11950d960ab96442ed789558c6a1dd1ae12eb4df6af8155d0a5df6e"
+    },
+    "100:60:9:1": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t09_s01_h100_fixed_interval\\result.json",
+      "result_sha256": "07b830e12625420d11704700871d815cd4291553dc72048d152281ab51e03afb",
+      "calls_sha256": "85d4d2a1dacf3153fafe78f208ccf0c213f59fc7c6dadd82998735aafeb50dca"
+    },
+    "50:45:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "1cf5dda09419f420cb468ac0662f108d902344ae3b94833acaa12f47cffc9d10",
+      "calls_sha256": "35c89908c10c09de368088f00d8cc01e499c07637f796c5d045a87fd7eefb4c3"
+    },
+    "100:60:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed60_h100\\t09_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "e562f05c88474b0126d9cce7cfb81638354c030384897a0390ea17c2183559dd",
+      "calls_sha256": "b9eb4813da96d1389dc346e3cbaebe0ec5dd411cf15aecc1402f54deeee1af48"
+    },
+    "200:45:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "92cea61a9795ffeaa49bac6b75656cffc5bb1d9bf747c01af4ed51d2846f2daf",
+      "calls_sha256": "091ae070e7725bf23792452566d3711f8c0f3d13f6b3df2fed571cdc65456fdc"
+    },
+    "100:45:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed45\\t09_s02_h100_fixed_interval\\result.json",
+      "result_sha256": "5c0ac097bd51ec0f6253299eef57c51b72a7e58902b4228b3233e4d8ffebb489",
+      "calls_sha256": "7d917450eb3df6f07a033f581bd7ab036991f7f3733ad80ca715ccc13063603b"
+    },
+    "50:30:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h50\\t09_s02_h50_fixed_interval\\result.json",
+      "result_sha256": "628d102aabe6a02eabb5fdc44a904653c276c02a28df614005a073657cfa185d",
+      "calls_sha256": "9e7448dc2b2db8ec9e8d2d737fd474060d8131da828ac8e5bbcc19456237b355"
+    },
+    "200:30:9:2": {
+      "result_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\fixed_interval_v1\\data\\fixed30_h200\\t09_s02_h200_fixed_interval\\result.json",
+      "result_sha256": "7a565a920a8a46ebad476b9234c8c7113f0c28fcdc33ba3a9ddd0fb8b1ecb6f6",
+      "calls_sha256": "4de69ef3edd7ea950b6ae3d44da014b3b1e4117523d7ec8277638d8fe0046c88"
+    }
+  },
+  "same_horizon_smol70_comparisons": {
+    "H50_I30": {
+      "n": 30,
+      "wins": 5,
+      "losses": 5,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 0.5276243093922652,
+      "total_service_cost_ratio": 0.5241011014687034,
+      "cost_ratio_95_task_bootstrap": [
+        0.4758970658783271,
+        0.5766402092642022
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.16666666666666666,
+        0.16666666666666666
+      ]
+    },
+    "H50_I45": {
+      "n": 30,
+      "wins": 6,
+      "losses": 6,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 0.3839779005524862,
+      "total_service_cost_ratio": 0.3842197939580178,
+      "cost_ratio_95_task_bootstrap": [
+        0.33582423735986267,
+        0.43876198401427097
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.16666666666666666,
+        0.16666666666666666
+      ]
+    },
+    "H100_I30": {
+      "n": 30,
+      "wins": 0,
+      "losses": 0,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 1.0,
+      "total_service_cost_ratio": 1.0,
+      "cost_ratio_95_task_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "success_delta_95_task_bootstrap": [
+        0.0,
+        0.0
+      ]
+    },
+    "H100_I45": {
+      "n": 30,
+      "wins": 4,
+      "losses": 4,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 0.7382198952879581,
+      "total_service_cost_ratio": 0.7331222329047566,
+      "cost_ratio_95_task_bootstrap": [
+        0.6256313490813907,
+        0.8579026973362546
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.2,
+        0.2
+      ]
+    },
+    "H100_I60": {
+      "n": 30,
+      "wins": 2,
+      "losses": 6,
+      "success_delta": -0.13333333333333333,
+      "descriptive_mcnemar_exact_p": 0.2890625,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 0.5549738219895288,
+      "total_service_cost_ratio": 0.5584933374004981,
+      "cost_ratio_95_task_bootstrap": [
+        0.5087232353695318,
+        0.6397514437959019
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.36666666666666664,
+        0.03333333333333333
+      ]
+    },
+    "H200_I30": {
+      "n": 30,
+      "wins": 5,
+      "losses": 2,
+      "success_delta": 0.1,
+      "descriptive_mcnemar_exact_p": 0.453125,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 1.8415841584158417,
+      "total_service_cost_ratio": 1.8211466257395348,
+      "cost_ratio_95_task_bootstrap": [
+        1.5696481593519185,
+        2.021120877235364
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.06666666666666667,
+        0.3333333333333333
+      ]
+    },
+    "H200_I45": {
+      "n": 30,
+      "wins": 6,
+      "losses": 4,
+      "success_delta": 0.06666666666666667,
+      "descriptive_mcnemar_exact_p": 0.75390625,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 1.4059405940594059,
+      "total_service_cost_ratio": 1.390638438950682,
+      "cost_ratio_95_task_bootstrap": [
+        1.2538095406055771,
+        1.5115109827985571
+      ],
+      "success_delta_95_task_bootstrap": [
+        -0.06666666666666667,
+        0.23333333333333334
+      ]
+    },
+    "H200_I60": {
+      "n": 30,
+      "wins": 0,
+      "losses": 0,
+      "success_delta": 0.0,
+      "descriptive_mcnemar_exact_p": 1.0,
+      "multiple_search_comparisons_uncorrected": true,
+      "vla_call_ratio": 1.0,
+      "total_service_cost_ratio": 1.0,
+      "cost_ratio_95_task_bootstrap": [
+        1.0,
+        1.0
+      ],
+      "success_delta_95_task_bootstrap": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "smol70_references": {
+    "H50": {
+      "n": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "vla_calls": 362,
+      "gate_calls": 0,
+      "vla_seconds": 70.73137632850558,
+      "gate_seconds": 0,
+      "total_service_seconds": 70.73137632850558,
+      "steps": 5192,
+      "generated_rows": 18100,
+      "used_rows": 5192,
+      "gate_choices": {}
+    },
+    "H100": {
+      "n": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "vla_calls": 191,
+      "gate_calls": 0,
+      "vla_seconds": 37.401286164764315,
+      "gate_seconds": 0,
+      "total_service_seconds": 37.401286164764315,
+      "steps": 5329,
+      "generated_rows": 19100,
+      "used_rows": 5329,
+      "gate_choices": {}
+    },
+    "H200": {
+      "n": 30,
+      "successes": 11,
+      "success_rate": 0.36666666666666664,
+      "vla_calls": 101,
+      "gate_calls": 0,
+      "vla_seconds": 19.848549539223313,
+      "gate_seconds": 0,
+      "total_service_seconds": 19.848549539223313,
+      "steps": 5589,
+      "generated_rows": 20200,
+      "used_rows": 5589,
+      "gate_choices": {}
+    }
+  },
+  "reference_source_sha256": {
+    "H50_t0_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h50_smol70\\result.json",
+      "sha256": "2e77471d345b9a1c9f50e8a0a392f3ea07d38a776baa36194f37a5c248a37e64"
+    },
+    "H50_t0_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s01_h50_smol70\\result.json",
+      "sha256": "e9eaa23fd7345e48840302024d21097ace92e25111c4f63d1760c78bfe32e121"
+    },
+    "H50_t0_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s02_h50_smol70\\result.json",
+      "sha256": "08a11bfcadfd33b7c3c534b2856f5e331e0cbcfa3c10310c535081a09ef19521"
+    },
+    "H50_t1_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s00_h50_smol70\\result.json",
+      "sha256": "5d4c94d78f19184124fec0d2eea3b78820f627eb6d720681e78b19be1ce2a162"
+    },
+    "H50_t1_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s01_h50_smol70\\result.json",
+      "sha256": "e5d42322b9e4980dc45771d4e8f2c1d812ed11b1b860fa8412610003b7c42c68"
+    },
+    "H50_t1_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s02_h50_smol70\\result.json",
+      "sha256": "751cb0c582a661707474294e9e06c4a78d2a4319fb7f57c2b642c940036dfe1e"
+    },
+    "H50_t2_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s00_h50_smol70\\result.json",
+      "sha256": "ed33dee19c7776aa75dcc9ca90a4288e2e3fa83b020e39c02eae7336950f66cc"
+    },
+    "H50_t2_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s01_h50_smol70\\result.json",
+      "sha256": "db253282d0756e63373ef61e007632093c7db14e5d66e1aeebd7959be729d511"
+    },
+    "H50_t2_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s02_h50_smol70\\result.json",
+      "sha256": "09d7612b3c5c19097acb3bda39e8cd7f2995c4bb48aeff91087e4137409a9922"
+    },
+    "H50_t3_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s00_h50_smol70\\result.json",
+      "sha256": "d0b793be24a746341f1dfbfefbf5829484a1f1c05e009245d144576b41f37b68"
+    },
+    "H50_t3_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s01_h50_smol70\\result.json",
+      "sha256": "1e1a26f22287cf7671339b0585dc6e9820c00e667c9512ff0cab6053b71fb4bc"
+    },
+    "H50_t3_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s02_h50_smol70\\result.json",
+      "sha256": "fc647db587cb809b0efa6d42fa2f1725c5c8532e23b4e91c6d57b1091d4d0e83"
+    },
+    "H50_t4_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s00_h50_smol70\\result.json",
+      "sha256": "6cef60e0848e147ddf6ca8044c50f5a3e454c3e70680ca3ad118a9c14a46226d"
+    },
+    "H50_t4_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s01_h50_smol70\\result.json",
+      "sha256": "10f1cb30e0bc043024337fc2997f76d85c92368b8a934065c263917f2b8c5118"
+    },
+    "H50_t4_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s02_h50_smol70\\result.json",
+      "sha256": "47f10392eaa04628c92655986705e711dfb564bb82f0d91a61c6c719bc2411fe"
+    },
+    "H50_t5_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s00_h50_smol70\\result.json",
+      "sha256": "21bb716b314377254d5977a87f2b76509eb995155a3b76234f0bcfe0b19136d5"
+    },
+    "H50_t5_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s01_h50_smol70\\result.json",
+      "sha256": "200cc75ad772be1d03790fdf30528a5be1b2289d1e1f9007c9142dce0c852f20"
+    },
+    "H50_t5_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s02_h50_smol70\\result.json",
+      "sha256": "04433f087ffd1719acd29ab81845845b63d8c58c765cf35d2d3621fd4eaeac7f"
+    },
+    "H50_t6_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s00_h50_smol70\\result.json",
+      "sha256": "c5bc2149d33f9c9b12b0d03fc7848825869c3fa48ec1d36c3251192e280f9649"
+    },
+    "H50_t6_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s01_h50_smol70\\result.json",
+      "sha256": "3383b092d11f421e05e699449dda5801248fc8c1f0ec2814b16ea1e44204b914"
+    },
+    "H50_t6_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s02_h50_smol70\\result.json",
+      "sha256": "3cf9e4bd1c32cc7c8d3a3dd5a23b15f8f0c04e00b61166f49fb4b7b24dffa385"
+    },
+    "H50_t7_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s00_h50_smol70\\result.json",
+      "sha256": "50f10e0108d67eb018719e3f57e16f03a9e4076deed6a1ca395488e72c23c603"
+    },
+    "H50_t7_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s01_h50_smol70\\result.json",
+      "sha256": "adee48d3dfd40b8d9ee9d00ccd0b109ff43be014bec3113158304bd1b6c3e7e5"
+    },
+    "H50_t7_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s02_h50_smol70\\result.json",
+      "sha256": "33f9d85835c9be5e7df5880509e3d77496ef482a7dcdaa2a22590c4b226a9165"
+    },
+    "H50_t8_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s00_h50_smol70\\result.json",
+      "sha256": "45f8f18bb99fcc0064f060411063eaa22d54ec57716bc0dc913627612771e706"
+    },
+    "H50_t8_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s01_h50_smol70\\result.json",
+      "sha256": "30520372728fa8c4d94f0e1572a13785b8a9bc56d0eb04990c726958b1c948e9"
+    },
+    "H50_t8_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s02_h50_smol70\\result.json",
+      "sha256": "466fd5579f33e5db3ec89dcd1066561f160bf1e526e08041f99faaddede7bc27"
+    },
+    "H50_t9_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s00_h50_smol70\\result.json",
+      "sha256": "e2f5a84d62f248e878ffc337f229d030cdeec1c67c1b8bd2e0e0ae3a688f49f7"
+    },
+    "H50_t9_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s01_h50_smol70\\result.json",
+      "sha256": "74eab6a3f56ebc52700b55cdf9741891f7c6ca47e5942da004d847b44ad0c404"
+    },
+    "H50_t9_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s02_h50_smol70\\result.json",
+      "sha256": "facfb314f56a8e897250517c6bbc0734d9cc69ae4565c619890038520c7452c4"
+    },
+    "H100_t0_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h100_smol70\\result.json",
+      "sha256": "76d141a7c7047f85dc9b40d8c2bbd23e57434b286dad6a0558d8c4aaf42722e1"
+    },
+    "H100_t0_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s01_h100_smol70\\result.json",
+      "sha256": "073e627535221ec4a401e53b41724d500473fd9cda1be6cc2e13ad327f7aaa6f"
+    },
+    "H100_t0_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s02_h100_smol70\\result.json",
+      "sha256": "173b0a7334dc5189e7c822f103f72c39cec0dedb87b695c6af8f7cf42860ab4e"
+    },
+    "H100_t1_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s00_h100_smol70\\result.json",
+      "sha256": "7156bb98e29c91bca272ab8b88c75af4d41620e882167fa108602857730a10da"
+    },
+    "H100_t1_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s01_h100_smol70\\result.json",
+      "sha256": "84cd91f16536cc01701bd3dfd5b0ca160c90d168e00228b79b0052e6aaab76df"
+    },
+    "H100_t1_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s02_h100_smol70\\result.json",
+      "sha256": "1b2609776ba07ae7bb95342c12eca0b57f9effa0a6b2f3dec6b043c0bf48396d"
+    },
+    "H100_t2_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s00_h100_smol70\\result.json",
+      "sha256": "392324cd6cbf20dc899e1512a1063847000e5f67a719774df375685c8417699c"
+    },
+    "H100_t2_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s01_h100_smol70\\result.json",
+      "sha256": "8fd1b43cc0d2988346e53cf6d71047e0fc34a6728c34f93c0a33f7d57d73a7d4"
+    },
+    "H100_t2_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s02_h100_smol70\\result.json",
+      "sha256": "8d5539efb25a61a4c92b1ec853e3cca1624aabe41aaa8e323a7201d14a6d933e"
+    },
+    "H100_t3_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s00_h100_smol70\\result.json",
+      "sha256": "d2cfd1d87b3b7311b1010f103216474636da058e6d6552ee8205ff676ce61c11"
+    },
+    "H100_t3_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s01_h100_smol70\\result.json",
+      "sha256": "f9317d98ba791730dc666d2b881ba0bd5f0c0e50f16368369f9ba85f3778c6c5"
+    },
+    "H100_t3_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s02_h100_smol70\\result.json",
+      "sha256": "7e95b84416eda544ece5eb9e759f9bc08bfb3c4a3199a26c66e984b121429cce"
+    },
+    "H100_t4_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s00_h100_smol70\\result.json",
+      "sha256": "46611f1c1a7440b943671cd364597fa09fb0fb082d37d4a3a544b505d73400c3"
+    },
+    "H100_t4_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s01_h100_smol70\\result.json",
+      "sha256": "cdf43a5aa393105d82ca5b44a5279d4ce15a0f1bfcff6716c6488d448539d6e1"
+    },
+    "H100_t4_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s02_h100_smol70\\result.json",
+      "sha256": "435ae41c6f4b858fbed09f2aecaa8d88f78281ce50525b4bcc18dfd414402032"
+    },
+    "H100_t5_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s00_h100_smol70\\result.json",
+      "sha256": "476d6b92c159e2e8530d7cccb724c30ac9aa7b48cfc3200970b5e1df1bc7f21b"
+    },
+    "H100_t5_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s01_h100_smol70\\result.json",
+      "sha256": "b8e53d38e163cbf3decb5a60594ef11a8e1866a78a4740244e425e9d10d9b2f0"
+    },
+    "H100_t5_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s02_h100_smol70\\result.json",
+      "sha256": "cd9f50f01bc3570892f068b6b1695b680a8a17d465271329a89bc7ef357e6ee5"
+    },
+    "H100_t6_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s00_h100_smol70\\result.json",
+      "sha256": "a3c57543b8430af479aee274134224749904da4ba66f7fb9b067db43c1425edd"
+    },
+    "H100_t6_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s01_h100_smol70\\result.json",
+      "sha256": "c8accce1c330c690d1c431878f491d109f7ed63ecae2c3431f9ac265b4ab19f4"
+    },
+    "H100_t6_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s02_h100_smol70\\result.json",
+      "sha256": "2294d221f64df71b79bf02c5847e40d8eaa8266ff222d6e9fcaaeeb69334b8e9"
+    },
+    "H100_t7_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s00_h100_smol70\\result.json",
+      "sha256": "3c7cebb2be84aca05e011d9da8518aebe6a997f01bd1289f35a4ab98b811400a"
+    },
+    "H100_t7_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s01_h100_smol70\\result.json",
+      "sha256": "fadfc3317b57d6eef06eb1a343144f125b43d4cf04a316c6c68de51c292e5fb8"
+    },
+    "H100_t7_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s02_h100_smol70\\result.json",
+      "sha256": "77adc8df4797efbff831fa7da610f79e595187fbae62cb220b66a711c1769370"
+    },
+    "H100_t8_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s00_h100_smol70\\result.json",
+      "sha256": "00512ec7a4f47685acd3e35a5944fa2e168c0c9d0029d7bf881d94f1610e3d46"
+    },
+    "H100_t8_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s01_h100_smol70\\result.json",
+      "sha256": "21783569ecd86a0fd2fec4357facc478218b15b396f392f84393dec179683d26"
+    },
+    "H100_t8_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s02_h100_smol70\\result.json",
+      "sha256": "6369812c72075027394a0ae2ed5de631fc398b80c9ae44dcacbc000c52be0221"
+    },
+    "H100_t9_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s00_h100_smol70\\result.json",
+      "sha256": "c3126eef3d84f608b7560cc8f13f995b62f534159ef1b149c883632a1c576e4f"
+    },
+    "H100_t9_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s01_h100_smol70\\result.json",
+      "sha256": "723ea24c8d51e35129c8365702658bd89a02e92a67810c562028ad318925e453"
+    },
+    "H100_t9_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s02_h100_smol70\\result.json",
+      "sha256": "6a3b257b375b94e8fa71755e7f8990eba656e62b43fd21b1e92fafc16ad67c7c"
+    },
+    "H200_t0_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h200_smol70\\result.json",
+      "sha256": "8287b7df5a2cf2487bf6fc58830ecf8f1f6b378065f1b29ff9bbf10d296300be"
+    },
+    "H200_t0_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s01_h200_smol70\\result.json",
+      "sha256": "f2b7a12a2ac6b6880933092d8db8699d75fa265a5aba52789862a69cf2b73f79"
+    },
+    "H200_t0_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s02_h200_smol70\\result.json",
+      "sha256": "0737692bcb92c7d178f8dbf7bb51904ec9fbebdf1dac083ab9f991adfa2f7121"
+    },
+    "H200_t1_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s00_h200_smol70\\result.json",
+      "sha256": "ca4b8d2acd51990d1197d44229b0a8db5c65baf03e8434ccf19fe18ea3412751"
+    },
+    "H200_t1_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s01_h200_smol70\\result.json",
+      "sha256": "a122475435c63f002d7fc9b02bb6d0c6077b58b143cf9551c0afa786a8ef852f"
+    },
+    "H200_t1_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t01_s02_h200_smol70\\result.json",
+      "sha256": "279e84dd81c0cd50ce840104665d945dcdcae9887e26457afdd23fa6b198d6f2"
+    },
+    "H200_t2_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s00_h200_smol70\\result.json",
+      "sha256": "3efaff874ae40ad4597a845134109f9d5a9b28a418e88cd6caf3f0f21b54da45"
+    },
+    "H200_t2_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s01_h200_smol70\\result.json",
+      "sha256": "338dc0a24c6dafe3312ef61fe799d1481e81a12b45467e5e9cee6175778d7d1f"
+    },
+    "H200_t2_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t02_s02_h200_smol70\\result.json",
+      "sha256": "a423955fc7fdb0a64a3fe391529aacd84b19b7bbcd15ab7ed3c065849cd32af9"
+    },
+    "H200_t3_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s00_h200_smol70\\result.json",
+      "sha256": "edf601cd9ea0f85e833f8ea6c1b8fab4b25e3ab429ef03f6ea3047a2827844b6"
+    },
+    "H200_t3_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s01_h200_smol70\\result.json",
+      "sha256": "38f492da462b3a30dad763b9c63c76b52a8ea5b1ec0daac8e3b1c3047735a580"
+    },
+    "H200_t3_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t03_s02_h200_smol70\\result.json",
+      "sha256": "8c0adbd82cf8dd73b6385d4531fb513c0dfb9c8df21fe1f379ea19ea99f3ec82"
+    },
+    "H200_t4_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s00_h200_smol70\\result.json",
+      "sha256": "a742786ace8e0f0e0f63fe46ac0f9a20dd8d224725806a47db6c58b39c2b284c"
+    },
+    "H200_t4_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s01_h200_smol70\\result.json",
+      "sha256": "e35811084686bdd31c8826be2b600eaf43ee0071aa3e590f422347dd8ff7f3c4"
+    },
+    "H200_t4_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t04_s02_h200_smol70\\result.json",
+      "sha256": "ae8e3c56b6f2f084dc5e3c261ce99ec2fa09fb2772e17ae99dfba90f78792dd7"
+    },
+    "H200_t5_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s00_h200_smol70\\result.json",
+      "sha256": "0b934b42dd22babf2b1862664198dd317b8e19aa1780eddbb0f644334254ab38"
+    },
+    "H200_t5_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s01_h200_smol70\\result.json",
+      "sha256": "2d1eba45926b81ddcbe1afb8f1962cb810c4deda4fcb8b1b86fc98f2f9a719bb"
+    },
+    "H200_t5_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t05_s02_h200_smol70\\result.json",
+      "sha256": "1a845fc515ea8f695980f037ad08b4395516aab98cdb9bf8bce91260ba114a3c"
+    },
+    "H200_t6_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s00_h200_smol70\\result.json",
+      "sha256": "42cd92376038e50ee36179ca2336f15ffb2f6a448c7bb28f5ecfa424aa27d415"
+    },
+    "H200_t6_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s01_h200_smol70\\result.json",
+      "sha256": "bd5f2d66ab8891d77c74d19add12cfce3f978486a9ea8ed12059bdbbd266d83e"
+    },
+    "H200_t6_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t06_s02_h200_smol70\\result.json",
+      "sha256": "216bddf33354384c5bebb93d8684792fe79daf72bd484bcfa403d1025e9c4b46"
+    },
+    "H200_t7_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s00_h200_smol70\\result.json",
+      "sha256": "a8c1efe64802f70c019df97526ec5a5e4506c0b6337d3c95e7484852be35d69c"
+    },
+    "H200_t7_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s01_h200_smol70\\result.json",
+      "sha256": "444e75cce1bdb7214836b548ccac7a16556edd7be9dc18d5dc82b95fc9f600b0"
+    },
+    "H200_t7_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t07_s02_h200_smol70\\result.json",
+      "sha256": "5c6ad1f25fca72ade022fbccca0f0c5685fe597e908368380b61bdd2822b981f"
+    },
+    "H200_t8_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s00_h200_smol70\\result.json",
+      "sha256": "75cbae8ebaf9a870fb766936dc4aca31479a4311c56a180917107d0e08393daf"
+    },
+    "H200_t8_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s01_h200_smol70\\result.json",
+      "sha256": "9fdb4c0850b460d1b541be4fc46a2059b5e55a7016d077222f891bfc3ff8fbda"
+    },
+    "H200_t8_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t08_s02_h200_smol70\\result.json",
+      "sha256": "1900647d5b5bf20c47caa06e214b63ef4a098635a3d1790cd615c6c539e5c2df"
+    },
+    "H200_t9_s0": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s00_h200_smol70\\result.json",
+      "sha256": "64b8cf732d13ea7c2a9c83d84283d5607f1068e11cf38233cc62051f0116e464"
+    },
+    "H200_t9_s1": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s01_h200_smol70\\result.json",
+      "sha256": "91b9e65dcf0ad4e8b42d928e219683bfe688fc86a37e24583f151e433c543c09"
+    },
+    "H200_t9_s2": {
+      "path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t09_s02_h200_smol70\\result.json",
+      "sha256": "22c9f2889e5b396ad0c4fea60d91b9cb923ac973f18f4e00157cc8b3ed2fd94e"
+    }
+  },
+  "unique_horizon_interval_initial_cells": 240,
+  "interpretation": "Developer attribution across 30 identical task/state starts per cell; reuse is explicit, historical timings are not contemporaneous. No gate cost or independent confirmation is implied."
+}

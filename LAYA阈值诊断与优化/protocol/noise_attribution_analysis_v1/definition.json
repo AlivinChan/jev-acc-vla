@@ -1,0 +1,29 @@
+{
+  "gpu_cohort_not_started": true,
+  "cohort": "noise_alignment_validation_d4_v1",
+  "contrasts": [
+    [
+      "stale_row0_k5",
+      "naive_k5",
+      "executed_row"
+    ],
+    [
+      "vlash_noise_matched_k5",
+      "stale_row0_k5",
+      "current_robot_state"
+    ],
+    [
+      "vlash_style_k5",
+      "vlash_noise_matched_k5",
+      "noise_clock"
+    ]
+  ],
+  "source_sha256": {
+    "scripts/analyze_noise_attribution.py": "2286b68d5b1ce2818ef5513472ce08dc99d8b7696b18cc5b73a09ee4419f72a9",
+    "scripts/build_noise_attribution_figure.py": "6164ed2547c36bd5703ba2724a11f1a50b6d647e9ec73bf968bb33167e4fe13d",
+    "VLASH_NOISE_ATTRIBUTION_PROTOCOL.md": "56dafa6a729feb03a96b6722052186fea20b4c388f92225c5ba6409374d09b48",
+    "protocol/noise_alignment_validation_d4_v1/definition.json": "b7bcf653527bff3e293ef2db61b7bc4be7567c5d5baea042703eea8da24d4f1e"
+  },
+  "first_update_units": "Translation/rotation/gripper controller commands, not metres or success probability",
+  "no_policy_selection": true
+}

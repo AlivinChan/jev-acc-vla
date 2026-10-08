@@ -1,0 +1,8 @@
+{
+  "supervisor.json": "e76bc558d04e93212455735a0f2a2de46e698a309d36f2e96724b3e02aab8558",
+  "worker.log": "42778a76109a6d1a23f8c98004dd97018b27a627fb0f4106c9c1ebce9ec9d038",
+  "data/completed.json": "eb96a7e03bc987168f42c9478fea2851d171f87faf3c57a2478c8e16620fb7e2",
+  "data/decisions.jsonl": "f19224e7a76d66c3b9b5c634e14ee55643c38cdb71372ca2d03773afa05b3b75",
+  "data/manifest.json": "110632d8b69c25f917cf5087b47fc97af0e1d29488fb74f596b7e7f23a59e24e",
+  "data/warmup.jsonl": "e0346eca9c1b5c6bf94d570b563d07ae4a4f0510b820d50792311820bf0399bb"
+}

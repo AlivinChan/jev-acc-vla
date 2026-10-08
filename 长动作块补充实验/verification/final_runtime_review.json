@@ -1,0 +1,844 @@
+{
+  "status": "PASS_COMPLETE_ORIGINAL_SMOL_ONLY",
+  "root": "/mnt/4t/jev_vla_libero/experiments/long_chunk_laya/attempt_v1/smol",
+  "cpu_only_read_only": true,
+  "expected_episodes": 372,
+  "validated_episodes": 372,
+  "phase_counts": {
+    "pilot": 12,
+    "main": 360
+  },
+  "validated_action_rows": 64045,
+  "validated_chunks": 7601,
+  "paired_initial_states": 30,
+  "all_uncertain_matched_pairs": 90,
+  "pair_details": [
+    {
+      "task_id": 0,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 0,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 1,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 2,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 3,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 4,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 5,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 6,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 7,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 8,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 0,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 0,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 0,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 1,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 1,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 1,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 2,
+      "horizon": 50,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 2,
+      "horizon": 100,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    },
+    {
+      "task_id": 9,
+      "state_id": 2,
+      "horizon": 200,
+      "all_uncertain": true,
+      "actions_requests_deliveries_success_equal": true
+    }
+  ],
+  "frozen_hash": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+  "before_after_frozen_equal": true,
+  "parameters_by_dtype": {
+    "torch.bfloat16": 600902304,
+    "torch.float32": 4031872
+  },
+  "total_vla_calls_including_qualification": 7607,
+  "total_gate_calls_including_warmup": 3250,
+  "main_groups": [
+    {
+      "horizon": 50,
+      "method": "smol70",
+      "episodes": 30,
+      "successes": 13,
+      "steps": 5192,
+      "vla_calls": 362,
+      "prediction_seconds": 70.73137632850558,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 129.43144895555452
+    },
+    {
+      "horizon": 50,
+      "method": "laya",
+      "episodes": 30,
+      "successes": 13,
+      "steps": 5192,
+      "vla_calls": 362,
+      "prediction_seconds": 72.55863375030458,
+      "gate_calls": 1013,
+      "gate_seconds": 45.00348424958065,
+      "episode_wall_seconds": 178.43670716881752
+    },
+    {
+      "horizon": 50,
+      "method": "naive_k5",
+      "episodes": 30,
+      "successes": 16,
+      "steps": 4840,
+      "vla_calls": 991,
+      "prediction_seconds": 193.5539703546092,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 249.68505192175508
+    },
+    {
+      "horizon": 50,
+      "method": "vlash_style_k5",
+      "episodes": 30,
+      "successes": 15,
+      "steps": 4997,
+      "vla_calls": 1005,
+      "prediction_seconds": 197.015492182225,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 255.70317448768765
+    },
+    {
+      "horizon": 100,
+      "method": "smol70",
+      "episodes": 30,
+      "successes": 13,
+      "steps": 5329,
+      "vla_calls": 191,
+      "prediction_seconds": 37.401286164764315,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 98.1769850323908
+    },
+    {
+      "horizon": 100,
+      "method": "laya",
+      "episodes": 30,
+      "successes": 13,
+      "steps": 5329,
+      "vla_calls": 191,
+      "prediction_seconds": 38.184524501208216,
+      "gate_calls": 1042,
+      "gate_seconds": 47.75459429156035,
+      "episode_wall_seconds": 148.7252285196446
+    },
+    {
+      "horizon": 100,
+      "method": "naive_k5",
+      "episodes": 30,
+      "successes": 16,
+      "steps": 4917,
+      "vla_calls": 1007,
+      "prediction_seconds": 196.67422787239775,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 253.92717161448672
+    },
+    {
+      "horizon": 100,
+      "method": "vlash_style_k5",
+      "episodes": 30,
+      "successes": 13,
+      "steps": 5281,
+      "vla_calls": 1061,
+      "prediction_seconds": 206.98297201981768,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 268.99588648881763
+    },
+    {
+      "horizon": 200,
+      "method": "smol70",
+      "episodes": 30,
+      "successes": 11,
+      "steps": 5589,
+      "vla_calls": 101,
+      "prediction_seconds": 19.848549539223313,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 82.57391137536615
+    },
+    {
+      "horizon": 200,
+      "method": "laya",
+      "episodes": 30,
+      "successes": 11,
+      "steps": 5589,
+      "vla_calls": 101,
+      "prediction_seconds": 20.364117218647152,
+      "gate_calls": 1091,
+      "gate_seconds": 48.113028769847006,
+      "episode_wall_seconds": 134.32469690032303
+    },
+    {
+      "horizon": 200,
+      "method": "naive_k5",
+      "episodes": 30,
+      "successes": 16,
+      "steps": 4901,
+      "vla_calls": 1003,
+      "prediction_seconds": 195.3237412427552,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 252.15585255715996
+    },
+    {
+      "horizon": 200,
+      "method": "vlash_style_k5",
+      "episodes": 30,
+      "successes": 13,
+      "steps": 5237,
+      "vla_calls": 1053,
+      "prediction_seconds": 205.86285762488842,
+      "gate_calls": 0,
+      "gate_seconds": 0,
+      "episode_wall_seconds": 266.70001893490553
+    }
+  ],
+  "main_gate_effective_choices": {
+    "uncertain": 3146
+  },
+  "main_gate_raw_choices": {
+    "replan": 1877,
+    "continue": 1269
+  },
+  "main_gate_max_probability_range": [
+    0.4355,
+    0.5599
+  ],
+  "source_checks": {
+    "scripts/laya_service.py": true,
+    "scripts/supervise.py": true,
+    "scripts/official_reference.py": true,
+    "scripts/main_experiment.py": true,
+    "source_snapshot/collect_counterfactual_dev.py": true
+  },
+  "installed_source_checks": {
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/policies/smolvla/modeling_smolvla.py": true,
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/policies/smolvla/configuration_smolvla.py": true,
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/policies/smolvla/smolvlm_with_expert.py": true,
+    "/mnt/4t/jev_vla_libero/envs/smolvla/lib/python3.12/site-packages/lerobot/envs/libero.py": true
+  },
+  "checks": [
+    "372 unique expected cells and exact execution schedule",
+    "30 exact paired physics initial-state hashes",
+    "all H50/100/200 chunks finite and every executed row reconstructed",
+    "success/termination/truncation/no post-terminal actions",
+    "K5 schedules, naive row1, VLASH row0 and delayed-image/current-state ticks",
+    "90 real all-uncertain LAYA/Smol70 action hashes, call/delivery ticks, success/steps match",
+    "all gate state/probability/threshold/packing/IPC records reconcile",
+    "per-episode and campaign-wide call/NFE/time accounting",
+    "original and installed source fingerprints unchanged",
+    "terminal manifest before/after parameter fingerprint equal; no failure artifacts; IPC stopped cleanly"
+  ],
+  "limitations": [
+    "Stored hashes verify the runtime recorded frozen fingerprint check; no independent GPU model reload or weight recomputation performed.",
+    "Second qualification output was not stored; exact repetition rests on executed runtime assertions.",
+    "Input observation tensors are not archived per request; image/state alignment rests on source review and recorded ticks.",
+    "Official 30 and exploratory argmax 90 are outside this audit and require separate verification.",
+    "Reported costs are serial service wall times under shared GPU, not pure GPU-active seconds or real-time robot speedup."
+  ]
+}

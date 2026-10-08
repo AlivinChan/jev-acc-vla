@@ -1,0 +1,25 @@
+{
+  "source_metrics": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\results\\main\\metrics.json",
+  "generating_script": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\scripts\\plot_results.py",
+  "surface_class": "appendix",
+  "exports": [
+    "figures\\success_by_horizon.png",
+    "figures\\success_by_horizon.svg",
+    "figures\\cost_by_horizon.png",
+    "figures\\cost_by_horizon.svg"
+  ],
+  "interpretation": "Same frozen SmolVLA only; reference pi0.5 is excluded. Success intervals are descriptive Wilson intervals. Cost includes host and gate overhead, not GPU-active time or real asynchronous robot latency.",
+  "render_review_status": "accepted_after_visual_inspection",
+  "reviewer": "Codex root; actual PNGs opened with view_image",
+  "review_notes": [
+    "Success chart: all 12 points, Wilson intervals, legend, n=30/10 tasks and uncorrected-correlation caption are legible.",
+    "Cost chart first render had overlong vertical label; shortened label and moved service-wall scope into title, rerendered and re-inspected. No clipping in final.",
+    "Call-count overlap is explicitly labeled. Both figures separate frozen SmolVLA mechanism comparison from official pi0.5 reference."
+  ],
+  "sha256": {
+    "cost_by_horizon.png": "99f18c8ef98134fe756375c445c5a5288cc5ef7943ea01fab51489745882e595",
+    "cost_by_horizon.svg": "66d9b6390b9f3fc4ece884566cbd582a91f8026580fa381d4aaa4c97c73c3c60",
+    "success_by_horizon.png": "89afd815dd89b812b9d0f20d14d34121d6e0518c936935632667679add63e5a6",
+    "success_by_horizon.svg": "e723c48d2675a431ee8a9cb4e676775207880de7f6de701abc1f56e2cd40470d"
+  }
+}

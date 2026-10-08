@@ -1,0 +1,525 @@
+{
+  "source": {
+    "source_runs": [
+      {
+        "run": "scores_train_v1",
+        "scores_sha256": "d94b0047fcd213ef7385609c550ecaadb452a170213be34d3a465f35c307d1f5",
+        "features_sha256": "288e1702bbfa49e70d5e68dd4d88945f8a0b1278f5f0b4ab8c35af4bebe4f0bc"
+      },
+      {
+        "run": "scores_calibration_v1",
+        "scores_sha256": "9629d0c0c44423dc6fdaf3b2d0ae881c0792541c50ac3218d05081ea09996c1f",
+        "features_sha256": "23212f876f329179863941d7e528808471f42f06df01b8485d2ebee008801779"
+      },
+      {
+        "run": "scores_window_train_v1",
+        "scores_sha256": "549ac4cf646d4b5196944da26f9a677e18208eecefa4517a64bfee9c9e60208c",
+        "features_sha256": "2e3ed7caf5d82ab22773467ddf3d847161568e3abe6847ece88e4793c94e4634"
+      },
+      {
+        "run": "scores_window_calibration_v1",
+        "scores_sha256": "9ab480b97892ee8c1da9a2d07cd190765d9ab100d9dff63cacf3b66904b8f534",
+        "features_sha256": "776901254cdc2e0ce9b4c22b2ea0a3efdf63f5128176617c319b9ec134cabba9"
+      }
+    ],
+    "laya_fingerprint": "ae9a05c819a0ab99493067336fd9f5c186dce48265e75ef027978f2597dfac71",
+    "states": [
+      0,
+      1
+    ],
+    "unique_cases": 386,
+    "score_rows": 1930
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "training_states": [
+    0
+  ],
+  "selection_and_calibration_states": [
+    1
+  ],
+  "diagnostic_evaluation_states": [
+    2
+  ],
+  "state2_loaded": false,
+  "variants": [
+    "numbers3",
+    "binary_short",
+    "binary_compact",
+    "binary_window",
+    "binary_window3"
+  ],
+  "label_policy": "Exclude both-failure cases from fitting and score evaluation; report coverage explicitly",
+  "temperature_bounds": [
+    0.5,
+    5.0
+  ],
+  "affine_slope_bounds": [
+    0.2,
+    2.0
+  ],
+  "affine_intercept_bounds": [
+    -8,
+    8
+  ],
+  "readout_l2_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "VLA_training_steps": 0,
+  "base_LAYA_training_steps": 0,
+  "scripts": {
+    "calibration_data.py": "4bfb3f7f844b445806c20c94604561a37497b0583d6fa3be79022ac33f927c80",
+    "calibration_math.py": "de84ba1ad7d204654b70c86d04d61bdc86e0146d48a8921b69641a170421f708"
+  },
+  "fit_script_sha256": "37acd010f3cf0213d7e4d2a02a7d08b9d82ba46be1644837a9e05f7dcc621eea",
+  "task_horizon_prior_amendment_sha256": "fdbbfff9470913bd0accebd17df8bc3dbaebbed8fa5b1e732eec1036c6e84a81",
+  "model_count": 80,
+  "candidate_screen": [
+    {
+      "model_id": "necessity__numbers3__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.45394736842105265,
+        "brier": 0.14919172867437444,
+        "log_loss": 0.48131648986470443,
+        "ece_5_equal_bins": 0.07794974891685096,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__numbers3__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.5921052631578947,
+        "brier": 0.1428460757967327,
+        "log_loss": 0.4588874178692015,
+        "ece_5_equal_bins": 0.05169762750969548,
+        "above_07": 44,
+        "coverage_07": 0.9565217391304348,
+        "covered_accuracy_07": 0.8181818181818182
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_short__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.3848684210526316,
+        "brier": 0.1447125979213654,
+        "log_loss": 0.4658552568754551,
+        "ece_5_equal_bins": 0.01107076525344447,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_short__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.3782894736842105,
+        "brier": 0.1467278151275733,
+        "log_loss": 0.4718962717674611,
+        "ece_5_equal_bins": 0.05834876037677377,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_compact__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.6792763157894737,
+        "brier": 0.13917161564785913,
+        "log_loss": 0.44154742993358925,
+        "ece_5_equal_bins": 0.03793283877872799,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_compact__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.6578947368421053,
+        "brier": 0.13721053414261145,
+        "log_loss": 0.4368806632180645,
+        "ece_5_equal_bins": 0.00883925522548588,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_window__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.4506578947368421,
+        "brier": 0.14675184302195848,
+        "log_loss": 0.47401038769788295,
+        "ece_5_equal_bins": 0.041692269502880644,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_window__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.4473684210526316,
+        "brier": 0.1455709923155289,
+        "log_loss": 0.46872565894689305,
+        "ece_5_equal_bins": 0.040798491759957034,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_window3__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.6710526315789473,
+        "brier": 0.14157943814817034,
+        "log_loss": 0.45103826538512626,
+        "ece_5_equal_bins": 0.06728445727312278,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8260869565217391
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "necessity__binary_window3__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 8,
+        "continue_labels": 38,
+        "replan_predictions": 0,
+        "accuracy": 0.8260869565217391,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.6776315789473685,
+        "brier": 0.13870027417989447,
+        "log_loss": 0.4408513217536031,
+        "ece_5_equal_bins": 0.026963141512122514,
+        "above_07": 45,
+        "coverage_07": 0.9782608695652174,
+        "covered_accuracy_07": 0.8222222222222222
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__numbers3__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.4804804804804805,
+        "brier": 0.1622216562571846,
+        "log_loss": 0.5114110026511214,
+        "ece_5_equal_bins": 0.05621061848206835,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__numbers3__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.5885885885885885,
+        "brier": 0.15601113710683845,
+        "log_loss": 0.4887919172306423,
+        "ece_5_equal_bins": 0.012174710897835932,
+        "above_07": 44,
+        "coverage_07": 0.9565217391304348,
+        "covered_accuracy_07": 0.7954545454545454
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_short__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.36936936936936937,
+        "brier": 0.15965816963625282,
+        "log_loss": 0.502515798545367,
+        "ece_5_equal_bins": 0.03280989568822709,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_short__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.43543543543543545,
+        "brier": 0.15922018339762714,
+        "log_loss": 0.49975978161468854,
+        "ece_5_equal_bins": 0.050031927516202876,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_compact__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.7312312312312312,
+        "brier": 0.1493182535162043,
+        "log_loss": 0.4635431273140372,
+        "ece_5_equal_bins": 0.059671969213510596,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_compact__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.7117117117117117,
+        "brier": 0.14637879938845305,
+        "log_loss": 0.4572825071719969,
+        "ece_5_equal_bins": 0.027350502354654548,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_window__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.5045045045045045,
+        "brier": 0.1596453494745965,
+        "log_loss": 0.5036815535386673,
+        "ece_5_equal_bins": 0.03312483737804185,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_window__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.5045045045045045,
+        "brier": 0.15814653945091398,
+        "log_loss": 0.4969536195403269,
+        "ece_5_equal_bins": 0.012725918824937173,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_window3__affine",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.6441441441441441,
+        "brier": 0.15864496273938136,
+        "log_loss": 0.49705151128388125,
+        "ece_5_equal_bins": 0.08902358770790537,
+        "above_07": 46,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 0.8043478260869565
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    },
+    {
+      "model_id": "utility__binary_window3__linear_calibrated",
+      "eligible": false,
+      "calibration_metrics": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 0,
+        "accuracy": 0.8043478260869565,
+        "balanced_accuracy": 0.5,
+        "replan_recall": 0.0,
+        "continue_recall": 1.0,
+        "auc": 0.6456456456456456,
+        "brier": 0.1533772948352566,
+        "log_loss": 0.4779568880200464,
+        "ece_5_equal_bins": 0.021111852063981397,
+        "above_07": 43,
+        "coverage_07": 0.9347826086956522,
+        "covered_accuracy_07": 0.813953488372093
+      },
+      "screening_rule": "utility; actual binary question; AUROC>0.55; both class recalls>0; calibration NLL better than raw and all three priors"
+    }
+  ],
+  "proposed_deployment_models": [],
+  "interpretation": "State1 is reused for model choice and temperature fitting; only state2 or later closed-loop checks can assess generalization",
+  "models_sha256": "4a08babde47322238f156d7ebcbf99bbba792750b52be90c7679dbc796f33a58"
+}

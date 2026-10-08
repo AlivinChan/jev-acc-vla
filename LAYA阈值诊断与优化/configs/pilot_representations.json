@@ -1,0 +1,46 @@
+{
+  "purpose": "Developer pilot: choose an input representation using actual closed-loop performance, not probability magnitude",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states": [
+    0
+  ],
+  "horizons": [
+    50,
+    200
+  ],
+  "schedule_seed": 20261008,
+  "exposure": "Previously exposed developer states; not an independent test",
+  "candidates": {
+    "full5": {
+      "method": "laya",
+      "variant": "binary_full",
+      "interval": 5
+    },
+    "short5": {
+      "method": "laya",
+      "variant": "binary_short",
+      "interval": 5
+    },
+    "compact5": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval": 5
+    },
+    "queue_only": {
+      "method": "queue_only",
+      "interval": 5
+    }
+  },
+  "promotion_rule": "Inspect paired successes, calls and total service cost versus same-state Smol70 and queue-only; reject confident action collapse as a calibration fix. Keep distinct cost/success Pareto candidates for cadence trials."
+}

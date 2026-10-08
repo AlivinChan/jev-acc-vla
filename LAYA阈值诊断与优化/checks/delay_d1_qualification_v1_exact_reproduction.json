@@ -1,0 +1,18 @@
+{
+  "run": "delay_d1_qualification_v1",
+  "episodes": 9,
+  "checks": 1256,
+  "errors": 0,
+  "source_result_sha256": {
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h200_vlash_style_k5\\result.json": "63d940863b42c9f30ebb23f7270e95b0f6ea9bb24c5b20aee64001d1e644bd9c",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\window3_skip1\\t00_s00_h50_laya_skip1\\result.json": "bb59379cca11965dc922ebcda8ade34b21696686bf7434685470176357ba8f5d",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h100_vlash_style_k5\\result.json": "4c6333233acd4f6aea41fc7f98b3c6a8bf33b8f4f10fa69c2a9d532d0d66211f",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\window3_skip1\\t00_s00_h200_laya_skip1\\result.json": "a18949dcc32a4aed3568df31828f082aeaf9e23fc3ef55dd2c4e1df65d399ec0",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h50_smol70\\result.json": "2e77471d345b9a1c9f50e8a0a392f3ea07d38a776baa36194f37a5c248a37e64",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\LAYA阈值诊断与优化\\raw\\single_skip_v1\\data\\window3_skip1\\t00_s00_h100_laya_skip1\\result.json": "b077fa633af3f9801a903069a1f59112ba8d3061dc4a3f93ebb16ae68893ccf1",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h100_smol70\\result.json": "76d141a7c7047f85dc9b40d8c2bbd23e57434b286dad6a0558d8c4aaf42722e1",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h50_vlash_style_k5\\result.json": "be1a3ab981ad3a6e84ad1e710441fb500ed908de67b417582950afcc08dda672",
+    "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol\\main\\t00_s00_h200_smol70\\result.json": "8287b7df5a2cf2487bf6fc58830ecf8f1f6b378065f1b29ff9bbf10d296300be"
+  },
+  "scope": "d=1 refactor qualification: exact complete physics/actions, VLA outputs, request inputs and gate answers; timing excluded; not new efficacy samples"
+}

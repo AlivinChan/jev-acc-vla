@@ -1,0 +1,254 @@
+{
+  "run": "choice_order_audit_v1",
+  "inputs": 1029,
+  "decisions": 2058,
+  "groups": {
+    "binary_compact__developer_replay": {
+      "n": 270,
+      "choice_agreement": 0.5925925925925926,
+      "original_replan": 182,
+      "reverse_replan": 96,
+      "original_R_to_reverse_C": 98,
+      "original_C_to_reverse_R": 12,
+      "reverse_minus_original_p_replan_mean": -0.027859177768085087,
+      "absolute_probability_difference_mean": 0.03692547825781979,
+      "absolute_probability_difference_max": 0.14832890854984043,
+      "absolute_probability_difference_p95": 0.0972573491734012,
+      "p_replan_correlation": 0.5128138787531601,
+      "order_metrics": {
+        "original": {
+          "above_07": 0,
+          "max_probability_range": [
+            0.5,
+            0.6806467727641704
+          ],
+          "sdk_seconds_mean": 0.01673429218051886,
+          "sdk_seconds_median": 0.016428815200924873
+        },
+        "reversed": {
+          "above_07": 0,
+          "max_probability_range": [
+            0.5001280666238619,
+            0.614475075356284
+          ],
+          "sdk_seconds_mean": 0.016685032634133543,
+          "sdk_seconds_median": 0.01651887595653534
+        }
+      }
+    },
+    "binary_compact__synthetic_explicit_semantic_control": {
+      "n": 10,
+      "choice_agreement": 1.0,
+      "original_replan": 4,
+      "reverse_replan": 4,
+      "original_R_to_reverse_C": 0,
+      "original_C_to_reverse_R": 0,
+      "reverse_minus_original_p_replan_mean": -0.013353793978049155,
+      "absolute_probability_difference_mean": 0.062259747332491275,
+      "absolute_probability_difference_max": 0.12692989993383164,
+      "absolute_probability_difference_p95": 0.11995011098319758,
+      "p_replan_correlation": 0.9730373370598089,
+      "order_metrics": {
+        "original": {
+          "above_07": 6,
+          "max_probability_range": [
+            0.5,
+            0.9365810148278645
+          ],
+          "sdk_seconds_mean": 0.01398746920749545,
+          "sdk_seconds_median": 0.013685137033462524,
+          "explicit_semantic_correct": 7
+        },
+        "reversed": {
+          "above_07": 8,
+          "max_probability_range": [
+            0.571292232425144,
+            0.9291448456996867
+          ],
+          "sdk_seconds_mean": 0.013580832723528146,
+          "sdk_seconds_median": 0.013509118463844061,
+          "explicit_semantic_correct": 7
+        }
+      }
+    },
+    "binary_full__developer_replay": {
+      "n": 270,
+      "choice_agreement": 0.6370370370370371,
+      "original_replan": 0,
+      "reverse_replan": 98,
+      "original_R_to_reverse_C": 0,
+      "original_C_to_reverse_R": 98,
+      "reverse_minus_original_p_replan_mean": 0.18839770634687977,
+      "absolute_probability_difference_mean": 0.18839770634687977,
+      "absolute_probability_difference_max": 0.26839929724369455,
+      "absolute_probability_difference_p95": 0.2374595773534716,
+      "p_replan_correlation": 0.7794085981282154,
+      "order_metrics": {
+        "original": {
+          "above_07": 146,
+          "max_probability_range": [
+            0.597105885750785,
+            0.8502851897030199
+          ],
+          "sdk_seconds_mean": 0.021690339445033006,
+          "sdk_seconds_median": 0.021525359712541103
+        },
+        "reversed": {
+          "above_07": 0,
+          "max_probability_range": [
+            0.5,
+            0.6818425894471403
+          ],
+          "sdk_seconds_mean": 0.02161235180510967,
+          "sdk_seconds_median": 0.021454744040966034
+        }
+      }
+    },
+    "binary_full__synthetic_explicit_semantic_control": {
+      "n": 10,
+      "choice_agreement": 0.7,
+      "original_replan": 4,
+      "reverse_replan": 5,
+      "original_R_to_reverse_C": 1,
+      "original_C_to_reverse_R": 2,
+      "reverse_minus_original_p_replan_mean": 0.09310169127015763,
+      "absolute_probability_difference_mean": 0.13915542306778378,
+      "absolute_probability_difference_max": 0.25086150235049354,
+      "absolute_probability_difference_p95": 0.24410773816580805,
+      "p_replan_correlation": 0.7534698426390317,
+      "order_metrics": {
+        "original": {
+          "above_07": 5,
+          "max_probability_range": [
+            0.5051224858374574,
+            0.8477571575483309
+          ],
+          "sdk_seconds_mean": 0.01459664674475789,
+          "sdk_seconds_median": 0.013949341606348753,
+          "explicit_semantic_correct": 7
+        },
+        "reversed": {
+          "above_07": 2,
+          "max_probability_range": [
+            0.5102438964812295,
+            0.7612911692900068
+          ],
+          "sdk_seconds_mean": 0.013952296786010265,
+          "sdk_seconds_median": 0.013801165856420994,
+          "explicit_semantic_correct": 6
+        }
+      }
+    },
+    "binary_short__developer_replay": {
+      "n": 270,
+      "choice_agreement": 0.8444444444444444,
+      "original_replan": 61,
+      "reverse_replan": 29,
+      "original_R_to_reverse_C": 37,
+      "original_C_to_reverse_R": 5,
+      "reverse_minus_original_p_replan_mean": -0.021648554810489162,
+      "absolute_probability_difference_mean": 0.03174613029913072,
+      "absolute_probability_difference_max": 0.11859562372270455,
+      "absolute_probability_difference_p95": 0.07200836425605893,
+      "p_replan_correlation": 0.6600298975031735,
+      "order_metrics": {
+        "original": {
+          "above_07": 0,
+          "max_probability_range": [
+            0.5005122663274136,
+            0.6151119853308189
+          ],
+          "sdk_seconds_mean": 0.020179528215279182,
+          "sdk_seconds_median": 0.019772140542045236
+        },
+        "reversed": {
+          "above_07": 0,
+          "max_probability_range": [
+            0.5005122663274136,
+            0.6451562567488733
+          ],
+          "sdk_seconds_mean": 0.020300425371776024,
+          "sdk_seconds_median": 0.01998727978207171
+        }
+      }
+    },
+    "binary_short__synthetic_explicit_semantic_control": {
+      "n": 10,
+      "choice_agreement": 1.0,
+      "original_replan": 4,
+      "reverse_replan": 4,
+      "original_R_to_reverse_C": 0,
+      "original_C_to_reverse_R": 0,
+      "reverse_minus_original_p_replan_mean": -0.013353793978049155,
+      "absolute_probability_difference_mean": 0.062259747332491275,
+      "absolute_probability_difference_max": 0.12692989993383164,
+      "absolute_probability_difference_p95": 0.11995011098319758,
+      "p_replan_correlation": 0.9730373370598089,
+      "order_metrics": {
+        "original": {
+          "above_07": 6,
+          "max_probability_range": [
+            0.5,
+            0.9365810148278645
+          ],
+          "sdk_seconds_mean": 0.01326057119295001,
+          "sdk_seconds_median": 0.013063712976872921,
+          "explicit_semantic_correct": 7
+        },
+        "reversed": {
+          "above_07": 8,
+          "max_probability_range": [
+            0.571292232425144,
+            0.9291448456996867
+          ],
+          "sdk_seconds_mean": 0.013603248307481408,
+          "sdk_seconds_median": 0.013709571911022067,
+          "explicit_semantic_correct": 7
+        }
+      }
+    },
+    "binary_window3__developer_counterfactual_state0": {
+      "n": 189,
+      "choice_agreement": 0.656084656084656,
+      "original_replan": 120,
+      "reverse_replan": 173,
+      "original_R_to_reverse_C": 6,
+      "original_C_to_reverse_R": 59,
+      "reverse_minus_original_p_replan_mean": 0.031789852736083916,
+      "absolute_probability_difference_mean": 0.03939673257940966,
+      "absolute_probability_difference_max": 0.12376878038138811,
+      "absolute_probability_difference_p95": 0.08589274073990429,
+      "p_replan_correlation": 0.49134154912855427,
+      "order_metrics": {
+        "original": {
+          "above_07": 0,
+          "max_probability_range": [
+            0.5002561332309204,
+            0.6413357396869831
+          ],
+          "sdk_seconds_mean": 0.017123049110292443,
+          "sdk_seconds_median": 0.0169532410800457
+        },
+        "reversed": {
+          "above_07": 0,
+          "max_probability_range": [
+            0.5000960499688154,
+            0.6592152936803838
+          ],
+          "sdk_seconds_mean": 0.01710198280307903,
+          "sdk_seconds_median": 0.017198041081428528
+        }
+      }
+    }
+  },
+  "definition_sha256": "e75e9c5f47c212b5e50e497de3b4f28c76e42a0373de38ca92f0279645a54eaa",
+  "decisions_sha256": "1c9656b2e28c7f658f2534565eb43fdbd13743df03cb8c8559e3d997c666b1e7",
+  "archive": {
+    "path": "/mnt/4t/jev_vla_libero/experiments/laya_gate_optimization/artifacts/choice_order_audit_v1.tar.gz",
+    "sha256": "44b904a868e3ff9f9ae2fa77d5475d2fbeab03e9ba43cc282a2691a4987f2aa4",
+    "bytes": 300585,
+    "status": "completed",
+    "download_bandwidth_limit_kbit_per_second": null
+  },
+  "interpretation": "Only option order varied. Same-state probability and choice sensitivity does not establish robot correctness. Explicit semantic controls are a separate small diagnostic, not LIBERO successes."
+}

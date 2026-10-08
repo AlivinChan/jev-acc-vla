@@ -1,0 +1,984 @@
+{
+  "checks": 174,
+  "errors": 0,
+  "records": [
+    {
+      "cohort": "validation_d1",
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "states_in_execution_order",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "episodes_per_method_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "total_episodes",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "primary_candidate",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "primary_comparators",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "comparators_by_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "field": "statistics",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 12,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 12,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 12,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 12,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 12,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 12,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 10,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 10,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 10,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 10,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 10,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 10,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 14,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 14,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 14,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 14,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 14,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 14,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 11,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 11,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 11,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 11,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 11,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 11,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 13,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 13,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 13,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 13,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 13,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "validation_d1",
+      "state": 13,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "states_in_execution_order",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "episodes_per_method_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "total_episodes",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "primary_candidate",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "primary_comparators",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "comparators_by_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "field": "statistics",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 22,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 22,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 22,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 22,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 22,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 22,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 20,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 20,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 20,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 20,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 20,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 20,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 24,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 24,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 24,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 24,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 24,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 24,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 21,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 21,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 21,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 21,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 21,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 21,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 23,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 23,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 23,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 23,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 23,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "budget_validation_d1",
+      "state": 23,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "states_in_execution_order",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "episodes_per_method_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "total_episodes",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "primary_candidate",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "primary_comparators",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "comparators_by_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "field": "statistics",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "state": 0,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "state": 0,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "state": 0,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "state": 0,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "state": 0,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d4",
+      "state": 0,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "states_in_execution_order",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "episodes_per_method_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "total_episodes",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "primary_candidate",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "primary_comparators",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "comparators_by_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "field": "statistics",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 31,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 31,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 31,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 31,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 31,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 31,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 30,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 30,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 30,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 30,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 30,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 30,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 32,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 32,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 32,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 32,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 32,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d4",
+      "state": 32,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "states_in_execution_order",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "episodes_per_method_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "total_episodes",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "primary_candidate",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "primary_comparators",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "comparators_by_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "field": "statistics",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "state": 0,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "state": 0,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "state": 0,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "state": 0,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "state": 0,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_pilot_d5",
+      "state": 0,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "states_in_execution_order",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "episodes_per_method_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "total_episodes",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "primary_candidate",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "primary_comparators",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "comparators_by_horizon",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "field": "statistics",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 31,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 31,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 31,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 31,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 31,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 31,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 30,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 30,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 30,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 30,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 30,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 30,
+      "field": "candidates",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 32,
+      "field": "tasks",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 32,
+      "field": "states",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 32,
+      "field": "horizons",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 32,
+      "field": "logical_delay_steps",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 32,
+      "field": "schedule_seed",
+      "exact": true
+    },
+    {
+      "cohort": "delay_validation_d5",
+      "state": 32,
+      "field": "candidates",
+      "exact": true
+    }
+  ]
+}

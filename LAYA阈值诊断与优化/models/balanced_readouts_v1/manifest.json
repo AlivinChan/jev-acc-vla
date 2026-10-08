@@ -1,0 +1,73 @@
+{
+  "source": {
+    "source_runs": [
+      {
+        "run": "scores_train_v1",
+        "scores_sha256": "d94b0047fcd213ef7385609c550ecaadb452a170213be34d3a465f35c307d1f5",
+        "features_sha256": "288e1702bbfa49e70d5e68dd4d88945f8a0b1278f5f0b4ab8c35af4bebe4f0bc"
+      },
+      {
+        "run": "scores_calibration_v1",
+        "scores_sha256": "9629d0c0c44423dc6fdaf3b2d0ae881c0792541c50ac3218d05081ea09996c1f",
+        "features_sha256": "23212f876f329179863941d7e528808471f42f06df01b8485d2ebee008801779"
+      },
+      {
+        "run": "scores_window_train_v1",
+        "scores_sha256": "549ac4cf646d4b5196944da26f9a677e18208eecefa4517a64bfee9c9e60208c",
+        "features_sha256": "2e3ed7caf5d82ab22773467ddf3d847161568e3abe6847ece88e4793c94e4634"
+      },
+      {
+        "run": "scores_window_calibration_v1",
+        "scores_sha256": "9ab480b97892ee8c1da9a2d07cd190765d9ab100d9dff63cacf3b66904b8f534",
+        "features_sha256": "776901254cdc2e0ce9b4c22b2ea0a3efdf63f5128176617c319b9ec134cabba9"
+      }
+    ],
+    "laya_fingerprint": "ae9a05c819a0ab99493067336fd9f5c186dce48265e75ef027978f2597dfac71",
+    "states": [
+      0,
+      1
+    ],
+    "unique_cases": 386,
+    "score_rows": 1930
+  },
+  "variants": [
+    "numbers3",
+    "binary_short",
+    "binary_compact",
+    "binary_window",
+    "binary_window3"
+  ],
+  "training_states": [
+    0
+  ],
+  "selection_and_calibration_states": [
+    1
+  ],
+  "diagnostic_evaluation_states": [
+    2
+  ],
+  "state2_loaded": false,
+  "VLA_training_steps": 0,
+  "base_LAYA_training_steps": 0,
+  "training_target": "utility",
+  "candidate_variants": [
+    "binary_window3"
+  ],
+  "readout_l2_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "model_count": 4,
+  "models_sha256": "d06baaf3415b7e8807307833de096df5d4a35c1c28e5dcd54449cb64b2a69206",
+  "results_sha256": "6bd5e5df22a444d678a67b2c00abd719a9cc6d8b79bab0aa50a7ea8aae495c34",
+  "proposed_deployment_models": [],
+  "selection_rule": "All five predeclared conditions; then fewer first-intervention calls, greater balanced accuracy, stronger regularization",
+  "class_balance_is_not_probability_calibration": true,
+  "protocol_sha256": "a15a9d801b99af1f3d965a1c30e16c7a0b9ee064a6988d7fa5c79c1e37ee6a50",
+  "source_first_intervention_sha256": "c7bdb88bef9ec0ebefbbb75a508e4f27744afd3c173f26aeee90b93dc0c49c73",
+  "fit_script_sha256": "39ddfbed37c7fd499eeedd126d9b92c0a20273c6165b17827b9b4a75eb0b8e76",
+  "fit_math_sha256": "0640808130b9c4ad08d04eafa823a2916d86f4ecf8ee55a1f673ac16137ef4a2",
+  "interpretation": "State1 is a reused development selection set. State2 is not read by this fitter; future diagnosis cannot be called an untouched project test."
+}

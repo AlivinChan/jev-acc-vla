@@ -1,0 +1,354 @@
+{
+  "checks": 70,
+  "errors": 0,
+  "GPU_used": false,
+  "cases": [
+    {
+      "delay": 1,
+      "horizon": 50,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 50,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 100,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 1,
+      "horizon": 200,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 50,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 100,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 4,
+      "horizon": 200,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 50,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 100,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "test": "extreme fraction matches smol70"
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "test": "extreme fraction matches fixed_r60"
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "test": "original smol70 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "test": "original fixed_interval unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "test": "original naive_k5 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "test": "original vlash_style_k5 unchanged"
+    },
+    {
+      "delay": 5,
+      "horizon": 200,
+      "test": "original laya_skip1 unchanged"
+    },
+    {
+      "seed": 11131,
+      "test": "mixed deterministic sequence, full repeat, independent expected requests"
+    },
+    {
+      "seed": 22261,
+      "test": "mixed deterministic sequence, full repeat, independent expected requests"
+    },
+    {
+      "terminal": 5,
+      "test": "early termination and paid pending calls match the reference"
+    },
+    {
+      "terminal": 15,
+      "test": "early termination and paid pending calls match the reference"
+    },
+    {
+      "terminal": 16,
+      "test": "early termination and paid pending calls match the reference"
+    },
+    {
+      "terminal": 20,
+      "test": "early termination and paid pending calls match the reference"
+    },
+    {
+      "test": "horizon-independent draw key; separate prescribed rational cutoff"
+    }
+  ],
+  "source_sha256": {
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "seeded_skip_runtime.py": "dee270428f91b9d633c6ad96ea444a65b1394a6f5596bae36de40a1ce718156a"
+  },
+  "scope": "Actual function ASTs in a visible seed/tick environment. GPU replay qualification remains required."
+}

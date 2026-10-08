@@ -1,0 +1,14 @@
+{
+  "model_sha256": "4a08babde47322238f156d7ebcbf99bbba792750b52be90c7679dbc796f33a58",
+  "model_count": 80,
+  "selected": [],
+  "state2_not_yet_collected": true,
+  "decision": "Do not promote models that collapse to all continue, despite crossing 0.7.",
+  "variants": [
+    "numbers3",
+    "binary_short",
+    "binary_compact",
+    "binary_window",
+    "binary_window3"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "tasks": [
+    0
+  ],
+  "states": [
+    10
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "logical_delay_steps": 1,
+  "schedule_seed": 2026100813,
+  "cohort_id": "noise_alignment_pilot_d1_v1",
+  "cohort_role": "Controlled K5 noise/alignment attribution; no policy reselection",
+  "candidates": {
+    "naive_k5": {
+      "method": "naive_k5",
+      "role": "frequency-matched reference for VLASH mechanism"
+    },
+    "vlash_style_k5": {
+      "method": "vlash_style_k5",
+      "role": "same frozen model VLASH-style mechanism, without offset training"
+    },
+    "vlash_noise_matched_k5": {
+      "method": "vlash_style_k5",
+      "alignment_mode": "current_state",
+      "noise_clock": "image",
+      "role": "Current proprio / stale image, same image-tick noise as naive"
+    },
+    "stale_row0_k5": {
+      "method": "vlash_style_k5",
+      "alignment_mode": "stale_state",
+      "noise_clock": "image",
+      "role": "Stale image and proprio with matched noise; execute row zero"
+    }
+  },
+  "locked_source_sha256": {
+    "run_closed_loop.py": "74ae430e604f1d0f1d9005c3cc81c867b234ed1faa72aa74699535fa02815d45",
+    "controller_runtime.py": "e5b9713af0bd40f5abdd0b49d1c1445adc96d732e7a029cdfe5a0ade9ec4628e",
+    "window_state.py": "9c5cc47176160e7ef3f5e901da36c76eb43f40da50d5b61821c7827e4ca5a03d",
+    "binary_service.py": "3b70808c581f931dcfda90a5a3ddf9c59aea6b073fbc2614bedee2099785f075",
+    "gate_variants.py": "6c99ef1e2d1d122b3902d17260d41d2be0f1905d449e0ba3b62fbb1dca672aac",
+    "supervise.py": "bb8c5c2b4bf2b95fe3d027b092d813e68d6c46c567887620f22f8a4a0921fc73",
+    "run_guarded_closed_loop.py": "67d1aefe59bf293128b5daafb8055c49672afdf10641bce3c4e56ee89a32329b",
+    "verified_runtime.py": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e",
+    "mechanism_runtime.py": "685a5ac0cfe1d7c37609725cd9179ecb814b76de5ef7aeee2794d5cd740ec718",
+    "run_mechanism_closed_loop.py": "70689651495f960ab18778cae850ed10fb160725f075d01df0c41744311dd2b1",
+    "audit_mechanism_closed_loop.py": "6628f8b2836f8a0e86da8fb585746ef39c2cdae621d866ccdd47a4f3b39808d6",
+    "audit_noise_alignment.py": "8e55d22556b3c0222ab26cc27df1616c87313f54bd467955602b0b947546ed38"
+  },
+  "initial_input_verification_required": true,
+  "deterministic_backend_forced": false
+}

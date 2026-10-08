@@ -1,0 +1,44 @@
+{
+  "original_sha256": "1ee93eb30d87f0fd56ea1dbf4dd9d52006cc83a80cb59ddcde64ce0e6a367f80",
+  "generated_sha256": "4a1bc3324fa0338316ba8b8d1079a55c13c97a006b9996a4e6ae926335601d5b",
+  "changes": [
+    [
+      "ROOT = BASE / 'experiments/long_chunk_laya'",
+      "ROOT = BASE / 'experiments/laya_gate_optimization'"
+    ],
+    [
+      "str(ROOT / 'source_snapshot')",
+      "str(BASE / 'experiments/long_chunk_laya/source_snapshot')"
+    ],
+    [
+      "def state_text(instruction, obs, env, anchor, queue, age, horizon):",
+      "def state_text(instruction, obs, env, anchor, queue, age, horizon, gate_interval=5):"
+    ],
+    [
+      "np.round(np.asarray(a), 3).tolist",
+      "np.round(np.asarray(a, dtype=np.float64), 3).tolist"
+    ],
+    [
+      "'One action = one control step. Next gate check in at most 5 steps; '",
+      "f'One action = one control step. Next gate check in at most {gate_interval} steps; '"
+    ],
+    [
+      "def run_episode(predictor, gate, out, phase, tid, sid, horizon, method):",
+      "def run_episode(predictor, gate, out, phase, tid, sid, horizon, method, gate_interval=5, minimum_age=0):"
+    ],
+    [
+      "elif method == 'laya' and tick % 5 == 0:",
+      "elif method == 'laya' and tick % gate_interval == 0 and tick-origin >= minimum_age:"
+    ],
+    [
+      "queue, tick-origin, horizon)",
+      "queue, tick-origin, horizon, gate_interval)"
+    ],
+    [
+      "result = dict(phase=phase, task_id=tid, state_id=sid, horizon=horizon, method=method,",
+      "result = dict(phase=phase, task_id=tid, state_id=sid, horizon=horizon, method=method,\n                      gate_interval=gate_interval, minimum_age=minimum_age,"
+    ]
+  ],
+  "unused_original_main_removed": true,
+  "baseline_readonly": true
+}

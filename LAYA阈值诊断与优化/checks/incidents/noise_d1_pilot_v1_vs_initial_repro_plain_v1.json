@@ -1,0 +1,89 @@
+{
+  "current": "noise_d1_pilot_v1",
+  "reference": "initial_repro_plain_v1",
+  "candidates_filter": "naive_k5,vlash_style_k5",
+  "scope": "Technical replay only; no outcome-based selection, no added efficacy sample",
+  "script_sha256": "8a9b5eff45a34f7bebf44221dced9d61969b78c667f22d17d2bbf0597ddb6218",
+  "cases": [
+    {
+      "candidate": "vlash_style_k5",
+      "task": 0,
+      "state": 10,
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null,
+      "entire_trajectory_exact": true
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "task": 0,
+      "state": 10,
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null,
+      "entire_trajectory_exact": true
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "task": 0,
+      "state": 10,
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null,
+      "entire_trajectory_exact": true
+    },
+    {
+      "candidate": "naive_k5",
+      "task": 0,
+      "state": 10,
+      "horizon": 50,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null,
+      "entire_trajectory_exact": true
+    },
+    {
+      "candidate": "naive_k5",
+      "task": 0,
+      "state": 10,
+      "horizon": 100,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null,
+      "entire_trajectory_exact": true
+    },
+    {
+      "candidate": "naive_k5",
+      "task": 0,
+      "state": 10,
+      "horizon": 200,
+      "initial_exact": true,
+      "actions_exact": true,
+      "physics_exact": true,
+      "all_prediction_blocks_exact": true,
+      "all_gate_inputs_and_answers_exact": true,
+      "first_action_difference_tick": null,
+      "entire_trajectory_exact": true
+    }
+  ],
+  "n": 6,
+  "entire_trajectory_exact": 6
+}

@@ -1,0 +1,50 @@
+{
+  "script_sha256": "1341d2a3006900eb8e87447141bba72429169d493623815595a01e0514e28089",
+  "original_remote_harness_sha256": "6d3dff20730a79faf5f05a5dc7fd00ffd220b98e55f976f337b9330d8a5c4883",
+  "method": "AST-extracted actual audited_predict function with CPU standard-library fakes; no model/torch/GPU initialized",
+  "checks": {
+    "parse": "pass",
+    "predict_output_identity": "pass",
+    "argument_identity": "pass",
+    "rng_preserved": "pass",
+    "actual_batch_count": "pass",
+    "failure_propagation": "pass",
+    "append_only_trace": "pass",
+    "attempt_output_scope": "pass"
+  },
+  "limitations": [
+    "No real model or CUDA executed by this CPU audit; full tensor hashing and CUDA synchronization are verified at runtime."
+  ],
+  "example_call_records": [
+    {
+      "call_index": 0,
+      "rollout_batch": 2,
+      "call_in_rollout": 0,
+      "control_step": 0,
+      "batch_size": 10,
+      "native_prediction_horizon": 50,
+      "returned_execution_horizon": 5,
+      "all_model_parameters_frozen": true,
+      "wall_seconds": 2.4000000848900527e-06,
+      "status": "completed",
+      "output_shape": [
+        10,
+        5,
+        7
+      ]
+    },
+    {
+      "call_index": 1,
+      "rollout_batch": 2,
+      "call_in_rollout": 1,
+      "control_step": 5,
+      "batch_size": 10,
+      "native_prediction_horizon": 50,
+      "returned_execution_horizon": 5,
+      "all_model_parameters_frozen": true,
+      "wall_seconds": 2.1000014385208488e-06,
+      "status": "failed",
+      "error": "ValueError('expected fake inference failure')"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "purpose": "Confirm the developer frontier on initial states1,2, without treating them as historically unseen tests",
+  "tasks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "states": [
+    1,
+    2
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "schedule_seed": 20261010,
+  "exposure": "Prior experiment developer states; separate from this round's state0 candidate selection",
+  "candidates": {
+    "compact_r30": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval_ratio": 0.3
+    },
+    "compact_minr30_i5": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval": 5,
+      "minimum_age_ratio": 0.3
+    },
+    "short5": {
+      "method": "laya",
+      "variant": "binary_short",
+      "interval": 5,
+      "horizons": [
+        50
+      ]
+    },
+    "compact5": {
+      "method": "laya",
+      "variant": "binary_compact",
+      "interval": 5,
+      "horizons": [
+        200
+      ]
+    }
+  },
+  "promotion_rule": "Compare each variant with its same-H paired Smol70 baseline across all three developer states after completion. Choose one uniform schedule for the principal variant, keeping the high-success frequent-gate endpoint as a labeled exploratory reference. Final validation states10-14 remain unused for selection.",
+  "planned_episodes": 160
+}

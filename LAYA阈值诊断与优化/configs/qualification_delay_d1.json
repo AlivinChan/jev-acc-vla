@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    0
+  ],
+  "states": [
+    0
+  ],
+  "horizons": [
+    50,
+    100,
+    200
+  ],
+  "logical_delay_steps": 1,
+  "schedule_seed": 202610086,
+  "cohort_role": "Execution qualification only: parameterized d=1 must exactly reproduce saved Smol70, VLASH mechanism and window3 single-skip trajectories",
+  "candidates": {
+    "smol70": {
+      "method": "smol70"
+    },
+    "vlash_style_k5": {
+      "method": "vlash_style_k5"
+    },
+    "window3_skip1": {
+      "method": "laya_skip1",
+      "variant": "binary_window3",
+      "interval_ratio": 0.3
+    }
+  }
+}

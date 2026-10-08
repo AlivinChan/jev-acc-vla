@@ -1,0 +1,22 @@
+[
+  {
+    "name": "AUC ties, single class, coverage and decision polarity",
+    "passed": true
+  },
+  {
+    "name": "Recover known temperature and improve independent synthetic proper scores",
+    "passed": true
+  },
+  {
+    "name": "Recover positive slope and class offset",
+    "passed": true
+  },
+  {
+    "name": "Frozen-feature readout learns an independent synthetic signal",
+    "passed": true
+  },
+  {
+    "name": "Task bootstrap preserves improvement sign",
+    "passed": true
+  }
+]

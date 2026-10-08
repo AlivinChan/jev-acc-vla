@@ -1,0 +1,12 @@
+{
+  "checks": 4,
+  "errors": 0,
+  "class_weight_totals": [
+    10.0,
+    10.0
+  ],
+  "finite_difference_gradient_error": 3.3546479250063646e-08,
+  "constant_feature_score": 0.5,
+  "separable_case_correct": 20,
+  "module_sha256": "0640808130b9c4ad08d04eafa823a2916d86f4ecf8ee55a1f673ac16137ef4a2"
+}

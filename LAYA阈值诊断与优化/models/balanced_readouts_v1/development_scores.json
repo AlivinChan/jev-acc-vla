@@ -1,0 +1,282 @@
+{
+  "raw_calibration": {
+    "n": 46,
+    "replan_labels": 9,
+    "continue_labels": 37,
+    "replan_predictions": 26,
+    "accuracy": 0.5434782608695652,
+    "balanced_accuracy": 0.6321321321321322,
+    "replan_recall": 0.7777777777777778,
+    "continue_recall": 0.4864864864864865,
+    "auc": 0.6441441441441441,
+    "brier": 0.2524634776488449,
+    "log_loss": 0.6981152002639676,
+    "ece_5_equal_bins": 0.31340107838792297,
+    "above_07": 0,
+    "coverage_07": 0.0,
+    "covered_accuracy_07": null
+  },
+  "raw_first_intervention": {
+    "50": {
+      "episodes": 10,
+      "successes": 5,
+      "vla_calls": 112
+    },
+    "100": {
+      "episodes": 10,
+      "successes": 3,
+      "vla_calls": 64
+    },
+    "200": {
+      "episodes": 10,
+      "successes": 2,
+      "vla_calls": 35
+    }
+  },
+  "results": {
+    "utility__binary_window3__balanced_l2_0p01": {
+      "train": {
+        "n": 55,
+        "replan_labels": 9,
+        "continue_labels": 46,
+        "replan_predictions": 9,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "replan_recall": 1.0,
+        "continue_recall": 1.0,
+        "auc": 1.0,
+        "brier": 0.0011665235723633163,
+        "log_loss": 0.02750713137109497,
+        "ece_5_equal_bins": 0.026902174540751174,
+        "above_07": 55,
+        "coverage_07": 1.0,
+        "covered_accuracy_07": 1.0
+      },
+      "calibration": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 4,
+        "accuracy": 0.717391304347826,
+        "balanced_accuracy": 0.44594594594594594,
+        "replan_recall": 0.0,
+        "continue_recall": 0.8918918918918919,
+        "auc": 0.43543543543543545,
+        "brier": 0.24027123444390397,
+        "log_loss": 0.9826379257471151,
+        "ece_5_equal_bins": 0.22375061458503967,
+        "above_07": 42,
+        "coverage_07": 0.9130434782608695,
+        "covered_accuracy_07": 0.7380952380952381
+      },
+      "first_intervention": {
+        "50": {
+          "episodes": 10,
+          "successes": 4,
+          "vla_calls": 117
+        },
+        "100": {
+          "episodes": 10,
+          "successes": 3,
+          "vla_calls": 60
+        },
+        "200": {
+          "episodes": 10,
+          "successes": 0,
+          "vla_calls": 31
+        }
+      },
+      "eligibility_conditions": {
+        "replan_recall_not_lower": false,
+        "balanced_accuracy_not_lower": false,
+        "both_recalls_nonzero": false,
+        "first_success_not_lower_each_h": false,
+        "first_total_calls_strictly_lower": true
+      },
+      "eligible": false
+    },
+    "utility__binary_window3__balanced_l2_0p1": {
+      "train": {
+        "n": 55,
+        "replan_labels": 9,
+        "continue_labels": 46,
+        "replan_predictions": 9,
+        "accuracy": 1.0,
+        "balanced_accuracy": 1.0,
+        "replan_recall": 1.0,
+        "continue_recall": 1.0,
+        "auc": 1.0,
+        "brier": 0.023017552602377065,
+        "log_loss": 0.1415051314517298,
+        "ece_5_equal_bins": 0.12799112966871873,
+        "above_07": 53,
+        "coverage_07": 0.9636363636363636,
+        "covered_accuracy_07": 1.0
+      },
+      "calibration": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 5,
+        "accuracy": 0.6956521739130435,
+        "balanced_accuracy": 0.43243243243243246,
+        "replan_recall": 0.0,
+        "continue_recall": 0.8648648648648649,
+        "auc": 0.4864864864864865,
+        "brier": 0.21209731188732858,
+        "log_loss": 0.6468866074486898,
+        "ece_5_equal_bins": 0.19676221142598527,
+        "above_07": 38,
+        "coverage_07": 0.8260869565217391,
+        "covered_accuracy_07": 0.7368421052631579
+      },
+      "first_intervention": {
+        "50": {
+          "episodes": 10,
+          "successes": 4,
+          "vla_calls": 117
+        },
+        "100": {
+          "episodes": 10,
+          "successes": 3,
+          "vla_calls": 61
+        },
+        "200": {
+          "episodes": 10,
+          "successes": 0,
+          "vla_calls": 31
+        }
+      },
+      "eligibility_conditions": {
+        "replan_recall_not_lower": false,
+        "balanced_accuracy_not_lower": false,
+        "both_recalls_nonzero": false,
+        "first_success_not_lower_each_h": false,
+        "first_total_calls_strictly_lower": true
+      },
+      "eligible": false
+    },
+    "utility__binary_window3__balanced_l2_1p0": {
+      "train": {
+        "n": 55,
+        "replan_labels": 9,
+        "continue_labels": 46,
+        "replan_predictions": 16,
+        "accuracy": 0.8727272727272727,
+        "balanced_accuracy": 0.9239130434782609,
+        "replan_recall": 1.0,
+        "continue_recall": 0.8478260869565217,
+        "auc": 0.9492753623188406,
+        "brier": 0.1268776608506604,
+        "log_loss": 0.41677708740810754,
+        "ece_5_equal_bins": 0.24712738344337787,
+        "above_07": 24,
+        "coverage_07": 0.43636363636363634,
+        "covered_accuracy_07": 1.0
+      },
+      "calibration": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 8,
+        "accuracy": 0.6739130434782609,
+        "balanced_accuracy": 0.46096096096096095,
+        "replan_recall": 0.1111111111111111,
+        "continue_recall": 0.8108108108108109,
+        "auc": 0.6036036036036037,
+        "brier": 0.19135924679077168,
+        "log_loss": 0.5551542562779801,
+        "ece_5_equal_bins": 0.15485821045916373,
+        "above_07": 27,
+        "coverage_07": 0.5869565217391305,
+        "covered_accuracy_07": 0.7777777777777778
+      },
+      "first_intervention": {
+        "50": {
+          "episodes": 10,
+          "successes": 5,
+          "vla_calls": 108
+        },
+        "100": {
+          "episodes": 10,
+          "successes": 3,
+          "vla_calls": 62
+        },
+        "200": {
+          "episodes": 10,
+          "successes": 0,
+          "vla_calls": 34
+        }
+      },
+      "eligibility_conditions": {
+        "replan_recall_not_lower": false,
+        "balanced_accuracy_not_lower": false,
+        "both_recalls_nonzero": true,
+        "first_success_not_lower_each_h": false,
+        "first_total_calls_strictly_lower": true
+      },
+      "eligible": false
+    },
+    "utility__binary_window3__balanced_l2_10p0": {
+      "train": {
+        "n": 55,
+        "replan_labels": 9,
+        "continue_labels": 46,
+        "replan_predictions": 22,
+        "accuracy": 0.6545454545454545,
+        "balanced_accuracy": 0.6594202898550725,
+        "replan_recall": 0.6666666666666666,
+        "continue_recall": 0.6521739130434783,
+        "auc": 0.7608695652173914,
+        "brier": 0.20075715015770915,
+        "log_loss": 0.5853010181317057,
+        "ece_5_equal_bins": 0.28474022826537454,
+        "above_07": 15,
+        "coverage_07": 0.2727272727272727,
+        "covered_accuracy_07": 0.9333333333333333
+      },
+      "calibration": {
+        "n": 46,
+        "replan_labels": 9,
+        "continue_labels": 37,
+        "replan_predictions": 14,
+        "accuracy": 0.6304347826086957,
+        "balanced_accuracy": 0.5180180180180181,
+        "replan_recall": 0.3333333333333333,
+        "continue_recall": 0.7027027027027027,
+        "auc": 0.6456456456456456,
+        "brier": 0.19959544650674793,
+        "log_loss": 0.5820125380498721,
+        "ece_5_equal_bins": 0.20250011767553272,
+        "above_07": 14,
+        "coverage_07": 0.30434782608695654,
+        "covered_accuracy_07": 0.9285714285714286
+      },
+      "first_intervention": {
+        "50": {
+          "episodes": 10,
+          "successes": 5,
+          "vla_calls": 109
+        },
+        "100": {
+          "episodes": 10,
+          "successes": 3,
+          "vla_calls": 63
+        },
+        "200": {
+          "episodes": 10,
+          "successes": 2,
+          "vla_calls": 34
+        }
+      },
+      "eligibility_conditions": {
+        "replan_recall_not_lower": false,
+        "balanced_accuracy_not_lower": false,
+        "both_recalls_nonzero": true,
+        "first_success_not_lower_each_h": true,
+        "first_total_calls_strictly_lower": true
+      },
+      "eligible": false
+    }
+  }
+}

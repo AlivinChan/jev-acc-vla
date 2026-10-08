@@ -1,0 +1,1532 @@
+{
+  "schema_version": 1,
+  "run_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\argmax_attempt_v1\\smol",
+  "baseline_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol",
+  "completion_status": "complete",
+  "exploratory": true,
+  "minimum_probability": 0.0,
+  "original_threshold_contract_unchanged": 0.7,
+  "groups": [
+    {
+      "horizon": 50,
+      "method": "laya_argmax_tau0",
+      "episodes": 30,
+      "successes": 18,
+      "success_rate": 0.6,
+      "success_wilson95": [
+        0.42320360253322475,
+        0.7540937188319815
+      ],
+      "steps": 4781,
+      "vla_calls": 541,
+      "nfe": 5410,
+      "calls_per_100_steps": 11.315624346371052,
+      "prediction_seconds": 108.20581405144185,
+      "gate_calls": 932,
+      "gate_seconds": 38.74222602555528,
+      "vla_plus_gate_seconds": 146.94804007699713,
+      "episode_wall_seconds": 203.90084895212203,
+      "simulated_seconds": 239.05,
+      "native_generated_rows": 27050,
+      "unused_generated_rows": 22269,
+      "executed_rows_per_vla_call": 8.837338262476894,
+      "generated_row_utilization": 0.1767467652495379,
+      "unused_fraction": 0.8232532347504621,
+      "n": 30,
+      "expected_n": 30,
+      "wilson_low": 0.42320360253322475,
+      "wilson_high": 0.7540937188319815,
+      "calls_per100steps": 11.315624346371052,
+      "gate_choices": {
+        "replan": 484,
+        "continue": 448
+      },
+      "success_task_cluster_bootstrap95": {
+        "clusters": 10,
+        "seed": 20261058,
+        "replicates": 10000,
+        "interval95": [
+          0.4,
+          0.8
+        ],
+        "kind": "task-cluster percentile bootstrap"
+      }
+    },
+    {
+      "horizon": 100,
+      "method": "laya_argmax_tau0",
+      "episodes": 30,
+      "successes": 13,
+      "success_rate": 0.43333333333333335,
+      "success_wilson95": [
+        0.2737748557646652,
+        0.6080269299918639
+      ],
+      "steps": 5165,
+      "vla_calls": 520,
+      "nfe": 5200,
+      "calls_per_100_steps": 10.067763794772507,
+      "prediction_seconds": 103.51948877517134,
+      "gate_calls": 1007,
+      "gate_seconds": 41.479534794576466,
+      "vla_plus_gate_seconds": 144.9990235697478,
+      "episode_wall_seconds": 205.75431088823825,
+      "simulated_seconds": 258.25,
+      "native_generated_rows": 52000,
+      "unused_generated_rows": 46835,
+      "executed_rows_per_vla_call": 9.932692307692308,
+      "generated_row_utilization": 0.09932692307692308,
+      "unused_fraction": 0.900673076923077,
+      "n": 30,
+      "expected_n": 30,
+      "wilson_low": 0.2737748557646652,
+      "wilson_high": 0.6080269299918639,
+      "calls_per100steps": 10.067763794772507,
+      "gate_choices": {
+        "replan": 477,
+        "continue": 530
+      },
+      "success_task_cluster_bootstrap95": {
+        "clusters": 10,
+        "seed": 20261108,
+        "replicates": 10000,
+        "interval95": [
+          0.26666666666666666,
+          0.6
+        ],
+        "kind": "task-cluster percentile bootstrap"
+      }
+    },
+    {
+      "horizon": 200,
+      "method": "laya_argmax_tau0",
+      "episodes": 30,
+      "successes": 15,
+      "success_rate": 0.5,
+      "success_wilson95": [
+        0.33154125640533766,
+        0.6684587435946623
+      ],
+      "steps": 4916,
+      "vla_calls": 517,
+      "nfe": 5170,
+      "calls_per_100_steps": 10.516680227827502,
+      "prediction_seconds": 103.1969180717133,
+      "gate_calls": 959,
+      "gate_seconds": 40.11729595344514,
+      "vla_plus_gate_seconds": 143.31421402515844,
+      "episode_wall_seconds": 201.71908776648343,
+      "simulated_seconds": 245.8,
+      "native_generated_rows": 103400,
+      "unused_generated_rows": 98484,
+      "executed_rows_per_vla_call": 9.508704061895552,
+      "generated_row_utilization": 0.047543520309477755,
+      "unused_fraction": 0.9524564796905223,
+      "n": 30,
+      "expected_n": 30,
+      "wilson_low": 0.33154125640533766,
+      "wilson_high": 0.6684587435946623,
+      "calls_per100steps": 10.516680227827502,
+      "gate_choices": {
+        "replan": 485,
+        "continue": 474
+      },
+      "success_task_cluster_bootstrap95": {
+        "clusters": 10,
+        "seed": 20261208,
+        "replicates": 10000,
+        "interval95": [
+          0.3,
+          0.7
+        ],
+        "kind": "task-cluster percentile bootstrap"
+      }
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "baseline_method": "smol70",
+      "baseline_threshold": null,
+      "horizon": 50,
+      "pairs": 30,
+      "both_success": 10,
+      "argmax_only": 8,
+      "baseline_only": 3,
+      "both_failure": 9,
+      "discordant_pairs": 11,
+      "success_net_count_argmax_minus_baseline": 5,
+      "success_rate_difference": 0.16666666666666666,
+      "success_difference_task_cluster_bootstrap95": [
+        0.03333333333333333,
+        0.3
+      ],
+      "success_difference_seed": 20261058,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261057,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 2.077550978147379,
+            "bootstrap95_percentile": [
+              1.5876459222723918,
+              2.6193563634870265
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 1.4944751381215469,
+            "bootstrap95_percentile": [
+              1.0284859930752281,
+              1.994625789383854
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 1.5753578484788466,
+            "bootstrap95_percentile": [
+              1.2974032127438357,
+              1.8752706307359082
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "success_wilson95": [
+          0.2737748557646652,
+          0.6080269299918639
+        ],
+        "steps": 5192,
+        "vla_calls": 362,
+        "nfe": 3620,
+        "calls_per_100_steps": 6.972265023112481,
+        "prediction_seconds": 70.73137632850558,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 70.73137632850558,
+        "episode_wall_seconds": 129.43144895555452,
+        "simulated_seconds": 259.6,
+        "native_generated_rows": 18100,
+        "unused_generated_rows": 12908,
+        "executed_rows_per_vla_call": 14.342541436464089,
+        "generated_row_utilization": 0.28685082872928175,
+        "unused_fraction": 0.7131491712707182
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "smol70",
+      "baseline_threshold": null,
+      "horizon": 100,
+      "pairs": 30,
+      "both_success": 8,
+      "argmax_only": 5,
+      "baseline_only": 5,
+      "both_failure": 12,
+      "discordant_pairs": 10,
+      "success_net_count_argmax_minus_baseline": 0,
+      "success_rate_difference": 0.0,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.16666666666666666,
+        0.16666666666666666
+      ],
+      "success_difference_seed": 20261108,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261107,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 3.8768459173030023,
+            "bootstrap95_percentile": [
+              2.8673632189971956,
+              4.990068324186203
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 2.722513089005236,
+            "bootstrap95_percentile": [
+              1.7058748880262764,
+              3.8414720270084053
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 2.0957489254773436,
+            "bootstrap95_percentile": [
+              1.7135648395037089,
+              2.536754255051181
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "success_wilson95": [
+          0.2737748557646652,
+          0.6080269299918639
+        ],
+        "steps": 5329,
+        "vla_calls": 191,
+        "nfe": 1910,
+        "calls_per_100_steps": 3.5841621317320325,
+        "prediction_seconds": 37.401286164764315,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 37.401286164764315,
+        "episode_wall_seconds": 98.1769850323908,
+        "simulated_seconds": 266.45,
+        "native_generated_rows": 19100,
+        "unused_generated_rows": 13771,
+        "executed_rows_per_vla_call": 27.900523560209425,
+        "generated_row_utilization": 0.2790052356020942,
+        "unused_fraction": 0.7209947643979058
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "smol70",
+      "baseline_threshold": null,
+      "horizon": 200,
+      "pairs": 30,
+      "both_success": 6,
+      "argmax_only": 9,
+      "baseline_only": 5,
+      "both_failure": 10,
+      "discordant_pairs": 14,
+      "success_net_count_argmax_minus_baseline": 4,
+      "success_rate_difference": 0.13333333333333333,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.1,
+        0.36666666666666664
+      ],
+      "success_difference_seed": 20261208,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261207,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 7.220387250058294,
+            "bootstrap95_percentile": [
+              5.286943703026925,
+              9.433137812450411
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 5.118811881188119,
+            "bootstrap95_percentile": [
+              3.3091444309682636,
+              7.07
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 2.4428912765135316,
+            "bootstrap95_percentile": [
+              1.9350988712512038,
+              3.0138901968578566
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 11,
+        "success_rate": 0.36666666666666664,
+        "success_wilson95": [
+          0.21873920806100708,
+          0.5448643634520511
+        ],
+        "steps": 5589,
+        "vla_calls": 101,
+        "nfe": 1010,
+        "calls_per_100_steps": 1.8071211307926285,
+        "prediction_seconds": 19.848549539223313,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 19.848549539223313,
+        "episode_wall_seconds": 82.57391137536615,
+        "simulated_seconds": 279.45,
+        "native_generated_rows": 20200,
+        "unused_generated_rows": 14611,
+        "executed_rows_per_vla_call": 55.336633663366335,
+        "generated_row_utilization": 0.2766831683168317,
+        "unused_fraction": 0.7233168316831683
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "laya",
+      "baseline_threshold": 0.7,
+      "horizon": 50,
+      "pairs": 30,
+      "both_success": 10,
+      "argmax_only": 8,
+      "baseline_only": 3,
+      "both_failure": 9,
+      "discordant_pairs": 11,
+      "success_net_count_argmax_minus_baseline": 5,
+      "success_rate_difference": 0.16666666666666666,
+      "success_difference_task_cluster_bootstrap95": [
+        0.03333333333333333,
+        0.3
+      ],
+      "success_difference_seed": 20261058,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261057,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 1.2499608086096288,
+            "bootstrap95_percentile": [
+              0.9624971379478007,
+              1.560174991817576
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 1.4944751381215469,
+            "bootstrap95_percentile": [
+              1.0284859930752281,
+              1.994625789383854
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 1.1427068577275028,
+            "bootstrap95_percentile": [
+              0.9424859104551827,
+              1.3586147668738804
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "success_wilson95": [
+          0.2737748557646652,
+          0.6080269299918639
+        ],
+        "steps": 5192,
+        "vla_calls": 362,
+        "nfe": 3620,
+        "calls_per_100_steps": 6.972265023112481,
+        "prediction_seconds": 72.55863375030458,
+        "gate_calls": 1013,
+        "gate_seconds": 45.00348424958065,
+        "vla_plus_gate_seconds": 117.56211799988523,
+        "episode_wall_seconds": 178.43670716881752,
+        "simulated_seconds": 259.6,
+        "native_generated_rows": 18100,
+        "unused_generated_rows": 12908,
+        "executed_rows_per_vla_call": 14.342541436464089,
+        "generated_row_utilization": 0.28685082872928175,
+        "unused_fraction": 0.7131491712707182
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "laya",
+      "baseline_threshold": 0.7,
+      "horizon": 100,
+      "pairs": 30,
+      "both_success": 8,
+      "argmax_only": 5,
+      "baseline_only": 5,
+      "both_failure": 12,
+      "discordant_pairs": 10,
+      "success_net_count_argmax_minus_baseline": 0,
+      "success_rate_difference": 0.0,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.16666666666666666,
+        0.16666666666666666
+      ],
+      "success_difference_seed": 20261108,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261107,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 1.687229583065598,
+            "bootstrap95_percentile": [
+              1.2593143871937493,
+              2.1870201584145463
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 2.722513089005236,
+            "bootstrap95_percentile": [
+              1.7058748880262764,
+              3.8414720270084053
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 1.3834526457699199,
+            "bootstrap95_percentile": [
+              1.1383097889606233,
+              1.6722461284558778
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "success_wilson95": [
+          0.2737748557646652,
+          0.6080269299918639
+        ],
+        "steps": 5329,
+        "vla_calls": 191,
+        "nfe": 1910,
+        "calls_per_100_steps": 3.5841621317320325,
+        "prediction_seconds": 38.184524501208216,
+        "gate_calls": 1042,
+        "gate_seconds": 47.75459429156035,
+        "vla_plus_gate_seconds": 85.93911879276857,
+        "episode_wall_seconds": 148.7252285196446,
+        "simulated_seconds": 266.45,
+        "native_generated_rows": 19100,
+        "unused_generated_rows": 13771,
+        "executed_rows_per_vla_call": 27.900523560209425,
+        "generated_row_utilization": 0.2790052356020942,
+        "unused_fraction": 0.7209947643979058
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "laya",
+      "baseline_threshold": 0.7,
+      "horizon": 200,
+      "pairs": 30,
+      "both_success": 6,
+      "argmax_only": 9,
+      "baseline_only": 5,
+      "both_failure": 10,
+      "discordant_pairs": 14,
+      "success_net_count_argmax_minus_baseline": 4,
+      "success_rate_difference": 0.13333333333333333,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.1,
+        0.36666666666666664
+      ],
+      "success_difference_seed": 20261208,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261207,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 2.0928765642370486,
+            "bootstrap95_percentile": [
+              1.595527829950563,
+              2.622718641568738
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 5.118811881188119,
+            "bootstrap95_percentile": [
+              3.3091444309682636,
+              7.07
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 1.5017274739593947,
+            "bootstrap95_percentile": [
+              1.2110898326429878,
+              1.8216630300039145
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 11,
+        "success_rate": 0.36666666666666664,
+        "success_wilson95": [
+          0.21873920806100708,
+          0.5448643634520511
+        ],
+        "steps": 5589,
+        "vla_calls": 101,
+        "nfe": 1010,
+        "calls_per_100_steps": 1.8071211307926285,
+        "prediction_seconds": 20.364117218647152,
+        "gate_calls": 1091,
+        "gate_seconds": 48.113028769847006,
+        "vla_plus_gate_seconds": 68.47714598849416,
+        "episode_wall_seconds": 134.32469690032303,
+        "simulated_seconds": 279.45,
+        "native_generated_rows": 20200,
+        "unused_generated_rows": 14611,
+        "executed_rows_per_vla_call": 55.336633663366335,
+        "generated_row_utilization": 0.2766831683168317,
+        "unused_fraction": 0.7233168316831683
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "naive_k5",
+      "baseline_threshold": null,
+      "horizon": 50,
+      "pairs": 30,
+      "both_success": 13,
+      "argmax_only": 5,
+      "baseline_only": 3,
+      "both_failure": 9,
+      "discordant_pairs": 8,
+      "success_net_count_argmax_minus_baseline": 2,
+      "success_rate_difference": 0.06666666666666667,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.13333333333333333,
+        0.23333333333333334
+      ],
+      "success_difference_seed": 20261058,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261057,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 0.75920963960478,
+            "bootstrap95_percentile": [
+              0.5606261065797383,
+              1.0129931484519652
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 0.5459132189707366,
+            "bootstrap95_percentile": [
+              0.363929155784903,
+              0.7722895997982173
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 0.8166321827548545,
+            "bootstrap95_percentile": [
+              0.6508900513453877,
+              1.042573895214842
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 16,
+        "success_rate": 0.5333333333333333,
+        "success_wilson95": [
+          0.36142299619873297,
+          0.6976761109230025
+        ],
+        "steps": 4840,
+        "vla_calls": 991,
+        "nfe": 9910,
+        "calls_per_100_steps": 20.475206611570247,
+        "prediction_seconds": 193.5539703546092,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 193.5539703546092,
+        "episode_wall_seconds": 249.68505192175508,
+        "simulated_seconds": 242.0,
+        "native_generated_rows": 49550,
+        "unused_generated_rows": 44710,
+        "executed_rows_per_vla_call": 4.883955600403633,
+        "generated_row_utilization": 0.09767911200807265,
+        "unused_fraction": 0.9023208879919273
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "naive_k5",
+      "baseline_threshold": null,
+      "horizon": 100,
+      "pairs": 30,
+      "both_success": 7,
+      "argmax_only": 6,
+      "baseline_only": 9,
+      "both_failure": 8,
+      "discordant_pairs": 15,
+      "success_net_count_argmax_minus_baseline": -3,
+      "success_rate_difference": -0.1,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.3,
+        0.13333333333333333
+      ],
+      "success_difference_seed": 20261108,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261107,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 0.7372548255983147,
+            "bootstrap95_percentile": [
+              0.5537470777731793,
+              0.9489959240588284
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 0.5163853028798411,
+            "bootstrap95_percentile": [
+              0.3308263529546299,
+              0.7288688600650575
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 0.8102886728507153,
+            "bootstrap95_percentile": [
+              0.6642979614480754,
+              0.9834554854400153
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 16,
+        "success_rate": 0.5333333333333333,
+        "success_wilson95": [
+          0.36142299619873297,
+          0.6976761109230025
+        ],
+        "steps": 4917,
+        "vla_calls": 1007,
+        "nfe": 10070,
+        "calls_per_100_steps": 20.479967459833233,
+        "prediction_seconds": 196.67422787239775,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 196.67422787239775,
+        "episode_wall_seconds": 253.92717161448672,
+        "simulated_seconds": 245.85,
+        "native_generated_rows": 100700,
+        "unused_generated_rows": 95783,
+        "executed_rows_per_vla_call": 4.882820258192652,
+        "generated_row_utilization": 0.048828202581926515,
+        "unused_fraction": 0.9511717974180735
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "naive_k5",
+      "baseline_threshold": null,
+      "horizon": 200,
+      "pairs": 30,
+      "both_success": 11,
+      "argmax_only": 4,
+      "baseline_only": 5,
+      "both_failure": 10,
+      "discordant_pairs": 9,
+      "success_net_count_argmax_minus_baseline": -1,
+      "success_rate_difference": -0.03333333333333333,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.2,
+        0.13333333333333333
+      ],
+      "success_difference_seed": 20261208,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261207,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 0.7337265460579239,
+            "bootstrap95_percentile": [
+              0.5404361637929134,
+              0.9447001747885334
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 0.5154536390827518,
+            "bootstrap95_percentile": [
+              0.32827136485281,
+              0.7096522038469119
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 0.7999778142002741,
+            "bootstrap95_percentile": [
+              0.6430396666569301,
+              0.9852644156781277
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 16,
+        "success_rate": 0.5333333333333333,
+        "success_wilson95": [
+          0.36142299619873297,
+          0.6976761109230025
+        ],
+        "steps": 4901,
+        "vla_calls": 1003,
+        "nfe": 10030,
+        "calls_per_100_steps": 20.465211181391552,
+        "prediction_seconds": 195.3237412427552,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 195.3237412427552,
+        "episode_wall_seconds": 252.15585255715996,
+        "simulated_seconds": 245.05,
+        "native_generated_rows": 200600,
+        "unused_generated_rows": 195699,
+        "executed_rows_per_vla_call": 4.886340977068794,
+        "generated_row_utilization": 0.024431704885343967,
+        "unused_fraction": 0.975568295114656
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "vlash_style_k5",
+      "baseline_threshold": null,
+      "horizon": 50,
+      "pairs": 30,
+      "both_success": 14,
+      "argmax_only": 4,
+      "baseline_only": 1,
+      "both_failure": 11,
+      "discordant_pairs": 5,
+      "success_net_count_argmax_minus_baseline": 3,
+      "success_rate_difference": 0.1,
+      "success_difference_task_cluster_bootstrap95": [
+        0.0,
+        0.2
+      ],
+      "success_difference_seed": 20261058,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261057,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 0.7458704818049582,
+            "bootstrap95_percentile": [
+              0.5690195616885846,
+              0.9376661513038531
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 0.5383084577114428,
+            "bootstrap95_percentile": [
+              0.3649425287356322,
+              0.7261257729612159
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 0.7974122705384717,
+            "bootstrap95_percentile": [
+              0.654807062491786,
+              0.9488899029627246
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 15,
+        "success_rate": 0.5,
+        "success_wilson95": [
+          0.33154125640533766,
+          0.6684587435946623
+        ],
+        "steps": 4997,
+        "vla_calls": 1005,
+        "nfe": 10050,
+        "calls_per_100_steps": 20.112067240344206,
+        "prediction_seconds": 197.015492182225,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 197.015492182225,
+        "episode_wall_seconds": 255.70317448768765,
+        "simulated_seconds": 249.85,
+        "native_generated_rows": 50250,
+        "unused_generated_rows": 45253,
+        "executed_rows_per_vla_call": 4.972139303482587,
+        "generated_row_utilization": 0.09944278606965175,
+        "unused_fraction": 0.9005572139303483
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "vlash_style_k5",
+      "baseline_threshold": null,
+      "horizon": 100,
+      "pairs": 30,
+      "both_success": 9,
+      "argmax_only": 4,
+      "baseline_only": 4,
+      "both_failure": 13,
+      "discordant_pairs": 8,
+      "success_net_count_argmax_minus_baseline": 0,
+      "success_rate_difference": 0.0,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.2,
+        0.16666666666666666
+      ],
+      "success_difference_seed": 20261108,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261107,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 0.7005360013666477,
+            "bootstrap95_percentile": [
+              0.5064931848920408,
+              0.9674101227266533
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 0.49010367577756836,
+            "bootstrap95_percentile": [
+              0.2963220986042696,
+              0.7462763238601512
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 0.7648976107922439,
+            "bootstrap95_percentile": [
+              0.6128117571327119,
+              0.9930677501827716
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "success_wilson95": [
+          0.2737748557646652,
+          0.6080269299918639
+        ],
+        "steps": 5281,
+        "vla_calls": 1061,
+        "nfe": 10610,
+        "calls_per_100_steps": 20.090891876538535,
+        "prediction_seconds": 206.98297201981768,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 206.98297201981768,
+        "episode_wall_seconds": 268.99588648881763,
+        "simulated_seconds": 264.05,
+        "native_generated_rows": 106100,
+        "unused_generated_rows": 100819,
+        "executed_rows_per_vla_call": 4.9773798303487276,
+        "generated_row_utilization": 0.04977379830348728,
+        "unused_fraction": 0.9502262016965127
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    },
+    {
+      "baseline_method": "vlash_style_k5",
+      "baseline_threshold": null,
+      "horizon": 200,
+      "pairs": 30,
+      "both_success": 11,
+      "argmax_only": 4,
+      "baseline_only": 2,
+      "both_failure": 13,
+      "discordant_pairs": 6,
+      "success_net_count_argmax_minus_baseline": 2,
+      "success_rate_difference": 0.06666666666666667,
+      "success_difference_task_cluster_bootstrap95": [
+        -0.06666666666666667,
+        0.2
+      ],
+      "success_difference_seed": 20261208,
+      "cost_ratios_argmax_over_baseline": {
+        "clusters": 10,
+        "task_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "pairs": 30,
+        "seed": 20261207,
+        "replicates": 10000,
+        "resampling": "Paired task-cluster bootstrap: sample tasks with replacement, retain all available paired states within each task.",
+        "ratios": {
+          "vla_plus_gate": {
+            "point": 0.6961635317736502,
+            "bootstrap95_percentile": [
+              0.5138709960683061,
+              0.8843060884421426
+            ],
+            "valid_replicates": 10000
+          },
+          "vla_calls": {
+            "point": 0.49097815764482433,
+            "bootstrap95_percentile": [
+              0.30894251688995766,
+              0.6792717726625532
+            ],
+            "valid_replicates": 10000
+          },
+          "episode_wall": {
+            "point": 0.7563519814211853,
+            "bootstrap95_percentile": [
+              0.6148649071092173,
+              0.9034173783709518
+            ],
+            "valid_replicates": 10000
+          }
+        },
+        "few_clusters_caution": true
+      },
+      "baseline_descriptive": {
+        "episodes": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "success_wilson95": [
+          0.2737748557646652,
+          0.6080269299918639
+        ],
+        "steps": 5237,
+        "vla_calls": 1053,
+        "nfe": 10530,
+        "calls_per_100_steps": 20.106931449303037,
+        "prediction_seconds": 205.86285762488842,
+        "gate_calls": 0,
+        "gate_seconds": 0,
+        "vla_plus_gate_seconds": 205.86285762488842,
+        "episode_wall_seconds": 266.70001893490553,
+        "simulated_seconds": 261.85,
+        "native_generated_rows": 210600,
+        "unused_generated_rows": 205363,
+        "executed_rows_per_vla_call": 4.97340930674264,
+        "generated_row_utilization": 0.0248670465337132,
+        "unused_fraction": 0.9751329534662868
+      },
+      "comparison_is_posthoc_and_cross_run": true
+    }
+  ],
+  "gate_by_prompt_phase_horizon": [
+    {
+      "phase": "argmax",
+      "horizon": 50,
+      "prompt_sha256": "6457091ce094d5467edd37cdbf9aa3e766d31d54f19493e8118dabbdb13d774c",
+      "requests": 932,
+      "choices": {
+        "replan": 484,
+        "continue": 448
+      },
+      "raw_choices": {
+        "replan": 484,
+        "continue": 448
+      },
+      "probabilities": {
+        "replan": {
+          "n": 932,
+          "mean": 0.44050257510729607,
+          "min": 0.2813,
+          "p05": 0.345935,
+          "p50": 0.4431,
+          "p95": 0.5168849999999999,
+          "max": 0.5581
+        },
+        "continue": {
+          "n": 932,
+          "mean": 0.44863819742489275,
+          "min": 0.341,
+          "p05": 0.379465,
+          "p50": 0.44145,
+          "p95": 0.557985,
+          "max": 0.6404
+        },
+        "uncertain": {
+          "n": 932,
+          "mean": 0.11085536480686695,
+          "min": 0.0741,
+          "p05": 0.090825,
+          "p50": 0.11205000000000001,
+          "p95": 0.1241,
+          "max": 0.1331
+        }
+      },
+      "maximum_probability": {
+        "n": 932,
+        "mean": 0.4833724248927038,
+        "min": 0.4373,
+        "p05": 0.443955,
+        "p50": 0.4741,
+        "p95": 0.5583699999999999,
+        "max": 0.6404
+      },
+      "full_gate_seconds": {
+        "n": 932,
+        "mean": 0.041568912044587215,
+        "min": 0.02266494883224368,
+        "p05": 0.02667295306455344,
+        "p50": 0.03458066121675074,
+        "p95": 0.09307381073012948,
+        "max": 0.11518125189468265
+      },
+      "sdk_synchronized_wall_ms": {
+        "n": 932,
+        "mean": 23.798814802575105,
+        "min": 16.707124,
+        "p05": 19.86050915,
+        "p50": 23.729795,
+        "p95": 27.848772699999998,
+        "max": 36.134901
+      },
+      "tokens": {
+        "n": 932,
+        "mean": 909.9109442060086,
+        "min": 723.0,
+        "p05": 796.55,
+        "p50": 924.0,
+        "p95": 934.0,
+        "max": 945.0
+      }
+    },
+    {
+      "phase": "argmax",
+      "horizon": 100,
+      "prompt_sha256": "6457091ce094d5467edd37cdbf9aa3e766d31d54f19493e8118dabbdb13d774c",
+      "requests": 1007,
+      "choices": {
+        "replan": 477,
+        "continue": 530
+      },
+      "raw_choices": {
+        "replan": 477,
+        "continue": 530
+      },
+      "probabilities": {
+        "replan": {
+          "n": 1007,
+          "mean": 0.4370840119165839,
+          "min": 0.2845,
+          "p05": 0.36971,
+          "p50": 0.4372,
+          "p95": 0.50384,
+          "max": 0.5464
+        },
+        "continue": {
+          "n": 1007,
+          "mean": 0.4463685203574975,
+          "min": 0.3506,
+          "p05": 0.38341,
+          "p50": 0.4448,
+          "p95": 0.51164,
+          "max": 0.6355
+        },
+        "uncertain": {
+          "n": 1007,
+          "mean": 0.11655054617676266,
+          "min": 0.0762,
+          "p05": 0.10243000000000001,
+          "p50": 0.1176,
+          "p95": 0.12714,
+          "max": 0.1367
+        }
+      },
+      "maximum_probability": {
+        "n": 1007,
+        "mean": 0.4752556107249255,
+        "min": 0.4358,
+        "p05": 0.44372999999999996,
+        "p50": 0.4689,
+        "p95": 0.52454,
+        "max": 0.6355
+      },
+      "full_gate_seconds": {
+        "n": 1007,
+        "mean": 0.041191196419638997,
+        "min": 0.02172492118552327,
+        "p05": 0.026975578209385277,
+        "p50": 0.03468408528715372,
+        "p95": 0.09047696720808737,
+        "max": 0.11232379311695695
+      },
+      "sdk_synchronized_wall_ms": {
+        "n": 1007,
+        "mean": 24.012676329692155,
+        "min": 16.635996,
+        "p05": 20.1732977,
+        "p50": 23.905145,
+        "p95": 27.4500708,
+        "max": 89.529204
+      },
+      "tokens": {
+        "n": 1007,
+        "mean": 918.3475670307845,
+        "min": 722.0,
+        "p05": 871.6,
+        "p50": 925.0,
+        "p95": 934.0,
+        "max": 942.0
+      }
+    },
+    {
+      "phase": "argmax",
+      "horizon": 200,
+      "prompt_sha256": "6457091ce094d5467edd37cdbf9aa3e766d31d54f19493e8118dabbdb13d774c",
+      "requests": 959,
+      "choices": {
+        "replan": 485,
+        "continue": 474
+      },
+      "raw_choices": {
+        "replan": 485,
+        "continue": 474
+      },
+      "probabilities": {
+        "replan": {
+          "n": 959,
+          "mean": 0.44344264859228366,
+          "min": 0.2994,
+          "p05": 0.38304,
+          "p50": 0.4416,
+          "p95": 0.5125399999999999,
+          "max": 0.5565
+        },
+        "continue": {
+          "n": 959,
+          "mean": 0.44215453597497395,
+          "min": 0.3445,
+          "p05": 0.38308,
+          "p50": 0.442,
+          "p95": 0.49901,
+          "max": 0.6246
+        },
+        "uncertain": {
+          "n": 959,
+          "mean": 0.11440041710114703,
+          "min": 0.067,
+          "p05": 0.1024,
+          "p50": 0.1142,
+          "p95": 0.1268,
+          "max": 0.1404
+        }
+      },
+      "maximum_probability": {
+        "n": 959,
+        "mean": 0.47258706986444216,
+        "min": 0.4342,
+        "p05": 0.44308,
+        "p50": 0.4678,
+        "p95": 0.51862,
+        "max": 0.6246
+      },
+      "full_gate_seconds": {
+        "n": 959,
+        "mean": 0.04183242539462475,
+        "min": 0.023033701349049807,
+        "p05": 0.026999363489449025,
+        "p50": 0.03536143992096186,
+        "p95": 0.0938547273632138,
+        "max": 0.12092617666348815
+      },
+      "sdk_synchronized_wall_ms": {
+        "n": 959,
+        "mean": 24.22108708029197,
+        "min": 17.066631,
+        "p05": 20.7406997,
+        "p50": 24.074854,
+        "p95": 27.8579375,
+        "max": 35.463473
+      },
+      "tokens": {
+        "n": 959,
+        "mean": 923.6454640250261,
+        "min": 721.0,
+        "p05": 913.0,
+        "p50": 925.0,
+        "p95": 934.0,
+        "max": 941.0
+      }
+    }
+  ],
+  "phase_totals": {
+    "argmax": {
+      "episodes": 90,
+      "successes": 46,
+      "success_rate": 0.5111111111111111,
+      "success_wilson95": [
+        0.409517457852855,
+        0.611795083801271
+      ],
+      "steps": 14862,
+      "vla_calls": 1578,
+      "nfe": 15780,
+      "calls_per_100_steps": 10.61768268066209,
+      "prediction_seconds": 314.9222208983265,
+      "gate_calls": 2898,
+      "gate_seconds": 120.33905677357689,
+      "vla_plus_gate_seconds": 435.2612776719034,
+      "episode_wall_seconds": 611.3742476068437,
+      "simulated_seconds": 743.1,
+      "native_generated_rows": 182450,
+      "unused_generated_rows": 167588,
+      "executed_rows_per_vla_call": 9.418250950570343,
+      "generated_row_utilization": 0.0814579336804604,
+      "unused_fraction": 0.9185420663195396
+    }
+  },
+  "startup_and_qualification": {
+    "qualification_vla_calls": 6,
+    "qualification_nfe": 60,
+    "qualification_prediction_seconds": 5.575935951434076,
+    "smolvla_load_seconds": 7.606898631900549,
+    "laya_load_and_integrity_seconds": 5.901300442,
+    "laya_warmup_requests": 1,
+    "laya_warmup_ipc_seconds": 0.24474499560892582
+  },
+  "parameter_identity": {
+    "before": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+    "after": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+    "baseline_before": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+    "freeze_records": {
+      "freeze_before.json": {
+        "state_dict_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+        "parameters_by_dtype": {
+          "torch.bfloat16": 600902304,
+          "torch.float32": 4031872
+        },
+        "parameter_count": 604934176,
+        "all_parameters_frozen": true,
+        "all_parameter_grads_none": true,
+        "all_modules_eval": true,
+        "training_steps": 0,
+        "optimizer_steps": 0
+      },
+      "freeze_after.json": {
+        "state_dict_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+        "parameters_by_dtype": {
+          "torch.bfloat16": 600902304,
+          "torch.float32": 4031872
+        },
+        "parameter_count": 604934176,
+        "all_parameters_frozen": true,
+        "all_parameter_grads_none": true,
+        "all_modules_eval": true,
+        "training_steps": 0,
+        "optimizer_steps": 0
+      }
+    }
+  },
+  "limits": [
+    "Post-hoc exploration motivated by tau=0.7 abstentions; not a new independent confirmation set.",
+    "Raw semantic uncertain remains a possible argmax and still falls back to Smol70; tau=0 removes confidence rejection only.",
+    "Measured serial VLA+gate service wall cost includes host work; it is not GPU kernel time or real-time robot speedup.",
+    "Only 10 task clusters; bootstrap intervals do not establish 2 percentage point noninferiority or generalization.",
+    "Cross-run GPU interference and time order can influence latency. Paired origins do not randomize run order.",
+    "Same frozen H=50-trained checkpoint extrapolated to H100/200; privileged simulator object coordinates.",
+    "VLASH-style is a same-SmolVLA input-alignment control, not the official VLASH trained checkpoint."
+  ]
+}

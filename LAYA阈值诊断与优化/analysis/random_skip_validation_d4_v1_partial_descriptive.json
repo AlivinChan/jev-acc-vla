@@ -1,0 +1,22 @@
+{
+  "cohort": "random_skip_validation_d4_v1",
+  "status": "partial_descriptive_descriptive_only",
+  "recipe_sha256": "9246c2a4af40d18676133b9d48fc64229add36e188708c10e0e34cc49e920fbe",
+  "definition_sha256": "2a2b9f80cc1a798e753f272acc072cbcd50d677dac20b12b27cf96660a28e3a9",
+  "final_stop_sha256": "31ddc89a440658ffc6dc9c4e8e0662e5b98572f6292390c12740039858bdcb19",
+  "source_sha256": {},
+  "planned_episodes": 450,
+  "included_episodes": 0,
+  "included_complete_shards": [],
+  "omitted_shards": [
+    "random_d4_s47_v1",
+    "random_d4_s45_v1",
+    "random_d4_s46_v1"
+  ],
+  "primary_candidate": "window3_skip1",
+  "groups": {},
+  "primary_point_comparisons": {},
+  "intervals_computed": false,
+  "formal_confirmation_completed": false,
+  "interpretation": "Incomplete cohort: only the consecutive complete audited shards in original order; all methods/H retained. Descriptive point values only, no new intervals, promotion, pooling or claim of complete confirmation. Fixed order and runtime-related completion selection remain limitations. Incomplete shards are preserved but excluded from the paired description."
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "completion_status": "complete",
+  "audit_status": "passed_complete",
+  "checks": 102334,
+  "errors": [],
+  "warnings": [],
+  "expected_episodes": 90,
+  "episodes_seen": 90,
+  "episodes_valid": 90,
+  "initial_states_matched_to_smol70": 90,
+  "missing_episode_keys": [],
+  "horizon_counts": {
+    "50": 30,
+    "100": 30,
+    "200": 30
+  },
+  "parameter_identity": {
+    "before": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+    "after": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+    "baseline_before": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+    "freeze_records": {
+      "freeze_before.json": {
+        "state_dict_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+        "parameters_by_dtype": {
+          "torch.bfloat16": 600902304,
+          "torch.float32": 4031872
+        },
+        "parameter_count": 604934176,
+        "all_parameters_frozen": true,
+        "all_parameter_grads_none": true,
+        "all_modules_eval": true,
+        "training_steps": 0,
+        "optimizer_steps": 0
+      },
+      "freeze_after.json": {
+        "state_dict_sha256": "b296dfca9e977fbe06d0f4a7971dbcfa368954e168c32f9c61295107f00eba82",
+        "parameters_by_dtype": {
+          "torch.bfloat16": 600902304,
+          "torch.float32": 4031872
+        },
+        "parameter_count": 604934176,
+        "all_parameters_frozen": true,
+        "all_parameter_grads_none": true,
+        "all_modules_eval": true,
+        "training_steps": 0,
+        "optimizer_steps": 0
+      }
+    }
+  },
+  "failure_artifacts": [],
+  "baseline_raw_path": "D:\\课题\\论文\\Jev提高VLA推理效率\\国庆的小尝试\\长动作块补充实验\\raw\\attempt_v1\\smol",
+  "baseline_validation_scope": "Baseline JSONL/original result/initial state identities and freeze manifest verified here; full baseline trace audit remains the original analyze_results.py report.",
+  "run_manifest_sha256": "59c8d117850e008cf4adf5e6705fe735943427b04c66b15a5ac0d2ce59d45c98"
+}

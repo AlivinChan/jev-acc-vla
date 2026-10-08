@@ -1,0 +1,33 @@
+{
+  "checks": 4,
+  "errors": 0,
+  "cuda_initialized": false,
+  "cases": [
+    {
+      "corruption": "none",
+      "returned": true,
+      "rejected": false,
+      "correct": true
+    },
+    {
+      "corruption": "input",
+      "returned": false,
+      "rejected": true,
+      "correct": true
+    },
+    {
+      "corruption": "actions",
+      "returned": false,
+      "rejected": true,
+      "correct": true
+    },
+    {
+      "corruption": "normalized",
+      "returned": false,
+      "rejected": true,
+      "correct": true
+    }
+  ],
+  "verified_runtime_sha256": "d9b553236927d58518b19f68b3e5997b29b25066f421e0ec60cedce49e81668e",
+  "test_sha256": "8cd69cd6b462a4872ef0cd5795949e4ce127394db0e90c1e080a4260d09bfc45"
+}

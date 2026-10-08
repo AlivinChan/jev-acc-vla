@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "three_scripts_parse": "pass",
+    "threshold_only_change": "pass",
+    "raw_uncertain_preserved": "pass",
+    "response_contract_rejects_wrong_tau_or_choice": "pass",
+    "complete_90_cell_schedule": "pass",
+    "primary_completion_and_path_guard": "pass",
+    "original_rollout_function_reused": "pass"
+  },
+  "source_sha256": {
+    "scripts\\laya_argmax_service.py": "b042be96a83e21f1dbb3df59129fb13829205a93df2b37148b224fc6e59a2f21",
+    "scripts\\run_argmax_ablation.py": "a980b2f6f53bc11ef6b10454bb9cbcac58020a1d0b4f5216919498d92d707b46",
+    "scripts\\supervise_argmax.py": "b10aa6b910ed98e940ae1b7dd6dca2c47e498183d53a32c50955450ef16085b0"
+  },
+  "primary_source_sha256": {
+    "main_experiment.py": "1ee93eb30d87f0fd56ea1dbf4dd9d52006cc83a80cb59ddcde64ce0e6a367f80",
+    "laya_service.py": "5f079e4b6fbc05f7de725093089bc7192cea2a780c2090675b645bf16894661c",
+    "supervise.py": "83f9797e7f901817635ced6f3c8aea56c20733cb59c7e3705321d21a093446c7"
+  },
+  "method": "Standard-library CPU mock of actual AST functions/classes and direct service checked_answer; no torch/model/CUDA imports or remote execution",
+  "limitations": [
+    "CUDA initialization, actual model state hashes, and 90 environment episodes require the supervised remote run."
+  ],
+  "expected_scientific_episodes": 90,
+  "expected_qualification_vla_calls": 6,
+  "expected_warmup_gate_calls": 1,
+  "exploratory": true,
+  "minimum_probability": 0.0
+}

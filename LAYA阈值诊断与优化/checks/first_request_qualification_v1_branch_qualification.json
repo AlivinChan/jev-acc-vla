@@ -1,0 +1,7 @@
+{
+  "run": "first_request_qualification_v1",
+  "episodes": 6,
+  "checks": 171,
+  "errors": 0,
+  "scope": "Live LAYA input/answer, exact source-prefix plus selected counterfactual branch, and all VLA chunks; qualification, not new efficacy data"
+}

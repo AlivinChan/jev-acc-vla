@@ -1,0 +1,32 @@
+{
+  "scope": "Observed serial end-to-end VLA service receipt distribution; not an asynchronous latency measurement or independent timing samples",
+  "source_sha256": {
+    "representations_v1": "f860c3f1231cf468ff89d67a8aeb10d74ead8ce01ae1be3f525e3e34ff69350d",
+    "cadence_v1": "aab65ca4ba20bc54caefc2ceecdd4d4b57cccb269f68ca90d394b69fe77baa16",
+    "confirmation_v1": "c9e28b9aed05cdb1abab97c1d1716f5957274476b7261e35f4c7d1a943a3e2aa",
+    "single_skip_v1": "4469aa90ad6a013cb5c4c554e573bd7bbb267543fb9337e19299023afa43ecdc"
+  },
+  "by_horizon": {
+    "50": {
+      "calls": 1554,
+      "seconds_median": 0.19595937710255384,
+      "seconds_p95": 0.21551262871362267,
+      "equivalent_20Hz_steps_median": 3.919187542051077,
+      "fraction_over_0_2_seconds": 0.28957528957528955
+    },
+    "100": {
+      "calls": 637,
+      "seconds_median": 0.1964007276110351,
+      "seconds_p95": 0.21368356915190817,
+      "equivalent_20Hz_steps_median": 3.928014552220702,
+      "fraction_over_0_2_seconds": 0.2967032967032967
+    },
+    "200": {
+      "calls": 1105,
+      "seconds_median": 0.19619651325047016,
+      "seconds_p95": 0.21466431226581334,
+      "equivalent_20Hz_steps_median": 3.9239302650094032,
+      "fraction_over_0_2_seconds": 0.29321266968325793
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "run": "counterfactual_evaluation_v1",
+  "cases": 178,
+  "checks": 8752,
+  "errors": 0,
+  "failures": [],
+  "utility_labels": {
+    "both_failure": 124,
+    "replan": 18,
+    "continue": 36
+  },
+  "total_vla_calls": 1742,
+  "interpretation": "Exactly paired intervention labels under the stated common recovery policy; not labels for arbitrary gating frequencies"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "binary_window 189 training records: original active chunk SHA and old command samples",
+    "passed": true
+  },
+  {
+    "name": "binary_window excludes post-window commands and all branch outcomes; responds to current queued action",
+    "passed": true
+  },
+  {
+    "name": "binary_window3 189 training records: original active chunk SHA and old command samples",
+    "passed": true
+  },
+  {
+    "name": "binary_window3 excludes post-window commands and all branch outcomes; responds to current queued action",
+    "passed": true
+  }
+]

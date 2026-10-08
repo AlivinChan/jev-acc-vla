@@ -1,0 +1,163 @@
+[
+  {
+    "id": "diagnostic_probability_ranges",
+    "surface_class": "internal_review",
+    "claim": "Score inflation in the long binary variant coexists with complete continue collapse.",
+    "source_data": {
+      "analysis\\diagnosis_summary.json": "6a6d60be030c1fd544909af88d716b782fb88ca852647f0a5882806a6935e73a"
+    },
+    "generating_script": "scripts/build_figures.py",
+    "exports": [
+      "figures/diagnostic_probability_ranges.png",
+      "figures/diagnostic_probability_ranges.svg"
+    ],
+    "review_status": "visually_inspected_accepted",
+    "review_note": "Both PNGs opened at render size; labels, units, grayscale marker distinctions and uncertainty checked. Probability figure caption moved down after the first inspection to separate it from the x-axis label."
+  },
+  {
+    "id": "developer_cost_success_frontier",
+    "surface_class": "internal_review",
+    "claim": "Frequent compact gating has higher cost; sparse compact gating approaches Smol70 cost on this small developer pilot.",
+    "source_data": {
+      "analysis\\representations_v1_summary.json": "8ee0cc5c78e81f7a5ec60af41a2899c021a777692b8cbdf2aa999eb17417c94f",
+      "analysis\\cadence_v1_summary.json": "59bfe08b6581f2c86f4bc0b555b61f6c77efd54442cf33cb79fd1cbac0b15ac1"
+    },
+    "generating_script": "scripts/build_figures.py",
+    "exports": [
+      "figures/developer_cost_success_frontier.png",
+      "figures/developer_cost_success_frontier.svg"
+    ],
+    "review_status": "visually_inspected_accepted",
+    "review_note": "Both PNGs opened at render size; labels, units, grayscale marker distinctions and uncertainty checked. Probability figure caption moved down after the first inspection to separate it from the x-axis label."
+  },
+  {
+    "id": "pooled_development_paired",
+    "surface_class": "internal_review",
+    "claim": "Selected sparse policies show lower service cost only at H50 on pooled developer starts.",
+    "source_data": {
+      "analysis\\pooled_development.json": "b132992010ad9874da7dea76bf0b4c2091c2fc06d82e271fe4d0d46803acf8bb"
+    },
+    "generating_script": "scripts/build_pooled_figure.py",
+    "exports": [
+      "figures/pooled_development_paired.png",
+      "figures/pooled_development_paired.svg"
+    ],
+    "review_status": "visually_inspected_accepted",
+    "review_notes": "Expanded cost axis so no CI is clipped; labels and captions inspected after rerender."
+  },
+  {
+    "id": "calibration_state2_diagnostic",
+    "surface_class": "internal_review",
+    "claim": "Frozen readouts yield high maximum probability while missing every replan label in the resolved state2 subset.",
+    "source_data": {
+      "analysis/calibrators_v1_state2_evaluation.json": "dbc5233d0729a731451a862a457475654dce79b176b0f6fe870c8c69d4e9ee2e"
+    },
+    "generating_script": "scripts/build_calibration_figure.py",
+    "exports": [
+      "figures/calibration_state2_diagnostic.png",
+      "figures/calibration_state2_diagnostic.svg"
+    ],
+    "review_status": "visually_inspected_accepted",
+    "review_note": "PNG opened after rendering: titles, legend, labels, zero counts, denominators and subset caveat legible; all axes cover 0-100 percent. Hatching distinguishes fitted bars without color."
+  },
+  {
+    "id": "fixed_interval_attribution",
+    "surface_class": "internal_review",
+    "claim": "Same-interval cells separate native horizon and request cadence on matched developer starts.",
+    "source_data": {
+      "analysis/fixed_interval_matrix.json": "09f2ad36308a39ad68b9e44281047f4b242e3f5e0af903183f90baac66556b53"
+    },
+    "generating_script": "scripts/build_fixed_interval_figure.py",
+    "exports": [
+      "figures/fixed_interval_attribution.png",
+      "figures/fixed_interval_attribution.svg"
+    ],
+    "review_status": "visually_inspected_accepted",
+    "review_note": "Rerendered with complete source comparisons and reopened. Eight annotated cell values unchanged; light palette, missing cell, units and reuse borders inspected."
+  },
+  {
+    "id": "choice_order_sensitivity",
+    "surface_class": "internal_review",
+    "claim": "Reordering two choices changes many same-state decisions even when semantic probability mapping is correct.",
+    "source_data": {
+      "raw/choice_order_audit_v1/data/decisions.jsonl": "1c9656b2e28c7f658f2534565eb43fdbd13743df03cb8c8559e3d997c666b1e7",
+      "analysis/choice_order_audit_v1_summary.json": "ff65df4d2ccc18f45d4afb7d583a0e9217a40f9abd8e4b42baffd14a8ea67d6a",
+      "checks/choice_order_plotted_values.json": "3763c69975b02569ec9ff6d82bbbd29378ba3ad75b4bf134fbe736e1ee070680"
+    },
+    "generating_script": "scripts/build_choice_order_figure.py",
+    "exports": [
+      "figures/choice_order_sensitivity.png",
+      "figures/choice_order_sensitivity.svg"
+    ],
+    "review_status": "accepted",
+    "visual_review": "Four rendered panels inspected: complete bounds, aligned semantic axes, readable changes/counts, no clipped labels. No effectiveness claim inferred from position sensitivity."
+  },
+  {
+    "id": "validation_d1_v2_paired",
+    "surface_class": "internal_review",
+    "claim": "Complete frozen-cohort paired success and full-service cost comparisons with descriptive uncertainty.",
+    "source_data": {
+      "analysis/validation_d1_v2_summary.json": "2f9781153ea9711844940ef2d52af7ffc80bfb1c3fe6b110a377b2b8691c046b",
+      "protocol/validation_d1_v2/definition.json": "4d8d04ad001c1daaa972603374785d77c3ef22cd67c483cf6859e8d5e0f9124e",
+      "checks/validation_d1_v2_paired_plotted_values.json": "dfd8ce26a4d8b62f18c5bb85f55a71f4a8dbd5d5b1f7387479e4aa13d2d88f4f"
+    },
+    "generating_script": "scripts/build_validation_figure.py",
+    "exports": [
+      "figures/validation_d1_v2_paired.png",
+      "figures/validation_d1_v2_paired.svg"
+    ],
+    "review_status": "accepted",
+    "visual_review": "Opened full PNG: all six paired comparisons, shared scales, intervals, W/L labels, null references and inference caveats are readable; no clipping or overlap."
+  },
+  {
+    "id": "budget_validation_d1_v2_paired",
+    "surface_class": "internal_review",
+    "claim": "Complete frozen-cohort paired success and full-service cost comparisons with descriptive uncertainty.",
+    "source_data": {
+      "analysis/budget_validation_d1_v2_summary.json": "f9157b3086f19b48e9735010a33e3ca3fb36fc775974755d293753de54c4f417",
+      "protocol/budget_validation_d1_v2/definition.json": "e56d354feb5c9b3dfac5936d967ecdca31c7001379e1df2059633fba60a28b39",
+      "checks/budget_validation_d1_v2_paired_plotted_values.json": "593595f45a1132cbf64a88151e675ab6bf281b55a11fb4564fb5158f35016362"
+    },
+    "generating_script": "scripts/build_validation_figure.py",
+    "exports": [
+      "figures/budget_validation_d1_v2_paired.png",
+      "figures/budget_validation_d1_v2_paired.svg"
+    ],
+    "review_status": "accepted",
+    "visual_review": "Opened full PNG; all horizons, paired W/L, success intervals, full-service ratios and null reference lines are legible and unclipped; the cost-selected-period comparator is explicitly distinguished from Smol70."
+  },
+  {
+    "id": "delay_validation_d4_v2_paired",
+    "surface_class": "internal_review",
+    "claim": "Complete frozen-cohort paired success and full-service cost comparisons with descriptive uncertainty.",
+    "source_data": {
+      "analysis/delay_validation_d4_v2_summary.json": "74a7f0676638da5ff3bacfbd35b3ae609d7967e80805fc95da04680981e11c8d",
+      "protocol/delay_validation_d4_v2/definition.json": "48ff96ac20c20fd80362e0aa23d41560af374afde680bbf4fa39909292dcaee8",
+      "checks/delay_validation_d4_v2_paired_plotted_values.json": "ea0b906400b452fbcfd2617b82d0e919942cb36ac6c330c3835e9bccc4380793"
+    },
+    "generating_script": "scripts/build_validation_figure.py",
+    "exports": [
+      "figures/delay_validation_d4_v2_paired.png",
+      "figures/delay_validation_d4_v2_paired.svg"
+    ],
+    "review_status": "accepted",
+    "visual_review": "Opened full PNG. All six paired effects, W/L labels, interval bars, shared axes and simulation-cost caveats are legible with no overlap or clipping."
+  },
+  {
+    "id": "delay_validation_d5_v2_paired",
+    "surface_class": "internal_review",
+    "claim": "Complete frozen-cohort paired success and full-service cost comparisons with descriptive uncertainty.",
+    "source_data": {
+      "analysis/delay_validation_d5_v2_summary.json": "c7850e69d01610ed6db5f208916cf257f866d67301ffa61539c99859a4aa5747",
+      "protocol/delay_validation_d5_v2/definition.json": "c3a46c90c2f31326f60ee073708e98d12abcc5d43483374076a317dcc3dbf3c8",
+      "checks/delay_validation_d5_v2_paired_plotted_values.json": "0d60d28b51dad567bd70fbf996e4a3df7ad57088ad4a1774e548c9596dbb6d4c"
+    },
+    "generating_script": "scripts/build_validation_figure.py",
+    "exports": [
+      "figures/delay_validation_d5_v2_paired.png",
+      "figures/delay_validation_d5_v2_paired.svg"
+    ],
+    "review_status": "accepted",
+    "review_note": "Opened the full paired figure; labels, all six success/cost contrasts, zero-width H200 empirical interval, uncertainty bars and captions are readable and match the audited complete cohort. No clipping."
+  }
+]

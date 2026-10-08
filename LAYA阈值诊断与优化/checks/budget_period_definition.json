@@ -1,0 +1,10 @@
+{
+  "checks": "All 347 integer-period estimates and three predeclared tie-broken selections reproduced from 90 developer episode lengths",
+  "intervals": {
+    "50": 19,
+    "100": 38,
+    "200": 71
+  },
+  "errors": 0,
+  "definition_sha256": "91cabd60b255f58d834a6189a915266c7fa742843991eb8b6d1f69fb782e7fb4"
+}

@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "state_id": 12,
+      "task_id": 9,
+      "horizon": 50,
+      "candidate_id": "vlash_style_k5",
+      "runs": {
+        "validation_d1_s12_v1": {
+          "success": true,
+          "steps": 111,
+          "vla_calls": 23,
+          "initial_state_sha256": "fb6de691977a9c6a5dd07639256ec5f689083cdac7582cddbe2ab32b4ce2f72f",
+          "episodes_sha256": "9ef357485fd2b931ed538b5cca1404b42d205c736fb46893fe0eea2524d2535a"
+        },
+        "validation_d1_s12_v2": {
+          "success": true,
+          "steps": 110,
+          "vla_calls": 22,
+          "initial_state_sha256": "fb6de691977a9c6a5dd07639256ec5f689083cdac7582cddbe2ab32b4ce2f72f",
+          "episodes_sha256": "3bfb7938c0cd83370bc21bdb28f5c221955f8be7c286ef962f8262abc836360f"
+        }
+      },
+      "success_indicator_changed": false
+    },
+    {
+      "state_id": 10,
+      "task_id": 0,
+      "horizon": 200,
+      "candidate_id": "fixed45",
+      "runs": {
+        "validation_d1_s10_v1": {
+          "success": false,
+          "steps": 230,
+          "vla_calls": 6,
+          "initial_state_sha256": "1414fb19d43f98fbf1c282645c0a66bf5fa79d631fcb12ca29d2c182d9b57792",
+          "episodes_sha256": "048e571c6782490922ee7b9294c93794e77d5a86cbe040cafea60c64b0264f98"
+        },
+        "validation_d1_s10_v2": {
+          "success": false,
+          "steps": 230,
+          "vla_calls": 6,
+          "initial_state_sha256": "1414fb19d43f98fbf1c282645c0a66bf5fa79d631fcb12ca29d2c182d9b57792",
+          "episodes_sha256": "73157b591fbb7352c3cdbe6fd3693e65139da708bd38042d2c6553e46e84853b"
+        }
+      },
+      "success_indicator_changed": false
+    }
+  ],
+  "interpretation": "Exactly the two discrepancies identified before efficacy analysis. This describes their endpoints, does not locate their causes or establish determinism. All old v1 episodes remain excluded; no outcome-based replacement."
+}

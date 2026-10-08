@@ -1,0 +1,25 @@
+{
+  "completed": [
+    "validation_d1_v2",
+    "budget_validation_d1_v2",
+    "delay_validation_d4_v2",
+    "delay_validation_d5_v2"
+  ],
+  "sources": {
+    "analysis/validation_d1_v2_summary.json": "2f9781153ea9711844940ef2d52af7ffc80bfb1c3fe6b110a377b2b8691c046b",
+    "analysis/validation_d1_v2_service_accounting.json": "044e20ebf4ffae66a796a61bb6c92dc8dceb6fe98a9bd1506d3d99e45da2c8c4",
+    "analysis/validation_d1_v2_cross_horizon.json": "239191292cd60e1f150bfefcdef4fb4bdecb7dda98b95961619c54d581c9395f",
+    "analysis/budget_validation_d1_v2_summary.json": "f9157b3086f19b48e9735010a33e3ca3fb36fc775974755d293753de54c4f417",
+    "analysis/budget_validation_d1_v2_service_accounting.json": "8ec1c4b1d16f3ecad62eeb5def48dff332ed18e0aa09f0bd0837af29deccf736",
+    "analysis/budget_validation_d1_v2_cross_horizon.json": "b693b832be07d88d1cf08cb6211791808bcfd2d42d616f4e1a7db7bea4d643f5",
+    "analysis/delay_validation_d4_v2_summary.json": "74a7f0676638da5ff3bacfbd35b3ae609d7967e80805fc95da04680981e11c8d",
+    "analysis/delay_validation_d4_v2_service_accounting.json": "e5dc2c1a7e0c88dd7fbf0e1eb6cd1f93bb09afda11991f146f6a6ef8e70d93e4",
+    "analysis/delay_validation_d4_v2_cross_horizon.json": "0c55cbac9510e4e24fa0b8ef99df1db273d1a7dd13eb91f1cae8ae113d0066a8",
+    "analysis/delay_validation_d5_v2_summary.json": "c7850e69d01610ed6db5f208916cf257f866d67301ffa61539c99859a4aa5747",
+    "analysis/delay_validation_d5_v2_service_accounting.json": "a212c209b46e398e73dfbd168dd2a92b7b02aaab316665f68a97007bdfcb8fce",
+    "analysis/delay_validation_d5_v2_cross_horizon.json": "4b19e401e0b0c444e506d09bc8cfa988aadccee31a244890448a9272280f0496",
+    "analysis/cross_delay_d5_vs_d4.json": "7950bf3bfb41c3f927d7728e95c8a9cc416e5bb389c17c672a0fbe494e8fa2c5"
+  },
+  "output_sha256": "b58d91456c8642c99a44a4c99b9d0c46573813d4129d6055d49ced3b0682556a",
+  "script_sha256": "0a9df85040aa26aa2b88445d86bf248e5abfd1e284accb4a832463b037255b1a"
+}

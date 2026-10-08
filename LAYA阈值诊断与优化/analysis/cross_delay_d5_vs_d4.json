@@ -1,0 +1,1198 @@
+{
+  "recipe_sha256": "863814d8a69a058dbc0b60dafba2989ba1f3b383d963af35764992acbb1f37f4",
+  "candidate_cohort": "delay_validation_d5_v2",
+  "reference_cohort": "delay_validation_d4_v2",
+  "candidate_summary_sha256": "c7850e69d01610ed6db5f208916cf257f866d67301ffa61539c99859a4aa5747",
+  "reference_summary_sha256": "74a7f0676638da5ff3bacfbd35b3ae609d7967e80805fc95da04680981e11c8d",
+  "comparisons": {
+    "fixed45_h50": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "vla_calls": 138,
+        "gate_calls": 0,
+        "vla_seconds": 26.845330596435815,
+        "gate_seconds": 0,
+        "total_service_seconds": 26.845330596435815,
+        "steps": 5229,
+        "generated_rows": 6900,
+        "used_rows": 5229,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 14,
+        "success_rate": 0.4666666666666667,
+        "vla_calls": 135,
+        "gate_calls": 0,
+        "vla_seconds": 26.44179752562195,
+        "gate_seconds": 0,
+        "total_service_seconds": 26.44179752562195,
+        "steps": 5116,
+        "generated_rows": 6750,
+        "used_rows": 5116,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 0,
+        "losses": 1,
+        "success_delta": -0.03333333333333333,
+        "descriptive_mcnemar_exact_p": 1.0,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.0222222222222221,
+        "total_service_cost_ratio": 1.01526118148446,
+        "cost_ratio_95_task_bootstrap": [
+          0.9924449941230183,
+          1.0565967422474707
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.1,
+          0.0
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.9854399113024532,
+                1.0865224574045356
+              ],
+              "success_delta_95": [
+                -0.13333333333333333,
+                0.0
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.9860807614672488,
+                1.0609413661957283
+              ],
+              "success_delta_95": [
+                -0.1,
+                0.0
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "fixed45_h100": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "vla_calls": 138,
+        "gate_calls": 0,
+        "vla_seconds": 27.055730040185153,
+        "gate_seconds": 0,
+        "total_service_seconds": 27.055730040185153,
+        "steps": 5239,
+        "generated_rows": 13800,
+        "used_rows": 5239,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "vla_calls": 138,
+        "gate_calls": 0,
+        "vla_seconds": 26.977687165141106,
+        "gate_seconds": 0,
+        "total_service_seconds": 26.977687165141106,
+        "steps": 5211,
+        "generated_rows": 13800,
+        "used_rows": 5211,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 1,
+        "losses": 1,
+        "success_delta": 0.0,
+        "descriptive_mcnemar_exact_p": 1.0,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.0,
+        "total_service_cost_ratio": 1.0028928675229392,
+        "cost_ratio_95_task_bootstrap": [
+          0.9386076641318412,
+          1.075707493429478
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.1,
+          0.1
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.9231157726653266,
+                1.0980732621146974
+              ],
+              "success_delta_95": [
+                -0.13333333333333333,
+                0.13333333333333333
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.9537395300139206,
+                1.0553533974510356
+              ],
+              "success_delta_95": [
+                -0.06666666666666667,
+                0.06666666666666667
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "fixed45_h200": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "vla_calls": 140,
+        "gate_calls": 0,
+        "vla_seconds": 27.38091653632,
+        "gate_seconds": 0,
+        "total_service_seconds": 27.38091653632,
+        "steps": 5310,
+        "generated_rows": 28000,
+        "used_rows": 5310,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 14,
+        "success_rate": 0.4666666666666667,
+        "vla_calls": 135,
+        "gate_calls": 0,
+        "vla_seconds": 26.453741882462054,
+        "gate_seconds": 0,
+        "total_service_seconds": 26.453741882462054,
+        "steps": 5119,
+        "generated_rows": 27000,
+        "used_rows": 5119,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 0,
+        "losses": 1,
+        "success_delta": -0.03333333333333333,
+        "descriptive_mcnemar_exact_p": 1.0,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.037037037037037,
+        "total_service_cost_ratio": 1.0350489037799462,
+        "cost_ratio_95_task_bootstrap": [
+          0.9995905908218955,
+          1.0819333649467386
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.1,
+          0.0
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.9930407715510524,
+                1.118164323032429
+              ],
+              "success_delta_95": [
+                -0.13333333333333333,
+                0.0
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.9929493049248529,
+                1.0868062331926394
+              ],
+              "success_delta_95": [
+                -0.1,
+                0.0
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "naive_k5_h50": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 20,
+        "success_rate": 0.6666666666666666,
+        "vla_calls": 891,
+        "gate_calls": 0,
+        "vla_seconds": 173.26278567733243,
+        "gate_seconds": 0,
+        "total_service_seconds": 173.26278567733243,
+        "steps": 4277,
+        "generated_rows": 44550,
+        "used_rows": 4277,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 22,
+        "success_rate": 0.7333333333333333,
+        "vla_calls": 832,
+        "gate_calls": 0,
+        "vla_seconds": 162.3635905678384,
+        "gate_seconds": 0,
+        "total_service_seconds": 162.3635905678384,
+        "steps": 3990,
+        "generated_rows": 41600,
+        "used_rows": 3990,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 3,
+        "losses": 5,
+        "success_delta": -0.06666666666666667,
+        "descriptive_mcnemar_exact_p": 0.7265625,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.0709134615384615,
+        "total_service_cost_ratio": 1.0671283202802795,
+        "cost_ratio_95_task_bootstrap": [
+          0.9047390670236787,
+          1.2888435893459491
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.23333333333333334,
+          0.1
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.8558086720126471,
+                1.351860480120199
+              ],
+              "success_delta_95": [
+                -0.3,
+                0.16666666666666666
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.9283180296806182,
+                1.2212238592155868
+              ],
+              "success_delta_95": [
+                -0.23333333333333334,
+                0.06666666666666667
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "naive_k5_h100": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 22,
+        "success_rate": 0.7333333333333333,
+        "vla_calls": 840,
+        "gate_calls": 0,
+        "vla_seconds": 163.68860016623512,
+        "gate_seconds": 0,
+        "total_service_seconds": 163.68860016623512,
+        "steps": 4001,
+        "generated_rows": 84000,
+        "used_rows": 4001,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 21,
+        "success_rate": 0.7,
+        "vla_calls": 863,
+        "gate_calls": 0,
+        "vla_seconds": 168.62657149508595,
+        "gate_seconds": 0,
+        "total_service_seconds": 168.62657149508595,
+        "steps": 4153,
+        "generated_rows": 86300,
+        "used_rows": 4153,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 2,
+        "losses": 1,
+        "success_delta": 0.03333333333333333,
+        "descriptive_mcnemar_exact_p": 1.0,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 0.9733487833140209,
+        "total_service_cost_ratio": 0.9707165289250115,
+        "cost_ratio_95_task_bootstrap": [
+          0.8682538721042495,
+          1.0920856917686133
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.06666666666666667,
+          0.13333333333333333
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.8329050505879794,
+                1.1324540217224353
+              ],
+              "success_delta_95": [
+                -0.1,
+                0.16666666666666666
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.8770458769482433,
+                1.0698654000364378
+              ],
+              "success_delta_95": [
+                -0.06666666666666667,
+                0.13333333333333333
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "naive_k5_h200": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 23,
+        "success_rate": 0.7666666666666667,
+        "vla_calls": 811,
+        "gate_calls": 0,
+        "vla_seconds": 159.23038575332612,
+        "gate_seconds": 0,
+        "total_service_seconds": 159.23038575332612,
+        "steps": 3865,
+        "generated_rows": 162200,
+        "used_rows": 3865,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 23,
+        "success_rate": 0.7666666666666667,
+        "vla_calls": 815,
+        "gate_calls": 0,
+        "vla_seconds": 158.8592820726335,
+        "gate_seconds": 0,
+        "total_service_seconds": 158.8592820726335,
+        "steps": 3905,
+        "generated_rows": 163000,
+        "used_rows": 3905,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 3,
+        "losses": 3,
+        "success_delta": 0.0,
+        "descriptive_mcnemar_exact_p": 1.0,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 0.9950920245398773,
+        "total_service_cost_ratio": 1.0023360528629541,
+        "cost_ratio_95_task_bootstrap": [
+          0.8339554957822077,
+          1.1963028519973455
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.16666666666666666,
+          0.2
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.8027717909771922,
+                1.243354077734812
+              ],
+              "success_delta_95": [
+                -0.2,
+                0.23333333333333334
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.8955378937200822,
+                1.1296116526777158
+              ],
+              "success_delta_95": [
+                -0.13333333333333333,
+                0.1
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "smol70_h50": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 14,
+        "success_rate": 0.4666666666666667,
+        "vla_calls": 359,
+        "gate_calls": 0,
+        "vla_seconds": 70.10485608223826,
+        "gate_seconds": 0,
+        "total_service_seconds": 70.10485608223826,
+        "steps": 5109,
+        "generated_rows": 17950,
+        "used_rows": 5109,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 12,
+        "success_rate": 0.4,
+        "vla_calls": 376,
+        "gate_calls": 0,
+        "vla_seconds": 73.51795732136816,
+        "gate_seconds": 0,
+        "total_service_seconds": 73.51795732136816,
+        "steps": 5358,
+        "generated_rows": 18800,
+        "used_rows": 5358,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 2,
+        "losses": 0,
+        "success_delta": 0.06666666666666667,
+        "descriptive_mcnemar_exact_p": 0.5,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 0.9547872340425532,
+        "total_service_cost_ratio": 0.953574590977681,
+        "cost_ratio_95_task_bootstrap": [
+          0.8837365600833359,
+          1.0082281394582735
+        ],
+        "success_delta_95_task_bootstrap": [
+          0.0,
+          0.16666666666666666
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.8572482478635418,
+                1.0124727706237118
+              ],
+              "success_delta_95": [
+                0.0,
+                0.2
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.8958834547255309,
+                1.0047891646158917
+              ],
+              "success_delta_95": [
+                0.0,
+                0.13333333333333333
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "smol70_h100": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 18,
+        "success_rate": 0.6,
+        "vla_calls": 165,
+        "gate_calls": 0,
+        "vla_seconds": 32.42191437073052,
+        "gate_seconds": 0,
+        "total_service_seconds": 32.42191437073052,
+        "steps": 4573,
+        "generated_rows": 16500,
+        "used_rows": 4573,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 15,
+        "success_rate": 0.5,
+        "vla_calls": 182,
+        "gate_calls": 0,
+        "vla_seconds": 35.51723063690588,
+        "gate_seconds": 0,
+        "total_service_seconds": 35.51723063690588,
+        "steps": 5067,
+        "generated_rows": 18200,
+        "used_rows": 5067,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 4,
+        "losses": 1,
+        "success_delta": 0.1,
+        "descriptive_mcnemar_exact_p": 0.375,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 0.9065934065934066,
+        "total_service_cost_ratio": 0.9128502923603784,
+        "cost_ratio_95_task_bootstrap": [
+          0.8382794124532906,
+          0.9879765421425024
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.03333333333333333,
+          0.23333333333333334
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.7922190852590265,
+                1.0342309554237255
+              ],
+              "success_delta_95": [
+                -0.06666666666666667,
+                0.3
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.8212800132154306,
+                1.0092563851543017
+              ],
+              "success_delta_95": [
+                0.0,
+                0.23333333333333334
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "smol70_h200": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 12,
+        "success_rate": 0.4,
+        "vla_calls": 99,
+        "gate_calls": 0,
+        "vla_seconds": 19.477134788408875,
+        "gate_seconds": 0,
+        "total_service_seconds": 19.477134788408875,
+        "steps": 5383,
+        "generated_rows": 19800,
+        "used_rows": 5383,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "vla_calls": 97,
+        "gate_calls": 0,
+        "vla_seconds": 18.929343247786164,
+        "gate_seconds": 0,
+        "total_service_seconds": 18.929343247786164,
+        "steps": 5268,
+        "generated_rows": 19400,
+        "used_rows": 5268,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 1,
+        "losses": 2,
+        "success_delta": -0.03333333333333333,
+        "descriptive_mcnemar_exact_p": 1.0,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.0206185567010309,
+        "total_service_cost_ratio": 1.0289387504601766,
+        "cost_ratio_95_task_bootstrap": [
+          0.9980053762477975,
+          1.0793907336962787
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.1,
+          0.0
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.9783217234647384,
+                1.107295495216055
+              ],
+              "success_delta_95": [
+                -0.16666666666666666,
+                0.1
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.9860726037977618,
+                1.0778428970307325
+              ],
+              "success_delta_95": [
+                -0.13333333333333333,
+                0.06666666666666667
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "vlash_style_k5_h50": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 11,
+        "success_rate": 0.36666666666666664,
+        "vla_calls": 1131,
+        "gate_calls": 0,
+        "vla_seconds": 219.96654403023422,
+        "gate_seconds": 0,
+        "total_service_seconds": 219.96654403023422,
+        "steps": 5635,
+        "generated_rows": 56550,
+        "used_rows": 5635,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 18,
+        "success_rate": 0.6,
+        "vla_calls": 998,
+        "gate_calls": 0,
+        "vla_seconds": 194.40209036320448,
+        "gate_seconds": 0,
+        "total_service_seconds": 194.40209036320448,
+        "steps": 4964,
+        "generated_rows": 49900,
+        "used_rows": 4964,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 1,
+        "losses": 8,
+        "success_delta": -0.23333333333333334,
+        "descriptive_mcnemar_exact_p": 0.0390625,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.1332665330661322,
+        "total_service_cost_ratio": 1.131502977253317,
+        "cost_ratio_95_task_bootstrap": [
+          1.0050685689615708,
+          1.2932908351543888
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.36666666666666664,
+          -0.06666666666666667
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.965071612738566,
+                1.3554572230850228
+              ],
+              "success_delta_95": [
+                -0.4666666666666667,
+                0.0
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                1.0099345792087566,
+                1.2693609227538478
+              ],
+              "success_delta_95": [
+                -0.4,
+                -0.06666666666666667
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "vlash_style_k5_h100": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 12,
+        "success_rate": 0.4,
+        "vla_calls": 1156,
+        "gate_calls": 0,
+        "vla_seconds": 225.59183781361207,
+        "gate_seconds": 0,
+        "total_service_seconds": 225.59183781361207,
+        "steps": 5756,
+        "generated_rows": 115600,
+        "used_rows": 5756,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 17,
+        "success_rate": 0.5666666666666667,
+        "vla_calls": 1015,
+        "gate_calls": 0,
+        "vla_seconds": 198.10266316542402,
+        "gate_seconds": 0,
+        "total_service_seconds": 198.10266316542402,
+        "steps": 5044,
+        "generated_rows": 101500,
+        "used_rows": 5044,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 1,
+        "losses": 6,
+        "success_delta": -0.16666666666666666,
+        "descriptive_mcnemar_exact_p": 0.125,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.1389162561576354,
+        "total_service_cost_ratio": 1.1387622670434947,
+        "cost_ratio_95_task_bootstrap": [
+          1.029014884023421,
+          1.2492109080168294
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.3,
+          -0.03333333333333333
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.9988117999802995,
+                1.3229102881189003
+              ],
+              "success_delta_95": [
+                -0.36666666666666664,
+                0.03333333333333333
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                1.0350221323258302,
+                1.2662867332312253
+              ],
+              "success_delta_95": [
+                -0.3,
+                -0.03333333333333333
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "vlash_style_k5_h200": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 11,
+        "success_rate": 0.36666666666666664,
+        "vla_calls": 1149,
+        "gate_calls": 0,
+        "vla_seconds": 224.74453421030194,
+        "gate_seconds": 0,
+        "total_service_seconds": 224.74453421030194,
+        "steps": 5729,
+        "generated_rows": 229800,
+        "used_rows": 5729,
+        "gate_choices": {}
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 16,
+        "success_rate": 0.5333333333333333,
+        "vla_calls": 1029,
+        "gate_calls": 0,
+        "vla_seconds": 200.47512648440897,
+        "gate_seconds": 0,
+        "total_service_seconds": 200.47512648440897,
+        "steps": 5110,
+        "generated_rows": 205800,
+        "used_rows": 5110,
+        "gate_choices": {}
+      },
+      "paired": {
+        "n": 30,
+        "wins": 1,
+        "losses": 6,
+        "success_delta": -0.16666666666666666,
+        "descriptive_mcnemar_exact_p": 0.125,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.1166180758017492,
+        "total_service_cost_ratio": 1.121059445884826,
+        "cost_ratio_95_task_bootstrap": [
+          1.0189612340560028,
+          1.2721721657525662
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.3,
+          -0.03333333333333333
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.9918164754711498,
+                1.3089189311632368
+              ],
+              "success_delta_95": [
+                -0.36666666666666664,
+                0.03333333333333333
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                1.0288288379377308,
+                1.2208548713084506
+              ],
+              "success_delta_95": [
+                -0.3,
+                -0.03333333333333333
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "window3_skip1_h50": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "vla_calls": 253,
+        "gate_calls": 234,
+        "vla_seconds": 49.925503126345575,
+        "gate_seconds": 4.7286126827821136,
+        "total_service_seconds": 54.65411580912769,
+        "steps": 5233,
+        "generated_rows": 12650,
+        "used_rows": 5233,
+        "gate_choices": {
+          "continue": 115,
+          "replan": 119
+        }
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 17,
+        "success_rate": 0.5666666666666667,
+        "vla_calls": 221,
+        "gate_calls": 202,
+        "vla_seconds": 43.514429326634854,
+        "gate_seconds": 4.1349867125973105,
+        "total_service_seconds": 47.649416039232165,
+        "steps": 4688,
+        "generated_rows": 11050,
+        "used_rows": 4688,
+        "gate_choices": {
+          "continue": 109,
+          "replan": 93
+        }
+      },
+      "paired": {
+        "n": 30,
+        "wins": 2,
+        "losses": 6,
+        "success_delta": -0.13333333333333333,
+        "descriptive_mcnemar_exact_p": 0.2890625,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.1447963800904977,
+        "total_service_cost_ratio": 1.1470049447012782,
+        "cost_ratio_95_task_bootstrap": [
+          1.0450279785299685,
+          1.2825938171026716
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.3,
+          0.03333333333333333
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.9906780323539182,
+                1.3862674576409315
+              ],
+              "success_delta_95": [
+                -0.36666666666666664,
+                0.06666666666666667
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                1.0131965693994796,
+                1.3039408431383392
+              ],
+              "success_delta_95": [
+                -0.26666666666666666,
+                0.0
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "window3_skip1_h100": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 18,
+        "success_rate": 0.6,
+        "vla_calls": 130,
+        "gate_calls": 108,
+        "vla_seconds": 25.64254239341244,
+        "gate_seconds": 2.194493760354817,
+        "total_service_seconds": 27.837036153767258,
+        "steps": 4723,
+        "generated_rows": 13000,
+        "used_rows": 4723,
+        "gate_choices": {
+          "continue": 41,
+          "replan": 67
+        }
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 10,
+        "success_rate": 0.3333333333333333,
+        "vla_calls": 143,
+        "gate_calls": 120,
+        "vla_seconds": 28.16260259691626,
+        "gate_seconds": 2.55084615573287,
+        "total_service_seconds": 30.71344875264913,
+        "steps": 5599,
+        "generated_rows": 14300,
+        "used_rows": 5599,
+        "gate_choices": {
+          "continue": 54,
+          "replan": 66
+        }
+      },
+      "paired": {
+        "n": 30,
+        "wins": 8,
+        "losses": 0,
+        "success_delta": 0.26666666666666666,
+        "descriptive_mcnemar_exact_p": 0.0078125,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 0.9090909090909091,
+        "total_service_cost_ratio": 0.9063468052042261,
+        "cost_ratio_95_task_bootstrap": [
+          0.8162920618651255,
+          0.9875264017395339
+        ],
+        "success_delta_95_task_bootstrap": [
+          0.13333333333333333,
+          0.43333333333333335
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                0.7822840248565948,
+                1.026149760137145
+              ],
+              "success_delta_95": [
+                0.06666666666666667,
+                0.4666666666666667
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                0.8235791064076943,
+                0.9985993990674733
+              ],
+              "success_delta_95": [
+                0.13333333333333333,
+                0.4
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    },
+    "window3_skip1_h200": {
+      "candidate_d5": {
+        "n": 30,
+        "successes": 12,
+        "success_rate": 0.4,
+        "vla_calls": 87,
+        "gate_calls": 61,
+        "vla_seconds": 17.189032137859613,
+        "gate_seconds": 1.3782286145724356,
+        "total_service_seconds": 18.56726075243205,
+        "steps": 5382,
+        "generated_rows": 17400,
+        "used_rows": 5382,
+        "gate_choices": {
+          "continue": 12,
+          "replan": 49
+        }
+      },
+      "reference_d4": {
+        "n": 30,
+        "successes": 13,
+        "success_rate": 0.43333333333333335,
+        "vla_calls": 78,
+        "gate_calls": 54,
+        "vla_seconds": 15.312560549471527,
+        "gate_seconds": 1.1534395515918732,
+        "total_service_seconds": 16.4660001010634,
+        "steps": 5360,
+        "generated_rows": 15600,
+        "used_rows": 5360,
+        "gate_choices": {
+          "continue": 20,
+          "replan": 34
+        }
+      },
+      "paired": {
+        "n": 30,
+        "wins": 3,
+        "losses": 4,
+        "success_delta": -0.03333333333333333,
+        "descriptive_mcnemar_exact_p": 1.0,
+        "multiple_search_comparisons_uncorrected": true,
+        "vla_call_ratio": 1.1153846153846154,
+        "total_service_cost_ratio": 1.1276120878459697,
+        "cost_ratio_95_task_bootstrap": [
+          1.0603385334374305,
+          1.2003827074350635
+        ],
+        "success_delta_95_task_bootstrap": [
+          -0.2,
+          0.13333333333333333
+        ],
+        "paired_uncertainty": {
+          "n": 30,
+          "tasks": 10,
+          "initials_per_task": 3,
+          "replicates": 10000,
+          "seed": 20261008,
+          "intervals": {
+            "hierarchical_task_and_initial": {
+              "cost_ratio_95": [
+                1.0435534284542896,
+                1.2375372891667162
+              ],
+              "success_delta_95": [
+                -0.26666666666666666,
+                0.2
+              ]
+            },
+            "fixed_tasks_resample_initials": {
+              "cost_ratio_95": [
+                1.064814405564814,
+                1.199954188644952
+              ],
+              "success_delta_95": [
+                -0.16666666666666666,
+                0.1
+              ]
+            }
+          },
+          "interpretation": "Descriptive paired bootstrap; does not establish equivalence or non-inferiority"
+        }
+      }
+    }
+  },
+  "interpretation": "All 15 predeclared paired contrasts; whole frozen-policy response to logical delay, not real-time speedup or isolated image/proprioception effect. No favorable-delay selection and no equivalence claim."
+}

@@ -1,0 +1,154 @@
+{
+  "scope": "Numerical backend qualification, no efficacy aggregation",
+  "records": [
+    {
+      "candidate": "window3_skip1",
+      "horizon": 50,
+      "max_abs": 0.028819799423217773,
+      "rmse": 0.005668153090602566,
+      "exact": false
+    },
+    {
+      "candidate": "naive_k5",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "horizon": 50,
+      "max_abs": 0.028819799423217773,
+      "rmse": 0.005668153090602566,
+      "exact": false
+    },
+    {
+      "candidate": "fixed45",
+      "horizon": 50,
+      "max_abs": 0.028819799423217773,
+      "rmse": 0.005668153090602566,
+      "exact": false
+    },
+    {
+      "candidate": "fixed45",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "fixed45",
+      "horizon": 200,
+      "max_abs": 0.054621756076812744,
+      "rmse": 0.0037800368698772263,
+      "exact": false
+    },
+    {
+      "candidate": "smol70",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "compact_skip1",
+      "horizon": 50,
+      "max_abs": 0.028819799423217773,
+      "rmse": 0.005668153090602566,
+      "exact": false
+    },
+    {
+      "candidate": "window3_first",
+      "horizon": 50,
+      "max_abs": 0.028819799423217773,
+      "rmse": 0.005668153090602566,
+      "exact": false
+    },
+    {
+      "candidate": "window3_skip1",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "compact_minr30_i5",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "window3_skip1",
+      "horizon": 200,
+      "max_abs": 0.054621756076812744,
+      "rmse": 0.0037800368698772263,
+      "exact": false
+    },
+    {
+      "candidate": "smol70",
+      "horizon": 200,
+      "max_abs": 0.054621756076812744,
+      "rmse": 0.0037800368698772263,
+      "exact": false
+    },
+    {
+      "candidate": "window3_first",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "naive_k5",
+      "horizon": 200,
+      "max_abs": 0.054621756076812744,
+      "rmse": 0.0037800368698772263,
+      "exact": false
+    },
+    {
+      "candidate": "compact_skip1",
+      "horizon": 100,
+      "max_abs": 0.04869043827056885,
+      "rmse": 0.0049943951381433045,
+      "exact": false
+    },
+    {
+      "candidate": "compact_skip1",
+      "horizon": 200,
+      "max_abs": 0.054621756076812744,
+      "rmse": 0.0037800368698772263,
+      "exact": false
+    },
+    {
+      "candidate": "smol70",
+      "horizon": 50,
+      "max_abs": 0.028819799423217773,
+      "rmse": 0.005668153090602566,
+      "exact": false
+    },
+    {
+      "candidate": "naive_k5",
+      "horizon": 50,
+      "max_abs": 0.028819799423217773,
+      "rmse": 0.005668153090602566,
+      "exact": false
+    },
+    {
+      "candidate": "vlash_style_k5",
+      "horizon": 200,
+      "max_abs": 0.054621756076812744,
+      "rmse": 0.0037800368698772263,
+      "exact": false
+    }
+  ],
+  "first_chunks_exact": 0,
+  "max_abs": 0.054621756076812744
+}
